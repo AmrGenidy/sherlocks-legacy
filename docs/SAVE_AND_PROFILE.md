@@ -1,6 +1,6 @@
 # Save model & player profile
 
-> Decided 2026 with Max. This REPLACES the earlier "save/resume mid-case" idea (old Phase 4.4).
+> Design note (2026). This REPLACES the earlier "save/resume mid-case" idea (old Phase 4.4).
 > The game is played in one sitting; only the *completed* investigation is saved.
 
 ## Save model — "one go"

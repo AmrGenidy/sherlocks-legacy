@@ -1,12 +1,12 @@
 # Contributors
 
-*Sherlock's Legacy* is created and maintained by **Max**.
+*Sherlock's Legacy* is created and maintained by **Amr Mohamed**.
 
 Thank you to everyone who contributes code, cases, translations, art, bug reports, or ideas. When you contribute, add yourself here (a PR that edits this file is welcome) in the appropriate section.
 
 ## Creator & maintainer
 
-- **Max** — original author, engine, GUI, Case Maker, and the bundled cases.
+- **Amr Mohamed** — original author, engine, GUI, Case Maker, and the bundled cases.
 
 ## Code contributors
 

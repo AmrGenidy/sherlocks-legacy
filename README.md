@@ -97,10 +97,10 @@ In plain terms, you are free to **use, study, modify, and share** this game, inc
 
 **The original, canonical version lives here** at this repository. Forks are free to exist and diverge, but the AGPL guarantees they stay open and keep pointing back to this original — you never have to review or approve anyone's fork.
 
-Copyright © 2026 Max. "Sherlock's Legacy", its art, and its authored cases are part of this project.
+Copyright © 2026 Amr Mohamed. "Sherlock's Legacy", its art, and its authored cases are part of this project.
 
 ## Credits
 
-Created by **Max**. Inspired by the Golden-Age detective fiction of Agatha Christie. Built with JavaFX.
+Created by **Amr Mohamed**. Inspired by the Golden-Age detective fiction of Agatha Christie.
 
 Art, case files, translations, and code contributed by the community are credited in [CONTRIBUTORS.md](CONTRIBUTORS.md) (add yourself when you contribute!).
