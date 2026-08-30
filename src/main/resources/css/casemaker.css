@@ -1,0 +1,220 @@
+/*
+ * Sherlock's Legacy — Case Maker (Phase 4b; .scratch/case-maker).
+ * Extends detective-theme.css: uses the canonical -sl-* looked-up colors and never forks the
+ * palette (same rule pinboard.css follows). Ligne claire — flat fills, 2px ink contours, no
+ * shadows or decorative gradients (DESIGN.md §5/§6).
+ */
+
+.casemaker-section {
+    -fx-text-fill: -sl-petrol;
+    -fx-font-size: 1.1667em;
+    -fx-font-weight: bold;
+}
+
+.casemaker-hint {
+    -fx-text-fill: -sl-sepia;
+    -fx-font-size: 1em;
+}
+
+/* Live connectivity banner: neutral sepia, moss when sound, oxblood when something is wrong. */
+.casemaker-banner {
+    -fx-text-fill: -sl-sepia;
+    -fx-font-size: 1.0833em;
+}
+
+.casemaker-banner.ok {
+    -fx-text-fill: -sl-moss;
+}
+
+.casemaker-banner.warn {
+    -fx-text-fill: -sl-oxblood;
+}
+
+/* The room map, framed like an illustrated plate in a book (DESIGN.md §5). */
+.casemaker-graph-frame {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-padding: 8;
+}
+
+.casemaker-canvas {
+    -fx-background-color: -sl-faded-vellum;
+}
+
+/* The mat around the aspect-locked placement plate (the plate is centred within this frame). */
+.casemaker-plate-frame {
+    -fx-background-color: -sl-faded-vellum;
+}
+
+.casemaker-sidebar-scroll,
+.casemaker-graph-frame .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Room nodes — flat vellum fill bounded by a clean ink contour line. */
+.casemaker-room-node {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 8 14;
+    -fx-cursor: hand;
+}
+
+.casemaker-room-node .label {
+    -fx-text-fill: -sl-ink;
+    -fx-font-size: 1.0833em;
+}
+
+.casemaker-room-node.selected {
+    -fx-border-color: -sl-petrol;
+}
+
+/* The starting room reads like a brass seal. */
+.casemaker-room-node.starting {
+    -fx-background-color: -sl-ochre;
+}
+
+.casemaker-room-node.link-source {
+    -fx-border-color: -sl-petrol-bright;
+    -fx-border-width: 3;
+}
+
+/* Neighbour links and their direction labels. */
+.casemaker-edge {
+    -fx-stroke: -sl-sepia;
+    -fx-stroke-width: 2;
+}
+
+.casemaker-edge-label {
+    -fx-fill: -sl-sepia;
+    -fx-font-size: 0.9167em;
+}
+
+.casemaker-link-toggle:selected {
+    -fx-background-color: -sl-ochre;
+    -fx-text-fill: -sl-ink;
+}
+
+/* Object-placement preview: a faded-vellum plate (a room backdrop sits on top when set). */
+.casemaker-preview {
+    -fx-background-color: -sl-faded-vellum;
+}
+
+.casemaker-preview-markers {
+    -fx-background-color: transparent;
+}
+
+/* Object markers — small brass studs pinned to the room art (DESIGN.md §5 badge). */
+.casemaker-object-marker {
+    -fx-background-color: -sl-ochre;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-padding: 3 8;
+    -fx-font-size: 0.9167em;
+    -fx-cursor: hand;
+}
+
+.casemaker-object-marker.selected {
+    -fx-border-color: -sl-petrol;
+    -fx-border-width: 2;
+}
+
+/* Placement markers: a draggable sprite (image or placeholder) + a separately-draggable name
+   caption. The caption doubles as its own drag handle (move cursor); a petrol ring marks the
+   selected element. Watson's nodes are tinted petrol for consistency. */
+.casemaker-sprite {
+    -fx-cursor: hand;
+}
+
+/* The selection box hugs the VISIBLE (opaque) figure, not the full transparent-margined image
+   rectangle, so overlapping markers don't smother each other. Purely visual (mouse-transparent);
+   the border only shows on the selected marker. */
+.casemaker-sprite-outline {
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-border-radius: 3;
+}
+
+.casemaker-sprite-outline.selected {
+    -fx-border-color: -sl-petrol;
+}
+
+/* The name-caption box is grabbable independently to position the label relative to the sprite. */
+.casemaker-label-handle {
+    -fx-cursor: move;
+}
+
+/* Resize grips on the selected marker's opaque selection box (4 corners + 4 sides). */
+.casemaker-resize-handle {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-petrol;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 2;
+    -fx-border-radius: 2;
+}
+
+/* Rotation grips just outside each corner — round + ochre, distinct from the square resize grips. */
+.casemaker-rotate-handle {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+/* Placeholder box shown when a suspect/object (or Watson) has no authored art yet. Sized in code to
+   the real in-game sprite height so the scale still reads. */
+.casemaker-sprite-box {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-border-style: dashed;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-opacity: 0.85;
+}
+
+.casemaker-object-marker.watson {
+    -fx-background-color: -sl-petrol;
+    -fx-text-fill: -sl-faded-vellum;
+}
+
+/* Case Maker dialogs (open-case, unsaved-changes, rename, alerts). The parchment/ink theme and the
+   themed buttons come from detective-theme.css's .dialog-pane + .button once Theme.install attaches
+   it (and it flips in dark mode); this just adds a little breathing room and wraps long messages. */
+.casemaker-dialog {
+    -fx-padding: 6 6 2 6;
+}
+
+.casemaker-dialog .content.label {
+    -fx-text-fill: -sl-ink;
+    -fx-wrap-text: true;
+}
+
+/* Validation list rows. */
+.validation-error {
+    -fx-text-fill: -sl-oxblood;
+}
+
+.validation-warning {
+    -fx-text-fill: -sl-ochre;
+}
+
+/* A single contradiction rule, framed as a sunken inset within a state card. */
+.casemaker-contradiction {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-sepia;
+    -fx-border-width: 1;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}

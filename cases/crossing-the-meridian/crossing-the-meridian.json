@@ -1,0 +1,2582 @@
+{
+  "case_file" : {
+    "victim" : {
+      "name" : "Mr. Marcus Vane",
+      "relation_to_case" : "The Bear of Wall Street, sailing for Europe five days after the Crash; found shot in stateroom B-9 on the first night out.",
+      "notes" : {
+        "en" : "A man who owed half of New York and was owed by the other half. The purser says he came aboard silent and went straight below. The barman says he never came to the bar at all — strange, for a man so famous for his Sidecar.",
+        "ar" : "رجل مدين لنصف نيويورك ودائن للنصف الآخر. يقول أمين الصندوق إنه صعد صامتًا ونزل رأسًا إلى الأسفل. ويقول الساقي إنه لم يأتِ إلى الحانة قط — أمر غريب لرجل اشتهر إلى هذا الحد بشراب السايدكار.",
+        "ru" : "Человек, который был должен половине Нью-Йорка, а другая половина была должна ему. Казначей говорит, он взошёл молча и сразу спустился вниз. Бармен говорит, он вовсе не заходил в бар — странно для человека, столь прославленного своим «Сайдкаром»."
+      }
+    },
+    "overview" : {
+      "en" : "October 1929. The markets have fallen, and the Meridian sails east with the wreckage in first class. An unsigned note promised you a murder on this crossing, and on the first night, under the gala and the midnight horn, you got one: Marcus Vane, shot in his stateroom, his fortune in bearer bonds nowhere aboard. His watch says 10:55. The ship's clocks say otherwise — when you learn how to read them.",
+      "ar" : "أكتوبر 1929. سقطت الأسواق، وتُبحر الميريديان شرقًا وحطامها في الدرجة الأولى. وعدتك رسالة بلا توقيع بجريمة في هذه الرحلة، وفي أول ليلة، تحت الحفل وبوق منتصف الليل، حصلت عليها: ماركوس فاين، مقتولًا في مقصورته، وثروته من السندات لحاملها لا أثر لها على المتن. ساعته تقول 10:55. وساعات السفينة تقول غير ذلك — حين تتعلّم كيف تقرؤها.",
+      "ru" : "Октябрь 1929-го. Рынки рухнули, и «Меридиан» идёт на восток, везя обломки в первом классе. Записка без подписи обещала вам убийство на этом переходе, и в первую же ночь, под гала и полуночный гудок, вы его получили: Маркус Вейн, застреленный в своей каюте, а состояние в предъявительских облигациях нигде на борту. Его часы говорят 10:55. Судовые часы говорят иначе — когда научишься их читать."
+    },
+    "suspect_profiles" : {
+      "EliasCroft" : {
+        "profession" : {
+          "en" : "Industrialist, lately ruined",
+          "ar" : "صناعيّ، دُمّر مؤخرًا",
+          "ru" : "Промышленник, недавно разорённый"
+        },
+        "age" : 56,
+        "height_cm" : 182,
+        "weight_kg" : 94,
+        "relationship_to_victim" : {
+          "en" : "Lost everything in Vane's funds; threatened him on the gangway before fifty witnesses.",
+          "ar" : "خسر كل شيء في صناديق فاين؛ هدّده عند المعبر أمام خمسين شاهدًا.",
+          "ru" : "Потерял всё в фондах Вейна; пригрозил ему у трапа при пятидесяти свидетелях."
+        },
+        "bio" : {
+          "en" : "Built bridges and rolling mills for thirty years, then handed the lot to Marcus Vane to mind. He boarded shouting and has not stopped since — a man whose grief is so loud it drowns out the question of what he brought aboard in his cabin trunk.",
+          "ar" : "بنى الجسور ومصانع الدرفلة ثلاثين عامًا، ثم سلّم كل ذلك لماركوس فاين ليديره. صعد صارخًا ولم يتوقف منذئذ — رجل حزنه من العلوّ بحيث يطمس السؤال عمّا حمله معه في صندوق مقصورته.",
+          "ru" : "Тридцать лет строил мосты и прокатные станы, а потом всё передал на попечение Маркусу Вейну. Взошёл на борт крича и с тех пор не умолкает — человек, чьё горе так громко, что заглушает вопрос о том, что он привёз в своём каютном сундуке."
+        },
+        "imagePath" : "images/elias_croft.png"
+      },
+      "AldousFinch" : {
+        "profession" : {
+          "en" : "Dealer in rare books",
+          "ar" : "تاجر كتب نادرة",
+          "ru" : "Торговец редкими книгами"
+        },
+        "age" : 55,
+        "height_cm" : 178,
+        "weight_kg" : 84,
+        "relationship_to_victim" : {
+          "en" : "None claimed. 'I deal in books, not shares.'",
+          "ar" : "لا صلة يدّعيها. 'أنا أتاجر بالكتب لا بالأسهم.'",
+          "ru" : "Никакой связи не признаёт. 'Я торгую книгами, а не акциями.'"
+        },
+        "bio" : {
+          "en" : "A gray, courteous, forgettable man who keeps to the smoking room and plays a remarkably sharp rubber of bridge. Boarded at the last minute with two crates of books and very little else. No one recalls him from the boat train.",
+          "ar" : "رجل رمادي مهذّب يُنسى، يلزم غرفة التدخين ويلعب جولة بريدج حادّة على نحو لافت. صعد في اللحظة الأخيرة بصندوقَي كتب ولا شيء يُذكر غيرهما. لا أحد يذكره من قطار الميناء.",
+          "ru" : "Серый, учтивый, забываемый человек, что держится курительной и играет на редкость острый роббер в бридж. Взошёл в последнюю минуту с двумя ящиками книг и почти ничем более. Никто не помнит его с поезда к пароходу."
+        },
+        "imagePath" : "images/aldous_finch.png"
+      },
+      "NoraRenner" : {
+        "profession" : {
+          "en" : "Typist",
+          "ar" : "طابعة على الآلة الكاتبة",
+          "ru" : "Машинистка"
+        },
+        "age" : 29,
+        "height_cm" : 165,
+        "weight_kg" : 55,
+        "relationship_to_victim" : {
+          "en" : "Sister of Paul Renner, Mr. Vane's confidential secretary — who stayed ashore, or so his telegram says.",
+          "ar" : "أخت بول رينر، سكرتير السيد فاين الخاص — الذي بقي على البرّ، هكذا تقول برقيته.",
+          "ru" : "Сестра Пола Реннера, доверенного секретаря мистера Вейна, — который остался на берегу, если верить его телеграмме."
+        },
+        "bio" : {
+          "en" : "Traveling second class on a ticket her brother sent, to start fresh in London. She lingers by the purser's office asking after wires. Paul writes her every day of his life, and the last telegram did not sound like Paul.",
+          "ar" : "تسافر في الدرجة الثانية بتذكرة أرسلها أخوها، لتبدأ من جديد في لندن. تتلكّأ قرب مكتب أمين الصندوق تسأل عن البرقيات. يكتب لها بول كل يوم من حياته، والبرقية الأخيرة لم تكن على لسان بول.",
+          "ru" : "Едет вторым классом по билету, что прислал брат, чтобы начать заново в Лондоне. Всё медлит у каюты казначея, спрашивая о телеграммах. Пол пишет ей каждый день своей жизни, и последняя телеграмма звучала не как Пол."
+        },
+        "imagePath" : "images/nora_renner.png"
+      },
+      "GilbertSnow" : {
+        "profession" : {
+          "en" : "Valet",
+          "ar" : "خادم شخصي",
+          "ru" : "Камердинер"
+        },
+        "age" : 51,
+        "height_cm" : 174,
+        "weight_kg" : 70,
+        "relationship_to_victim" : {
+          "en" : "Mr. Vane's man for nineteen years. It was he who identified the body.",
+          "ar" : "خادم السيد فاين تسعة عشر عامًا. وهو من تعرّف على الجثة.",
+          "ru" : "Человек мистера Вейна девятнадцать лет. Именно он опознал тело."
+        },
+        "bio" : {
+          "en" : "Correct to the last button, and named — everyone knows — for a comfortable legacy in his master's will. He looked at the dead man's face for a long moment before he said the name, and he has pressed the same suit three times since.",
+          "ar" : "منضبط حتى آخر زر، ومعروف — يعلم الجميع — بإرث مريح في وصية سيده. حدّق في وجه القتيل لحظة طويلة قبل أن ينطق الاسم، وكوى البدلة نفسها ثلاث مرات منذ ذلك الحين.",
+          "ru" : "Безупречен до последней пуговицы и, как всем известно, поименован в завещании хозяина к недурному наследству. Он долго смотрел в лицо покойника, прежде чем назвать имя, и с тех пор трижды перегладил один и тот же костюм."
+        },
+        "imagePath" : "images/gilbert_snow.png"
+      },
+      "CorneliaBlythe" : {
+        "profession" : {
+          "en" : "Society widow",
+          "ar" : "أرملة من المجتمع الرفيع",
+          "ru" : "Светская вдова"
+        },
+        "age" : 66,
+        "height_cm" : 162,
+        "weight_kg" : 64,
+        "relationship_to_victim" : {
+          "en" : "Half her late husband's estate went into Vane's funds and did not come out.",
+          "ar" : "ذهب نصف تركة زوجها الراحل في صناديق فاين ولم يعد.",
+          "ru" : "Половина состояния её покойного мужа ушла в фонды Вейна и не вернулась."
+        },
+        "bio" : {
+          "en" : "Plays bridge the way generals fight wars, and has spent a year composing unsigned letters to Marcus Vane that would blister paint. She notices everything at a card table and forgives nothing away from one.",
+          "ar" : "تلعب البريدج كما يخوض الجنرالات الحروب، وأمضت عامًا تؤلّف رسائل بلا توقيع إلى ماركوس فاين تكفي لتقشير الطلاء. تلاحظ كل شيء على طاولة الورق ولا تغفر شيئًا بعيدًا عنها.",
+          "ru" : "Играет в бридж, как генералы ведут войны, и целый год сочиняла Маркусу Вейну неподписанные письма, от которых облезала бы краска. Замечает всё за карточным столом и не прощает ничего вдали от него."
+        },
+        "imagePath" : "images/cornelia_blythe.png"
+      },
+      "LeonardVoss" : {
+        "profession" : {
+          "en" : "Ship's surgeon",
+          "ar" : "جرّاح السفينة",
+          "ru" : "Судовой врач"
+        },
+        "age" : 48,
+        "height_cm" : 176,
+        "weight_kg" : 78,
+        "relationship_to_victim" : {
+          "en" : "Examined the body and signed the record of death.",
+          "ar" : "فحص الجثة ووقّع سجل الوفاة.",
+          "ru" : "Осмотрел тело и подписал свидетельство о смерти."
+        },
+        "bio" : {
+          "en" : "A careful man on a company payroll, on the line's proudest crossing of the season. His record of death is tidy, brief, and rather quieter than his examination notes.",
+          "ar" : "رجل حذر على كشوف رواتب الشركة، في أفخر رحلات الموسم. سجل وفاته مرتّب موجز، وأهدأ قليلًا من ملاحظات فحصه.",
+          "ru" : "Осторожный человек на жалованье компании, на самом гордом переходе сезона. Его свидетельство о смерти аккуратно, кратко и заметно тише его записей осмотра."
+        },
+        "imagePath" : "images/leonard_voss.png"
+      },
+      "MaxKessler" : {
+        "profession" : {
+          "en" : "Wireless operator",
+          "ar" : "مشغّل لاسلكي",
+          "ru" : "Радист"
+        },
+        "age" : 34,
+        "height_cm" : 171,
+        "weight_kg" : 66,
+        "relationship_to_victim" : {
+          "en" : "Handled every wire that touched this ship, including two that touch this case.",
+          "ar" : "أدار كل برقية مسّت هذه السفينة، ومنها اثنتان تمسّان هذه القضية.",
+          "ru" : "Прошёл через его руки каждый радиосигнал, коснувшийся судна, включая два, что касаются этого дела."
+        },
+        "bio" : {
+          "en" : "Lives in a cabin of Morse and cigarette smoke, and keeps his log to Greenwich because the company requires it and the sea respects nothing else. Is said to make a little money retailing first-class gossip to a New York columnist.",
+          "ar" : "يعيش في حجرة من مورس ودخان السجائر، ويلتزم في سجله بتوقيت غرينتش لأن الشركة تشترطه والبحر لا يحترم غيره. يُقال إنه يجني قليلًا من المال ببيع نميمة الدرجة الأولى لكاتب عمود في نيويورك.",
+          "ru" : "Живёт в каюте из Морзе и сигаретного дыма и ведёт журнал по Гринвичу, потому что того требует компания, а море не уважает ничего иного. Говорят, немного зарабатывает, сбывая сплетни первого класса нью-йоркскому колумнисту."
+        },
+        "imagePath" : "images/max_kessler.png"
+      },
+      "VivianAshe" : {
+        "profession" : {
+          "en" : "Singer with the ship's orchestra",
+          "ar" : "مغنّية مع أوركسترا السفينة",
+          "ru" : "Певица с судовым оркестром"
+        },
+        "age" : 31,
+        "height_cm" : 170,
+        "weight_kg" : 58,
+        "relationship_to_victim" : {
+          "en" : "Vane's companion of two seasons, paid off before sailing and shipped out with the band.",
+          "ar" : "رفيقة فاين موسمين، دُفع لها قبل الإبحار وأُرسلت مع الفرقة.",
+          "ru" : "Спутница Вейна два сезона, оплачена перед отплытием и отправлена с оркестром."
+        },
+        "bio" : {
+          "en" : "Sings as if the room owed her money — which, as of Thursday, it does: her farewell check is drawn on the Continental Trust, and the Continental Trust is no more. She was mid-song when the horn went.",
+          "ar" : "تغنّي كأن القاعة مدينة لها بمال — وهي كذلك منذ الخميس: شيك وداعها مسحوب على كونتيننتال ترست، وكونتيننتال ترست لم يعد له وجود. كانت في منتصف أغنيتها حين دوّى البوق.",
+          "ru" : "Поёт так, будто зал ей задолжал, — что с четверга и правда так: её прощальный чек выписан на Continental Trust, а Continental Trust больше нет. Она была посреди песни, когда прозвучал гудок."
+        },
+        "imagePath" : "images/vivian_ashe.png"
+      },
+      "CharlesWren" : {
+        "profession" : {
+          "en" : "Purser",
+          "ar" : "أمين صندوق السفينة",
+          "ru" : "Судовой казначей"
+        },
+        "age" : 59,
+        "height_cm" : 173,
+        "weight_kg" : 82,
+        "relationship_to_victim" : {
+          "en" : "Keeper of the passenger list, the valuables book, and the company's peace of mind.",
+          "ar" : "حافظ قائمة الركاب، ودفتر النفائس، وطمأنينة الشركة.",
+          "ru" : "Хранитель списка пассажиров, книги ценностей и душевного покоя компании."
+        },
+        "bio" : {
+          "en" : "Twenty years of smooth crossings, smooth manifests, and small gratuities smoothly accepted. His printed passenger list is a work of art; the ink amendments at the bottom are another matter.",
+          "ar" : "عشرون عامًا من رحلات سلسة، وكشوف سلسة، وإكراميات صغيرة قُبلت بسلاسة. قائمة ركابه المطبوعة تحفة؛ أما تعديلات الحبر في أسفلها فأمر آخر.",
+          "ru" : "Двадцать лет гладких переходов, гладких манифестов и гладко принятых чаевых. Его печатный список пассажиров — произведение искусства; чернильные поправки внизу — совсем иное дело."
+        },
+        "imagePath" : "images/charles_wren.png"
+      }
+    }
+  },
+  "red_herrings" : {
+    "suspects" : {
+      "EliasCroft" : {
+        "is_red_herring" : true,
+        "narrative" : {
+          "en" : "Watson lowers his voice. 'Croft threatened the man before fifty witnesses, his revolver did the killing, and the watch stopped in the hour he paced the deck alone — it is all too complete, Holmes. Real guilt is never so tidy. And the wireless log holds him at the counter, in Greenwich's own hand, through the true hour of the shot.'",
+          "ar" : "يخفض واطسون صوته: «كروفت هدّد الرجل أمام خمسين شاهدًا، ومسدسه هو الذي قتل، والساعة توقفت في الساعة التي كان يذرع فيها السطح وحده — إنه أكمل من اللازم يا هولمز. الجرم الحقيقي لا يكون بهذا الترتيب أبدًا. وسجل اللاسلكي يثبّته عند المنضدة، بخط غرينتش نفسه، طوال الساعة الحقيقية للطلقة.»",
+          "ru" : "Уотсон понижает голос: «Крофт грозил ему при пятидесяти свидетелях, убил его револьвер, и часы остановились в час, когда он один мерил палубу, — всё слишком складно, Холмс. Настоящая вина никогда не бывает так опрятна. И журнал радиорубки держит его у стойки, рукой самого Гринвича, весь истинный час выстрела»."
+        }
+      },
+      "VivianAshe" : {
+        "is_red_herring" : true,
+        "narrative" : {
+          "en" : "Watson glances toward the bandstand. 'Jilted, shipped off with the orchestra, and paid in paper that died with the Continental Trust — motive enough for two murders. But she was under the spotlights with a hundred pairs of eyes on her when the horn went. A woman cannot sing and shoot on different decks at once.'",
+          "ar" : "يلقي واطسون نظرة نحو المنصة: «مهجورة، أُرسلت مع الأوركسترا، ودُفع لها بورق مات مع كونتيننتال ترست — دافع يكفي لجريمتين. لكنها كانت تحت الأضواء ومئة عين عليها حين دوّى البوق. لا تستطيع امرأة أن تغنّي وتطلق النار على سطحين مختلفين في آنٍ واحد.»",
+          "ru" : "Уотсон бросает взгляд к эстраде: «Брошена, сослана с оркестром и оплачена бумагой, умершей с Continental Trust, — мотива хватит на два убийства. Но она была под софитами, и сотня глаз смотрела на неё, когда прозвучал гудок. Женщина не может петь и стрелять на разных палубах разом»."
+        }
+      },
+      "CorneliaBlythe" : {
+        "is_red_herring" : true,
+        "narrative" : {
+          "en" : "Watson smiles despite himself. 'The old lady's letters to Vane would blister paint, and she lost a fortune. But she never left the bridge table all night — three players and her own merciless scoresheet say so — and I fancy her sharp eyes are worth more to us at that table than her grudge is in a cell.'",
+          "ar" : "يبتسم واطسون رغمًا عنه: «رسائل العجوز إلى فاين تكفي لتقشير الطلاء، وقد خسرت ثروة. لكنها لم تغادر طاولة البريدج طوال الليل — ثلاثة لاعبين وكشف نقاطها الذي لا يرحم يشهدون بذلك — وأظن عينيها الحادّتين تنفعاننا على تلك الطاولة أكثر مما تنفعنا ضغينتها في زنزانة.»",
+          "ru" : "Уотсон невольно улыбается: «Письма старой дамы Вейну сдирали бы краску, и она потеряла состояние. Но она всю ночь не покидала стол бриджа — трое игроков и её собственная беспощадная ведомость подтверждают, — и, сдаётся мне, её острые глаза нужнее нам за тем столом, чем её обида в камере»."
+        }
+      }
+    }
+  },
+  "leads" : [ {
+    "id" : "lead_stateroom",
+    "title" : {
+      "en" : "Examine stateroom B-9",
+      "ar" : "افحص المقصورة B-9",
+      "ru" : "Осмотрите каюту B-9"
+    },
+    "description" : {
+      "en" : "Marcus Vane was found shot at his desk. Look closely at what the scene wants you to believe.",
+      "ar" : "عُثر على ماركوس فاين مقتولًا عند مكتبه. تمعّن فيما يريد المشهد أن تصدّقه.",
+      "ru" : "Маркуса Вейна нашли застреленным за столом. Присмотритесь к тому, во что сцена хочет заставить вас поверить."
+    },
+    "visibleWhen" : {
+      "type" : "ALWAYS"
+    },
+    "completeWhen" : {
+      "type" : "NOTE_DISCOVERED",
+      "noteId" : "smashed_watch"
+    }
+  }, {
+    "id" : "lead_hour",
+    "title" : {
+      "en" : "Fix the true hour",
+      "ar" : "حدّد الساعة الحقيقية",
+      "ru" : "Установите истинный час"
+    },
+    "description" : {
+      "en" : "The watch, the clocks, and the witnesses do not agree. Somewhere aboard is a clock that was never adjusted. Find it, and fix the real minute of the shot.",
+      "ar" : "الساعة والساعات والشهود لا يتفقون. في مكان ما على المتن ساعة لم تُعدَّل قط. اعثر عليها، وحدّد الدقيقة الحقيقية للطلقة.",
+      "ru" : "Часы, судовые часы и свидетели не сходятся. Где-то на борту есть часы, которые вовсе не переводили. Найдите их и установите настоящую минуту выстрела."
+    },
+    "visibleWhen" : {
+      "type" : "NOTE_DISCOVERED",
+      "noteId" : "clock_notice"
+    },
+    "completeWhen" : {
+      "type" : "CONTRADICTION_SUCCESS",
+      "deductionId" : "voss_admission"
+    }
+  }, {
+    "id" : "lead_coldroom",
+    "title" : {
+      "en" : "The man in the cold room",
+      "ar" : "الرجل في الغرفة الباردة",
+      "ru" : "Человек в холодной"
+    },
+    "description" : {
+      "en" : "The body was identified in a single glance and sealed away in haste. Look at the dead man's hands, and ask who profited from the name he was given.",
+      "ar" : "تُعرّف على الجثة بنظرة واحدة وخُتمت على عجل. انظر إلى يدَي القتيل، واسأل من انتفع بالاسم الذي أُعطي له.",
+      "ru" : "Тело опознали одним взглядом и наспех опечатали. Взгляните на руки покойника и спросите, кто нажился на данном ему имени."
+    },
+    "visibleWhen" : {
+      "type" : "NOTE_DISCOVERED",
+      "noteId" : "body_hands"
+    },
+    "completeWhen" : {
+      "type" : "CONTRADICTION_SUCCESS",
+      "deductionId" : "bought_identification"
+    }
+  }, {
+    "id" : "lead_finch",
+    "title" : {
+      "en" : "The passenger from nowhere",
+      "ar" : "الراكب من العدم",
+      "ru" : "Пассажир из ниоткуда"
+    },
+    "description" : {
+      "en" : "One name on the manifest arrived in ink, at the gangway, for cash. Learn who Aldous Finch was before he was Aldous Finch — and confront him with it.",
+      "ar" : "اسم واحد على القائمة وصل بالحبر، عند المعبر، نقدًا. اعرف من كان ألدوس فينش قبل أن يصير ألدوس فينش — وواجهه بذلك.",
+      "ru" : "Одно имя в манифесте прибыло чернилами, у трапа, за наличные. Узнайте, кем был Алдос Финч, прежде чем стал Алдосом Финчем, — и предъявите ему это."
+    },
+    "visibleWhen" : {
+      "type" : "NOTE_DISCOVERED",
+      "noteId" : "passenger_list"
+    },
+    "completeWhen" : {
+      "type" : "CONTRADICTION_SUCCESS",
+      "deductionId" : "vane_confession"
+    }
+  } ],
+  "universal_title" : "Crossing the Meridian",
+  "metadata" : {
+    "watsonImagePath" : "images/watson.png",
+    "watsonImageScaleX" : 2.318965517241379,
+    "watsonImageScaleY" : 2.318965517241379,
+    "watsonLabelDX" : 0.022591218157614598,
+    "watsonLabelDY" : 0.40890104865282423
+  },
+  "startingInsightTokens" : 2,
+  "startingRoom" : "Grand Foyer",
+  "rooms" : [ {
+    "name" : "Grand Foyer",
+    "neighbors" : {
+      "north" : "Grand Salon",
+      "east" : "First-Class Bar",
+      "west" : "Pursers Office",
+      "south" : "Promenade Deck"
+    },
+    "imagePath" : "images/room_grand_foyer.png",
+    "watsonPosX" : 0.2624356775300172,
+    "watsonPosY" : 0.6621104917095483,
+    "objects" : [ {
+      "id" : "your_invitation",
+      "name" : "your_invitation",
+      "imagePath" : "images/your_invitation.png",
+      "posX" : 0.47855917667238423,
+      "posY" : 0.9356239279588335,
+      "imageScaleX" : 1.1,
+      "imageScaleY" : 1.1,
+      "labelDX" : 0.01862536167853492,
+      "labelDY" : -0.465634041963373
+    }, {
+      "id" : "clock_notice",
+      "name" : "clock_notice",
+      "imagePath" : "images/clock_notice.png",
+      "posX" : 0.8533447684391081,
+      "posY" : 0.7097448542024014,
+      "imageScaleX" : 0.9413793103448276,
+      "imageScaleY" : 0.9413793103448276
+    }, {
+      "id" : "passenger_list",
+      "name" : "passenger_list",
+      "imagePath" : "images/passenger_list.png",
+      "posX" : 0.9631217838765008,
+      "posY" : 0.6129395368782161,
+      "imageScaleX" : 1.113793103448276,
+      "imageScaleY" : 1.113793103448276,
+      "labelDX" : -0.07357882817898005,
+      "labelDY" : -0.671406807133193
+    } ]
+  }, {
+    "name" : "Stateroom B-9",
+    "neighbors" : {
+      "east" : "Grand Salon"
+    },
+    "imagePath" : "images/room_stateroom.png",
+    "watsonPosX" : 0.8156089193825042,
+    "watsonPosY" : 0.6590373070325901,
+    "objects" : [ {
+      "id" : "smashed_watch",
+      "name" : "smashed_watch",
+      "imagePath" : "images/smashed_watch.png",
+      "posX" : 0.42967409948542024,
+      "posY" : 0.9356239279588335,
+      "imageScaleX" : 1.1,
+      "imageScaleY" : 1.1,
+      "labelDX" : 0.00931268083926746,
+      "labelDY" : -0.5215101269989778
+    }, {
+      "id" : "threat_letter",
+      "name" : "threat_letter",
+      "imagePath" : "images/threat_letter.png",
+      "posX" : 0.444253859348199,
+      "posY" : 0.6436713836477987,
+      "imageScaleX" : 1.15,
+      "imageScaleY" : 1.15,
+      "labelDX" : 0.026723345017028367,
+      "labelDY" : -0.5344669003405673
+    }, {
+      "id" : "mantel_clock",
+      "name" : "mantel_clock",
+      "imagePath" : "images/mantel_clock.png",
+      "posX" : 0.6620926243567753,
+      "posY" : 0.6160127215551744,
+      "imageScaleX" : 1.024137931034483,
+      "imageScaleY" : 1.024137931034483,
+      "rotation" : 1.8476102659945965,
+      "labelDX" : 0.05001254524791784,
+      "labelDY" : -0.5201304705783455
+    } ]
+  }, {
+    "name" : "Grand Salon",
+    "neighbors" : {
+      "south" : "Grand Foyer",
+      "east" : "Smoking Room",
+      "west" : "Stateroom B-9"
+    },
+    "imagePath" : "images/room_grand_salon.png",
+    "watsonPosX" : 0.2607204116638079,
+    "watsonPosY" : 0.6006467981703831,
+    "objects" : [ {
+      "id" : "band_setlist",
+      "name" : "band_setlist",
+      "imagePath" : "images/band_setlist.png",
+      "posX" : 0.4751286449399657,
+      "posY" : 0.7942574328187535,
+      "imageScaleX" : 1.15,
+      "imageScaleY" : 1.15,
+      "labelDX" : 0.0,
+      "labelDY" : 0.44538908361713947
+    } ]
+  }, {
+    "name" : "Smoking Room",
+    "neighbors" : {
+      "west" : "Grand Salon"
+    },
+    "imagePath" : "images/room_smoking_room.png",
+    "watsonPosX" : 0.09262435677530018,
+    "watsonPosY" : 0.5760613207547169,
+    "objects" : [ {
+      "id" : "bridge_scoresheet",
+      "name" : "bridge_scoresheet",
+      "imagePath" : "images/bridge_scoresheet.png",
+      "posX" : 0.5677530017152659,
+      "posY" : 0.6590373070325901,
+      "imageScaleX" : 1.15,
+      "imageScaleY" : 1.15
+    } ]
+  }, {
+    "name" : "First-Class Bar",
+    "neighbors" : {
+      "west" : "Grand Foyer"
+    },
+    "imagePath" : "images/room_bar.png",
+    "watsonPosX" : 0.1,
+    "watsonPosY" : 0.6,
+    "objects" : [ {
+      "id" : "bar_chit",
+      "name" : "bar_chit",
+      "imagePath" : "images/bar_chit.png",
+      "posX" : 0.5,
+      "posY" : 0.5545490280160091,
+      "imageScaleX" : 1.1862068965517243,
+      "imageScaleY" : 1.1862068965517243
+    } ]
+  }, {
+    "name" : "Promenade Deck",
+    "neighbors" : {
+      "north" : "Grand Foyer",
+      "east" : "Wireless Room",
+      "west" : "Ships Surgery"
+    },
+    "imagePath" : "images/room_promenade.png",
+    "watsonPosX" : 0.12,
+    "watsonPosY" : 0.62,
+    "objects" : [ {
+      "id" : "found_revolver",
+      "name" : "found_revolver",
+      "imagePath" : "images/found_revolver.png",
+      "posX" : 0.8293310463121784,
+      "posY" : 0.8449649799885648,
+      "imageScaleX" : 1.2,
+      "imageScaleY" : 1.2,
+      "labelDX" : 0.008536624102661839,
+      "labelDY" : 0.4097579569277683
+    } ]
+  }, {
+    "name" : "Wireless Room",
+    "neighbors" : {
+      "west" : "Promenade Deck"
+    },
+    "imagePath" : "images/room_wireless.png",
+    "watsonPosX" : 0.3018867924528302,
+    "watsonPosY" : 0.6320754716981132,
+    "objects" : [ {
+      "id" : "telegram_log",
+      "name" : "telegram_log",
+      "imagePath" : "images/telegram_log.png",
+      "posX" : 0.4914236706689537,
+      "posY" : 0.5581761006289309,
+      "imageScaleX" : 1.2,
+      "imageScaleY" : 1.2,
+      "rotation" : -21.933809806506282,
+      "labelDX" : 0.2183787561146052,
+      "labelDY" : 0.5153738644304683
+    } ]
+  }, {
+    "name" : "Ships Surgery",
+    "neighbors" : {
+      "east" : "Promenade Deck"
+    },
+    "imagePath" : "images/room_surgery.png",
+    "watsonPosX" : 0.21355060034305318,
+    "watsonPosY" : 0.6190859062321327,
+    "objects" : [ {
+      "id" : "body_hands",
+      "name" : "body_hands",
+      "imagePath" : "images/body_hands.png",
+      "posX" : 0.483704974271012,
+      "posY" : 0.6129395368782161,
+      "imageScaleX" : 2.435344827586207,
+      "imageScaleY" : 1.9482758620689655
+    } ]
+  }, {
+    "name" : "Pursers Office",
+    "neighbors" : {
+      "east" : "Grand Foyer",
+      "south" : "Baggage Hold"
+    },
+    "imagePath" : "images/room_pursers_office.png",
+    "watsonPosX" : 0.3276157804459691,
+    "watsonPosY" : 0.6390616066323613,
+    "objects" : [ {
+      "id" : "voss_notes",
+      "name" : "voss_notes",
+      "imagePath" : "images/voss_notes.png",
+      "posX" : 0.4939965694682676,
+      "posY" : 0.7327937392795884,
+      "imageScaleX" : 1.15,
+      "imageScaleY" : 1.15,
+      "labelDX" : 0.07126225337874231,
+      "labelDY" : 0.4899279919788534
+    } ]
+  }, {
+    "name" : "Baggage Hold",
+    "neighbors" : {
+      "north" : "Pursers Office"
+    },
+    "imagePath" : "images/room_baggage_hold.png",
+    "watsonPosX" : 0.5428816466552315,
+    "watsonPosY" : 0.5729881360777588,
+    "objects" : [ {
+      "id" : "manifest_ledger",
+      "name" : "manifest_ledger",
+      "imagePath" : "images/manifest_ledger.png",
+      "posX" : 0.16282608277739324,
+      "posY" : 0.7143725974471369,
+      "imageScaleX" : 0.9775862068965516,
+      "imageScaleY" : 0.9775862068965516,
+      "rotation" : -8.50537042234626
+    }, {
+      "id" : "book_crate",
+      "name" : "book_crate",
+      "imagePath" : "images/book_crate.png",
+      "posX" : 0.35334476843910806,
+      "posY" : 0.7742817324185249,
+      "imageScaleX" : 1.9137931034482758,
+      "imageScaleY" : 1.9137931034482758,
+      "labelDX" : 0.013658598564258943,
+      "labelDY" : 0.4848802490311925
+    }, {
+      "id" : "renner_valise",
+      "name" : "renner_valise",
+      "imagePath" : "images/renner_valise.png",
+      "posX" : 0.7362138201023076,
+      "posY" : 0.8295402093601084,
+      "imageScaleX" : 2.1551724137931036,
+      "imageScaleY" : 2.1551724137931036,
+      "rotation" : 11.346855800317321,
+      "labelDX" : -0.035293946469965906,
+      "labelDY" : -0.43235846519254795
+    } ]
+  } ],
+  "combine_logic" : [ {
+    "requires" : [ "smashed_watch", "mantel_clock" ],
+    "resultDeductionId" : "staged_time",
+    "resultText" : {
+      "ar" : "حُطِّمت ساعة اليد عند 10:55 — لكن زجاجها يقع بجوار الجثة وسوارها غير مخدوش، وساعة الرفّ على بُعد قدمين تدقّ ولم يمسّها عراك. يمكن ضبط الساعة قبل كسرها. أحدهم اختار لك 10:55.",
+      "en" : "The wristwatch was smashed at 10:55 — but its glass lies beside the body while its strap is unscuffed, and the mantel clock two feet away ticks on, untouched by any struggle. A watch can be set before it is broken. Someone chose 10:55 for you.",
+      "ru" : "Наручные часы разбили на 10:55 — но стекло лежит у тела, а ремешок не потёрт, и каминные часы в двух футах тикают, не тронутые никакой борьбой. Часы можно перевести прежде, чем разбить. Кто-то выбрал 10:55 для вас."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  }, {
+    "requires" : [ "clock_notice", "telegram_log" ],
+    "resultDeductionId" : "true_midnight",
+    "resultText" : {
+      "ar" : "قفزت ساعات السفينة 47 دقيقة إلى الأمام عند بوق منتصف الليل — لكن غرفة اللاسلكي تتبع غرينتش ولم تُعدِّل شيئًا. ضع الاثنتين جنبًا إلى جنب فيقع 'فرقعة الشمبانيا' التي سمعها نصف السفينة عند البوق بعد ساعة وخمس دقائق من الوقت المدوّن على الساعة المحطمة. الطلقة جاءت عند البوق. الساعة كذبة.",
+      "en" : "The ship's clocks jumped forward 47 minutes at the midnight horn — but the wireless room answers to Greenwich and adjusted nothing. Set the two side by side and the 'champagne cork' half the ship heard at the horn falls an hour and five minutes AFTER the time on the smashed watch. The shot came at the horn. The watch is a lie.",
+      "ru" : "Судовые часы прыгнули вперёд на 47 минут с полуночным гудком — но радиорубка держит Гринвич и не переводила ничего. Поставьте одно рядом с другим, и «хлопок шампанского», что полсудна слышало у гудка, придётся на час и пять минут ПОСЛЕ времени на разбитых часах. Выстрел был у гудка. Часы — ложь."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  }, {
+    "requires" : [ "staged_time", "true_midnight" ],
+    "resultDeductionId" : "croft_framed",
+    "resultText" : {
+      "ar" : "في الساعة الحقيقية للطلقة، كان إلياس كروفت واقفًا عند منضدة اللاسلكي يبرق لزوجته — مُسجَّلًا بالدقيقة بتوقيت غرينتش. الساعة توقفت عند وقت عُرف أنه كان يذرع فيه الأسطح وحده، والرسالة على ورق فندقه، ومسدسه المسروق بجوار كرسيه: كان هذا إطارًا، نُسج حول الرجل صاحب أعلى تظلّم على السفينة.",
+      "en" : "At the true hour of the shot, Elias Croft was standing at the wireless counter, cabling his wife — logged to the minute in Greenwich time. The watch stopped at an hour he was known to be pacing the decks alone, the letter on his hotel's paper, his own stolen revolver by his deck chair: this was a frame, assembled around the man with the loudest grievance on the ship.",
+      "ru" : "В истинный час выстрела Элиас Крофт стоял у стойки радиорубки, телеграфируя жене, — записанный поминутно по Гринвичу. Часы остановлены на час, когда он, как известно, в одиночку мерил палубы, письмо на бумаге его отеля, его же краденый револьвер у его шезлонга: это была подстава, сплетённая вокруг человека с самой громкой обидой на судне."
+    },
+    "tokenReward" : 0,
+    "repeatable" : false
+  }, {
+    "requires" : [ "body_hands", "renner_valise" ],
+    "resultDeductionId" : "body_is_not_vane",
+    "resultText" : {
+      "ar" : "يدا القتيل تحملان ثفن الكاتب وعشرين عامًا من أخدود القلم، وخاتم الزمرد الشهير متدلٍّ فضفاضًا على الإصبع. وفي العنبر حقيبة تحمل الحرفين P.R. — على متن سفينة يُفترض أن صاحبها لم يصعدها قط. الرجل في الغرفة الباردة ليس ماركوس فاين. إنه بول رينر، السكرتير الذي كان ينوب عنه.",
+      "en" : "The dead man's hands carry a typist's callus and twenty years of pen-groove, and the famous emerald ring hangs loose on the finger. And in the hold sits a valise marked P.R. — aboard a ship its owner supposedly never boarded. The man in the cold room is not Marcus Vane. It is Paul Renner, the secretary who doubled for him.",
+      "ru" : "Руки покойника несут мозоль машинистки и двадцать лет желобка от пера, а знаменитый изумрудный перстень болтается на пальце свободно. А в трюме стоит саквояж с инициалами P.R. — на борту судна, куда его владелец якобы и не всходил. Человек в холодной — не Маркус Вейн. Это Пол Реннер, секретарь, который его дублировал."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  }, {
+    "requires" : [ "passenger_list", "manifest_ledger" ],
+    "resultDeductionId" : "finch_out_of_nowhere",
+    "resultText" : {
+      "ar" : "'ألدوس فينش' لا يظهر في أي قائمة مطبوعة. أُضيف بالحبر عند المعبر، دفع نقدًا، لم يقدّم تفاصيل جواز — 'المستندات لاحقًا'. تجار الكتب النادرة أصحاب الصناديق الثمينة لا يتجسّدون عند معبر. حتى ساعة وقوع الانهيار، لم يكن ألدوس فينش موجودًا.",
+      "en" : "'Aldous Finch' appears on no printed list. He was added in ink at the gangway, paid in cash, gave no passport particulars — 'documents to follow.' Rare-book dealers with crates worth carrying do not materialize at a gangway. Until the hour the Crash broke, Aldous Finch did not exist.",
+      "ru" : "'Алдос Финч' не значится ни в одном печатном списке. Его вписали чернилами у трапа, заплатил наличными, паспортных данных не дал — 'документы позже'. Торговцы редкими книгами с ящиками, которые стоит везти, не возникают у трапа. До самого часа Краха Алдоса Финча не существовало."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  }, {
+    "requires" : [ "bridge_scoresheet", "bar_chit" ],
+    "resultDeductionId" : "meridian_tell",
+    "resultText" : {
+      "ar" : "سايدكار ببرتقال بدل الليمون — 'شراب السيد فاين المفضّل منذ أيام نادي الميريديان'، يقول قلم الساقي. وضغطة في اللعبة الثالثة رأتها السيدة بلايث مرة واحدة في حياتها، على طاولة قبالة ماركوس فاين. عادتان، صاحب واحد — وذلك الصاحب يُفترض أنه راقد في الغرفة الباردة.",
+      "en" : "A Sidecar with orange instead of lemon — 'Mr. Vane's poison since the Meridian Club days,' says the barman's pencil. A squeeze at trick three that Mrs. Blythe has seen once in her life, across a table from Marcus Vane. Two habits, one owner — and that owner is supposed to be lying in the cold room.",
+      "ru" : "«Сайдкар» с апельсином вместо лимона — 'любимый напиток мистера Вейна ещё со времён клуба «Меридиан»', гласит карандаш бармена. Сжатие на третьей взятке, какое миссис Блайт видела раз в жизни — за столом напротив Маркуса Вейна. Две привычки, один владелец — а этот владелец должен лежать в холодной."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  }, {
+    "requires" : [ "meridian_tell", "finch_out_of_nowhere" ],
+    "resultDeductionId" : "finch_is_vane",
+    "resultText" : {
+      "ar" : "رجل لم يكن موجودًا قبل أسبوع، يشرب كوكتيل ميت ويلعب بريدج ميت. لا يوجد ألدوس فينش. لم يوجد قط. السيد الرمادي في غرفة التدخين هو ماركوس فاين — ما يعني أن دبّ وول ستريت أطلق النار على شبيهه وحضر عزاءه.",
+      "en" : "A man who did not exist a week ago, drinking a dead man's cocktail and playing a dead man's bridge. There is no Aldous Finch. There never was. The gray gentleman in the smoking room is Marcus Vane — which means the Bear of Wall Street shot his own double and attended the wake.",
+      "ru" : "Человек, которого неделю назад не существовало, пьёт коктейль мертвеца и играет в бридж мертвеца. Никакого Алдоса Финча нет. И не было. Серый джентльмен в курительной — это Маркус Вейн, а значит, «Медведь Уолл-стрит» застрелил собственного двойника и явился на поминки."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  }, {
+    "requires" : [ "your_invitation", "book_crate" ],
+    "resultDeductionId" : "summons_from_the_grave",
+    "resultText" : {
+      "ar" : "الرسالة التي جاءت بك إلى السفينة طُبعت على آلة حرف الـ 'e' فيها يهبط تحت السطر — وآلة محمولة بذلك العيب نفسه معبّأة في صندوق كتب فينش، إلى جوار السندات ومحبرة فضية منقوش عليها M.V. من استدعاك هو الرجل الذي تطارده. دُعيت لتشهد جريمة لأن القاتل احتاج شاهدًا من طرازك — ليوثّق موت ماركوس فاين.",
+      "en" : "The note that brought you aboard was typed on a machine whose 'e' drops below the line — and a portable with exactly that fault lies packed in Finch's book crate, beside the bonds and a silver inkstand engraved M.V. The man who summoned you is the man you are hunting. You were invited to witness a murder because the murderer needed a witness of your caliber — to certify the death of Marcus Vane.",
+      "ru" : "Записка, приведшая вас на борт, отпечатана на машинке, у которой «e» проваливается ниже строки, — и портативная машинка ровно с этим изъяном лежит в книжном ящике Финча, рядом с облигациями и серебряной чернильницей с гравировкой M.V. Тот, кто вас вызвал, — тот, за кем вы охотитесь. Вас пригласили засвидетельствовать убийство, потому что убийце нужен был свидетель вашего уровня — чтобы удостоверить смерть Маркуса Вейна."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  } ],
+  "watson" : {
+    "hints" : {
+      "general" : [ {
+        "id" : "w_general_1",
+        "text" : {
+          "ar" : "ابدأ بالمقصورة والرجل في الغرفة الباردة — ثم اسأل لماذا أرادتك رسالة بلا توقيع على متن هذه الرحلة بالذات.",
+          "en" : "Begin with the stateroom and the man in the cold room — then ask why an unsigned note wanted you aboard this particular crossing.",
+          "ru" : "Начните с каюты и человека в холодной — а затем спросите, зачем записка без подписи хотела вас именно на этом переходе."
+        }
+      }, {
+        "id" : "w_general_2",
+        "text" : {
+          "ar" : "تحمل السفينة مئة ساعة يا هولمز، والبارحة قيل لكل واحدة منها ماذا تقول — إلا واحدة. اعثر على التي لا تخضع لأحد على المتن.",
+          "en" : "A ship carries a hundred clocks, Holmes, and last night every one of them was told what to say — all but one. Find the one that answers to nobody aboard.",
+          "ru" : "Судно несёт сотню часов, Холмс, и вчера каждым из них велели, что говорить, — всеми, кроме одних. Найдите те, что не подчиняются никому на борту."
+        }
+      }, {
+        "id" : "w_general_3",
+        "text" : {
+          "ar" : "الأدلة الصغيرة تحسم كل شيء إذا صُفَّت جنبًا إلى جنب. اجمع ما تجده — واجمع ما تستنتجه.",
+          "en" : "Small clues decide everything when set side by side. Combine what you find — and combine what you conclude.",
+          "ru" : "Малые улики решают всё, если положить их рядом. Соединяйте, что находите, — и соединяйте, что заключаете."
+        }
+      }, {
+        "id" : "w_general_4",
+        "text" : {
+          "ar" : "المرء هو عاداته. الوجوه تُنسى والأسماء تُشترى، لكن راقب ماذا يشرب الرجل، وكيف يلعب أوراقه.",
+          "en" : "A man is his habits. Faces can be forgotten and names can be bought, but watch what a man drinks, and how he plays his cards.",
+          "ru" : "Человек — это его привычки. Лица забываются, имена покупаются, но следите, что человек пьёт и как играет свои карты."
+        }
+      } ],
+      "contradiction" : [ {
+        "id" : "w_contra_1",
+        "text" : {
+          "ar" : "أحدهم على المتن يتشبث برواية تجاوزتها الأدلة في صمت. حين لا يُذعن الكلام، ضع البرهان أمامه وراقب الرواية تغرق.",
+          "en" : "Someone aboard is holding to an account the evidence has quietly outgrown. When words won't yield, lay the proof in front of them and watch the account founder.",
+          "ru" : "Кто-то на борту держится рассказа, который улики тихо переросли. Когда слова не поддаются, положите доказательство перед ним и смотрите, как рассказ идёт ко дну."
+        }
+      } ]
+    }
+  },
+  "localizations" : {
+    "en" : {
+      "languageName" : "English",
+      "title" : "Crossing the Meridian",
+      "invitation" : "To Mr. Sherlock Holmes,\n221B Baker Street,\nLondon.\n\nDear Mr. Holmes,\nA man will be murdered aboard the Meridian between New York and Southampton. I have bought you stateroom B-7 so that England's finest mind may see it done and name it. Tell no one.\nFive days after the Crash, the great liner sails east full of ruined men. Come, and watch.\n\n— A Friend\n\n(On the first night, at the midnight horn — the minute every clock aboard leaps forward — Marcus Vane is shot dead in stateroom B-9, and his fortune in bearer bonds is nowhere on the ship. His smashed watch names the hour. Do not believe it.)",
+      "description" : "October 1929. An art deco liner, mid-Atlantic, five days after the Crash. A financier shot under the midnight horn, a smashed watch that lies, and a note that promised you this murder before it happened.",
+      "roomDetails" : [ {
+        "name" : "Grand Foyer",
+        "displayName" : "Grand Foyer",
+        "description" : "The Meridian's chrome-and-walnut heart: sunburst marquetry, a nickel-railed staircase, the framed passenger list, and the company's notices under glass."
+      }, {
+        "name" : "Stateroom B-9",
+        "displayName" : "Stateroom B-9",
+        "description" : "Marcus Vane's stateroom, sealed since the body was carried out. The desk chair faces the door; whoever shot him stood where a visitor would stand, and was let in."
+      }, {
+        "name" : "Grand Salon",
+        "displayName" : "Grand Salon",
+        "description" : "A two-deck ballroom of frosted glass and silver palms. The gala's bunting still hangs; the bandstand is dressed for tonight as though the ship were not carrying a corpse."
+      }, {
+        "name" : "Smoking Room",
+        "displayName" : "Smoking Room",
+        "description" : "Green leather, black lacquer, and the soft slap of cards. The bridge fours reconvene here every afternoon, murder or no murder."
+      }, {
+        "name" : "First-Class Bar",
+        "displayName" : "First-Class Bar",
+        "description" : "A lacquered half-moon counter under a frieze of chrome greyhounds. Antoine the barman keeps every signed chit on a spike, in order, like a diary of the ship."
+      }, {
+        "name" : "Promenade Deck",
+        "displayName" : "Promenade Deck",
+        "description" : "A windswept run of teak and empty deck chairs. The Atlantic is very large and very cold, and keeps whatever is thrown to it — nearly."
+      }, {
+        "name" : "Wireless Room",
+        "displayName" : "Wireless Room",
+        "description" : "A cramped cabin of Morse keys, cigarette smoke, and one severe clock — set to Greenwich, adjusted for no one, answering to nothing aboard this ship."
+      }, {
+        "name" : "Ships Surgery",
+        "displayName" : "Ship's Surgery",
+        "description" : "White enamel and carbolic. In the cold room beyond the curtain lies the man the ship believes to be Marcus Vane."
+      }, {
+        "name" : "Pursers Office",
+        "displayName" : "Purser's Office",
+        "description" : "Brass grille, twin safes, and files in perfect order. Everything that officially happens aboard the Meridian is written down in this room — which is not the same as everything that happens."
+      }, {
+        "name" : "Baggage Hold",
+        "displayName" : "Baggage Hold",
+        "description" : "Below the waterline: trunks in ranks, the tally desk where late luggage was checked aboard, and the quiet, private dark that first class never visits."
+      } ],
+      "objectDetails" : [ {
+        "name" : "your_invitation",
+        "displayName" : "Your Invitation",
+        "description" : "The typed, unsigned note that brought you aboard, kept in your own pocketbook.",
+        "examine" : "\"A man will be murdered aboard the Meridian...\" Typed on a portable — and the small 'e' drops below the line every time, like a signature the writer didn't know he was giving.",
+        "deduce" : "Whoever wrote this knew of the murder before it happened — surely enough to buy you a stateroom. Not a warning. An arrangement. Find the machine with the dropped 'e' and you find your 'Friend'."
+      }, {
+        "name" : "clock_notice",
+        "displayName" : "Company Notice",
+        "description" : "A gilt-framed company notice by the staircase, dated the day of sailing.",
+        "examine" : "\"Passengers are advised that ship's clocks will be ADVANCED 47 MINUTES at the midnight horn, this and each night of the eastbound crossing.\"",
+        "deduce" : "Every clock aboard leapt forward at the very hour of the gala — and with them every honest witness's sense of the time. A night on which the hour itself can be made to lie."
+      }, {
+        "name" : "passenger_list",
+        "displayName" : "Passenger List",
+        "description" : "The printed first-class passenger list, framed beside the staircase.",
+        "examine" : "Elegant print, alphabetical, complete — and beneath the printer's rule, one line added in ink: 'A. FINCH, STATEROOM B-11 — late embarkation.'",
+        "deduce" : "Every name on this list was set in type days before sailing. One passenger exists only in ink. Printed men have histories; ink men have reasons."
+      }, {
+        "name" : "smashed_watch",
+        "displayName" : "Smashed Wristwatch",
+        "description" : "The dead man's wristwatch, its crystal shattered, stopped at 10:55.",
+        "examine" : "Stopped at 10:55 precisely. Yet the strap is unscuffed, the crown neatly home, and the broken glass lies in a tidy little pool — not flung, as in a fall or a fight.",
+        "deduce" : "A watch proves nothing about a death — only what it was made to say before it was broken. If 10:55 was chosen, ask who it condemns, and who it saves."
+      }, {
+        "name" : "threat_letter",
+        "displayName" : "Threatening Letter",
+        "description" : "A letter lying open on the stateroom desk, on cream hotel stationery.",
+        "examine" : "Hotel Excelsior paper: 'You will not live to spend it. You die before Southampton.' Unsigned — but Elias Croft kept a suite at the Excelsior for eleven years, and half the ship knows it.",
+        "deduce" : "A death threat left politely unfolded on the victim's own desk, where no one could miss it. Threats are sent to frighten; this one was placed to be found."
+      }, {
+        "name" : "mantel_clock",
+        "displayName" : "Mantel Clock",
+        "description" : "The stateroom's small brass mantel clock, still ticking on the shelf above the desk.",
+        "examine" : "Running perfectly, untouched by any struggle — and 47 minutes behind the corridor clocks. The steward's midnight adjustment never reached this room: it was sealed first.",
+        "deduce" : "The room's own memory of the night, un-tampered: this clock still keeps the old time, from before the horn. Measure anything here against it."
+      }, {
+        "name" : "band_setlist",
+        "displayName" : "Bandleader's Setlist",
+        "description" : "The orchestra's gala program, annotated in the bandleader's pencil, left on the bandstand.",
+        "examine" : "Every number timed in pencil. 'Miss Ashe — Moonglow — commenced 11:56, held through the horn, concluded 12:51 by the new clocks. Crowd on its feet.'",
+        "deduce" : "Whatever the horn covered, it did not cover Vivian Ashe: she was under the spotlights, mid-song, with the whole salon watching, when it sounded."
+      }, {
+        "name" : "bridge_scoresheet",
+        "displayName" : "Bridge Scoresheet",
+        "description" : "Last night's scoresheet from the smoking room's regular four, in Mrs. Blythe's exact hand.",
+        "examine" : "Four rubbers, ruthlessly scored. Beside the third, Mrs. Blythe's pencil: 'Mr. F., dummy for the hand before midnight, off for cigarettes — ten minutes. Returned with the horn. His squeeze at trick three — the old Meridian Club squeeze.'",
+        "deduce" : "Mr. Finch — dummy, and free to wander — was gone across the very minute of the horn, and he plays a convention with one known owner. Bridge, like handwriting, is a hand."
+      }, {
+        "name" : "bar_chit",
+        "displayName" : "Signed Bar Chit",
+        "description" : "A chit from Antoine's spike at the first-class bar, signed 'A. Finch', first evening out.",
+        "examine" : "'Two Sidecars — orange, NOT lemon.' Antoine's pencil beneath: 'Asked the gentleman: like the old Meridian Club days, sir? Gentleman went quite white and signed without a word.'",
+        "deduce" : "One man in the barman's twenty years insisted on orange in a Sidecar — and that man's name is not Finch. A face can be schooled. A thirst cannot."
+      }, {
+        "name" : "found_revolver",
+        "displayName" : "Revolver in the Scuppers",
+        "description" : "A small revolver found by a deckhand in the scuppers, two paces from Elias Croft's numbered deck chair.",
+        "examine" : "A .32, one round fired, the nickel still beaded with spray. The initials E.C. are worked into the grip. Thrown toward the sea — but landing two feet short of it, in plain view.",
+        "deduce" : "The Atlantic swallows what is thrown to it; a murderer at the rail does not miss the entire ocean. This revolver was not discarded. It was delivered."
+      }, {
+        "name" : "telegram_log",
+        "displayName" : "Wireless Log",
+        "description" : "The wireless room's outbound log, kept in Kessler's mechanical hand, timed to Greenwich.",
+        "examine" : "Sailing day, 7:40 p.m., handed in aboard: 'MISS N. RENNER — STAYING ASHORE, GRIPPE. — P. RENNER.' Gala night: 'MR. E. CROFT, handed in 11:50 ship's old time, at counter through 12:16.'",
+        "deduce" : "The log keeps Greenwich, adjusted for no horn. A telegram from a man supposedly ashore was handed in aboard this ship — and Croft stood at this counter across the true hour of the shot."
+      }, {
+        "name" : "body_hands",
+        "displayName" : "The Dead Man's Hands",
+        "description" : "The body in the cold room, sheeted to the wrists. The hands are what the hasty identification never looked at.",
+        "examine" : "A typist's callus on the middle finger; a pen-groove worn deep by twenty years of another man's correspondence. And Vane's famous emerald ring — hanging loose, a full size too large.",
+        "deduce" : "Faces are what doubles are chosen for; hands are what betrays them. These are the hands of a man who wrote for his living — and the ring was made for someone else."
+      }, {
+        "name" : "voss_notes",
+        "displayName" : "Surgeon's Examination Notes",
+        "description" : "Dr. Voss's working notes, filed with the purser beneath the tidy official record of death.",
+        "examine" : "The record says death at 10:55, per the watch. The notes beneath say otherwise: rigor 'consistent with death at the midnight horn — NOT one hour prior'; the wound 'close range, seated.' The last line is scored through.",
+        "deduce" : "The surgeon's science quarrels with the certificate he signed. One detail survives the scoring-through: the dead man sat still for his killer — shot by someone he had no reason to fear."
+      }, {
+        "name" : "manifest_ledger",
+        "displayName" : "Embarkation Ledger",
+        "description" : "The purser's working ledger, left at the tally desk in the hold where late luggage was checked aboard.",
+        "examine" : "Wren's gangway amendments: 'B-11, A. Finch — cash, no booking, passport particulars to follow.' And below: 'Mr. Vane — declines ship's safe. One crate, books, personal — to hold, under own lock.'",
+        "deduce" : "A passenger with no past paid cash, unquestioned. And the richest man aboard trusted nothing to the safe — yet locked a crate of books in the hold as though it held his fortune."
+      }, {
+        "name" : "book_crate",
+        "displayName" : "Finch's Book Crate",
+        "description" : "A stout crate stenciled 'A. FINCH — RARE BOOKS — FRAGILE', under a private padlock in the hold.",
+        "examine" : "Fine bindings — and a false row: six hollowed volumes packed with bearer bonds. Beneath them a silver inkstand engraved M.V., and a portable typewriter whose small 'e' drops below the line.",
+        "deduce" : "A book dealer's crate holding a financier's fortune, a financier's monogram, and the machine that typed your invitation. Aldous Finch is a shelf with Marcus Vane behind it."
+      }, {
+        "name" : "renner_valise",
+        "displayName" : "Unclaimed Valise",
+        "description" : "A worn valise on the unclaimed rack, its tag initialed P.R., checked aboard an hour before sailing.",
+        "examine" : "Spare spectacles, carbon paper, a Bible with 'Pauly, from Nora' on the flyleaf — and a first-class collar and studs far above a secretary's wages, packed new in tissue.",
+        "deduce" : "Paul Renner's things sailed even if his telegram says he did not. A secretary packed a rich man's collar — because for one crossing, he was to be the rich man."
+      } ],
+      "suspects" : [ {
+        "name" : "EliasCroft",
+        "id" : "eliascroft",
+        "displayName" : "Mr. Elias Croft",
+        "imagePath" : "images/elias_croft.png",
+        "imageScaleX" : 2.189655172413793,
+        "imageScaleY" : 2.189655172413793,
+        "homeRoom" : "Promenade Deck",
+        "posX" : 0.48198970840480276,
+        "posY" : 0.5745247284162378,
+        "labelDX" : -0.010243948923194206,
+        "labelDY" : 0.40361158757385174,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Yes, I said he'd die before Southampton, and I'd say it over his coffin. He fed thirty years of my work to a ticker-tape. But I'm no murderer — I brought nothing aboard but my ruin.",
+        "clue" : "The loudest grievance on the ship, and every piece of evidence obligingly points his way — the letter, the watch, the revolver by his chair. He swears he came aboard unarmed, which is one claim the deckhand's find can test.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Yes, I said he'd die before Southampton, and I'd say it over his coffin. He fed thirty years of my work to a ticker-tape. But I'm no murderer — I brought nothing aboard but my ruin.",
+            "contradictions" : [ {
+              "evidenceId" : "found_revolver",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "croft_truth",
+              "successMessage" : "You turn the grip toward him: E.C., worked into the nickel. Croft stares a long moment, and the bluster leaves him. 'So that's where it went,' he says quietly."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "It's mine. I brought it to put under his chin and make him sign back what he stole. It was taken from my trunk the first afternoon — and how does a ruined man report the gun he packed? I left the gala before eleven, walked the deck alone, then wired my wife we were finished. I was still at the counter when the horn went."
+          }
+        }
+      }, {
+        "name" : "AldousFinch",
+        "id" : "aldousfinch",
+        "displayName" : "Mr. Aldous Finch",
+        "imagePath" : "images/aldous_finch.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Grand Salon",
+        "posX" : 0.7024013722126929,
+        "posY" : 0.5852808747855918,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "A dreadful business, and no affair of mine. I never met Mr. Vane; I deal in books, not shares. I was at the bridge table all evening — the smoking room will vouch for it.",
+        "clue" : "A gray, courteous man nobody remembers boarding, whose whole alibi is a card table — and whose whole identity is one line of ink on a printed list. He watches the aftermath of the murder the way other men watch the sea.",
+        "states" : {
+          "LIE" : {
+            "statement" : "A dreadful business, and no affair of mine. I never met Mr. Vane; I deal in books, not shares. I was at the bridge table all evening — the smoking room will vouch for it.",
+            "contradictions" : [ {
+              "evidenceId" : "finch_is_vane",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "vane_confession",
+              "successMessage" : "You name the cocktail, the squeeze at trick three, the ink at the gangway, the crate below the waterline. The gray man listens with eyes closed, like a connoisseur. 'Flawless,' says Marcus Vane. 'I chose my witness well.'"
+            }, {
+              "evidenceId" : "summons_from_the_grave",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "vane_confession",
+              "successMessage" : "You lay your invitation beside the dropped 'e' of the portable in his crate. He studies the pages like a dealer verifying a first printing. 'I typed it the night the Continental fell,' says Marcus Vane. 'A death is only as good as its witness. I bought the best.'"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "The Crash didn't ruin me — it made 'Marcus Vane' worthless, and I never keep a worthless asset. Paul doubled for me for years; he boarded as me, waving to the cameras, thinking it another dodge of the process servers. I came up an hour later as nobody. At the horn I called on him — he poured me a drink, sat down, never knew. I set his watch back to the hour Croft paced the decks alone; the fool had threatened me before fifty witnesses and built his own gallows. The bonds cross in the bindings, the insurance pays a company I own, and the world stops hunting a dead man. Perfect — except a dead man's drink was ordered by a living one."
+          }
+        }
+      }, {
+        "name" : "NoraRenner",
+        "id" : "norarenner",
+        "displayName" : "Miss Nora Renner",
+        "imagePath" : "images/nora_renner.png",
+        "imageScaleX" : 2.027586206896552,
+        "imageScaleY" : 2.027586206896552,
+        "homeRoom" : "Grand Foyer",
+        "posX" : 0.6560891938250428,
+        "posY" : 0.7005253001715266,
+        "labelDX" : 0.006271805463180126,
+        "labelDY" : 0.39303314235928793,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "I oughtn't be up here — second class is locked after ten. I only want a wire sent to my brother. Paul is Mr. Vane's secretary; a telegram said he'd stayed ashore with grippe. But sir — Paul has written me every day since I was nine, and never once signed 'P. Renner'. He signs 'Pauly'. Always. He used to say his best-paid work was standing at windows in Mr. Vane's coat.",
+        "clue" : "Locked behind the second-class gates all night, with nothing to gain and a brother to lose. Her testimony holds two jewels: the telegram signed with the wrong name, and a secretary paid to wear his master's coat at windows."
+      }, {
+        "name" : "GilbertSnow",
+        "id" : "gilbertsnow",
+        "displayName" : "Mr. Gilbert Snow",
+        "imagePath" : "images/gilbert_snow.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Stateroom B-9",
+        "posX" : 0.26758147512864494,
+        "posY" : 0.6129395368782161,
+        "labelDX" : 0.008195159138555366,
+        "labelDY" : 0.3831236897274633,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "That is my master on the doctor's table, sir. Nineteen years I dressed that man; I'd know him among ten thousand. I was in the service pantry at the horn and identified him. There is nothing more to say.",
+        "clue" : "Nineteen years of service, a legacy in the will everyone knows about, and an identification made in a single glance before the body was sealed away. He has pressed the same suit three times since — the hands of a man keeping busy so they will not shake.",
+        "states" : {
+          "LIE" : {
+            "statement" : "That is my master on the doctor's table, sir. Nineteen years I dressed that man; I'd know him among ten thousand. I was in the service pantry at the horn and identified him. There is nothing more to say.",
+            "contradictions" : [ {
+              "evidenceId" : "body_is_not_vane",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "bought_identification",
+              "successMessage" : "You speak of the typist's callus, the loose ring, the valise marked P.R. in the hold. Snow's chin drops by degrees, like a flag being struck. 'Nineteen years,' he whispers, 'and my last act for the house of Vane was to lie over its coffin.'"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "It is Mr. Renner. I knew him the moment they drew back the sheet — I dressed them both; I helped make the doubling work. There was a note under my door and five thousand dollars in a bond I dare not cash: 'Say it is your master, and mourn.' I told myself Mr. Vane had his reasons, and that wherever he was, he was alive — my legacy with him. I don't know who paid me. I've been afraid to guess."
+          }
+        }
+      }, {
+        "name" : "CorneliaBlythe",
+        "id" : "corneliablythe",
+        "displayName" : "Mrs. Cornelia Blythe",
+        "imagePath" : "images/cornelia_blythe.png",
+        "imageScaleX" : 2.5017241379310344,
+        "imageScaleY" : 2.5017241379310344,
+        "homeRoom" : "Smoking Room",
+        "posX" : 0.9030874785591767,
+        "posY" : 0.6160127215551744,
+        "labelDX" : -0.004181203642120084,
+        "labelDY" : 0.4013955496435281,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "I despised Marcus Vane and wrote him unsigned letters for a year — my husband's estate went into his funds and came out as air. But I never left the bridge table from ten till half past one. Now: our Mr. Finch was dummy in the hand before midnight, went off 'for cigarettes' ten minutes, and came back just as the horn died, rather windblown. And his squeeze at trick three — I've seen that played exactly once. At the Meridian Club. Across the table from Marcus Vane.",
+        "clue" : "A year of poison-pen letters freely confessed, and an alibi of three players and her own merciless scoresheet. Her card-table eyes are the sharpest instrument aboard: she clocked the dummy's ten-minute absence at the horn, and she has seen his squeeze before — across a table from the dead man."
+      }, {
+        "name" : "LeonardVoss",
+        "id" : "leonardvoss",
+        "displayName" : "Dr. Leonard Voss",
+        "imagePath" : "images/leonard_voss.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Ships Surgery",
+        "posX" : 0.72,
+        "posY" : 0.58,
+        "labelDX" : 0.017373737373737413,
+        "labelDY" : 0.4167991233085574,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "The record is in order: gunshot, five to eleven, as the watch attests. I examined him myself. I was at the captain's meridian toast when the horn sounded, and I've nothing to add.",
+        "clue" : "His certificate is tidy, brief, and leans its whole weight on a smashed watch. His working notes, filed with the purser, are longer — and the last line of them has been scored through by somebody's pen.",
+        "states" : {
+          "LIE" : {
+            "statement" : "The record is in order: gunshot, five to eleven, as the watch attests. I examined him myself. I was at the captain's meridian toast when the horn sounded, and I've nothing to add.",
+            "contradictions" : [ {
+              "evidenceId" : "true_midnight",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "voss_admission",
+              "successMessage" : "You set the true hour before him — the horn, the Greenwich log, the 47 stolen minutes. Voss polishes his spectacles a long time. 'Rigor does not read wristwatches,' he says. 'I knew the hour was wrong the moment I touched him.'"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "My science said death at the horn, not an hour before — rigor is not sentimental. Mr. Wren asked, for the company, whether I meant to tell three hundred passengers a smashed watch was lying on the season's maiden gala. I let the watch stand and filed my notes underneath. And here's what I was made to score through: the wound was close, the man seated, at ease. He was shot by a visitor he had no reason to fear."
+          }
+        }
+      }, {
+        "name" : "MaxKessler",
+        "id" : "maxkessler",
+        "displayName" : "Mr. Max Kessler",
+        "imagePath" : "images/max_kessler.png",
+        "imageScaleX" : 2.267241379310345,
+        "imageScaleY" : 2.267241379310345,
+        "flipX" : true,
+        "homeRoom" : "Wireless Room",
+        "posX" : 0.6655231560891939,
+        "posY" : 0.5801886792452831,
+        "labelDX" : 0.01886792452830189,
+        "labelDY" : 0.4507337526205451,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "The log doesn't lie, because Greenwich doesn't. Yes, I sell gossip to a New York column — write that down with my compliments. Two things. The Renner telegram was handed across my counter after we cleared harbor, by a gray gentleman who paid double for haste; I'd not know him again. And Mr. Croft stood where you are from 11:50 old time past the quarter-hour, dictating to his wife in tears.",
+        "clue" : "A gossip-peddler with the only honest clock on the ship. His log damns no one and saves two: it puts the 'ashore' secretary's telegram aboard, and it holds Croft at the counter through the true hour — with Kessler himself keying the proof."
+      }, {
+        "name" : "VivianAshe",
+        "id" : "vivianashe",
+        "displayName" : "Miss Vivian Ashe",
+        "imagePath" : "images/vivian_ashe.png",
+        "imageScaleX" : 2.4931034482758623,
+        "imageScaleY" : 2.4931034482758623,
+        "homeRoom" : "First-Class Bar",
+        "posX" : 0.7658662092624356,
+        "posY" : 0.6359884219554031,
+        "labelDX" : -0.01045300910530021,
+        "labelDY" : 0.3825801332539877,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Two seasons of promises, then a check and a berth with the band — Marcus paid people to become the past. And the joke: the check is drawn on the Continental Trust, which fell Thursday, so I was bought with paper worth less than the song I sang when he died. Yes — singing. 'Moonglow.' I held the note straight through that horn, a hundred people watching.",
+        "clue" : "Jilted, exiled to the bandstand, and paid off in a check that died with its bank — motive with interest. But she was mid-song under the spotlights when the horn went, and a salon full of witnesses heard her hold the note through it."
+      }, {
+        "name" : "CharlesWren",
+        "id" : "charleswren",
+        "displayName" : "Mr. Charles Wren",
+        "imagePath" : "images/charles_wren.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Pursers Office",
+        "posX" : 0.6663807890222985,
+        "posY" : 0.6421347913093196,
+        "labelDX" : -0.012292738707833048,
+        "labelDY" : 0.37492853058890785,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "The Meridian's list is the cleanest on the Atlantic, Detective. Every soul aboard was booked and vetted weeks before we sailed — the company would tolerate nothing less, and neither would I.",
+        "clue" : "Twenty years of smooth manifests and smoothly accepted gratuities. His printed list is a work of art; the question is the ink at the bottom of it — and his own working ledger, which seems to have stayed below at the tally desk.",
+        "states" : {
+          "LIE" : {
+            "statement" : "The Meridian's list is the cleanest on the Atlantic, Detective. Every soul aboard was booked and vetted weeks before we sailed — the company would tolerate nothing less, and neither would I.",
+            "contradictions" : [ {
+              "evidenceId" : "manifest_ledger",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "gangway_bribe",
+              "successMessage" : "You read his own gangway entry back to him — cash, no booking, particulars to follow, gratuity noted. Wren squares the blotter on his desk to a perfect right angle. 'Twenty years,' he says, 'and it would be the quiet one.'"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "A gentleman at the gangway — gray coat, soft voice, a face you forget while looking at it. He paid for B-11 in cash and double again for no questions, and I've sold a hundred small silences in twenty years with never a corpse in one. Yes, I asked Dr. Voss to let the watch stand — the company doesn't launch its flagship season with 'mystery' in the log. At the horn I stood beside the captain for the meridian toast. I didn't know I was selling that man a grave."
+          }
+        }
+      } ],
+      "tasks" : [ "Examine stateroom B-9 and the man in the cold room.", "Walk the ship: the salon, the bar, the wireless room, the hold.", "Question the nine, and weigh what each of them keeps.", "Distrust every clock that was told what to say.", "When you are certain, deliver your verdict in the final exam." ],
+      "rankingTiers" : [ {
+        "rankName" : "Sherlock Holmes",
+        "maxDeductions" : 5,
+        "description" : "A masterly, economical solve.",
+        "winningStatement" : "Peerless. You read the lying watch, raised the dead, and unmasked a man who hired you to bury him. Marcus Vane bought the finest witness on the Atlantic — and drowned in the purchase."
+      }, {
+        "rankName" : "Dr. Watson",
+        "maxDeductions" : 10,
+        "description" : "A thorough and honest investigation.",
+        "winningStatement" : "Soundly reasoned, Detective. The clocks, the corpse, and the quiet man at the card table each lied in turn — and you outlasted all three."
+      }, {
+        "rankName" : "Curious Observer",
+        "maxDeductions" : 0,
+        "description" : "The truth, reached at last.",
+        "defaultRank" : true,
+        "winningStatement" : "You found the truth aboard the Meridian. With a sharper method, you will cross faster next time."
+      } ],
+      "final_exam" : {
+        "questions" : [ {
+          "question_prompt" : "The man in the cold room is ______, and the man who shot him is ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q1s1_vane",
+                "choice_text" : "Marcus Vane, the financier"
+              }, {
+                "choice_id" : "q1s1_renner",
+                "choice_text" : "Paul Renner, his secretary"
+              }, {
+                "choice_id" : "q1s1_finch",
+                "choice_text" : "Aldous Finch, the book dealer"
+              }, {
+                "choice_id" : "q1s1_stowaway",
+                "choice_text" : "an unlisted stowaway"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q1s2_croft",
+                "choice_text" : "Mr. Croft"
+              }, {
+                "choice_id" : "q1s2_snow",
+                "choice_text" : "Mr. Snow"
+              }, {
+                "choice_id" : "q1s2_voss",
+                "choice_text" : "Dr. Voss"
+              }, {
+                "choice_id" : "q1s2_finch",
+                "choice_text" : "Mr. Finch"
+              }, {
+                "choice_id" : "q1s2_wren",
+                "choice_text" : "Mr. Wren"
+              }, {
+                "choice_id" : "q1s2_kessler",
+                "choice_text" : "Mr. Kessler"
+              }, {
+                "choice_id" : "q1s2_ashe",
+                "choice_text" : "Miss Ashe"
+              }, {
+                "choice_id" : "q1s2_blythe",
+                "choice_text" : "Mrs. Blythe"
+              }, {
+                "choice_id" : "q1s2_renner",
+                "choice_text" : "Miss Renner"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q1s1_renner",
+            "slot2" : "q1s2_finch"
+          }
+        }, {
+          "question_prompt" : "The evidence was arranged to hang ______, chiefly by means of ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q2s1_snow",
+                "choice_text" : "Mr. Snow"
+              }, {
+                "choice_id" : "q2s1_ashe",
+                "choice_text" : "Miss Ashe"
+              }, {
+                "choice_id" : "q2s1_kessler",
+                "choice_text" : "Mr. Kessler"
+              }, {
+                "choice_id" : "q2s1_blythe",
+                "choice_text" : "Mrs. Blythe"
+              }, {
+                "choice_id" : "q2s1_wren",
+                "choice_text" : "Mr. Wren"
+              }, {
+                "choice_id" : "q2s1_croft",
+                "choice_text" : "Mr. Croft"
+              }, {
+                "choice_id" : "q2s1_voss",
+                "choice_text" : "Dr. Voss"
+              }, {
+                "choice_id" : "q2s1_finch",
+                "choice_text" : "Mr. Finch"
+              }, {
+                "choice_id" : "q2s1_renner",
+                "choice_text" : "Miss Renner"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q2s2_bribe",
+                "choice_text" : "a bribed identification of the body"
+              }, {
+                "choice_id" : "q2s2_revolver",
+                "choice_text" : "a revolver planted in his cabin trunk"
+              }, {
+                "choice_id" : "q2s2_watch",
+                "choice_text" : "a watch stopped at a chosen minute"
+              }, {
+                "choice_id" : "q2s2_cable",
+                "choice_text" : "a cable sent under his name"
+              }, {
+                "choice_id" : "q2s2_score",
+                "choice_text" : "a marked bridge scoresheet"
+              }, {
+                "choice_id" : "q2s2_letter",
+                "choice_text" : "a threatening letter left on the victim's desk"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q2s1_croft",
+            "slot2" : "q2s2_watch"
+          }
+        }, {
+          "question_prompt" : "The killer buried the true hour of the shot beneath ______, and it was dug out by ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q3s1_gala",
+                "choice_text" : "the noise of the gala"
+              }, {
+                "choice_id" : "q3s1_clocks",
+                "choice_text" : "the advancing of the ship's clocks"
+              }, {
+                "choice_id" : "q3s1_doctor",
+                "choice_text" : "the doctor's tidy certificate"
+              }, {
+                "choice_id" : "q3s1_sealing",
+                "choice_text" : "the hasty sealing of the stateroom"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q3s2_watch",
+                "choice_text" : "the smashed wristwatch"
+              }, {
+                "choice_id" : "q3s2_mantel",
+                "choice_text" : "the stateroom's mantel clock"
+              }, {
+                "choice_id" : "q3s2_wireless",
+                "choice_text" : "the wireless room's Greenwich log"
+              }, {
+                "choice_id" : "q3s2_setlist",
+                "choice_text" : "the bandleader's setlist"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q3s1_clocks",
+            "slot2" : "q3s2_wireless"
+          }
+        }, {
+          "question_prompt" : "'Aldous Finch' was betrayed by ______, and the fortune crossed the ocean in ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q4s1_face",
+                "choice_text" : "his face, recognized at last"
+              }, {
+                "choice_id" : "q4s1_valet",
+                "choice_text" : "the valet's confession"
+              }, {
+                "choice_id" : "q4s1_habits",
+                "choice_text" : "his habits at the card table and the bar"
+              }, {
+                "choice_id" : "q4s1_fear",
+                "choice_text" : "his refusal to view the body"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q4s2_safe",
+                "choice_text" : "the purser's twin safes"
+              }, {
+                "choice_id" : "q4s2_crate",
+                "choice_text" : "a crate of rare books"
+              }, {
+                "choice_id" : "q4s2_mail",
+                "choice_text" : "the sealed mail-room sacks"
+              }, {
+                "choice_id" : "q4s2_lifeboat",
+                "choice_text" : "a locker under a lifeboat"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q4s1_habits",
+            "slot2" : "q4s2_crate"
+          }
+        }, {
+          "question_prompt" : "The invitation that brought you aboard was written by ______, so that ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q5s1_croft",
+                "choice_text" : "Mr. Croft"
+              }, {
+                "choice_id" : "q5s1_dead",
+                "choice_text" : "the dead man himself"
+              }, {
+                "choice_id" : "q5s1_wren",
+                "choice_text" : "Mr. Wren"
+              }, {
+                "choice_id" : "q5s1_finch",
+                "choice_text" : "Mr. Finch"
+              }, {
+                "choice_id" : "q5s1_ashe",
+                "choice_text" : "Miss Ashe"
+              }, {
+                "choice_id" : "q5s1_kessler",
+                "choice_text" : "Mr. Kessler"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q5s2_enemies",
+                "choice_text" : "his enemies would gather where he could watch them"
+              }, {
+                "choice_id" : "q5s2_frame",
+                "choice_text" : "the frame around Mr. Croft would hold fast"
+              }, {
+                "choice_id" : "q5s2_witness",
+                "choice_text" : "the world's finest witness would certify his death"
+              }, {
+                "choice_id" : "q5s2_bonds",
+                "choice_text" : "the bonds would cross the ocean unquestioned"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q5s1_finch",
+            "slot2" : "q5s2_witness"
+          }
+        } ]
+      }
+    },
+    "ar" : {
+      "languageName" : "العربية",
+      "title" : "عبور خط الزوال",
+      "invitation" : "إلى السيد شرلوك هولمز،\nشارع بيكر ٢٢١ب،\nلندن.\n\nعزيزي السيد هولمز،\nسيُقتل رجل على متن الميريديان بين نيويورك وساوثهامبتون. حجزتُ لك المقصورة B-7 كي يرى أذكى عقل في إنجلترا الجريمة ويسمّيها. لا تُخبر أحدًا.\nبعد خمسة أيام من الانهيار، تُبحر الباخرة العظيمة شرقًا مثقلة بالمدمَّرين. تعال، وراقب.\n\n— صديق\n\n(في أول ليلة، عند بوق منتصف الليل — اللحظة التي تقفز فيها كل ساعة على المتن إلى الأمام — يُقتل ماركوس فاين رميًا بالرصاص في المقصورة B-9، ولا أثر على السفينة لثروته من السندات لحاملها. ساعته المحطمة تحدد الوقت. لا تصدّقها.)",
+      "description" : "أكتوبر 1929. باخرة على طراز الآرت ديكو في وسط الأطلسي، بعد خمسة أيام من الانهيار. مموّل قُتل تحت بوق منتصف الليل، وساعة محطمة تكذب، ورسالة وعدتك بهذه الجريمة قبل وقوعها.",
+      "roomDetails" : [ {
+        "name" : "Grand Foyer",
+        "displayName" : "البهو الكبير",
+        "description" : "قلب الميريديان من الكروم والجوز: تطعيم على شكل شمس مشرقة، ودرج بدرابزين من النيكل، وقائمة الركاب المؤطرة، وإعلانات الشركة تحت الزجاج."
+      }, {
+        "name" : "Stateroom B-9",
+        "displayName" : "المقصورة B-9",
+        "description" : "مقصورة ماركوس فاين، مختومة منذ حُملت الجثة. كرسي المكتب يواجه الباب؛ من أطلق عليه النار وقف حيث يقف الزائر، وأُدخل بإذن."
+      }, {
+        "name" : "Grand Salon",
+        "displayName" : "الصالة الكبرى",
+        "description" : "قاعة رقص من طابقين بزجاج مصنفر ونخيل فضي. ما تزال زينة الحفل معلقة، والمنصة مهيّأة لهذه الليلة كأن السفينة لا تحمل جثة."
+      }, {
+        "name" : "Smoking Room",
+        "displayName" : "غرفة التدخين",
+        "description" : "جلد أخضر، ولاكيه أسود، وطقطقة الورق الناعمة. رباعيات البريدج تجتمع هنا كل مساء، جريمة أو لا جريمة."
+      }, {
+        "name" : "First-Class Bar",
+        "displayName" : "حانة الدرجة الأولى",
+        "description" : "منضدة نصف قمرية مطلية باللاكيه تحت إفريز من كلاب السلوقي الكرومية. أنطوان الساقي يعلّق كل قسيمة موقّعة على مسمار، بالترتيب، كأنها يوميات السفينة."
+      }, {
+        "name" : "Promenade Deck",
+        "displayName" : "سطح النزهة",
+        "description" : "امتداد من خشب الساج تعصف به الريح، وكراسي سطح خالية. الأطلسي واسع جدًّا وبارد جدًّا، ويحتفظ بكل ما يُلقى إليه — تقريبًا."
+      }, {
+        "name" : "Wireless Room",
+        "displayName" : "غرفة اللاسلكي",
+        "description" : "حجرة ضيقة من مفاتيح مورس ودخان السجائر وساعة صارمة واحدة — مضبوطة على توقيت غرينتش، لا تُعدّل لأحد، ولا تخضع لشيء على متن هذه السفينة."
+      }, {
+        "name" : "Ships Surgery",
+        "displayName" : "عيادة السفينة",
+        "description" : "مينا أبيض ورائحة مطهّر. في الغرفة الباردة خلف الستارة يرقد الرجل الذي تظنه السفينة ماركوس فاين."
+      }, {
+        "name" : "Pursers Office",
+        "displayName" : "مكتب أمين الصندوق",
+        "description" : "شبكة نحاسية، وخزنتان متطابقتان، وملفات في نظام تام. كل ما يحدث رسميًّا على متن الميريديان يُدوَّن في هذه الغرفة — وهذا ليس كل ما يحدث."
+      }, {
+        "name" : "Baggage Hold",
+        "displayName" : "عنبر الأمتعة",
+        "description" : "تحت خط الماء: صناديق مصفوفة، ومنضدة الجرد حيث سُجّلت الأمتعة المتأخرة، والعتمة الهادئة الخاصة التي لا تزورها الدرجة الأولى أبدًا."
+      } ],
+      "objectDetails" : [ {
+        "name" : "your_invitation",
+        "displayName" : "دعوتك",
+        "description" : "الرسالة المطبوعة بلا توقيع التي جاءت بك إلى السفينة، محفوظة في محفظتك.",
+        "examine" : "«سيُقتل رجل على متن الميريديان...» مكتوبة على آلة محمولة — وحرف الـ 'e' الصغير يهبط تحت السطر في كل مرة، كتوقيع لم يدرِ كاتبه أنه يمنحه.",
+        "deduce" : "من كتب هذا عرف بالجريمة قبل وقوعها — بيقين كافٍ ليحجز لك مقصورة. ليست تحذيرًا. بل ترتيبًا. اعثر على الآلة ذات الـ 'e' الهابط تجد «صديقك»."
+      }, {
+        "name" : "clock_notice",
+        "displayName" : "إعلان الشركة",
+        "description" : "إعلان للشركة بإطار مذهّب قرب الدرج، مؤرخ بيوم الإبحار.",
+        "examine" : "«يُنبَّه الركاب إلى أن ساعات السفينة ستُقدَّم 47 دقيقة عند بوق منتصف الليل، في هذه الليلة وكل ليلة من الرحلة المتجهة شرقًا.»",
+        "deduce" : "كل ساعة على المتن قفزت إلى الأمام في ساعة الحفل ذاتها — ومعها إحساس كل شاهد أمين بالوقت. ليلة يمكن فيها جعل الوقت نفسه يكذب."
+      }, {
+        "name" : "passenger_list",
+        "displayName" : "قائمة الركاب",
+        "description" : "قائمة ركاب الدرجة الأولى المطبوعة، مؤطرة إلى جوار الدرج.",
+        "examine" : "طباعة أنيقة، مرتبة أبجديًّا، كاملة — وتحت خط الطابع، سطر واحد مضاف بالحبر: 'A. FINCH, STATEROOM B-11 — late embarkation.'",
+        "deduce" : "كل اسم في هذه القائمة صُفَّ حروفًا قبل الإبحار بأيام. راكب واحد لا وجود له إلا بالحبر. أصحاب الطباعة لهم تواريخ؛ أصحاب الحبر لهم أسباب."
+      }, {
+        "name" : "smashed_watch",
+        "displayName" : "ساعة اليد المحطمة",
+        "description" : "ساعة يد القتيل، زجاجها محطم، متوقفة عند 10:55.",
+        "examine" : "متوقفة عند 10:55 بالضبط. ومع ذلك فالسوار غير مخدوش، والتاج في مكانه، والزجاج المكسور يقع في بركة صغيرة مرتبة — لا مقذوفًا كما في سقطة أو عراك.",
+        "deduce" : "الساعة لا تثبت شيئًا عن الموت — بل ما جُعلت تقوله قبل أن تُكسر. إن كان 10:55 مختارًا، فاسأل من يُدينه ومن يُنجيه."
+      }, {
+        "name" : "threat_letter",
+        "displayName" : "رسالة التهديد",
+        "description" : "رسالة مفتوحة على مكتب المقصورة، على ورق فندق كريمي اللون.",
+        "examine" : "ورق فندق إكسلسيور: 'You will not live to spend it. You die before Southampton.' بلا توقيع — لكن إلياس كروفت احتفظ بجناح في الإكسلسيور إحدى عشرة سنة، ونصف السفينة يعرف ذلك.",
+        "deduce" : "تهديد بالقتل تُرك مفرودًا بتهذيب على مكتب الضحية، حيث لا يفوت أحدًا. التهديدات تُرسَل لتُرهب؛ أما هذا فوُضع ليُعثر عليه."
+      }, {
+        "name" : "mantel_clock",
+        "displayName" : "ساعة الرفّ",
+        "description" : "ساعة رفّ نحاسية صغيرة في المقصورة، ما تزال تدقّ على الرفّ فوق المكتب.",
+        "examine" : "تعمل بإتقان، لم يمسّها عراك — وتتأخر 47 دقيقة عن ساعات الممر. تعديل الخادم لمنتصف الليل لم يصل هذه الغرفة: خُتمت أولًا.",
+        "deduce" : "ذاكرة الغرفة عن تلك الليلة، بلا عبث: هذه الساعة ما تزال على التوقيت القديم، من قبل البوق. قِس أي شيء هنا إليها."
+      }, {
+        "name" : "band_setlist",
+        "displayName" : "قائمة عزف قائد الفرقة",
+        "description" : "برنامج الحفل للأوركسترا، مُعلَّق عليه بقلم قائد الفرقة، متروك على المنصة.",
+        "examine" : "كل مقطوعة موقوتة بالقلم. 'Miss Ashe — Moonglow — بدأت 11:56، استمرت خلال البوق، انتهت 12:51 بالتوقيت الجديد. الجمهور واقف.'",
+        "deduce" : "مهما غطّى البوق، فإنه لم يغطِّ فيفيان آش: كانت تحت الأضواء، في منتصف أغنيتها، والصالة كلها تشاهدها، حين دوّى."
+      }, {
+        "name" : "bridge_scoresheet",
+        "displayName" : "كشف نقاط البريدج",
+        "description" : "كشف نقاط ليلة أمس من رباعي غرفة التدخين المعتاد، بخط السيدة بلايث الدقيق.",
+        "examine" : "أربع جولات، مسجّلة بلا رحمة. إلى جوار الثالثة، بقلم السيدة بلايث: 'Mr. F.، «الطاولة الميتة» في الجولة قبل منتصف الليل، خرج لتدخين سيجارة — عشر دقائق. عاد مع البوق. ضغطته في اللعبة الثالثة — ضغطة نادي الميريديان القديمة.'",
+        "deduce" : "السيد فينش — «الطاولة الميتة»، فحرًّا في التنقل — كان غائبًا في لحظة البوق ذاتها، وهو يلعب اصطلاحًا لصاحب واحد معروف. البريدج، كخط اليد، بصمة."
+      }, {
+        "name" : "bar_chit",
+        "displayName" : "قسيمة الحانة الموقّعة",
+        "description" : "قسيمة من مسمار أنطوان في حانة الدرجة الأولى، موقّعة 'A. Finch'، في أول مساء.",
+        "examine" : "'Two Sidecars — برتقال، لا ليمون.' وتحتها بقلم أنطوان: 'سألت السيد: كما في أيام نادي الميريديان القديمة يا سيدي؟ فامتقع وجهه ووقّع دون كلمة.'",
+        "deduce" : "رجل واحد في عشرين عامًا من عمل الساقي أصرّ على البرتقال في السايدكار — واسم ذلك الرجل ليس فينش. الوجه يمكن تدريبه. أما العطش فلا."
+      }, {
+        "name" : "found_revolver",
+        "displayName" : "مسدس في مجرى السطح",
+        "description" : "مسدس صغير عثر عليه بحّار في مجرى تصريف السطح، على بُعد خطوتين من كرسي إلياس كروفت المرقّم.",
+        "examine" : "عيار .32، طلقة واحدة أُطلقت، والنيكل ما يزال مرصّعًا برذاذ البحر. الحرفان E.C. محفوران في المقبض. أُلقي نحو البحر — لكنه سقط على بُعد قدمين منه، في مرأى الجميع.",
+        "deduce" : "الأطلسي يبتلع ما يُلقى إليه؛ وقاتل عند السور لا يُخطئ المحيط كله. هذا المسدس لم يُرمَ. بل سُلِّم."
+      }, {
+        "name" : "telegram_log",
+        "displayName" : "سجل اللاسلكي",
+        "description" : "سجل الرسائل الصادرة من غرفة اللاسلكي، بخط كسلر الآلي، بتوقيت غرينتش.",
+        "examine" : "يوم الإبحار، 7:40 مساءً، سُلِّم على المتن: 'MISS N. RENNER — STAYING ASHORE, GRIPPE. — P. RENNER.' وليلة الحفل: 'MR. E. CROFT، سُلِّم 11:50 بتوقيت السفينة القديم، عند المنضدة حتى 12:16.'",
+        "deduce" : "السجل يلتزم غرينتش، لم يُعدَّل لأي بوق. برقية من رجل يُفترض أنه على البرّ سُلِّمت على متن هذه السفينة — وكروفت وقف عند هذه المنضدة طوال الساعة الحقيقية للطلقة."
+      }, {
+        "name" : "body_hands",
+        "displayName" : "يدا القتيل",
+        "description" : "الجثة في الغرفة الباردة، مغطاة حتى الرسغين. اليدان هما ما لم ينظر إليه التعرّف المتعجّل.",
+        "examine" : "ثفن الكاتب على الإصبع الوسطى؛ وأخدود قلم حفره عشرون عامًا من مراسلات رجل آخر. وخاتم فاين الزمردي الشهير — متدلٍّ فضفاضًا، أكبر بمقاس كامل.",
+        "deduce" : "الوجوه هي ما يُختار الشبيه لأجله؛ واليدان ما يفضحانه. هاتان يدا رجل كتب ليعيش — والخاتم صُنع لغيره."
+      }, {
+        "name" : "voss_notes",
+        "displayName" : "ملاحظات فحص الطبيب",
+        "description" : "ملاحظات الدكتور فوس، محفوظة لدى أمين الصندوق تحت سجل الوفاة الرسمي المرتّب.",
+        "examine" : "السجل يقول إن الوفاة عند 10:55، بحسب الساعة. الملاحظات تحته تقول غير ذلك: التيبّس 'يتوافق مع وفاة عند بوق منتصف الليل — لا قبله بساعة'؛ والجرح 'من مسافة قريبة، والقتيل جالس.' السطر الأخير مشطوب.",
+        "deduce" : "علم الجرّاح يخاصم الشهادة التي وقّعها. تفصيل واحد نجا من الشطب: القتيل جلس ساكنًا لقاتله — أطلق عليه النار من لا سبب لديه ليخشاه."
+      }, {
+        "name" : "manifest_ledger",
+        "displayName" : "سجل الصعود",
+        "description" : "سجل عمل أمين الصندوق، مُتروك عند منضدة الجرد في العنبر حيث سُجّلت الأمتعة المتأخرة.",
+        "examine" : "تعديلات رِن عند المعبر: 'B-11, A. Finch — نقدًا، بلا حجز، تفاصيل الجواز لاحقًا.' وأسفلها: 'السيد فاين — يرفض خزنة السفينة. صندوق واحد، كتب، خاص — إلى العنبر، بقفله الخاص.'",
+        "deduce" : "راكب بلا ماضٍ دفع نقدًا، بلا أسئلة. وأغنى رجل على المتن لم يأتمن الخزنة على شيء — لكنه أقفل صندوق كتب في العنبر كأنه يحوي ثروته."
+      }, {
+        "name" : "book_crate",
+        "displayName" : "صندوق كتب فينش",
+        "description" : "صندوق متين مختوم عليه 'A. FINCH — RARE BOOKS — FRAGILE'، تحت قفل خاص في العنبر.",
+        "examine" : "تجليدات فاخرة — وصف مزيّف: ستة مجلدات مجوّفة محشوة بسندات لحاملها. تحتها محبرة فضية منقوش عليها M.V.، وآلة كاتبة محمولة حرف الـ 'e' الصغير فيها يهبط تحت السطر.",
+        "deduce" : "صندوق تاجر كتب يحوي ثروة مموّل، وشعاره، والآلة التي طبعت دعوتك. ألدوس فينش رفٌّ يقف خلفه ماركوس فاين."
+      }, {
+        "name" : "renner_valise",
+        "displayName" : "حقيبة بلا صاحب",
+        "description" : "حقيبة بالية على رفّ المفقودات، بطاقتها تحمل الحرفين P.R.، سُجّلت على المتن قبل الإبحار بساعة.",
+        "examine" : "نظارة احتياطية، وورق كربون، وإنجيل مكتوب على صفحته الأولى 'Pauly, from Nora' — وياقة وأزرار درجة أولى تفوق أجر سكرتير، معبّأة جديدة في ورق حريري.",
+        "deduce" : "أغراض بول رينر أبحرت وإن قالت برقيته إنه لم يُبحر. سكرتير عبّأ ياقة رجل ثري — لأنه في رحلة واحدة كان سيصبح الرجل الثري."
+      } ],
+      "suspects" : [ {
+        "name" : "EliasCroft",
+        "id" : "eliascroft",
+        "displayName" : "السيد إلياس كروفت",
+        "imagePath" : "images/elias_croft.png",
+        "imageScaleX" : 2.189655172413793,
+        "imageScaleY" : 2.189655172413793,
+        "homeRoom" : "Promenade Deck",
+        "posX" : 0.48198970840480276,
+        "posY" : 0.5745247284162378,
+        "labelDX" : -0.010243948923194206,
+        "labelDY" : 0.40361158757385174,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "نعم، قلت إنه سيموت قبل ساوثهامبتون، وسأقولها فوق نعشه. ألقى ثلاثين عامًا من عملي في آلة الأسهم. لكنني لست قاتلًا — لم أحمل إلى المتن سوى خرابي.",
+        "clue" : "أعلى تظلّم على السفينة، وكل دليل يشير إليه بلطف — الرسالة، الساعة، المسدس بجوار كرسيه. يقسم أنه صعد أعزل، وهذا ادعاء يمكن أن يختبره ما وجده البحّار.",
+        "states" : {
+          "LIE" : {
+            "statement" : "نعم، قلت إنه سيموت قبل ساوثهامبتون، وسأقولها فوق نعشه. ألقى ثلاثين عامًا من عملي في آلة الأسهم. لكنني لست قاتلًا — لم أحمل إلى المتن سوى خرابي.",
+            "contradictions" : [ {
+              "evidenceId" : "found_revolver",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "croft_truth",
+              "successMessage" : "تدير المقبض نحوه: E.C.، محفوران في النيكل. يحدّق كروفت لحظة طويلة، وتخرج منه الجعجعة. «إذن هنا ذهب»، يقول بهدوء."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "إنه لي. حملته لأضعه تحت ذقنه وأجبره على إعادة ما سرق. سُرق من صندوقي أول ظهيرة — وكيف لرجل مُدمَّر أن يبلّغ عن مسدس عبّأه؟ غادرت الحفل قبل الحادية عشرة، ومشيت على السطح وحدي، ثم أبرقت لزوجتي أننا انتهينا. كنت ما أزال عند المنضدة حين دوّى البوق."
+          }
+        }
+      }, {
+        "name" : "AldousFinch",
+        "id" : "aldousfinch",
+        "displayName" : "السيد ألدوس فينش",
+        "imagePath" : "images/aldous_finch.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Grand Salon",
+        "posX" : 0.7024013722126929,
+        "posY" : 0.5852808747855918,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "عمل مروّع، ولا شأن لي به. لم ألتقِ السيد فاين قط؛ أتاجر بالكتب لا بالأسهم. كنت على طاولة البريدج طوال المساء — وغرفة التدخين تشهد بذلك.",
+        "clue" : "رجل رمادي مهذّب لا يذكر أحد صعوده، حجّته كلها طاولة ورق — وهويّته كلها سطر حبر واحد على قائمة مطبوعة. يشاهد أعقاب الجريمة كما يشاهد الرجال الآخرون البحر.",
+        "states" : {
+          "LIE" : {
+            "statement" : "عمل مروّع، ولا شأن لي به. لم ألتقِ السيد فاين قط؛ أتاجر بالكتب لا بالأسهم. كنت على طاولة البريدج طوال المساء — وغرفة التدخين تشهد بذلك.",
+            "contradictions" : [ {
+              "evidenceId" : "finch_is_vane",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "vane_confession",
+              "successMessage" : "تسمّي الكوكتيل، والضغطة في اللعبة الثالثة، والحبر عند المعبر، والصندوق تحت خط الماء. يصغي الرجل الرمادي مغمض العينين، كخبير. «بلا عيب»، يقول ماركوس فاين. «أحسنت اختيار شاهدي.»"
+            }, {
+              "evidenceId" : "summons_from_the_grave",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "vane_confession",
+              "successMessage" : "تضع دعوتك إلى جوار حرف الـ 'e' الهابط لآلة صندوقه. يتأمل الصفحتين كتاجر يوثّق طبعة أولى. «طبعتها ليلة سقوط الكونتيننتال»، يقول ماركوس فاين. «الموت لا يساوي إلا بقدر شاهده. اشتريت الأفضل.»"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "الانهيار لم يدمّرني — بل جعل «ماركوس فاين» بلا قيمة، وأنا لا أحتفظ بأصل بلا قيمة. كان بول ينوب عني سنوات؛ صعد بصفتي، يلوّح للكاميرات، ظانًّا أنها حيلة أخرى للتملّص من المأمورين. صعدت بعده بساعة بصفتي لا أحد. عند البوق زرته — سكب لي شرابًا، جلس، ولم يدرِ. أعدت ساعته إلى الوقت الذي كان فيه كروفت يذرع الأسطح وحده؛ الأحمق هدّدني أمام خمسين شاهدًا وبنى مشنقته بنفسه. السندات تعبر داخل التجليدات، والتأمين يدفع لشركة أملكها، والعالم يكفّ عن مطاردة رجل ميت. متقن — إلا أن شراب رجل ميت طلبه رجل حيّ."
+          }
+        }
+      }, {
+        "name" : "NoraRenner",
+        "id" : "norarenner",
+        "displayName" : "الآنسة نورا رينر",
+        "imagePath" : "images/nora_renner.png",
+        "imageScaleX" : 2.027586206896552,
+        "imageScaleY" : 2.027586206896552,
+        "homeRoom" : "Grand Foyer",
+        "posX" : 0.6560891938250428,
+        "posY" : 0.7005253001715266,
+        "labelDX" : 0.006271805463180126,
+        "labelDY" : 0.39303314235928793,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "ما كان ينبغي أن أكون هنا — الدرجة الثانية تُقفل بعد العاشرة. أريد فقط إرسال برقية إلى أخي. بول سكرتير السيد فاين؛ قالت برقية إنه بقي على البرّ بسبب الزكام. لكن يا سيدي — بول يكتب لي كل يوم منذ كنت في التاسعة، ولم يوقّع قط 'P. Renner'. يوقّع 'Pauly'. دائمًا. وكان يقول إن أفضل عمل يتقاضى عنه أجرًا هو الوقوف عند النوافذ بمعطف السيد فاين.",
+        "clue" : "محبوسة خلف بوابات الدرجة الثانية طوال الليل، لا شيء تكسبه وأخ تخشى فقده. شهادتها تحمل جوهرتين: البرقية الموقّعة بالاسم الخطأ، وسكرتير يُدفع له ليرتدي معطف سيده عند النوافذ."
+      }, {
+        "name" : "GilbertSnow",
+        "id" : "gilbertsnow",
+        "displayName" : "السيد جيلبرت سنو",
+        "imagePath" : "images/gilbert_snow.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Stateroom B-9",
+        "posX" : 0.26758147512864494,
+        "posY" : 0.6129395368782161,
+        "labelDX" : 0.008195159138555366,
+        "labelDY" : 0.3831236897274633,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "هذا سيدي على طاولة الطبيب يا سيدي. تسعة عشر عامًا ألبسته؛ أعرفه بين عشرة آلاف. كنت في مطبخ الخدمة عند البوق وتعرّفت عليه. لا مزيد.",
+        "clue" : "تسعة عشر عامًا من الخدمة، وإرث في الوصية يعرفه الجميع، وتعرّف تمّ بنظرة واحدة قبل أن تُختم الجثة. كوى البدلة نفسها ثلاث مرات منذ ذلك الحين — يدا رجل يشغل نفسه لئلا ترتجفا.",
+        "states" : {
+          "LIE" : {
+            "statement" : "هذا سيدي على طاولة الطبيب يا سيدي. تسعة عشر عامًا ألبسته؛ أعرفه بين عشرة آلاف. كنت في مطبخ الخدمة عند البوق وتعرّفت عليه. لا مزيد.",
+            "contradictions" : [ {
+              "evidenceId" : "body_is_not_vane",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "bought_identification",
+              "successMessage" : "تتحدث عن ثفن الكاتب، والخاتم الفضفاض، والحقيبة التي تحمل P.R. في العنبر. يهبط ذقن سنو درجةً درجة، كعَلَم يُنزَل. «تسعة عشر عامًا»، يهمس، «وآخر ما فعلته لبيت فاين أن كذبت فوق نعشه.»"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "إنه السيد رينر. عرفته لحظة رفعوا الغطاء — ألبستهما كليهما؛ ساعدت في إنجاح النيابة. كانت ورقة تحت بابي وخمسة آلاف دولار في سند لا أجرؤ على صرفه: 'قل إنه سيدك، وابكِ.' قلت لنفسي إن للسيد فاين أسبابه، وإنه أينما كان فهو حيّ — وإرثي معه. لا أعرف من دفع لي. كنت أخشى أن أخمّن."
+          }
+        }
+      }, {
+        "name" : "CorneliaBlythe",
+        "id" : "corneliablythe",
+        "displayName" : "السيدة كورنيليا بلايث",
+        "imagePath" : "images/cornelia_blythe.png",
+        "imageScaleX" : 2.5017241379310344,
+        "imageScaleY" : 2.5017241379310344,
+        "homeRoom" : "Smoking Room",
+        "posX" : 0.9030874785591767,
+        "posY" : 0.6160127215551744,
+        "labelDX" : -0.004181203642120084,
+        "labelDY" : 0.4013955496435281,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "احتقرت ماركوس فاين وكتبت له سنة رسائل بلا توقيع — تركة زوجي دخلت صناديقه وخرجت هواءً. لكني لم أغادر طاولة البريدج من العاشرة حتى الواحدة والنصف. والآن: السيد فينش كان «الطاولة الميتة» في الجولة قبل منتصف الليل، وانسحب 'لتدخين سيجارة' عشر دقائق، وعاد لحظة خفت البوق، تعصف به الريح. وضغطته في اللعبة الثالثة — رأيتها تُلعب مرة واحدة بالضبط. في نادي الميريديان. على طاولة قبالة ماركوس فاين.",
+        "clue" : "سنة من رسائل السمّ تعترف بها بحرّية، وحجّة غياب من ثلاثة لاعبين وكشف نقاطها الذي لا يرحم. عيناها على طاولة الورق أحدّ أداة على المتن: رصدت غياب «الطاولة الميتة» عشر دقائق عند البوق، ورأت ضغطته من قبل — على طاولة قبالة القتيل."
+      }, {
+        "name" : "LeonardVoss",
+        "id" : "leonardvoss",
+        "displayName" : "الدكتور ليونارد فوس",
+        "imagePath" : "images/leonard_voss.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Ships Surgery",
+        "posX" : 0.72,
+        "posY" : 0.58,
+        "labelDX" : 0.017373737373737413,
+        "labelDY" : 0.4167991233085574,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "السجل سليم: طلق ناري، الحادية عشرة إلا خمسًا، كما تشهد الساعة. فحصته بنفسي. كنت في نخب خط الزوال عند القبطان حين دوّى البوق، ولا شيء لأضيفه.",
+        "clue" : "شهادته مرتّبة، موجزة، وتضع ثقلها كله على ساعة محطمة. ملاحظات عمله، المحفوظة لدى أمين الصندوق، أطول — وسطرها الأخير شُطب بقلم أحدهم.",
+        "states" : {
+          "LIE" : {
+            "statement" : "السجل سليم: طلق ناري، الحادية عشرة إلا خمسًا، كما تشهد الساعة. فحصته بنفسي. كنت في نخب خط الزوال عند القبطان حين دوّى البوق، ولا شيء لأضيفه.",
+            "contradictions" : [ {
+              "evidenceId" : "true_midnight",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "voss_admission",
+              "successMessage" : "تضع الساعة الحقيقية أمامه — البوق، وسجل غرينتش، والدقائق الـ47 المسروقة. يمسح فوس نظارته طويلًا. «التيبّس لا يقرأ ساعات اليد»، يقول. «عرفت أن الوقت خطأ لحظة لمسته.»"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "علمي قال إن الوفاة عند البوق، لا قبله بساعة — التيبّس لا يعرف العاطفة. سألني السيد رِن، نيابة عن الشركة، هل أنوي إخبار ثلاثمئة راكب أن ساعة محطمة تكذب في حفل افتتاح الموسم. تركت الساعة قائمة وحفظت ملاحظاتي تحتها. وإليك ما أُجبرت على شطبه: كان الجرح قريبًا، والرجل جالسًا مطمئنًا. أطلق عليه النار زائرٌ لا سبب لديه ليخشاه."
+          }
+        }
+      }, {
+        "name" : "MaxKessler",
+        "id" : "maxkessler",
+        "displayName" : "السيد ماكس كسلر",
+        "imagePath" : "images/max_kessler.png",
+        "imageScaleX" : 2.267241379310345,
+        "imageScaleY" : 2.267241379310345,
+        "flipX" : true,
+        "homeRoom" : "Wireless Room",
+        "posX" : 0.6655231560891939,
+        "posY" : 0.5801886792452831,
+        "labelDX" : 0.01886792452830189,
+        "labelDY" : 0.4507337526205451,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "السجل لا يكذب، لأن غرينتش لا يكذب. نعم، أبيع النميمة لعمود في نيويورك — دوّن ذلك بتحياتي. أمران. برقية رينر سُلِّمت عبر منضدتي بعد مغادرة الميناء، من سيد رمادي دفع الضعف مقابل السرعة؛ لن أعرفه ثانية. والسيد كروفت وقف حيث تقف من 11:50 بالتوقيت القديم حتى بعد الربع، يملي على زوجته باكيًا.",
+        "clue" : "بائع نميمة يملك الساعة الأمينة الوحيدة على السفينة. سجله لا يُدين أحدًا ويُنجي اثنين: يضع برقية السكرتير 'الذي على البرّ' على المتن، ويثبّت كروفت عند المنضدة طوال الساعة الحقيقية — وكسلر نفسه يرسل الدليل."
+      }, {
+        "name" : "VivianAshe",
+        "id" : "vivianashe",
+        "displayName" : "الآنسة فيفيان آش",
+        "imagePath" : "images/vivian_ashe.png",
+        "imageScaleX" : 2.4931034482758623,
+        "imageScaleY" : 2.4931034482758623,
+        "homeRoom" : "First-Class Bar",
+        "posX" : 0.7658662092624356,
+        "posY" : 0.6359884219554031,
+        "labelDX" : -0.01045300910530021,
+        "labelDY" : 0.3825801332539877,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "موسمان من الوعود، ثم شيك ومبيت مع الفرقة — ماركوس كان يدفع للناس ليصيروا ماضيًا. والطرفة: الشيك مسحوب على كونتيننتال ترست الذي سقط الخميس، فاشتُريت بورق أرخص من الأغنية التي غنّيتها حين مات. نعم — أغنّي. 'Moonglow.' حافظت على النغمة طوال ذلك البوق ومئة شخص يشاهدون.",
+        "clue" : "مهجورة، منفيّة إلى المنصة، ومدفوع لها بشيك مات مع مصرفه — دافع مع فوائد. لكنها كانت في منتصف أغنيتها تحت الأضواء حين دوّى البوق، وصالة مملوءة بالشهود سمعتها تحافظ على النغمة خلاله."
+      }, {
+        "name" : "CharlesWren",
+        "id" : "charleswren",
+        "displayName" : "السيد تشارلز رِن",
+        "imagePath" : "images/charles_wren.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Pursers Office",
+        "posX" : 0.6663807890222985,
+        "posY" : 0.6421347913093196,
+        "labelDX" : -0.012292738707833048,
+        "labelDY" : 0.37492853058890785,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "قائمة الميريديان أنظف قائمة في الأطلسي أيها المحقق. كل روح على المتن حُجزت ودُقّق فيها قبل الإبحار بأسابيع — الشركة لا تقبل بأقل، وأنا كذلك.",
+        "clue" : "عشرون عامًا من كشوف سلسة وإكراميات تُقبل بسلاسة. قائمته المطبوعة تحفة؛ والسؤال هو الحبر في أسفلها — وسجل عمله الخاص، الذي يبدو أنه بقي في الأسفل عند منضدة الجرد.",
+        "states" : {
+          "LIE" : {
+            "statement" : "قائمة الميريديان أنظف قائمة في الأطلسي أيها المحقق. كل روح على المتن حُجزت ودُقّق فيها قبل الإبحار بأسابيع — الشركة لا تقبل بأقل، وأنا كذلك.",
+            "contradictions" : [ {
+              "evidenceId" : "manifest_ledger",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "gangway_bribe",
+              "successMessage" : "تقرأ عليه قيده عند المعبر — نقدًا، بلا حجز، التفاصيل لاحقًا، الإكرامية مثبّتة. يعدّل رِن ورقة النشّاف إلى زاوية قائمة تامة. «عشرون عامًا»، يقول، «وكان لا بد أن يكون الهادئ.»"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "سيد عند المعبر — معطف رمادي، صوت خفيض، وجه تنساه وأنت تنظر إليه. دفع مقابل B-11 نقدًا والضعف مقابل ألا تُطرح أسئلة، وقد بعت مئة صمت صغير في عشرين عامًا دون جثة في واحد منها. نعم، طلبت من الدكتور فوس أن يترك الساعة قائمة — الشركة لا تفتتح موسم سفينتها الرئيسية بكلمة 'لغز' في السجل. عند البوق وقفت إلى جانب القبطان لنخب خط الزوال. لم أعرف أني أبيع ذلك الرجل قبرًا."
+          }
+        }
+      } ],
+      "tasks" : [ "افحص المقصورة B-9 والرجل في الغرفة الباردة.", "طُف بالسفينة: الصالة، والحانة، وغرفة اللاسلكي، والعنبر.", "استجوب التسعة، وزِن ما يخفيه كل منهم.", "لا تثق بأي ساعة قيل لها ماذا تقول.", "وحين تتيقن، أصدر حكمك في الاختبار الأخير." ],
+      "rankingTiers" : [ {
+        "rankName" : "Sherlock Holmes",
+        "maxDeductions" : 5,
+        "description" : "حلٌّ بارع مقتصد.",
+        "winningStatement" : "لا يُضاهى. قرأت الساعة الكاذبة، وأنهضت الميت، وكشفت رجلًا استأجرك لتدفنه. اشترى ماركوس فاين أفضل شاهد في الأطلسي — وغرق في الصفقة."
+      }, {
+        "rankName" : "Dr. Watson",
+        "maxDeductions" : 10,
+        "description" : "تحقيق شامل أمين.",
+        "winningStatement" : "استدلال محكم أيها المحقق. الساعات، والجثة، والرجل الهادئ على طاولة الورق كذب كل منها بدوره — وأنت صمدت أمام الثلاثة."
+      }, {
+        "rankName" : "Curious Observer",
+        "maxDeductions" : 0,
+        "description" : "الحقيقة، وقد بُلِغت أخيرًا.",
+        "defaultRank" : true,
+        "winningStatement" : "وجدت الحقيقة على متن الميريديان. بمنهج أمضى، ستعبر أسرع في المرة القادمة."
+      } ],
+      "final_exam" : {
+        "questions" : [ {
+          "question_prompt" : "الرجل في الغرفة الباردة هو ______، ومن أطلق عليه النار هو ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q1s1_vane",
+                "choice_text" : "ماركوس فاين، المموّل"
+              }, {
+                "choice_id" : "q1s1_renner",
+                "choice_text" : "بول رينر، سكرتيره"
+              }, {
+                "choice_id" : "q1s1_finch",
+                "choice_text" : "ألدوس فينش، تاجر الكتب"
+              }, {
+                "choice_id" : "q1s1_stowaway",
+                "choice_text" : "متسلّل غير مُدرَج"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q1s2_croft",
+                "choice_text" : "السيد كروفت"
+              }, {
+                "choice_id" : "q1s2_snow",
+                "choice_text" : "السيد سنو"
+              }, {
+                "choice_id" : "q1s2_voss",
+                "choice_text" : "الدكتور فوس"
+              }, {
+                "choice_id" : "q1s2_finch",
+                "choice_text" : "السيد فينش"
+              }, {
+                "choice_id" : "q1s2_wren",
+                "choice_text" : "السيد رِن"
+              }, {
+                "choice_id" : "q1s2_kessler",
+                "choice_text" : "السيد كسلر"
+              }, {
+                "choice_id" : "q1s2_ashe",
+                "choice_text" : "الآنسة آش"
+              }, {
+                "choice_id" : "q1s2_blythe",
+                "choice_text" : "السيدة بلايث"
+              }, {
+                "choice_id" : "q1s2_renner",
+                "choice_text" : "الآنسة رينر"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q1s1_renner",
+            "slot2" : "q1s2_finch"
+          }
+        }, {
+          "question_prompt" : "رُتِّبت الأدلة لتُدين ______، بواسطة ______ أساسًا.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q2s1_snow",
+                "choice_text" : "السيد سنو"
+              }, {
+                "choice_id" : "q2s1_ashe",
+                "choice_text" : "الآنسة آش"
+              }, {
+                "choice_id" : "q2s1_kessler",
+                "choice_text" : "السيد كسلر"
+              }, {
+                "choice_id" : "q2s1_blythe",
+                "choice_text" : "السيدة بلايث"
+              }, {
+                "choice_id" : "q2s1_wren",
+                "choice_text" : "السيد رِن"
+              }, {
+                "choice_id" : "q2s1_croft",
+                "choice_text" : "السيد كروفت"
+              }, {
+                "choice_id" : "q2s1_voss",
+                "choice_text" : "الدكتور فوس"
+              }, {
+                "choice_id" : "q2s1_finch",
+                "choice_text" : "السيد فينش"
+              }, {
+                "choice_id" : "q2s1_renner",
+                "choice_text" : "الآنسة رينر"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q2s2_bribe",
+                "choice_text" : "تعرّف مدفوع على الجثة"
+              }, {
+                "choice_id" : "q2s2_revolver",
+                "choice_text" : "مسدس دُسّ في صندوق مقصورته"
+              }, {
+                "choice_id" : "q2s2_watch",
+                "choice_text" : "ساعة أُوقفت عند دقيقة مختارة"
+              }, {
+                "choice_id" : "q2s2_cable",
+                "choice_text" : "برقية أُرسلت باسمه"
+              }, {
+                "choice_id" : "q2s2_score",
+                "choice_text" : "كشف نقاط بريدج مُعلَّم"
+              }, {
+                "choice_id" : "q2s2_letter",
+                "choice_text" : "رسالة تهديد تُركت على مكتب الضحية"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q2s1_croft",
+            "slot2" : "q2s2_watch"
+          }
+        }, {
+          "question_prompt" : "القاتل دفن الساعة الحقيقية لإطلاق النار تحت ______، وأُخرجت أخيرًا بواسطة ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q3s1_gala",
+                "choice_text" : "ضجيج الحفل"
+              }, {
+                "choice_id" : "q3s1_clocks",
+                "choice_text" : "تقديم ساعات السفينة"
+              }, {
+                "choice_id" : "q3s1_doctor",
+                "choice_text" : "شهادة الطبيب المرتّبة"
+              }, {
+                "choice_id" : "q3s1_sealing",
+                "choice_text" : "الختم المتعجّل للمقصورة"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q3s2_watch",
+                "choice_text" : "ساعة اليد المحطمة"
+              }, {
+                "choice_id" : "q3s2_mantel",
+                "choice_text" : "ساعة رفّ المقصورة"
+              }, {
+                "choice_id" : "q3s2_wireless",
+                "choice_text" : "سجل غرينتش في غرفة اللاسلكي"
+              }, {
+                "choice_id" : "q3s2_setlist",
+                "choice_text" : "قائمة عزف قائد الفرقة"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q3s1_clocks",
+            "slot2" : "q3s2_wireless"
+          }
+        }, {
+          "question_prompt" : "'ألدوس فينش' فضحه ______، والثروة عبرت المحيط في ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q4s1_face",
+                "choice_text" : "وجهه، وقد عُرف أخيرًا"
+              }, {
+                "choice_id" : "q4s1_valet",
+                "choice_text" : "اعتراف الخادم"
+              }, {
+                "choice_id" : "q4s1_habits",
+                "choice_text" : "عاداته على طاولة الورق وفي الحانة"
+              }, {
+                "choice_id" : "q4s1_fear",
+                "choice_text" : "رفضه رؤية الجثة"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q4s2_safe",
+                "choice_text" : "خزنتَي أمين الصندوق"
+              }, {
+                "choice_id" : "q4s2_crate",
+                "choice_text" : "صندوق من الكتب النادرة"
+              }, {
+                "choice_id" : "q4s2_mail",
+                "choice_text" : "أكياس غرفة البريد المختومة"
+              }, {
+                "choice_id" : "q4s2_lifeboat",
+                "choice_text" : "خزانة تحت قارب نجاة"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q4s1_habits",
+            "slot2" : "q4s2_crate"
+          }
+        }, {
+          "question_prompt" : "الدعوة التي جاءت بك إلى السفينة كتبها ______، كي ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q5s1_croft",
+                "choice_text" : "السيد كروفت"
+              }, {
+                "choice_id" : "q5s1_dead",
+                "choice_text" : "القتيل نفسه"
+              }, {
+                "choice_id" : "q5s1_wren",
+                "choice_text" : "السيد رِن"
+              }, {
+                "choice_id" : "q5s1_finch",
+                "choice_text" : "السيد فينش"
+              }, {
+                "choice_id" : "q5s1_ashe",
+                "choice_text" : "الآنسة آش"
+              }, {
+                "choice_id" : "q5s1_kessler",
+                "choice_text" : "السيد كسلر"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q5s2_enemies",
+                "choice_text" : "يجتمع أعداؤه حيث يستطيع مراقبتهم"
+              }, {
+                "choice_id" : "q5s2_frame",
+                "choice_text" : "يثبت الإطار المنسوج حول السيد كروفت"
+              }, {
+                "choice_id" : "q5s2_witness",
+                "choice_text" : "يشهد أفضل شاهد في العالم على موته"
+              }, {
+                "choice_id" : "q5s2_bonds",
+                "choice_text" : "تعبر السندات المحيط دون تشكيك"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q5s1_finch",
+            "slot2" : "q5s2_witness"
+          }
+        } ]
+      }
+    },
+    "ru" : {
+      "languageName" : "Русский",
+      "title" : "Пересекая меридиан",
+      "invitation" : "Мистеру Шерлоку Холмсу,\nБейкер-стрит, 221б,\nЛондон.\n\nУважаемый мистер Холмс,\nНа борту «Меридиана» между Нью-Йорком и Саутгемптоном будет убит человек. Я оплатил вам каюту B-7, чтобы тончайший ум Англии увидел это и назвал своим именем. Не говорите никому.\nЧерез пять дней после Краха великий лайнер идёт на восток, полный разорённых. Приезжайте и смотрите.\n\n— Друг\n\n(В первую ночь, с полуночным гудком — в минуту, когда все часы на борту прыгают вперёд, — Маркус Вейн застрелен в каюте B-9, а его состояние в предъявительских облигациях нигде на судне. Его разбитые часы называют час. Не верьте им.)",
+      "description" : "Октябрь 1929-го. Лайнер в стиле ар-деко посреди Атлантики, через пять дней после Краха. Финансист, застреленный под полуночный гудок, разбитые часы, которые лгут, и записка, обещавшая вам это убийство ещё до того, как оно случилось.",
+      "roomDetails" : [ {
+        "name" : "Grand Foyer",
+        "displayName" : "Большое фойе",
+        "description" : "Хромово-ореховое сердце «Меридиана»: маркетри в виде расходящихся лучей, лестница с никелевыми перилами, застеклённый список пассажиров и объявления компании под стеклом."
+      }, {
+        "name" : "Stateroom B-9",
+        "displayName" : "Каюта B-9",
+        "description" : "Каюта Маркуса Вейна, опечатанная с тех пор, как вынесли тело. Кресло у стола обращено к двери: стрелявший стоял там, где встал бы гость, и его впустили."
+      }, {
+        "name" : "Grand Salon",
+        "displayName" : "Большой салон",
+        "description" : "Двухъярусный бальный зал из матового стекла и серебряных пальм. Гирлянды с гала ещё висят, эстрада убрана к вечеру так, будто судно не везёт покойника."
+      }, {
+        "name" : "Smoking Room",
+        "displayName" : "Курительная",
+        "description" : "Зелёная кожа, чёрный лак и мягкий шлепок карт. Партии в бридж собираются здесь каждый день, с убийством или без."
+      }, {
+        "name" : "First-Class Bar",
+        "displayName" : "Бар первого класса",
+        "description" : "Лакированная стойка полумесяцем под фризом с хромовыми борзыми. Бармен Антуан накалывает каждую подписанную квитанцию на шпиль по порядку, как дневник судна."
+      }, {
+        "name" : "Promenade Deck",
+        "displayName" : "Прогулочная палуба",
+        "description" : "Обдуваемая ветром полоса тика и пустые шезлонги. Атлантика очень велика и очень холодна и хранит всё, что в неё бросают, — почти."
+      }, {
+        "name" : "Wireless Room",
+        "displayName" : "Радиорубка",
+        "description" : "Тесная каюта из ключей Морзе, сигаретного дыма и одних строгих часов — по Гринвичу, ни под кого не подводимых, не подчиняющихся ничему на этом судне."
+      }, {
+        "name" : "Ships Surgery",
+        "displayName" : "Корабельный лазарет",
+        "description" : "Белая эмаль и карболка. В холодной за занавесью лежит человек, которого судно считает Маркусом Вейном."
+      }, {
+        "name" : "Pursers Office",
+        "displayName" : "Каюта казначея",
+        "description" : "Латунная решётка, два одинаковых сейфа и папки в безупречном порядке. Всё, что официально происходит на «Меридиане», записано в этой комнате — что не то же самое, что всё, что происходит."
+      }, {
+        "name" : "Baggage Hold",
+        "displayName" : "Багажный трюм",
+        "description" : "Ниже ватерлинии: сундуки в ряды, стол досмотра, где принимали запоздалый багаж, и тихая, укромная тьма, куда первый класс не заглядывает."
+      } ],
+      "objectDetails" : [ {
+        "name" : "your_invitation",
+        "displayName" : "Ваше приглашение",
+        "description" : "Отпечатанная записка без подписи, что привела вас на борт, — в вашем собственном бумажнике.",
+        "examine" : "«На борту „Меридиана“ будет убит человек…» Отпечатано на портативной машинке — и маленькая «e» всякий раз проваливается ниже строки, как подпись, которую пишущий не думал, что оставляет.",
+        "deduce" : "Написавший знал об убийстве заранее — достаточно твёрдо, чтобы оплатить вам каюту. Не предупреждение. Уговор. Найдите машинку с проваленной «e» — найдёте своего «Друга»."
+      }, {
+        "name" : "clock_notice",
+        "displayName" : "Объявление компании",
+        "description" : "Объявление компании в золочёной раме у лестницы, датированное днём отплытия.",
+        "examine" : "«Пассажиров уведомляют, что судовые часы будут ПЕРЕВЕДЕНЫ ВПЕРЁД НА 47 МИНУТ с полуночным гудком, в эту и каждую ночь восточного перехода».",
+        "deduce" : "Все часы на борту прыгнули вперёд в самый час гала — а с ними и всякое честное чувство времени у свидетелей. Ночь, в которую самому часу можно велеть солгать."
+      }, {
+        "name" : "passenger_list",
+        "displayName" : "Список пассажиров",
+        "description" : "Печатный список пассажиров первого класса в раме у лестницы.",
+        "examine" : "Изящная печать, по алфавиту, полный — и под типографской линейкой одна строка, вписанная чернилами: 'A. FINCH, STATEROOM B-11 — late embarkation.'",
+        "deduce" : "Каждое имя в этом списке набрали за дни до отплытия. Один пассажир существует только в чернилах. У печатных людей есть прошлое; у чернильных — причины."
+      }, {
+        "name" : "smashed_watch",
+        "displayName" : "Разбитые наручные часы",
+        "description" : "Наручные часы убитого, стекло вдребезги, остановились на 10:55.",
+        "examine" : "Остановились ровно на 10:55. Но ремешок не потёрт, головка на месте, а разбитое стекло лежит опрятной лужицей — не разлетелось, как при падении или драке.",
+        "deduce" : "Часы ничего не доказывают о смерти — лишь то, что им велели сказать перед тем, как разбить. Если выбрали 10:55, спросите, кого это обвиняет и кого спасает."
+      }, {
+        "name" : "threat_letter",
+        "displayName" : "Письмо с угрозой",
+        "description" : "Письмо, лежащее раскрытым на столе в каюте, на кремовой гостиничной бумаге.",
+        "examine" : "Бумага отеля «Эксельсиор»: 'You will not live to spend it. You die before Southampton.' Без подписи — но Элиас Крофт одиннадцать лет держал там номер, и полсудна об этом знает.",
+        "deduce" : "Смертельная угроза, любезно оставленная развёрнутой на столе самой жертвы, где её не пропустишь. Угрозы шлют, чтобы напугать; эту положили, чтобы нашли."
+      }, {
+        "name" : "mantel_clock",
+        "displayName" : "Каминные часы",
+        "description" : "Небольшие латунные каминные часы каюты, ещё тикающие на полке над столом.",
+        "examine" : "Идут безупречно, не тронуты борьбой — и на 47 минут позади коридорных часов. Полуночная поправка стюарда сюда не дошла: комнату опечатали раньше.",
+        "deduce" : "Собственная память комнаты об этой ночи: эти часы держат старое время, до гудка. Мерьте всё здесь по ним."
+      }, {
+        "name" : "band_setlist",
+        "displayName" : "Программа капельмейстера",
+        "description" : "Гала-программа оркестра с пометками карандашом капельмейстера, оставленная на эстраде.",
+        "examine" : "Каждый номер отмечен по времени карандашом. 'Miss Ashe — Moonglow — начало 11:56, длилась сквозь гудок, конец 12:51 по новым часам. Зал на ногах.'",
+        "deduce" : "Что бы гудок ни прикрыл, Вивиан Эш он не прикрыл: она была под софитами, посреди песни, на глазах у всего салона, когда он прозвучал."
+      }, {
+        "name" : "bridge_scoresheet",
+        "displayName" : "Ведомость по бриджу",
+        "description" : "Вчерашняя ведомость постоянной четвёрки курительной, точной рукой миссис Блайт.",
+        "examine" : "Четыре роббера, безжалостно записанные. У третьего — карандаш миссис Блайт: 'Mr. F., болван в сдаче перед полуночью, вышел на сигарету — десять минут. Вернулся с гудком. Его сжатие на третьей взятке — старое сжатие клуба «Меридиан».'",
+        "deduce" : "Мистер Финч — болван, вольный отлучиться — отсутствовал в самую минуту гудка и играет приём с одним известным владельцем. Бридж, как почерк, — это рука."
+      }, {
+        "name" : "bar_chit",
+        "displayName" : "Подписанная барная квитанция",
+        "description" : "Квитанция со шпиля Антуана в баре первого класса, подписанная 'A. Finch', в первый же вечер.",
+        "examine" : "'Two Sidecars — апельсин, НЕ лимон.' Ниже карандаш Антуана: 'Спросил джентльмена: как в старые дни клуба «Меридиан», сэр? Джентльмен побелел и подписал без единого слова.'",
+        "deduce" : "Один человек за двадцать лет бармена настаивал на апельсине в «Сайдкаре» — и звали того человека не Финч. Лицо можно вышколить. Жажду — нельзя."
+      }, {
+        "name" : "found_revolver",
+        "displayName" : "Револьвер в шпигате",
+        "description" : "Небольшой револьвер, найденный матросом в шпигате, в двух шагах от нумерованного шезлонга Элиаса Крофта.",
+        "examine" : "Калибр .32, один выстрел, никель ещё в бисеринках брызг. На рукояти инициалы E.C. Брошен в сторону моря — но упал в двух футах от него, на виду.",
+        "deduce" : "Атлантика глотает, что в неё бросают; убийца у леера не промахивается мимо целого океана. Этот револьвер не выбросили. Его подложили."
+      }, {
+        "name" : "telegram_log",
+        "displayName" : "Журнал радиорубки",
+        "description" : "Журнал исходящих радиорубки, механической рукой Кесслера, по Гринвичу.",
+        "examine" : "День отплытия, 19:40, подано на борту: 'MISS N. RENNER — STAYING ASHORE, GRIPPE. — P. RENNER.' Ночь гала: 'MR. E. CROFT, подано 11:50 по старому судовому, у стойки до 12:16.'",
+        "deduce" : "Журнал держит Гринвич, не переводился ни под какой гудок. Телеграмма от человека, якобы на берегу, подана на борту этого судна — а Крофт стоял у этой стойки весь истинный час выстрела."
+      }, {
+        "name" : "body_hands",
+        "displayName" : "Руки покойника",
+        "description" : "Тело в холодной, укрыто простынёй до запястий. Руки — то, на что торопливое опознание так и не взглянуло.",
+        "examine" : "Мозоль машинистки на среднем пальце; желобок от пера, проношенный двадцатью годами чужой переписки. И знаменитый изумрудный перстень Вейна — болтается свободно, на целый размер велик.",
+        "deduce" : "Ради лиц двойников выбирают; руками их выдают. Это руки человека, писавшего ради заработка, — а перстень сделан для другого."
+      }, {
+        "name" : "voss_notes",
+        "displayName" : "Записи осмотра судового врача",
+        "description" : "Рабочие записи доктора Восса, подшитые у казначея под аккуратным официальным свидетельством о смерти.",
+        "examine" : "Свидетельство говорит: смерть в 10:55, по часам. Записи под ним — иначе: окоченение 'согласуется со смертью у полуночного гудка — НЕ часом ранее'; рана 'в упор, сидя.' Последняя строка перечёркнута.",
+        "deduce" : "Наука хирурга спорит с подписанным им свидетельством. Одна деталь пережила перечёркивание: покойник сидел спокойно перед убийцей — стрелял тот, кого не было причины бояться."
+      }, {
+        "name" : "manifest_ledger",
+        "displayName" : "Журнал посадки",
+        "description" : "Рабочий журнал казначея, оставленный у стола досмотра в трюме, где принимали запоздалый багаж.",
+        "examine" : "Поправки Рена у трапа: 'B-11, A. Finch — наличными, без брони, паспортные данные позже.' И ниже: 'Мистер Вейн — от сейфа отказывается. Один ящик, книги, личное — в трюм, под своим замком.'",
+        "deduce" : "Пассажир без прошлого заплатил наличными, без вопросов. А богатейший на борту не доверил сейфу ничего — но запер в трюме ящик книг, будто в нём его состояние."
+      }, {
+        "name" : "book_crate",
+        "displayName" : "Книжный ящик Финча",
+        "description" : "Крепкий ящик с трафаретом 'A. FINCH — RARE BOOKS — FRAGILE', под личным замком в трюме.",
+        "examine" : "Отличные переплёты — и фальшивый ряд: шесть выдолбленных томов с предъявительскими облигациями. Под ними серебряная чернильница с гравировкой M.V. и портативная машинка, у которой маленькая «e» проваливается ниже строки.",
+        "deduce" : "Ящик книготорговца с состоянием финансиста, его монограммой и машинкой, отпечатавшей ваше приглашение. Алдос Финч — полка, за которой стоит Маркус Вейн."
+      }, {
+        "name" : "renner_valise",
+        "displayName" : "Невостребованный саквояж",
+        "description" : "Потёртый саквояж на стойке невостребованного, бирка с инициалами P.R., сдан на борт за час до отплытия.",
+        "examine" : "Запасные очки, копирка, Библия с надписью 'Pauly, from Nora' на форзаце — и воротничок с запонками первого класса, далеко не по жалованью секретаря, новые, в папиросной бумаге.",
+        "deduce" : "Вещи Пола Реннера отплыли, что бы ни говорила его телеграмма. Секретарь упаковал воротничок богача — потому что на один переход ему предстояло стать богачом."
+      } ],
+      "suspects" : [ {
+        "name" : "EliasCroft",
+        "id" : "eliascroft",
+        "displayName" : "Мистер Элиас Крофт",
+        "imagePath" : "images/elias_croft.png",
+        "imageScaleX" : 2.189655172413793,
+        "imageScaleY" : 2.189655172413793,
+        "homeRoom" : "Promenade Deck",
+        "posX" : 0.48198970840480276,
+        "posY" : 0.5745247284162378,
+        "labelDX" : -0.010243948923194206,
+        "labelDY" : 0.40361158757385174,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Да, я сказал, что он не доживёт до Саутгемптона, и повторю над его гробом. Он скормил телеграфу тридцать лет моего труда. Но я не убийца — я не привёз ничего, кроме своего разорения.",
+        "clue" : "Самая громкая обида на судне, и каждая улика услужливо указывает на него — письмо, часы, револьвер у его кресла. Он клянётся, что взошёл безоружным, и это утверждение можно проверить находкой матроса.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Да, я сказал, что он не доживёт до Саутгемптона, и повторю над его гробом. Он скормил телеграфу тридцать лет моего труда. Но я не убийца — я не привёз ничего, кроме своего разорения.",
+            "contradictions" : [ {
+              "evidenceId" : "found_revolver",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "croft_truth",
+              "successMessage" : "Вы поворачиваете к нему рукоять: E.C., вырезано на никеле. Крофт долго смотрит, и спесь покидает его. «Так вот куда он делся», — тихо говорит он."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Он мой. Я вёз его, чтобы приставить ему под подбородок и заставить вернуть украденное. Его взяли из сундука в первый же день — а как разорённому заявить о пистолете, который он вёз? Я ушёл с гала до одиннадцати, бродил по палубе один, потом телеграфировал жене, что мы кончены. Я всё ещё стоял у стойки, когда прозвучал гудок."
+          }
+        }
+      }, {
+        "name" : "AldousFinch",
+        "id" : "aldousfinch",
+        "displayName" : "Мистер Алдос Финч",
+        "imagePath" : "images/aldous_finch.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Grand Salon",
+        "posX" : 0.7024013722126929,
+        "posY" : 0.5852808747855918,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Скверное дело, и меня не касается. Я не встречал мистера Вейна; я торгую книгами, а не акциями. Весь вечер я был за столом бриджа — курительная это подтвердит.",
+        "clue" : "Серый, учтивый человек, чьей посадки никто не помнит, чьё алиби — целиком карточный стол, а вся личность — одна строка чернил в печатном списке. За последствиями убийства он наблюдает так, как другие смотрят на море.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Скверное дело, и меня не касается. Я не встречал мистера Вейна; я торгую книгами, а не акциями. Весь вечер я был за столом бриджа — курительная это подтвердит.",
+            "contradictions" : [ {
+              "evidenceId" : "finch_is_vane",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "vane_confession",
+              "successMessage" : "Вы называете коктейль, сжатие на третьей взятке, чернила у трапа, ящик ниже ватерлинии. Серый человек слушает с закрытыми глазами, как знаток. «Безупречно», — говорит Маркус Вейн. «Я хорошо выбрал свидетеля»."
+            }, {
+              "evidenceId" : "summons_from_the_grave",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "vane_confession",
+              "successMessage" : "Вы кладёте приглашение рядом с проваленной «e» машинки из его ящика. Он изучает страницы, как торговец, удостоверяющий первопечать. «Я отпечатал его в ночь падения „Континентала“», — говорит Маркус Вейн. «Смерть хороша лишь настолько, насколько хорош её свидетель. Я купил лучшего»."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Крах не разорил меня — он обесценил «Маркуса Вейна», а я не держу обесценившихся активов. Пол годами дублировал меня; он взошёл под моим именем, махал камерам, думая, что это очередная уловка от приставов. Я поднялся часом позже как никто. С гудком я к нему зашёл — он налил мне, сел, так и не понял. Я перевёл его часы на час, когда Крофт один мерил палубы; глупец пригрозил мне при пятидесяти свидетелях и сам построил себе виселицу. Облигации переходят в переплётах, страховку получает моя компания, и мир перестаёт гоняться за мертвецом. Безупречно — кроме того, что напиток мертвеца заказал живой."
+          }
+        }
+      }, {
+        "name" : "NoraRenner",
+        "id" : "norarenner",
+        "displayName" : "Мисс Нора Реннер",
+        "imagePath" : "images/nora_renner.png",
+        "imageScaleX" : 2.027586206896552,
+        "imageScaleY" : 2.027586206896552,
+        "homeRoom" : "Grand Foyer",
+        "posX" : 0.6560891938250428,
+        "posY" : 0.7005253001715266,
+        "labelDX" : 0.006271805463180126,
+        "labelDY" : 0.39303314235928793,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Мне не место здесь — второй класс запирают после десяти. Я лишь хочу отправить телеграмму брату. Пол — секретарь мистера Вейна; телеграмма сказала, что он остался на берегу с гриппом. Но, сэр, — Пол пишет мне каждый день с девяти лет и ни разу не подписался 'P. Renner'. Он подписывается 'Pauly'. Всегда. Он говорил, что лучше всего ему платят за то, что он стоит у окон в пальто мистера Вейна.",
+        "clue" : "Заперта за воротами второго класса всю ночь, ей нечего выигрывать и есть брат, которого можно потерять. В её показаниях две жемчужины: телеграмма, подписанная не тем именем, и секретарь, которому платили носить пальто хозяина у окон."
+      }, {
+        "name" : "GilbertSnow",
+        "id" : "gilbertsnow",
+        "displayName" : "Мистер Гилберт Сноу",
+        "imagePath" : "images/gilbert_snow.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Stateroom B-9",
+        "posX" : 0.26758147512864494,
+        "posY" : 0.6129395368782161,
+        "labelDX" : 0.008195159138555366,
+        "labelDY" : 0.3831236897274633,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Это мой хозяин на столе у доктора, сэр. Девятнадцать лет я одевал его; узнал бы среди десяти тысяч. Я был в буфетной у гудка и опознал его. Добавить нечего.",
+        "clue" : "Девятнадцать лет службы, известное всем наследство по завещанию и опознание, сделанное одним взглядом, прежде чем тело опечатали. С тех пор он трижды перегладил один и тот же костюм — руки человека, занимающего себя, чтобы не дрожали.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Это мой хозяин на столе у доктора, сэр. Девятнадцать лет я одевал его; узнал бы среди десяти тысяч. Я был в буфетной у гудка и опознал его. Добавить нечего.",
+            "contradictions" : [ {
+              "evidenceId" : "body_is_not_vane",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "bought_identification",
+              "successMessage" : "Вы говорите о мозоли машинистки, свободном перстне, саквояже с меткой P.R. в трюме. Подбородок Сноу опускается по градусу, как спускаемый флаг. «Девятнадцать лет, — шепчет он, — и последним делом для дома Вейнов была ложь над его гробом»."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Это мистер Реннер. Я узнал его, едва откинули простыню — я одевал их обоих; я помогал делать обман. Под дверью была записка и пять тысяч долларов в облигации, которую я не смею обналичить: 'Скажи, что это твой хозяин, и скорби.' Я говорил себе, что у мистера Вейна есть причины и что он жив — а с ним и моё наследство. Не знаю, кто заплатил. Боялся догадываться."
+          }
+        }
+      }, {
+        "name" : "CorneliaBlythe",
+        "id" : "corneliablythe",
+        "displayName" : "Миссис Корнелия Блайт",
+        "imagePath" : "images/cornelia_blythe.png",
+        "imageScaleX" : 2.5017241379310344,
+        "imageScaleY" : 2.5017241379310344,
+        "homeRoom" : "Smoking Room",
+        "posX" : 0.9030874785591767,
+        "posY" : 0.6160127215551744,
+        "labelDX" : -0.004181203642120084,
+        "labelDY" : 0.4013955496435281,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Я презирала Маркуса Вейна и год писала ему неподписанные письма — состояние мужа ушло в его фонды и вышло воздухом. Но я не покидала стол бриджа с десяти до половины второго. И вот: наш мистер Финч был «болваном» в сдаче перед полуночью, удалился 'на сигарету' на десять минут и вернулся ровно как стих гудок, весь обветренный. А его сжатие на третьей взятке — я видела такое ровно раз. В клубе «Меридиан». За столом напротив Маркуса Вейна.",
+        "clue" : "Год ядовитых писем, признанных охотно, и алиби из трёх игроков и её собственной беспощадной ведомости. Её глаза за карточным столом — острейший прибор на борту: она засекла десятиминутную отлучку «болвана» к гудку и видела его сжатие прежде — за столом напротив покойника."
+      }, {
+        "name" : "LeonardVoss",
+        "id" : "leonardvoss",
+        "displayName" : "Доктор Леонард Восс",
+        "imagePath" : "images/leonard_voss.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Ships Surgery",
+        "posX" : 0.72,
+        "posY" : 0.58,
+        "labelDX" : 0.017373737373737413,
+        "labelDY" : 0.4167991233085574,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Свидетельство в порядке: огнестрельное, без пяти одиннадцать, как удостоверяют часы. Я осматривал его сам. Я был на капитанском тосте меридиана, когда прозвучал гудок, и мне нечего добавить.",
+        "clue" : "Его свидетельство аккуратно, кратко и всей тяжестью опирается на разбитые часы. Его рабочие записи, подшитые у казначея, длиннее — и последняя их строка чьим-то пером перечёркнута.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Свидетельство в порядке: огнестрельное, без пяти одиннадцать, как удостоверяют часы. Я осматривал его сам. Я был на капитанском тосте меридиана, когда прозвучал гудок, и мне нечего добавить.",
+            "contradictions" : [ {
+              "evidenceId" : "true_midnight",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "voss_admission",
+              "successMessage" : "Вы кладёте перед ним истинный час — гудок, гринвичский журнал, украденные 47 минут. Восс долго протирает очки. «Окоченение не читает наручных часов, — говорит он. — Я понял, что час не тот, едва прикоснулся к нему»."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Моя наука говорила: смерть у гудка, не часом раньше — окоченение не сентиментально. Мистер Рен спросил от имени компании, намерен ли я объявить тремстам пассажирам, что разбитые часы лгут на первом гала сезона. Я оставил часы и подшил записки вниз. И вот что меня заставили перечеркнуть: рана была в упор, человек сидел спокойно. В него стрелял гость, которого не было причины бояться."
+          }
+        }
+      }, {
+        "name" : "MaxKessler",
+        "id" : "maxkessler",
+        "displayName" : "Мистер Макс Кесслер",
+        "imagePath" : "images/max_kessler.png",
+        "imageScaleX" : 2.267241379310345,
+        "imageScaleY" : 2.267241379310345,
+        "flipX" : true,
+        "homeRoom" : "Wireless Room",
+        "posX" : 0.6655231560891939,
+        "posY" : 0.5801886792452831,
+        "labelDX" : 0.01886792452830189,
+        "labelDY" : 0.4507337526205451,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Журнал не лжёт, потому что Гринвич не лжёт. Да, я продаю сплетни нью-йоркской колонке — запишите с моим приветом. Две вещи. Телеграмму Реннера подали мне после выхода из гавани — серый джентльмен, заплативший вдвое за спешку; не узнаю его снова. И мистер Крофт стоял, где вы, с 11:50 по старому и за четверть, диктуя жене в слезах.",
+        "clue" : "Торговец сплетнями с единственными честными часами на судне. Его журнал не губит никого и спасает двоих: он помещает телеграмму 'берегового' секретаря на борт и держит Крофта у стойки весь истинный час — причём доказательство отбивает сам Кесслер."
+      }, {
+        "name" : "VivianAshe",
+        "id" : "vivianashe",
+        "displayName" : "Мисс Вивиан Эш",
+        "imagePath" : "images/vivian_ashe.png",
+        "imageScaleX" : 2.4931034482758623,
+        "imageScaleY" : 2.4931034482758623,
+        "homeRoom" : "First-Class Bar",
+        "posX" : 0.7658662092624356,
+        "posY" : 0.6359884219554031,
+        "labelDX" : -0.01045300910530021,
+        "labelDY" : 0.3825801332539877,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Два сезона обещаний, потом чек и койка с оркестром — Маркус платил людям, чтобы они становились прошлым. И шутка: чек выписан на Continental Trust, рухнувший в четверг, так что меня купили бумагой дешевле песни, которую я пела, когда он умер. Да — пела. 'Moonglow.' Я тянула ноту сквозь тот гудок, сотня людей смотрела.",
+        "clue" : "Брошена, сослана на эстраду и оплачена чеком, умершим вместе со своим банком, — мотив с процентами. Но она была посреди песни под софитами, когда прозвучал гудок, и полный салон свидетелей слышал, как она тянула ноту сквозь него."
+      }, {
+        "name" : "CharlesWren",
+        "id" : "charleswren",
+        "displayName" : "Мистер Чарльз Рен",
+        "imagePath" : "images/charles_wren.png",
+        "imageScaleX" : 2.5,
+        "imageScaleY" : 2.5,
+        "homeRoom" : "Pursers Office",
+        "posX" : 0.6663807890222985,
+        "posY" : 0.6421347913093196,
+        "labelDX" : -0.012292738707833048,
+        "labelDY" : 0.37492853058890785,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Список «Меридиана» — чистейший на Атлантике, детектив. Каждая душа на борту забронирована и проверена за недели до отхода — компания не потерпит меньшего, и я тоже.",
+        "clue" : "Двадцать лет гладких манифестов и гладко принятых чаевых. Его печатный список — произведение искусства; вопрос в чернилах внизу — и в его собственном рабочем журнале, который, похоже, остался внизу у стола досмотра.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Список «Меридиана» — чистейший на Атлантике, детектив. Каждая душа на борту забронирована и проверена за недели до отхода — компания не потерпит меньшего, и я тоже.",
+            "contradictions" : [ {
+              "evidenceId" : "manifest_ledger",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "gangway_bribe",
+              "successMessage" : "Вы читаете ему его же запись у трапа — наличными, без брони, данные позже, чаевые отмечены. Рен выравнивает пресс-папье под идеальный прямой угол. «Двадцать лет, — говорит он, — и это оказался тихий»."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Джентльмен у трапа — серое пальто, тихий голос, лицо, что забываешь, пока смотришь. Он заплатил за B-11 наличными и вдвое за молчание, а я за двадцать лет продал сотню малых молчаний, ни в одном не было трупа. Да, я попросил доктора Восса оставить часы — компания не открывает сезон флагмана со словом 'загадка' в журнале. У гудка я стоял подле капитана на тосте меридиана. Я не знал, что продаю тому человеку могилу."
+          }
+        }
+      } ],
+      "tasks" : [ "Осмотрите каюту B-9 и человека в холодной.", "Обойдите судно: салон, бар, радиорубку, трюм.", "Допросите девятерых и взвесьте, что каждый скрывает.", "Не доверяйте ни одним часам, которым велели, что говорить.", "Когда будете уверены, вынесите вердикт на итоговом экзамене." ],
+      "rankingTiers" : [ {
+        "rankName" : "Sherlock Holmes",
+        "maxDeductions" : 5,
+        "description" : "Острое, экономное раскрытие.",
+        "winningStatement" : "Бесподобно. Вы прочли лгущие часы, подняли мёртвого и разоблачили человека, который нанял вас себя похоронить. Маркус Вейн купил лучшего свидетеля на Атлантике — и утонул в этой покупке."
+      }, {
+        "rankName" : "Dr. Watson",
+        "maxDeductions" : 10,
+        "description" : "Тщательное и честное расследование.",
+        "winningStatement" : "Отлично рассуждено, детектив. Часы, труп и тихий человек за карточным столом лгали по очереди — а вы пережили всех троих."
+      }, {
+        "rankName" : "Curious Observer",
+        "maxDeductions" : 0,
+        "description" : "Истина, достигнутая наконец.",
+        "defaultRank" : true,
+        "winningStatement" : "Вы нашли правду на борту «Меридиана». С более острым методом в следующий раз перейдёте быстрее."
+      } ],
+      "final_exam" : {
+        "questions" : [ {
+          "question_prompt" : "Человек в холодной — это ______, а стрелявший в него — ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q1s1_vane",
+                "choice_text" : "Маркус Вейн, финансист"
+              }, {
+                "choice_id" : "q1s1_renner",
+                "choice_text" : "Пол Реннер, его секретарь"
+              }, {
+                "choice_id" : "q1s1_finch",
+                "choice_text" : "Алдос Финч, книготорговец"
+              }, {
+                "choice_id" : "q1s1_stowaway",
+                "choice_text" : "неучтённый безбилетник"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q1s2_croft",
+                "choice_text" : "мистер Крофт"
+              }, {
+                "choice_id" : "q1s2_snow",
+                "choice_text" : "мистер Сноу"
+              }, {
+                "choice_id" : "q1s2_voss",
+                "choice_text" : "доктор Восс"
+              }, {
+                "choice_id" : "q1s2_finch",
+                "choice_text" : "мистер Финч"
+              }, {
+                "choice_id" : "q1s2_wren",
+                "choice_text" : "мистер Рен"
+              }, {
+                "choice_id" : "q1s2_kessler",
+                "choice_text" : "мистер Кесслер"
+              }, {
+                "choice_id" : "q1s2_ashe",
+                "choice_text" : "мисс Эш"
+              }, {
+                "choice_id" : "q1s2_blythe",
+                "choice_text" : "миссис Блайт"
+              }, {
+                "choice_id" : "q1s2_renner",
+                "choice_text" : "мисс Реннер"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q1s1_renner",
+            "slot2" : "q1s2_finch"
+          }
+        }, {
+          "question_prompt" : "Улики подстроили так, чтобы обвинить ______, главным образом посредством ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q2s1_snow",
+                "choice_text" : "мистера Сноу"
+              }, {
+                "choice_id" : "q2s1_ashe",
+                "choice_text" : "мисс Эш"
+              }, {
+                "choice_id" : "q2s1_kessler",
+                "choice_text" : "мистера Кесслера"
+              }, {
+                "choice_id" : "q2s1_blythe",
+                "choice_text" : "миссис Блайт"
+              }, {
+                "choice_id" : "q2s1_wren",
+                "choice_text" : "мистера Рена"
+              }, {
+                "choice_id" : "q2s1_croft",
+                "choice_text" : "мистера Крофта"
+              }, {
+                "choice_id" : "q2s1_voss",
+                "choice_text" : "доктора Восса"
+              }, {
+                "choice_id" : "q2s1_finch",
+                "choice_text" : "мистера Финча"
+              }, {
+                "choice_id" : "q2s1_renner",
+                "choice_text" : "мисс Реннер"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q2s2_bribe",
+                "choice_text" : "подкупленного опознания тела"
+              }, {
+                "choice_id" : "q2s2_revolver",
+                "choice_text" : "револьвера, подложенного в его сундук"
+              }, {
+                "choice_id" : "q2s2_watch",
+                "choice_text" : "часов, остановленных на выбранной минуте"
+              }, {
+                "choice_id" : "q2s2_cable",
+                "choice_text" : "телеграммы, посланной под его именем"
+              }, {
+                "choice_id" : "q2s2_score",
+                "choice_text" : "помеченной ведомости по бриджу"
+              }, {
+                "choice_id" : "q2s2_letter",
+                "choice_text" : "письма с угрозой на столе жертвы"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q2s1_croft",
+            "slot2" : "q2s2_watch"
+          }
+        }, {
+          "question_prompt" : "Убийца похоронил истинный час выстрела под ______, а откопали его ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q3s1_gala",
+                "choice_text" : "шумом гала"
+              }, {
+                "choice_id" : "q3s1_clocks",
+                "choice_text" : "переводом судовых часов вперёд"
+              }, {
+                "choice_id" : "q3s1_doctor",
+                "choice_text" : "аккуратным свидетельством врача"
+              }, {
+                "choice_id" : "q3s1_sealing",
+                "choice_text" : "торопливым опечатыванием каюты"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q3s2_watch",
+                "choice_text" : "разбитые наручные часы"
+              }, {
+                "choice_id" : "q3s2_mantel",
+                "choice_text" : "каминные часы каюты"
+              }, {
+                "choice_id" : "q3s2_wireless",
+                "choice_text" : "гринвичский журнал радиорубки"
+              }, {
+                "choice_id" : "q3s2_setlist",
+                "choice_text" : "программа капельмейстера"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q3s1_clocks",
+            "slot2" : "q3s2_wireless"
+          }
+        }, {
+          "question_prompt" : "'Алдоса Финча' выдало ______, а состояние пересекло океан в ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q4s1_face",
+                "choice_text" : "его лицо, узнанное наконец"
+              }, {
+                "choice_id" : "q4s1_valet",
+                "choice_text" : "признание камердинера"
+              }, {
+                "choice_id" : "q4s1_habits",
+                "choice_text" : "его привычки за карточным столом и в баре"
+              }, {
+                "choice_id" : "q4s1_fear",
+                "choice_text" : "его отказ взглянуть на тело"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q4s2_safe",
+                "choice_text" : "двух сейфах казначея"
+              }, {
+                "choice_id" : "q4s2_crate",
+                "choice_text" : "ящике редких книг"
+              }, {
+                "choice_id" : "q4s2_mail",
+                "choice_text" : "опечатанных мешках почтовой"
+              }, {
+                "choice_id" : "q4s2_lifeboat",
+                "choice_text" : "рундуке под шлюпкой"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q4s1_habits",
+            "slot2" : "q4s2_crate"
+          }
+        }, {
+          "question_prompt" : "Приглашение, приведшее вас на борт, написал ______, чтобы ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q5s1_croft",
+                "choice_text" : "мистер Крофт"
+              }, {
+                "choice_id" : "q5s1_dead",
+                "choice_text" : "сам покойник"
+              }, {
+                "choice_id" : "q5s1_wren",
+                "choice_text" : "мистер Рен"
+              }, {
+                "choice_id" : "q5s1_finch",
+                "choice_text" : "мистер Финч"
+              }, {
+                "choice_id" : "q5s1_ashe",
+                "choice_text" : "мисс Эш"
+              }, {
+                "choice_id" : "q5s1_kessler",
+                "choice_text" : "мистер Кесслер"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q5s2_enemies",
+                "choice_text" : "его враги собрались там, где он мог за ними наблюдать"
+              }, {
+                "choice_id" : "q5s2_frame",
+                "choice_text" : "рама, сплетённая вокруг мистера Крофта, держалась прочно"
+              }, {
+                "choice_id" : "q5s2_witness",
+                "choice_text" : "лучший в мире свидетель удостоверил его смерть"
+              }, {
+                "choice_id" : "q5s2_bonds",
+                "choice_text" : "облигации пересекли океан без вопросов"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q5s1_finch",
+            "slot2" : "q5s2_witness"
+          }
+        } ]
+      }
+    }
+  }
+}

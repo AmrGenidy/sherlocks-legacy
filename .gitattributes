@@ -1,0 +1,32 @@
+# Normalize line endings so Windows/macOS/Linux checkouts don't create spurious
+# whole-repo diffs. Text files are stored with LF in the repo; git converts to the
+# platform's native endings on checkout.
+* text=auto
+
+# Explicitly text
+*.java   text
+*.md     text
+*.json   text
+*.xml    text
+*.fxml   text
+*.css    text
+*.properties text
+*.txt    text
+*.sh     text eol=lf
+*.bat    text eol=crlf
+
+# Binary assets — never touch these
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.icns   binary
+*.wav    binary
+*.mp3    binary
+*.ogg    binary
+*.ttf    binary
+*.otf    binary
+*.jar    binary
+*.zip    binary
+*.rar    binary

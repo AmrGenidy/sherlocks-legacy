@@ -1,0 +1,241 @@
+/*
+ * Sherlock's Legacy — pinboard surface. Extends the base theme (DESIGN.md §8):
+ * every color references -sl-* tokens defined in detective-theme.css .root, so
+ * the pinboard inherits "Study by Daylight" / "Study by Candlelight" automatically.
+ * No raw hex; no drop shadows.
+ */
+
+.pinboard-root {
+    -fx-background-color: -sl-parchment;
+}
+
+.pinboard-canvas {
+    /* A believable warm CORK surface (issue 04 / DEC-6): the evidence wall, not a flat panel. Cork
+       tan in daylight, deep cork-brown in candlelight (-sl-cork), so the inverted note cards stand
+       out in both themes. No shadow (DESIGN.md §1). The 2000×2000 canvas border sits off-screen, so
+       the visible board frame lives on .pinboard-board-frame (the scroll pane). */
+    -fx-background-color: -sl-cork;
+}
+
+/* The visible board edge: a clean Ink frame around the cork (ligne claire, no shadow). */
+.pinboard-board-frame {
+    -fx-background-color: transparent;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 3;
+}
+.pinboard-board-frame > .viewport {
+    -fx-background-color: -sl-cork;
+}
+
+/* A brass pin holding each card to the cork (issue 04 / DEC-7): two flat layers — an always-dark
+   ink ring (-sl-on-ochre) around a brass stud (-sl-ochre), a circle, no shadow (DESIGN.md §1/§5). */
+.pinboard-pin {
+    -fx-background-color: -sl-on-ochre, -sl-ochre;
+    -fx-background-radius: 6;
+    -fx-background-insets: 0, 1.5;
+}
+
+.pinboard-item {
+    /* Vellum card pinned to the corkboard (DESIGN.md §5): vellum fill, 2px Ink border. */
+    -fx-background-color: -sl-vellum;
+    -fx-padding: 5;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+}
+
+/* Note text uses -sl-note-text (light on the dark light-mode cards, dark on the beige dark-mode
+   cards) so it always contrasts the card — issue 03 / ingame-fixes-2. */
+.pinboard-item-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1667em;
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-text-fill: -sl-note-text;
+}
+
+.pinboard-item-content {
+    -fx-font-size: 1.0833em;
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-wrap-text: true;
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-text-fill: -sl-note-text;
+}
+
+.pinboard-item-content .content {
+    -fx-background-color: transparent;
+}
+
+/* Pinboard notes are calibrated to the reading fonts and follow the "Reading text size" slider
+   (.scratch/gui-typography-readability): the read-scale-NNN class the controller tags the board
+   root with re-bases the root font size, and the em sizes above follow. The card sizes to the note
+   / the body wraps within it; pinned positions and links are unaffected (they track card geometry,
+   not font size). */
+
+/* Item color variants by ItemType — subtle paper tints from the DESIGN.md palette instead of pastel
+   sticky-notes, so quick-glance categorization survives. The tints are looked-up colours so they
+   darken in candlelight (theme_dark.css) rather than lightening into a light patch (DESIGN.md §8). */
+.pinboard-item--clue              { -fx-background-color: -sl-note-clue; }
+.pinboard-item--suspect-statement { -fx-background-color: -sl-note-statement; }
+.pinboard-item--deduction         { -fx-background-color: -sl-note-deduction; }
+.pinboard-item--suspect           { -fx-background-color: -sl-note-suspect; }
+.pinboard-item--note              { -fx-background-color: -sl-note-plain; }
+.pinboard-item--evidence          { -fx-background-color: -sl-note-plain; }
+.pinboard-item--template_entry    { -fx-background-color: -sl-note-plain; }
+
+/* Selection / link-source states — border accent, no shadow (DESIGN.md §1) */
+.pinboard-item--selected            { -fx-border-color: -sl-oxblood; -fx-border-width: 3; }
+.pinboard-item--link-source         { -fx-border-color: -sl-petrol;  -fx-border-width: 3; }
+.pinboard-item--delete-link-source  { -fx-border-color: -sl-oxblood; -fx-border-width: 3; -fx-border-style: dashed; }
+
+/* Pinboard resize handle (corner grip) */
+.pinboard-resize-handle {
+    -fx-cursor: se-resize;
+    -fx-font-size: 0.8333em;
+    -fx-text-fill: -sl-note-text;
+}
+
+/* Side-panel chips (draggable journal entries / suspect names) */
+.journal-entry-chip {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: -sl-sepia;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+.suspect-chip {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+.pinboard-evidence-panel {
+    -fx-background-color: -sl-vellum;
+}
+
+.pinboard-toolbar {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-padding: 5;
+}
+
+/* Read-only review hint shown in place of the toolbar (.scratch/gui-review-enter-case). No pinned
+   font-family so it inherits the per-language face (.lang-* rules). */
+.pinboard-readonly-hint {
+    -fx-font-style: italic;
+    -fx-text-fill: -sl-sepia;
+    -fx-padding: 2 8 2 8;
+}
+
+.pinboard-sidebar {
+    -fx-background-color: -sl-vellum;
+    -fx-padding: 10;
+}
+
+/* Evidence panel (issue 01 / DEC-1): a tidy themed list. Section headers are right-sized (~16px),
+   wrap, sit on the panel width, and carry a thin ochre rule — never the oversized clipping
+   Accordion headers that forced a horizontal scrollbar. */
+.section-header {
+    -fx-text-fill: -sl-petrol;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.3333em;
+    -fx-wrap-text: true;
+    -fx-padding: 2 0 4 0;
+    -fx-border-color: transparent transparent -sl-ochre transparent;
+    -fx-border-width: 0 0 1.5 0;
+}
+
+/* Panel title above the scrolling list. */
+.pinboard-evidence-title {
+    -fx-text-fill: -sl-petrol;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+    -fx-wrap-text: true;
+}
+
+.pinboard-evidence-list {
+    -fx-padding: 4 6 4 4;
+}
+
+.pinboard-evidence-section {
+    -fx-padding: 0 0 4 0;
+}
+
+/* The sidebar scroller shows the vellum panel through a transparent viewport; vertical scroll only. */
+.pinboard-sidebar {
+    -fx-background-color: transparent;
+    -fx-background: -sl-vellum;
+    -fx-padding: 4;
+}
+.pinboard-sidebar > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Side-panel chips read as list rows: full width, wrapped, soft rounded ink contour. */
+.journal-entry-chip,
+.suspect-chip {
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+/* === Toolbar (issue 02 / DEC-2): engraved buttons with clear hover / press / active states.
+   Ligne claire — flat fill, 2px ink contour, no shadow (DESIGN.md §5). Only -sl-* colours. === */
+.pinboard-tool-button,
+.pinboard-tool-toggle {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 4 10 4 10;
+    -fx-cursor: hand;
+}
+
+.pinboard-tool-button:hover,
+.pinboard-tool-toggle:hover {
+    -fx-background-color: derive(-sl-vellum, -6%); /* lift the fill one shade — the border is the affordance */
+}
+
+.pinboard-tool-button:pressed,
+.pinboard-tool-toggle:pressed {
+    -fx-background-color: derive(-sl-vellum, -12%);
+}
+
+.pinboard-tool-button:focused,
+.pinboard-tool-toggle:focused {
+    -fx-border-color: -sl-petrol;
+}
+
+/* "Mode is on": Link / Delete-link toggles take the petrol fill with vellum text — unmistakable. */
+.pinboard-tool-toggle:selected {
+    -fx-background-color: -sl-petrol;
+    -fx-text-fill: -sl-vellum;
+    -fx-border-color: -sl-ink;
+}
+.pinboard-tool-toggle:selected:hover {
+    -fx-background-color: -sl-petrol-bright;
+}
+
+.pinboard-tool-combo {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+/* === Link threads (issue 03 / DEC-3) === */
+/* The live thread that follows the cursor while a link is being made — oxblood, themed. */
+.pinboard-thread--pending {
+    -fx-stroke: -sl-oxblood;
+    -fx-stroke-width: 2.5;
+}
+
+/* Link mode shows a crosshair over the board so the connect affordance is obvious. */
+.pinboard-canvas--linking {
+    -fx-cursor: crosshair;
+}

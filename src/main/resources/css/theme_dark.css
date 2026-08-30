@@ -1,0 +1,53 @@
+/*
+ * Sherlock's Legacy — dark theme ("Study by Candlelight").
+ *
+ * This file is an OVERRIDE LAYER (DESIGN.md §8): it must only override the
+ * -sl-* looked-up colors defined in detective-theme.css .root, never redefine
+ * component structure. To apply, load this stylesheet after detective-theme.css
+ * on the Scene.
+ *
+ * Dark mode is a candlelit room, not an inverted UI: warm browns, never grey;
+ * text is soft lamp-lit ochre, never pure white (DESIGN.md §2).
+ */
+
+.root {
+    -sl-parchment:     #1A1611;   /* Night ground — deep brown-black surface         */
+    -sl-vellum:        #2A231A;   /* Mahogany — raised panels, cards, dialogs        */
+    -sl-faded-vellum:  #221C14;   /* Sunken — insets, input wells, room frame        */
+    -sl-ink:           #E8D4A8;   /* Lamp-lit ochre — primary text, warm not white   */
+    -sl-sepia:         #A38F6E;   /* Dim sepia — secondary text                      */
+    -sl-petrol:        #3E96AC;   /* Petrol blue, lifted for contrast on dark        */
+    -sl-petrol-bright: #5BB0C5;   /* Hover / focus on primary (lifted)               */
+    -sl-ochre:         #D9A45C;   /* Brass — highlights, insight tokens              */
+    -sl-oxblood:       #C25B49;   /* Ember red — contradictions, errors              */
+    -sl-moss:          #7E8C53;   /* Olive — deductions, task complete               */
+
+    /* Semantic colours (values only — see detective-theme.css for what they style). */
+    -sl-scrim:         rgba(8, 6, 4, 0.60);   /* Deeper warm veil over the candlelit game */
+    -sl-on-ochre:      #1A1611;   /* Dark text on the (light) brass badges            */
+    -sl-exam-slot-text: #F6EEDB;  /* Final Exam slot value — bright warm near-white, legible on dark */
+    -sl-callout:       #2A231A;   /* Dark guidance-card surface (Watson overlay)      */
+    -sl-callout-text:  #E8D4A8;   /* Light text on the guidance card                 */
+    /* Notes INVERT: the dark board needs BEIGE/vellum cards with dark text so they stand out
+       (.scratch/ingame-fixes-2 issue 03). Warm light tints of each type hue; never pure white (§1). */
+    -sl-note-clue:        #BFD0CE;
+    -sl-note-statement:   #E3C5B9;
+    -sl-note-deduction:   #CFD4B2;
+    -sl-note-suspect:     #E9D3A6;
+    -sl-note-plain:       #E7DCC2;
+    -sl-note-text:        #241E17;   /* Dark ink on the beige dark-mode notes               */
+    -sl-cork:             #5A4730;   /* Warm cork-brown board — lifted clear of the mahogany
+                                        panels (#2A231A) so the ink frame reads as an edge, not a
+                                        flat void (GUI G5a-fix); still firmly dark, beige cards
+                                        dominate it.                                          */
+
+    /* Terminal FOLLOWS THE THEME: a dark night-ground well with lamp-lit ochre text and lifted
+       per-line inks that read on it (.scratch/ingame-fixes-2 issue 03). */
+    -sl-terminal-bg:       #1A1611;   /* Deep night-ground well                             */
+    -sl-terminal-border:   #0C0906;
+    -sl-terminal-text:     #E8D4A8;   /* Lamp-lit ochre                                     */
+    -sl-terminal-system:   #5FB0C4;   /* Lifted petrol                                      */
+    -sl-terminal-success:  #9CB166;   /* Lifted moss                                        */
+    -sl-terminal-error:    #D67A63;   /* Ember                                              */
+    -sl-terminal-dialogue: #D9A45C;   /* Brass                                              */
+}
