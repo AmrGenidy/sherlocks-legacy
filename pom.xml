@@ -1,0 +1,196 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <!-- Project Metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>DetectiveGametest</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Detective Game</name>
+  <url>http://maven.apache.org</url>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
+
+  <!-- Properties -->
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <!-- Dependencies -->
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.17.2</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>5.15.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.17</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <!-- 1.5.x: past the CVE-2023-6378/6481 (receiver DoS) and CVE-2024-12798/12801
+           (JaninoEventEvaluator ACE / SaxEventRecorder SSRF) fixes. -->
+      <version>1.5.21</version>
+    </dependency>
+    <!-- JavaFX Dependencies -->
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>22.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>22.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-media</artifactId>
+      <version>22.0.2</version>
+    </dependency>
+  </dependencies>
+
+  <!-- Build Configuration -->
+  <build>
+    <plugins>
+      <!-- Compiler Plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version> <!-- Or latest 3.12.x, 3.13.x -->
+        <configuration>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+        </configuration>
+      </plugin>
+
+      <!-- Exec Plugin for Running the Main Class -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version> <!-- Or latest 3.2.x, 3.3.x -->
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <!-- *** UPDATED mainClass *** -->
+          <mainClass>launcher.MainLauncher</mainClass>
+        </configuration>
+      </plugin>
+
+      <!-- Spotless Plugin for Code Formatting -->
+      <plugin>
+        <groupId>com.diffplug.spotless</groupId>
+        <artifactId>spotless-maven-plugin</artifactId>
+        <version>2.44.3</version> <!-- Or latest stable version -->
+        <configuration>
+          <java>
+            <googleJavaFormat>
+              <!-- *** UPDATED googleJavaFormat version *** -->
+              <version>1.24.0</version>
+              <style>GOOGLE</style> <!-- Or AOSP -->
+            </googleJavaFormat>
+            <!-- *** ADDED Import Ordering and Remove Unused *** -->
+            <importOrder />
+            <removeUnusedImports />
+            <!-- You can add license header steps, etc. here too -->
+          </java>
+        </configuration>
+        <!-- Optional: Bind to a phase to run automatically -->
+        <!--
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+            </goals>
+            <phase>validate</phase>
+          </execution>
+        </executions>
+        -->
+      </plugin>
+
+      <!-- Dependency audit (SECURITY_PLAN C): surface outdated/vulnerable dependencies on a
+           cadence. Lightweight update check — run `mvn versions:display-dependency-updates` and
+           `mvn versions:display-plugin-updates`. -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+        <version>2.16.2</version>
+      </plugin>
+
+      <!-- Deeper CVE scan for CI (SECURITY_PLAN C): OWASP Dependency-Check. Deliberately NOT bound to
+           a phase, so normal builds stay fast — run on a cadence with `mvn dependency-check:check`
+           (fails the build on CVSS >= 7). The first run downloads the NVD database; provide an NVD
+           API key (e.g. -DnvdApiKey=...) for reasonable speed. -->
+      <plugin>
+        <groupId>org.owasp</groupId>
+        <artifactId>dependency-check-maven</artifactId>
+        <version>9.0.7</version>
+        <configuration>
+          <failBuildOnCVSS>7</failBuildOnCVSS>
+        </configuration>
+      </plugin>
+
+      <!-- Maven Shade Plugin for Creating an Executable JAR -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.5.1</version> <!-- Or latest 3.5.x, 3.6.x -->
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <createDependencyReducedPom>false</createDependencyReducedPom>
+              <transformers>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                  <!-- *** UPDATED mainClass *** -->
+                  <mainClass>launcher.MainLauncher</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- JavaFX Maven Plugin -->
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <mainClass>ui.GameClientFX</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

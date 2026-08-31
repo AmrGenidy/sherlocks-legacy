@@ -1,0 +1,182 @@
+{
+  "tutorials": {
+    "move_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.move.s1", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "move east" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.move.s2", "arrowTarget": "RIGHT_PANEL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "move west" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.move.s3", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "look_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.look.s1", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "look" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.look.s2", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "examine_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.examine.s1", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "examine torn_letter" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.examine.s2", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "examine muddy_boot" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.examine.s3", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "question_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.question.s1", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "move east" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.question.s2", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "question the valet" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.question.s3", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "deduce_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.deduce.s1", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "deduce torn_letter" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.deduce.s2", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "contradict_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.contradict.s1", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "examine muddy_boot" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.contradict.s2", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "move east" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.contradict.s3", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "contradict muddy_boot with the valet" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.contradict.s4", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "combine_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.combine.s1", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "examine torn_letter" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.combine.s2", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "examine muddy_boot" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.combine.s3", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "combine torn_letter muddy_boot" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.combine.s4", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "journal_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.journal.s1", "arrowTarget": "TOP_BAR" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "journal" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.journal.s2", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "journal add The valet seemed nervous" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.journal.s3", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "tasks_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.tasks.s1", "arrowTarget": "TOP_BAR" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "tasks" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.tasks.s2", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "pinboard_tutorial": {
+      "startRoom": "Study",
+      "seedCommands": [
+        "examine torn_letter",
+        "examine muddy_boot",
+        "move east",
+        "question the valet"
+      ],
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.pinboard.s1", "arrowTarget": "TOP_BAR" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "pinboard" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.pinboard.s2", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "linked on the pinboard" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.pinboard.s3", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "contradict *" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.pinboard.s4", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "combine *" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.pinboard.s5", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "ask_watson_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.askWatson.s1", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "ask watson" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.askWatson.s2", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "ask watson torn_letter" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.askWatson.s3", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "final_exam_tutorial": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.finalExam.s1", "arrowTarget": "TOP_BAR" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "final exam" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.finalExam.s2", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "1,1" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.finalExam.s3", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "answer submitted in the exam window" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.finalExam.s4", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    },
+    "practice_case": {
+      "startRoom": "Study",
+      "steps": [
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s1", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s2", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "examine torn_letter" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s3", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "deduce torn_letter" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s4", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "examine muddy_boot" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s5", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "combine torn_letter muddy_boot" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s6", "arrowTarget": "TERMINAL" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "move east" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s7", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "question the valet" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s8", "arrowTarget": "CENTER" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "contradict muddy_boot with the valet" },
+        { "type": "SHOW_OVERLAY", "textKey": "tutorial.practice.s9", "arrowTarget": "NONE" },
+        { "type": "AWAIT_COMMAND", "expectedCommand": "continue" },
+        { "type": "END" }
+      ]
+    }
+  }
+}

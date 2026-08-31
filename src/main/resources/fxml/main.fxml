@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import ui.terminal.TerminalView?>
+
+<!-- The theme stylesheets are installed at the SCENE level by GameClientFX/ui.util.Theme, NOT here.
+     A `stylesheets=` attribute on this root makes detective-theme.css a *Parent* stylesheet, which
+     JavaFX ranks ABOVE Scene stylesheets — so the scene-level theme_dark.css override could never
+     win and dark mode was a silent no-op (DESIGN.md §8). Keep the base theme scene-level only. -->
+<BorderPane fx:id="mainBorderPane" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainController">
+  
+  <!-- Top: Button Bar -->
+  <top>
+    <HBox spacing="10" styleClass="app-toolbar">
+      <Button fx:id="tasksButton" text="Tasks" styleClass="top-button">
+        <font>
+          <Font size="14"/>
+        </font>
+      </Button>
+      
+      <Button fx:id="journalButton" text="Journal" styleClass="top-button">
+        <font>
+          <Font size="14"/>
+        </font>
+      </Button>
+
+      <Button fx:id="pinboardButton" text="Pinboard" styleClass="top-button">
+        <font>
+          <Font size="14"/>
+        </font>
+      </Button>
+
+      <Button fx:id="caseFileButton" text="Case File" styleClass="top-button" visible="false" managed="false">
+        <font>
+          <Font size="14"/>
+        </font>
+      </Button>
+
+      <StackPane>
+        <Button fx:id="chatButton" text="Chat" styleClass="top-button">
+          <font>
+            <Font size="14"/>
+          </font>
+        </Button>
+        <Label fx:id="unreadChatLabel" text="0"
+               styleClass="badge-unread"
+               StackPane.alignment="TOP_RIGHT" translateX="-5" translateY="5"/>
+      </StackPane>
+
+      <Button fx:id="finalExamButton" text="Final Exam" styleClass="top-button">
+        <font>
+          <Font size="14"/>
+        </font>
+      </Button>
+
+      <Button fx:id="helpButton" text="Help" styleClass="top-button">
+        <font>
+          <Font size="14"/>
+        </font>
+      </Button>
+
+      <Button fx:id="settingsButton" text="Settings" styleClass="top-button">
+        <font>
+          <Font size="14"/>
+        </font>
+      </Button>
+
+      <Button fx:id="exitButton" text="Exit" styleClass="top-button">
+        <font>
+          <Font size="14"/>
+        </font>
+      </Button>
+      
+      <Region HBox.hgrow="ALWAYS"/>
+
+      <Label fx:id="brandLabel" text="Sherlock's Legacy" styleClass="panel-title"/>
+    </HBox>
+  </top>
+
+  <!-- Center: Main Layout with SplitPanes -->
+  <center>
+    <!-- DESIGN.md §4 / .scratch/responsive-resizing issue 01: proportional dividers with
+         min sizes on the 8px scale on BOTH panes of each split; no pixel-locked panels.
+         MainController installs DividerClamp on both SplitPanes with the same minimums. -->
+    <SplitPane fx:id="mainHorizontalSplitPane" dividerPositions="0.78" orientation="HORIZONTAL">
+      <items>
+        <!-- Left Side: Content and Terminal -->
+        <SplitPane fx:id="mainVerticalSplitPane" dividerPositions="0.70" orientation="VERTICAL" minWidth="480">
+          <items>
+            <!-- Top: Room Visualization / Pinboard area -->
+            <StackPane fx:id="roomPane" styleClass="room-pane" minHeight="240">
+              <Label text="Room View" styleClass="room-view-placeholder"/>
+            </StackPane>
+
+            <!-- Bottom: Terminal. resizableWithParent=false: window-height changes are absorbed
+                 by the room pane, so the terminal never shrinks out of view (issue 01). -->
+            <VBox fx:id="terminalPanel" spacing="3" styleClass="panel, terminal-panel" minHeight="160" SplitPane.resizableWithParent="false">
+              <Label fx:id="terminalTitleLabel" text="Terminal" styleClass="panel-title"/>
+              <!-- Sunken-well transcript: a TextFlow ScrollPane (ingame-terminal-polish issue 01),
+                   so each line carries its own ink and fades in. minHeight=0 + vgrow lets it share
+                   the panel without forcing it past the DividerClamp terminal minimum. -->
+              <TerminalView fx:id="terminalView" minHeight="0" VBox.vgrow="ALWAYS"/>
+              <HBox fx:id="suggestionStrip" spacing="8" styleClass="suggestion-strip" visible="false"/>
+              <HBox spacing="5">
+                <Label text=">" styleClass="terminal-prompt"/>
+                <TextField fx:id="terminalInputField" promptText="Enter command..." 
+                           styleClass="terminal-input"
+                           HBox.hgrow="ALWAYS"/>
+              </HBox>
+            </VBox>
+          </items>
+        </SplitPane>
+
+        <!-- Right Side: Info Panel (Sidebar). Proportional: the divider fraction scales the
+             sidebar with the window (no pref/max pixel lock); minWidth on the 8px scale. -->
+        <VBox fx:id="rightInfoPanel" spacing="10" styleClass="panel" minWidth="216">
+          <Label fx:id="roomInfoTitleLabel" text="Room Information" styleClass="panel-title"/>
+          <HBox spacing="5">
+            <Label fx:id="insightTokensCaptionLabel" text="Insight Tokens:" styleClass="sidebar-label"/>
+            <Label fx:id="insightTokensLabel" text="-" styleClass="sidebar-value"/>
+          </HBox>
+          <HBox spacing="5">
+            <Label fx:id="deductionsCaptionLabel" text="Deductions Used:" styleClass="sidebar-label"/>
+            <Label fx:id="deductionCountLabel" text="-" styleClass="sidebar-value"/>
+          </HBox>
+          <Separator/>
+
+          <Label fx:id="neighboringRoomsCaptionLabel" text="Neighboring Rooms:" styleClass="sidebar-label"/>
+          <VBox fx:id="neighboringRoomsContainer" spacing="5" VBox.vgrow="ALWAYS"/>
+
+          <!-- Status area integrated into sidebar -->
+          <Separator/>
+          <Label fx:id="statusTitleLabel" text="Status" styleClass="panel-title"/>
+          <Label fx:id="statusLabel" text="Initializing..." wrapText="true"
+                 styleClass="sidebar-label"/>
+
+          <!-- Command-cooldown countdown (contradict/combine), hidden until a lock is in effect. -->
+          <HBox fx:id="cooldownRow" spacing="5" visible="false" managed="false">
+            <Label fx:id="cooldownCaptionLabel" text="Cooldown:" styleClass="sidebar-label"/>
+            <Label fx:id="cooldownTimerLabel" text="-" styleClass="sidebar-cooldown-value"/>
+          </HBox>
+        </VBox>
+      </items>
+    </SplitPane>
+  </center>
+  
+</BorderPane>

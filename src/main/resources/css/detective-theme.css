@@ -1,0 +1,2187 @@
+/*
+ * Sherlock's Legacy — light theme ("Study by Daylight").
+ * Canonical palette defined in .root via -sl-* looked-up colors per DESIGN.md §2/§8.
+ * theme_dark.css overrides those values for dark mode without redefining components.
+ */
+
+.root {
+    -sl-parchment:     #EFE3C8;   /* App surface — aged paper                       */
+    -sl-vellum:        #F6EEDB;   /* Raised panels — cards, journal, dialogs        */
+    -sl-faded-vellum:  #E3D4B0;   /* Sunken — insets, input wells, room frame       */
+    -sl-ink:           #241E17;   /* Primary text, contour lines                    */
+    -sl-sepia:         #6B5A43;   /* Secondary text, captions, hints, metadata      */
+    -sl-petrol:        #1C5D6E;   /* Primary — buttons, links, active state         */
+    -sl-petrol-bright: #2E8198;   /* Hover / focus on primary                       */
+    -sl-ochre:         #C8893A;   /* Highlights, insight tokens, callouts, badges   */
+    -sl-oxblood:       #8E3B2E;   /* Contradictions, errors, danger                 */
+    -sl-moss:          #5A6B3B;   /* Deductions confirmed, task complete            */
+
+    /* Semantic looked-up colours — theme_dark.css overrides the VALUES, components reference these
+       so a single theme swap recolours them (DESIGN.md §8). */
+    -sl-scrim:         rgba(26, 22, 17, 0.55); /* Warm dim veil (pause) — never black, §1 */
+    -sl-on-ochre:      #241E17;   /* Dark text on the brass badges (ochre stays light both themes) */
+    -sl-exam-slot-text: #241E17;  /* Final Exam answer-slot text — dark ink here, near-white in dark */
+    -sl-callout:       #241E17;   /* Watson guidance-card surface (a dark callout)   */
+    -sl-callout-text:  #F6EEDB;   /* Light text on the guidance card                 */
+    /* Pinboard notes INVERT against the board so they always stand out (.scratch/ingame-fixes-2
+       issue 03): LIGHT mode has a LIGHT board, so notes are DARK cards with light text. The per-type
+       hue is kept; theme_dark.css flips these to beige cards with dark text. */
+    -sl-note-clue:        derive(-sl-petrol, -8%);
+    -sl-note-statement:   derive(-sl-oxblood, -4%);
+    -sl-note-deduction:   derive(-sl-moss, -10%);
+    -sl-note-suspect:     derive(-sl-ochre, -38%);
+    -sl-note-plain:       #3A2E22;                  /* neutral dark card (note/evidence/template)  */
+    -sl-note-text:        #F6EEDB;                  /* light text on the dark light-mode notes     */
+    -sl-cork:             #C2A06B;                  /* Pinboard corkboard surface — warm cork tan  */
+
+    /* Terminal — a warm SUNKEN WELL that FOLLOWS THE THEME (.scratch/ingame-fixes-2 issue 03):
+       LIGHT mode is a light parchment/vellum well with dark ink; theme_dark.css flips it to a dark
+       well with lamp-lit ochre. Per-line inks are tuned per theme. Looked-up so the swap is auto. */
+    -sl-terminal-bg:       #E6D8B4;   /* Light sunken vellum well                            */
+    -sl-terminal-border:   #9C8761;   /* Warm sepia contour of the sunken plate              */
+    -sl-terminal-text:     #241E17;   /* Dark ink — normal transcript text                   */
+    -sl-terminal-system:   #1C5D6E;   /* Petrol — system / structural output                 */
+    -sl-terminal-success:  #4E5F33;   /* Moss (a touch deeper) — confirmations               */
+    -sl-terminal-error:    #8E3B2E;   /* Oxblood — errors & contradictions                   */
+    -sl-terminal-dialogue: #8A4F1C;   /* Deep brass — a character speaking (reads on vellum) */
+
+    /* Themed inner surface for EVERY input control (text fields/areas, combo & spinner editors,
+       list/table cells). References -sl-faded-vellum, which theme_dark.css flips, so the swap is
+       automatic and no control falls back to modena's stark white in candlelight
+       (.scratch/gui-g1-theming-integrity, DESIGN.md §8). Component classes (.terminal-input,
+       .mp-code-well, .case-invitation-text) still override where a specific well colour is wanted. */
+    -fx-control-inner-background: -sl-faded-vellum;
+
+    -fx-font-family: "Spectral", serif;
+    /* The 100% reading base (.scratch/gui-typography-readability, Phase 3): every reading-family
+       size in this sheet is an em ratio of this root size, so the "Reading text size" slider scales
+       the WHOLE interface by re-basing the root (the .read-scale-NNN rules at the foot of the
+       sheet). 12px = the JavaFX default, so 100% renders exactly as before. The terminal family
+       (.terminal-line/-input/-prompt, .suggestion-chip) pins absolute px sizes and follows ONLY the
+       "Terminal text size" slider. */
+    -fx-font-size: 12px;
+    -fx-background-color: -sl-parchment;
+    -fx-text-fill: -sl-ink;
+}
+
+/* Base ink/prompt/selection for any text input on the warm well, so a control with no bespoke
+   class (the Case Maker's many fields, Add Case's path field) still reads correctly in both themes
+   (.scratch/gui-g1-theming-integrity). */
+.text-input {
+    -fx-text-fill: -sl-ink;
+    -fx-prompt-text-fill: -sl-sepia;
+    -fx-highlight-fill: -sl-petrol;
+    -fx-highlight-text-fill: -sl-vellum;
+}
+
+/* Combo box / choice box / spinner — engraved faded-vellum wells with an ink contour, never the
+   modena gray button. The editor + popup list inherit -fx-control-inner-background from .root. */
+.combo-box-base,
+.choice-box,
+.spinner {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-background-radius: 4;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+}
+
+.combo-box-base .arrow,
+.choice-box .arrow,
+.spinner .increment-arrow,
+.spinner .decrement-arrow {
+    -fx-background-color: -sl-ink;
+}
+
+.combo-box .list-cell,
+.choice-box .label,
+.spinner .text-field {
+    -fx-text-fill: -sl-ink;
+}
+
+/* The combo popup sits on the vellum panel surface, not a gray default. */
+.combo-box-popup .list-view {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1;
+}
+
+/* Final Exam answer slots: only the CLOSED slot's shown value (its button cell) is retinted — the
+   .exam-slot class is on the combo, not the popup, so the dropdown list keeps its normal orange
+   selection highlight untouched. The text follows -sl-exam-slot-text: dark ink in light mode,
+   near-white in dark mode (theme_dark.css), where the inherited ochre washed out. Covers the
+   :selected state too so the brass-highlighted slot stays legible. */
+.exam-slot .list-cell,
+.exam-slot .list-cell:selected {
+    -fx-text-fill: -sl-exam-slot-text;
+}
+
+
+/* ScrollBar — the modena default bar root + corner are a pale GRAY gradient; clear them so only the
+   themed track/thumb show (.scratch/terminal-line-highlight issue 02). */
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.corner {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: -sl-sepia;
+    -fx-background-radius: 4;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: -sl-ochre;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-background-color: -sl-sepia;
+}
+
+/* Buttons — primary action, petrol fill with vellum text (DESIGN.md §5).
+   Flat fill bounded by a 2px Ink contour — "the border IS the affordance"; no shadow.
+   Hover lifts the fill one shade (petrol-bright); pressed darkens it and drops 1px; focus is a
+   crisp petrol contour, never a glow (HARD BAN §1 — the platform faint-focus halo is suppressed). */
+.button {
+    -fx-background-color: -sl-petrol;
+    -fx-text-fill: -sl-vellum;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-padding: 8 16;
+    -fx-font-size: 1.0833em;
+    -fx-cursor: hand;
+    /* Kill the default focus halo so :focused reads as a clean border, not a glow. */
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: -sl-petrol-bright;
+    -fx-text-fill: -sl-vellum;
+}
+
+.button:pressed {
+    -fx-background-color: derive(-sl-petrol, -12%);
+    -fx-translate-y: 1px;
+}
+
+.button:focused {
+    -fx-border-color: -sl-petrol-bright;
+}
+
+.button:disabled {
+    -fx-opacity: 0.4;
+}
+
+/* Top button bar — quieter, ink on parchment with a sepia hairline */
+.top-button {
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: -sl-sepia;
+    -fx-border-radius: 4;
+    -fx-border-width: 1;
+}
+
+.top-button:hover {
+    -fx-border-color: -sl-petrol;
+    -fx-background-color: -sl-faded-vellum;
+    /* A toolbar button is also a .button, so without this it would inherit .button:hover's
+       -fx-text-fill: -sl-vellum — which in dark mode is near-black on a near-black hover fill and the
+       label vanishes. Ink is the readable text colour in BOTH themes. */
+    -fx-text-fill: -sl-ink;
+}
+
+.top-button:pressed {
+    -fx-background-color: derive(-sl-faded-vellum, -8%);
+    -fx-translate-y: 1px;
+}
+
+.top-button:focused {
+    -fx-border-color: -sl-petrol;
+}
+
+/* Terminal — a deep warm SUNKEN WELL (ingame-terminal-polish issue 01). The transcript is a
+   ui.terminal.TerminalView (a ScrollPane over a TextFlow), so each line carries its own ink via
+   .terminal-line[--kind]. Compound selectors (.scroll-pane.terminal-area) outrank the generic
+   .scroll-pane rules regardless of source order. */
+.scroll-pane.terminal-area {
+    -fx-background-color: -sl-terminal-bg;
+    -fx-background-insets: 0;
+    -fx-background-radius: 4;
+    -fx-border-color: -sl-terminal-border;   /* 1.5px impressed contour — the sunken plate */
+    -fx-border-width: 1.5;
+    -fx-border-radius: 4;
+    -fx-padding: 0;
+}
+
+.scroll-pane.terminal-area > .viewport {
+    -fx-background-color: -sl-terminal-bg;
+}
+
+/* The terminal's scroll bar blends into the well: transparent gutter, a subtle border-toned thumb —
+   no pale gray strip on the well (.scratch/terminal-line-highlight issue 02). */
+.scroll-pane.terminal-area .scroll-bar,
+.scroll-pane.terminal-area .scroll-bar .track {
+    -fx-background-color: transparent;
+}
+.scroll-pane.terminal-area .scroll-bar .thumb {
+    -fx-background-color: -sl-terminal-border;
+    -fx-background-radius: 4;
+}
+
+/* The transcript body: comfortable inset (8px scale) and line-height, typewriter face. Explicitly
+   transparent so the ONLY surface behind the text is the well — no per-line/flow background box ever
+   (.scratch/terminal-line-highlight issue 01). */
+.terminal-flow {
+    -fx-background-color: transparent;
+    -fx-padding: 8 10 8 10;
+    -fx-line-spacing: 5;   /* generous leading (~1.5 with the 15px line) — readability pass */
+}
+
+/* Terminal base size 15px (readability pass); the .term-scale-NNN buckets at the foot of the sheet
+   multiply this for the Settings "Terminal text size" slider. */
+.terminal-line {
+    -fx-fill: -sl-terminal-text;
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 15px;
+}
+
+/* Per-line ink so output is not a wall of one colour (DESIGN.md §2 palette). */
+.terminal-line--normal        { -fx-fill: -sl-terminal-text; }
+.terminal-line--system        { -fx-fill: -sl-terminal-system; }
+.terminal-line--success       { -fx-fill: -sl-terminal-success; }
+.terminal-line--error         { -fx-fill: -sl-terminal-error; }
+.terminal-line--contradiction { -fx-fill: -sl-terminal-error; }
+.terminal-line--dialogue      { -fx-fill: -sl-terminal-dialogue; }
+
+/* The command input shares the well: cream text, an ochre (text-fill) caret, ochre prompt glyph. */
+.terminal-input {
+    -fx-background-color: -sl-terminal-bg;
+    -fx-text-fill: -sl-terminal-text;
+    -fx-prompt-text-fill: -sl-sepia;
+    -fx-highlight-fill: -sl-petrol;
+    -fx-highlight-text-fill: -sl-terminal-text;
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 15px;
+    -fx-border-color: -sl-terminal-border;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.terminal-input:focused {
+    -fx-border-color: -sl-petrol-bright;   /* lifted petrol reads on the dark well */
+}
+
+/* Inline autocomplete "ghost": the best/highlighted suggestion's remaining suffix, drawn faded in
+   the input right after the typed text (the chip strip's twin — same SuggestionStripModel source).
+   Font is set in code to match the input's live (scaled) font; here we only fade it to sepia so it
+   never reads as committed text. -sl-sepia is defined in both themes. */
+.terminal-ghost {
+    -fx-text-fill: -sl-sepia;
+    -fx-opacity: 0.6;
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: -sl-vellum;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* SplitPane */
+.split-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.split-pane *.split-pane-divider {
+    -fx-background-color: -sl-sepia;
+    -fx-padding: 1;
+}
+
+/* Panel / Sidebar */
+.panel {
+    -fx-background-color: -sl-vellum;
+    -fx-background-radius: 8;
+    -fx-padding: 12;
+}
+
+/* The terminal pane keeps a tight header: a slim top padding so the "Terminal" title band doesn't
+   eat vertical space, leaving more room for the transcript (the sidebar keeps the default padding). */
+.terminal-panel {
+    -fx-padding: 4 12 10 12;
+}
+
+/* Task rows read like the Help card (gui-tasks-window): a flat vellum list, ink label text.
+   Calibrated to the reading body (15px, like the case-file prose) and scaled by the .read-scale-NNN
+   buckets at the foot of the sheet so it follows the "Reading text size" slider. */
+.task-label {
+    -fx-text-fill: -sl-ink;
+    -fx-font-size: 1.25em;
+}
+
+.panel-title {
+    -fx-text-fill: -sl-petrol;
+    -fx-font-size: 1.1667em;
+    -fx-font-weight: bold;
+}
+
+/* === Themed TabPane (.scratch/casefile-tabs) — engrave the default gray TabPane into the design
+   system; every value is an -sl-* looked-up colour so it flips light/dark (DESIGN.md §3/§5/§8). Used
+   by the Case File window and the Case Maker. Tabs are vellum plates with rounded TOP corners only;
+   the selected tab lifts to the content surface with an ochre top-rule; an ochre rule divides the
+   strip from the content. === */
+.tab-pane {
+    -fx-background-color: transparent;
+}
+
+/* Header strip = the panel surface, with an ochre rule under it — never the default gray. */
+.tab-pane > .tab-header-area {
+    -fx-padding: 0;
+}
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: transparent transparent -sl-ochre transparent;
+    -fx-border-width: 0 0 1.5 0;
+}
+
+/* Each tab: an engraved, recessed plate — rounded TOP corners only, thin ink contour. */
+.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-background-radius: 6 6 0 0;
+    -fx-background-insets: 0;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1 1 0 1;
+    -fx-border-radius: 6 6 0 0;
+    -fx-padding: 4 16 4 16;
+}
+/* No -fx-font-family on the label: inherit the per-language face (.lang-ar/.lang-ru) — DEC-3. */
+.tab-pane > .tab-header-area > .headers-region > .tab .tab-label {
+    -fx-text-fill: -sl-ink;
+    -fx-font-size: 1.1667em;
+}
+
+/* Hover: lift the fill one shade (the border is the affordance). */
+.tab-pane > .tab-header-area > .headers-region > .tab:hover {
+    -fx-background-color: derive(-sl-faded-vellum, -6%);
+}
+
+/* Selected: lift to the content surface + an ochre top-rule, connected to the content below. */
+.tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ochre -sl-ink transparent -sl-ink;
+    -fx-border-width: 3 1 0 1;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:selected .tab-label {
+    -fx-text-fill: -sl-petrol;
+    -fx-font-weight: bold;
+}
+
+/* Remove the default JavaFX blue focus ring/highlight (DESIGN.md §1). */
+.tab-pane .tab .focus-indicator {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+}
+
+/* Content area: the panel surface, flush under the strip (the selected tab's open bottom joins it). */
+.tab-pane > .tab-content-area {
+    -fx-background-color: -sl-vellum;
+    -fx-border-width: 0;
+}
+
+/* Overflow (many tabs / narrow window): a themed down-button, never gray (DEC-5). */
+.tab-pane > .tab-header-area > .control-buttons-tab .tab-down-button {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-background-radius: 4;
+}
+.tab-pane > .tab-header-area > .control-buttons-tab .tab-down-button:hover {
+    -fx-background-color: derive(-sl-faded-vellum, -6%);
+}
+.tab-pane > .tab-header-area > .control-buttons-tab .tab-down-button .arrow {
+    -fx-background-color: -sl-ink;
+}
+
+/* Context menus (the tab-overflow popup, and any other) — themed, no gray default (DEC-5). */
+.context-menu {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-padding: 2;
+}
+.context-menu .menu-item .label {
+    -fx-text-fill: -sl-ink;
+}
+.context-menu .menu-item:focused,
+.context-menu .menu-item:hovered {
+    -fx-background-color: -sl-ochre;
+    -fx-background-radius: 3;
+}
+.context-menu .menu-item:focused .label,
+.context-menu .menu-item:hovered .label {
+    -fx-text-fill: -sl-on-ochre;
+}
+
+.sidebar-label {
+    -fx-text-fill: -sl-sepia;
+    -fx-font-size: 1em;
+}
+
+.sidebar-value {
+    -fx-text-fill: -sl-moss;
+    -fx-font-size: 1em;
+    -fx-font-weight: bold;
+}
+
+/* Separator */
+.separator *.line {
+    -fx-border-color: -sl-sepia;
+    -fx-border-width: 0.5 0 0 0;
+}
+
+/* Label */
+.label {
+    -fx-text-fill: -sl-ink;
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-sepia;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: -sl-ink;
+}
+
+.list-cell:selected {
+    -fx-background-color: -sl-ochre;
+    -fx-text-fill: -sl-on-ochre;
+}
+
+/* Dialogs */
+.dialog-pane {
+    -fx-background-color: -sl-vellum;
+}
+
+/* DESIGN.md §5: a small ochre rule under the dialog title. */
+.dialog-pane .header-panel {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 0 0 1 0;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: -sl-ink;
+}
+
+/* === Main scene classes (extracted from main.fxml inline styles) === */
+
+.app-toolbar {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-padding: 10;
+}
+
+.badge-unread {
+    -fx-background-color: -sl-oxblood;
+    -fx-text-fill: -sl-vellum;
+    -fx-background-radius: 10;
+    -fx-padding: 2 6 2 6;
+    -fx-font-size: 0.8333em;
+    -fx-font-weight: bold;
+}
+
+.room-pane {
+    -fx-background-color: -sl-faded-vellum;
+}
+
+/* The room plate paints an OPAQUE themed mat under the single contained room image, so the
+   letterbox bars around a proportionally-scaled image are faded-vellum and nothing behind the
+   plate ever shows through (one room image, never a second/previous one). */
+.room-view {
+    -fx-background-color: -sl-faded-vellum;
+}
+
+.room-view-placeholder {
+    -fx-text-fill: -sl-sepia;
+    -fx-font-size: 2em;
+}
+
+/* The command prompt glyph (>) — ochre, typewriter, sitting on the well next to the input. */
+.terminal-prompt {
+    -fx-text-fill: -sl-ochre;
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 15px;
+}
+
+/* === Terminal autocomplete (suggestion strip) ===
+   A single row of flat faded-vellum chips inside the terminal panel — ligne claire
+   per DESIGN.md §5: 1.5px Ink contour, 6px radius, no shadows. The highlighted chip
+   takes the ochre fill. Typewriter face: suggestions read as typed commands. */
+
+.suggestion-strip {
+    -fx-padding: 0;
+}
+
+.suggestion-chip {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 2 8 2 8;
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+}
+
+.suggestion-chip:hover {
+    -fx-border-color: -sl-petrol-bright;
+}
+
+/* The keyboard-highlighted chip (.scratch/terminal-autocomplete issue 04): an obvious petrol-blue
+   contour per DESIGN.md — ligne claire, no fill flood, no glow. */
+.suggestion-chip--active {
+    -fx-background-color: derive(-sl-faded-vellum, 6%);
+    -fx-border-color: -sl-petrol;
+    -fx-border-width: 2;
+    -fx-text-fill: -sl-petrol;
+}
+
+/* Typewriter utility — apply to anything that should read as "a detective's written
+   record" per DESIGN.md §3: terminal, journal, Final Exam questions. Regular weight only — Special
+   Elite has no bold (a typewriter is mono-weight), so this role is never bolded and stays matched
+   with the Amiri/PT-Serif/CJK faces across languages. Base 14px (readability pass); scaled by the
+   .read-scale-NNN buckets at the foot of the sheet. */
+/* GOTCHA (em migration): NEVER put a relative -fx-font-size on a Labeled's inner .text node — it
+   shares the label's font property, and re-resolving it there silently cancels the container's own
+   em size (a Label.typewriter collapses to the root size). The descendant rules below re-point the
+   FAMILY only; cells/inner text inherit the container's already-scaled size, so nothing compounds. */
+.typewriter {
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 1.1667em;
+}
+
+.typewriter .list-cell,
+.typewriter .text {
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+}
+
+/* === Main menu (menu screen, tutorials list) === */
+
+/* The single permitted gradient (DESIGN.md §6): a soft, warm radial "lamplight" pooled behind the
+   central content, barely perceptible — a slightly lifted parchment at the centre falling back to
+   the app surface at the edges. No other decorative gradient exists anywhere in the theme. */
+.main-menu-container {
+    -fx-background-color: radial-gradient(focus-distance 0% , center 50% 40%, radius 65%,
+                          derive(-sl-parchment, 9%) 0%, -sl-parchment 100%);
+    -fx-padding: 48 32 48 32;
+}
+
+/* Major screen title — Playfair Display per DESIGN.md §3 (the major-screen-title look). JavaFX CSS
+   supports neither font-variant:small-caps nor letter-spacing, so the "small caps" intent is carried
+   by the typeface at display size with Title-Case i18n text and the ochre rule below, not a variant. */
+.title {
+    -fx-font-family: "Playfair Display", serif;
+    -fx-font-size: 2.6667em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-petrol;
+}
+
+/* The menu hero title — larger than a generic screen .title, with editorial breathing room. */
+.menu-title {
+    -fx-font-family: "Playfair Display", serif;
+    -fx-font-size: 3.8333em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-petrol;
+    -fx-padding: 0 0 4 0;
+}
+
+/* A small ochre rule beneath a title (DESIGN.md §5 dialogs; reused under the menu title). Apply to a
+   thin Region/Separator row sitting under the title text. */
+.title-rule {
+    -fx-min-height: 2;
+    -fx-max-height: 2;
+    -fx-pref-width: 160;
+    -fx-background-color: -sl-ochre;
+}
+
+.main-menu-button {
+    -fx-min-width: 280px;
+}
+
+/* Audio settings (menu) — ligne-claire volume slider (DESIGN.md §5): flat fill, Ink contour, no
+   shadow; the petrol thumb is the affordance. */
+.volume-slider .track {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.volume-slider .thumb {
+    -fx-background-color: -sl-petrol;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 8;
+}
+
+.volume-slider .thumb:hover {
+    -fx-background-color: -sl-petrol-bright;
+}
+
+/* Language selector — secondary button per DESIGN.md §5: vellum fill, ink text + border.
+   The active language is shown disabled (selected state). */
+.language-button {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 4 12;
+    -fx-font-size: 1em;
+}
+
+.language-button:hover {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-text-fill: -sl-ink;
+}
+
+.language-button:pressed {
+    -fx-background-color: derive(-sl-faded-vellum, -8%);
+    -fx-translate-y: 1px;
+}
+
+.language-button:focused {
+    -fx-border-color: -sl-petrol;
+}
+
+.language-button:disabled {
+    -fx-opacity: 1.0;
+    -fx-background-color: -sl-ochre;
+    -fx-border-color: -sl-ink;
+    -fx-text-fill: -sl-on-ochre;
+}
+
+/* === Overlay containers (case invitation, tutorials menu) === */
+
+.overlay-container {
+    -fx-background-color: -sl-vellum;
+}
+
+.overlay-title {
+    -fx-font-size: 2em;
+    -fx-text-fill: -sl-petrol;
+    -fx-font-weight: bold;
+}
+
+.case-invitation-text {
+    -fx-control-inner-background: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.1667em;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 1;
+}
+
+/* Tutorial overlay — an on-brand dossier card pinned over the scene (DESIGN.md §5).
+   NOTE: `.tutorial-overlay-pane` intentionally has NO style rule / background. A `-fx-background-color:
+   transparent` FILL is still pickable (contains==true even with pickOnBounds=false), so the full-size
+   pane would swallow every click meant for the room sprites / examine-question popup beneath it. With
+   no fill it is click-through on its empty areas; only the card (its own vellum surface) intercepts
+   (.scratch/gui-tutorial-overlay-clickthrough). */
+
+/* The guidance text: the reading face on the card's vellum (the card supplies the surface). Font
+   size scales with the Reading slider via the read-scale-NNN rules (.scratch/gui-typography-
+   readability). */
+.tutorial-overlay-label {
+    -fx-background-color: transparent;
+    -fx-text-fill: -sl-ink;
+    -fx-font-size: 1.3333em;
+    -fx-line-spacing: 4;
+}
+
+/* The guidance card — a dossier card matching the dialogue bubble (.scratch/gui-tutorial-bubble-
+   polish): vellum fill, 2px Ink contour, 6px radius, comfortable padding, no shadow. It is capped to
+   its PREF size in showTutorialOverlay so it stays a small bottom-centre card and never stretches to
+   cover the room (.scratch/gui-tutorial-overlay-transparent). */
+.tutorial-overlay-card {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 12 16 14 16;
+}
+
+/* Small ochre rule — the dossier divider/engraving accent (mirrors .dialogue-bubble-rule). */
+.tutorial-overlay-rule {
+    -fx-background-color: -sl-ochre;
+    -fx-pref-height: 2;
+    -fx-max-height: 2;
+    -fx-min-height: 2;
+}
+
+/* Borderless top-right dismiss glyph — quiet sepia, oxblood (dismiss intent) on hover. */
+/* Obvious dismiss control: an ochre (orange) square with an ink contour + "×", so players
+   clearly see the bubble can be closed. Token-based, so it flips with the theme. */
+.tutorial-overlay-close {
+    -fx-background-color: -sl-ochre;
+    -fx-background-insets: 0;
+    -fx-background-radius: 3;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-border-radius: 3;
+    /* The square tracks the glyph: 1.6em of the button's own (scaled) 1.25em font = 24px at 100%,
+       so the × never clips at 140%. */
+    -fx-min-width: 1.6em;
+    -fx-min-height: 1.6em;
+    -fx-max-width: 1.6em;
+    -fx-max-height: 1.6em;
+    -fx-padding: 0;
+    -fx-text-fill: -sl-ink;
+    -fx-font-size: 1.25em;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.tutorial-overlay-close:hover {
+    -fx-background-color: derive(-sl-ochre, -8%);
+    -fx-text-fill: -sl-ink;
+}
+
+.tutorial-overlay-close:focused {
+    -fx-border-color: -sl-oxblood;
+}
+
+/* === Dialogue bubble — event-type colored card over the room ===
+   Use both .dialogue-bubble and a .dialogue-bubble--<type> modifier (lowercased
+   DialogueType enum name) to set the border color by event type. */
+
+.dialogue-bubble {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 2;
+}
+
+.dialogue-bubble--watson        { -fx-border-color: -sl-petrol; }
+.dialogue-bubble--contradiction { -fx-border-color: -sl-oxblood; }
+.dialogue-bubble--suspect       { -fx-border-color: -sl-ochre; }
+.dialogue-bubble--examine       { -fx-border-color: -sl-moss; }
+.dialogue-bubble--deduction     { -fx-border-color: -sl-petrol-bright; }
+.dialogue-bubble--narrative     { -fx-border-color: -sl-ochre; }
+
+.dialogue-bubble-title {
+    -fx-text-fill: -sl-ochre;
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}
+
+.dialogue-bubble-title--watson        { -fx-text-fill: -sl-petrol; }
+.dialogue-bubble-title--contradiction { -fx-text-fill: -sl-oxblood; }
+.dialogue-bubble-title--suspect       { -fx-text-fill: -sl-ochre; }
+.dialogue-bubble-title--examine       { -fx-text-fill: -sl-moss; }
+.dialogue-bubble-title--deduction     { -fx-text-fill: -sl-petrol-bright; }
+.dialogue-bubble-title--narrative     { -fx-text-fill: -sl-ochre; }
+
+.dialogue-bubble-content {
+    -fx-text-fill: -sl-ink;
+    -fx-control-inner-background: -sl-vellum;
+    -fx-font-size: 1.3333em;        /* readability pass — comfortable body for the examine/question/
+                                   deduce/combine/contradict/watson popups */
+    -fx-line-spacing: 4;        /* ~1.5 line-height on the 16px body */
+    -fx-background-color: transparent;
+}
+
+/* Small ochre rule under the title (DESIGN.md §5 dialogs). */
+.dialogue-bubble-rule {
+    -fx-background-color: -sl-ochre;
+    -fx-pref-height: 2;
+    -fx-max-height: 2;
+    -fx-min-height: 2;
+}
+
+/* The subject image sits in its own band — a framed plate (DESIGN.md §5): vellum mat, 2px Ink
+   contour, no shadow. It never overlaps the description, which flows below it. */
+.dialogue-bubble-image {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-padding: 6;
+}
+
+/* === Victory popup === */
+
+.victory-bubble {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 4;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.victory-title {
+    -fx-text-fill: -sl-petrol;
+    -fx-font-size: 2.6667em;
+    -fx-font-weight: bold;
+    -fx-font-family: "Playfair Display", serif;
+}
+
+.victory-rank {
+    -fx-text-fill: -sl-ink;
+    -fx-font-size: 2em;
+    -fx-font-weight: bold;
+}
+
+.victory-statement {
+    -fx-text-fill: -sl-sepia;
+    -fx-font-size: 1.5em;
+    -fx-font-style: italic;
+}
+
+/* === Room view (room name plaque, placeholder, speech bubble, character label) === */
+
+.room-name-label {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 5;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1;
+}
+
+.room-placeholder-bg {
+    -fx-background-color: -sl-faded-vellum;
+}
+
+.room-interactive-layer {
+    -fx-background-color: transparent;
+}
+
+.clickable-element {
+    -fx-cursor: hand;
+}
+
+.speech-bubble {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-padding: 10;
+    -fx-background-radius: 10;
+    -fx-font-size: 1em;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+}
+
+.character-label {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-font-weight: bold;
+    /* Fixed px (NOT em): the suspect/object name plate must stay a constant size regardless of the
+       Reading text size slider, otherwise a larger font enlarges the plate and it covers the figures
+       behind it. */
+    -fx-font-size: 10px;
+    -fx-padding: 2 6 2 6;
+    -fx-background-radius: 3;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1;
+}
+
+/* === Room dialog content (Ask Watson custom layout, generic styled content) === */
+
+.dialog-content {
+    -fx-background-color: -sl-vellum;
+}
+
+.cost-label {
+    -fx-text-fill: -sl-moss;
+    -fx-font-weight: bold;
+}
+
+.cost-label--paid {
+    -fx-text-fill: -sl-oxblood;
+}
+
+/* === Sub-window common classes (Journal, Chat, AddCase, CaseFile, Tasks, FinalExam) === */
+
+.themed-input {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-control-inner-background: -sl-faded-vellum;   /* themes a TextArea's .content, not just the frame */
+    -fx-text-fill: -sl-ink;
+    -fx-prompt-text-fill: -sl-sepia;
+}
+
+/* Case File reading prose — a dedicated reading-content class (NOT the generic .themed-input, which
+   also dresses Case Maker / Add Case inputs that must stay fixed). Comfortable body size; no family
+   pin so it inherits the per-language face (.lang-ar/.lang-ru). Scaled by .read-scale-NNN. */
+/* No .case-file-body .text size rule: the inner text inherits the control's scaled size (a
+   relative size on an inner .text node cancels the container's em — see the .typewriter gotcha). */
+.case-file-body {
+    -fx-font-size: 1.25em;
+}
+
+/* Final Exam question prompt — the focal "written record" line (DESIGN.md §3). Carries .typewriter
+   too (face); this class sets the focal size so it scales with the slider. */
+.exam-question {
+    -fx-font-size: 1.3333em;
+}
+
+/* Sub-window titles read as one family (DESIGN.md §5): petrol, with a small ochre rule beneath so
+   Journal/Tasks/Chat/Case File/Add Case/Final Exam all share the dialog title treatment. */
+.window-title {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-petrol;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 0 4 0;
+}
+
+/* === Help reference card (gui-g4) — a scannable §5 card, not a wall of text. Vertical scroll only;
+   the ScrollPane viewport is transparent so the vellum .panel shows through (no white patch in
+   dark). All -sl-* tokens. === */
+.help-scroll {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-padding: 0;
+}
+.help-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Settings dossier scroll (.scratch/gui-popup-text-wrap follow-up): the form scrolls vertically only
+   when a short window can't fit every section, so it never spills past the engraved MenuPage frame.
+   Transparent surface + viewport so the parchment page shows through (no white/gray patch, no fork of
+   the palette); the bar uses the global themed scroll-bar. */
+.settings-scroll {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-padding: 0;
+}
+.settings-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Section header: Spectral, petrol, with a thin ochre rule beneath (smaller sibling of .window-title). */
+.help-section-header {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.25em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-petrol;
+    -fx-border-color: transparent transparent -sl-ochre transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 0 3 0;
+}
+
+/* The command literal — "the detective's written record" (DESIGN.md §3): the typewriter face. Latin
+   only (the parser takes Latin keywords), so no per-language override. */
+.help-command {
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-ink;
+}
+
+/* The description — Spectral body, wraps to the column. */
+.help-description {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-ink;
+}
+
+.exam-score {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}
+
+.exam-winning {
+    -fx-font-size: 1.3333em;
+    -fx-text-fill: -sl-moss;
+    -fx-wrap-text: true;
+}
+
+.exam-waiting {
+    -fx-font-size: 1.3333em;
+    -fx-text-fill: -sl-ochre;
+}
+
+/* === Exam answer review (gui-exam-review): the player's filled-in sentences in the typewriter face
+   ("the detective's written record"), one per question, moss = correct / oxblood = wrong. === */
+.exam-review-heading {
+    -fx-font-size: 1.3333em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-petrol;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 6 0 4 0;
+}
+.exam-review-correct,
+.exam-review-incorrect {
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 1.1667em;
+}
+.exam-review-correct {
+    -fx-text-fill: -sl-moss;
+}
+.exam-review-incorrect {
+    -fx-text-fill: -sl-oxblood;
+}
+
+.task-completed > .label {
+    -fx-strikethrough: true;
+}
+
+/* === Per-language typefaces (ui-localization follow-up) ===
+   The layout is always left-to-right; only the type changes with the UI language.
+   The DESIGN.md §3 faces (Spectral / Playfair Display / Special Elite) cover Latin
+   only, so every class above that pins a -fx-font-family gets a per-language
+   override selecting a face that covers the script — Amiri for Arabic, PT Serif
+   for Russian/Cyrillic. The scene root (and each sub-window root) carries a
+   .lang-<code> class applied by ui.i18n.LocaleStyling. These rules sit last in
+   the sheet so they win specificity ties against the base rules. */
+
+.lang-ar {
+    -fx-font-family: "Amiri";
+}
+
+.lang-ar .terminal-area,
+.lang-ar .terminal-input,
+.lang-ar .terminal-prompt,
+.lang-ar .typewriter,
+.lang-ar .typewriter .list-cell,
+.lang-ar .typewriter .text,
+.lang-ar .suggestion-chip,
+.lang-ar .case-invitation-text,
+.lang-ar .title,
+.lang-ar .victory-title {
+    -fx-font-family: "Amiri";
+}
+
+.lang-ru {
+    -fx-font-family: "PT Serif";
+}
+
+.lang-ru .terminal-area,
+.lang-ru .terminal-input,
+.lang-ru .terminal-prompt,
+.lang-ru .typewriter,
+.lang-ru .typewriter .list-cell,
+.lang-ru .typewriter .text,
+.lang-ru .suggestion-chip,
+.lang-ru .case-invitation-text,
+.lang-ru .title,
+.lang-ru .victory-title {
+    -fx-font-family: "PT Serif";
+}
+
+/* Chinese (zh): a serif CJK face. Bundling is deferred (.scratch/gui-add-languages), so this is a
+   family STACK — JavaFX picks the first that resolves: a bundled Noto/Source Han Serif if dropped in,
+   else a system CJK serif/sans. The layout stays left-to-right like every other language. */
+.lang-zh {
+    -fx-font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Microsoft YaHei", "SimSun", "PingFang SC", "Songti SC", serif;
+}
+
+.lang-zh .terminal-area,
+.lang-zh .terminal-input,
+.lang-zh .terminal-prompt,
+.lang-zh .typewriter,
+.lang-zh .typewriter .list-cell,
+.lang-zh .typewriter .text,
+.lang-zh .suggestion-chip,
+.lang-zh .case-invitation-text,
+.lang-zh .title,
+.lang-zh .victory-title {
+    -fx-font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Microsoft YaHei", "SimSun", "PingFang SC", "Songti SC", serif;
+}
+
+/* ============================================================================
+   Menu chrome + engraved plates (.scratch/main-menu; MENU_DESIGN.md)
+   The shared look behind every menu screen, built to match
+   docs/art-refs/main_menu_reference.png. Percentage/grow layout lives in
+   ui.menu.MenuPage; this sheet owns the surface, type and control styling.
+   ============================================================================ */
+
+/* The menu page surface: parchment with the single permitted soft radial lamplight (DESIGN.md §6),
+   pooled a little above centre behind the content. The ≤6% paper grain is drawn on a canvas in
+   MenuPage so it never tints the text. No other decorative gradient exists here (HARD BAN §1). */
+.menu-page {
+    -fx-background-color: radial-gradient(focus-distance 0%, center 50% 42%, radius 72%,
+                          derive(-sl-parchment, 8%) 0%, -sl-parchment 100%);
+}
+
+/* Title block — Playfair hero title in Ink (the reference title is ink, not petrol), a short ochre
+   rule (the oxblood centre dot is a node in MenuPage), and a small-caps Spectral subtitle. JavaFX
+   CSS has no letter-spacing/small-caps, so the subtitle's spaced-caps look comes from the i18n text
+   at display size, not a font-variant (documented in .scratch/ui-immersion). */
+.menu-title-block {
+    -fx-padding: 8 0 0 0;
+}
+
+.menu-page-title {
+    -fx-font-family: "Playfair Display", serif;
+    -fx-font-size: 4.3333em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-ink;
+}
+
+.menu-title-rule {
+    -fx-min-height: 2;
+    -fx-max-height: 2;
+    -fx-pref-width: 280;
+    -fx-max-width: 280;
+    -fx-background-color: -sl-ochre;
+}
+
+.menu-subtitle {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.25em;
+    -fx-text-fill: -sl-sepia;
+}
+
+/* Engraved plate (DESIGN.md §5; MENU_DESIGN buttons): flat vellum fill bounded by a 2px Ink contour
+   with a faint inner highlight line (paper thickness) inset just inside it. The border IS the
+   affordance — no shadow. Hover lifts the fill one shade and pressed darkens it (here); the gentle
+   hover/focus rise and press settle are eased in code (ui.util.Motion over Motion.HOVER). A
+   keyboard-focused plate shows a clear ochre ring (the platform focus halo is suppressed). */
+.menu-plate {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: -sl-ink, derive(-sl-vellum, 18%);
+    -fx-border-width: 2, 0.8;
+    -fx-border-insets: 0, 2.4;
+    -fx-padding: 14 28 14 28;
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.5833em;
+    -fx-cursor: hand;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.menu-plate:hover {
+    -fx-background-color: derive(-sl-vellum, 6%);
+    -fx-text-fill: -sl-ink;
+}
+
+/* The hover-lift and press-settle translate is owned by ui.util.Motion (eased over Motion.HOVER),
+   so it is not set here — CSS keeps only the colour shift. */
+.menu-plate:pressed {
+    -fx-background-color: derive(-sl-vellum, -7%);
+}
+
+.menu-plate:focused {
+    -fx-border-color: -sl-ochre, derive(-sl-vellum, 18%);
+    -fx-border-width: 2.5, 0.8;
+}
+
+/* The primary action on each screen — petrol fill with vellum label (DESIGN.md §5). */
+.menu-plate--primary {
+    -fx-background-color: -sl-petrol;
+    -fx-text-fill: -sl-vellum;
+    -fx-border-color: -sl-ink, derive(-sl-petrol, 22%);
+    -fx-border-width: 2, 0.8;
+    -fx-border-insets: 0, 2.4;
+}
+
+.menu-plate--primary:hover {
+    -fx-background-color: -sl-petrol-bright;
+    -fx-text-fill: -sl-vellum;
+}
+
+.menu-plate--primary:pressed {
+    -fx-background-color: derive(-sl-petrol, -12%);
+}
+
+.menu-plate--primary:focused {
+    -fx-border-color: -sl-ochre, derive(-sl-petrol, 22%);
+    -fx-border-width: 2.5, 0.8;
+}
+
+/* Demoted corner controls (Settings gear, Quit power): small engraved roundels, the icon drawn as a
+   thin-line graphic. Never full plates (MENU_DESIGN). */
+.menu-icon-button {
+    -fx-background-color: transparent;
+    -fx-border-color: -sl-sepia;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-padding: 8;
+    -fx-cursor: hand;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.menu-icon-button:hover {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-petrol;
+    -fx-text-fill: -sl-ink; /* same reason as .top-button:hover — never inherit .button:hover's vellum */
+}
+
+/* Press-settle is owned by ui.util.Motion (eased); the roundel has no colour shift on press. */
+.menu-icon-button:focused {
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 2;
+}
+
+/* Bottom strip: just the small version label, quiet sepia. Language now lives in the globe corner
+   control (.menu-icon-button) + a popover — there is no text language dropdown (MENU_DESIGN). */
+.menu-version {
+    -fx-text-fill: -sl-sepia;
+    -fx-font-size: 1.1667em;
+}
+
+/* The frontispiece caption ribbon — an engraved vellum plate with italic sepia text. */
+.menu-caption-ribbon {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-sepia;
+    -fx-font-family: "Spectral", serif;
+    -fx-font-style: italic;
+    -fx-font-size: 1.25em;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-padding: 6 18 6 18;
+}
+
+/* Small popover cards (Settings audio, Multiplayer host/join chooser) — vellum dossier cards. */
+.menu-popover {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 16;
+}
+
+.menu-popover-title {
+    -fx-font-family: "Playfair Display", serif;
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-petrol;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 0 4 0;
+}
+
+/* ============================================================================
+   Case-selection gallery + invitation dossier (.scratch/case-selection; MENU_DESIGN #2)
+   The shelf of engraved casebook covers and the letter/dossier page reached by
+   opening one. The cover engraving (plate, spine, wax seal) is painted on a canvas
+   in ui.menu.CasebookCover; this sheet owns the type and the surfaces.
+   ============================================================================ */
+
+/* Engraved casebook cover — the canvas paints the plate/spine/seal, so the button itself is
+   stripped to nothing but the ochre focus ring and the hand cursor. The hover/focus lift is
+   animated in code (ligne claire: the border + the lift ARE the affordance, no shadow). */
+.casebook-cover {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+/* Title/author/tags sit on the cover face, clear of the painted spine on the left edge. */
+.casebook-content {
+    -fx-padding: 16 16 14 28;
+}
+
+.casebook-title {
+    -fx-font-family: "Playfair Display", serif;
+    -fx-font-size: 1.3333em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-ink;
+}
+
+.casebook-author {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-style: italic;
+    -fx-font-size: 1em;
+    -fx-text-fill: -sl-sepia;
+}
+
+/* Available-language tags — small engraved vellum studs (DESIGN.md §5 badges), the language code in
+   caps. Not flat flag glyphs (HARD BAN §1); the language chooser still shows names in their script. */
+.casebook-lang-tag {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-text-fill: -sl-sepia;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-padding: 1 6 1 6;
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 0.8333em;
+}
+
+/* Bottom-right command-cooldown badge: shown while contradict/combine is locked after too many
+   failed attempts, counting down each second. A quiet engraved vellum plate — no glow (DESIGN.md
+   §1/§6); oxblood text reads as a gentle "locked" caution without shouting. */
+.cooldown-badge {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-text-fill: -sl-oxblood;
+    -fx-border-color: -sl-oxblood;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 4 10 4 10;
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.0833em;
+    -fx-font-weight: bold;
+}
+
+/* The same cooldown countdown as a plain sidebar value (right panel, under Status) — no chip
+   backing here, just engraved oxblood text so it reads as a live status line. */
+.sidebar-cooldown-value {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.0833em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-oxblood;
+}
+
+/* The best Rank Tier earned, beneath the language tags on a solved cover — small engraved oxblood
+   to echo the wax seal (DESIGN.md §5). Only shown when a detailed record carries a rank. */
+.casebook-rank {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-style: italic;
+    -fx-font-size: 0.9167em;
+    -fx-text-fill: -sl-oxblood;
+}
+
+/* Read-only Review summary card (docs/SAVE_AND_PROFILE.md) — rank / deductions / score / date on a
+   sunken vellum strip, sitting under the case title above the saved Journal. */
+.review-summary-card {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-padding: 10 14 10 14;
+}
+
+.review-summary-line {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.0833em;
+    -fx-text-fill: -sl-ink;
+}
+
+/* The invitation excerpt revealed over the lower cover on hover/focus — a vellum band with an Ink
+   top edge, the teaser set in the typewriter face (a detective's written record — DESIGN.md §3). */
+.casebook-excerpt-band {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5 0 0 0;
+    -fx-padding: 10 14 12 14;
+}
+
+.casebook-excerpt {
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 0.9167em;
+    -fx-text-fill: -sl-ink;
+}
+
+/* The dashed "Add a case" tile (its frame + quill-plus are drawn on the canvas). */
+.casebook-add-label {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-sepia;
+}
+
+.casebook-add:hover .casebook-add-label {
+    -fx-text-fill: -sl-petrol;
+}
+
+/* The invitation letter — a vellum dossier card with an Ink contour; the prose is a typed report
+   (DESIGN.md §3). The reading surface scrolls only when a letter is longer than the card. */
+.case-letter-card {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-padding: 4;
+}
+
+/* Cross-language suggestion banner on the shelf (gui-g5b): a calm vellum card with an ochre rule —
+   an in-world offer to switch the interface, never an alert (oxblood is reserved for errors). Reuses
+   the engraving tokens; the .menu-plate actions inside carry the standard primary/quiet treatment. */
+.lang-suggest-banner {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    /* Compact: this is a passing offer, not a page — keep it off the shelf's vertical budget. */
+    -fx-padding: 7 12 7 12;
+}
+
+.lang-suggest-text {
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: transparent transparent -sl-ochre transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 0 4 0;
+}
+
+/* The banner is a TextFlow — a pane with no font property, so a relative size set on IT is dropped
+   rather than inherited. Size the Text spans directly (em of the root base, like everything else). */
+.lang-suggest-text .banner-span {
+    -fx-font-size: 1.0833em;
+}
+
+.case-letter-scroll {
+    -fx-background-color: transparent;
+    -fx-background: -sl-vellum;
+}
+
+.case-letter-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.case-letter {
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-ink;
+    -fx-padding: 16 20 16 20;
+    -fx-line-spacing: 4;
+}
+
+/* Invitation laid out as a written letter (salutation / body / signature). The page holds the
+   letter's inner margin; the inner lines drop their own padding so the parts read as one letter.
+   The signature is italic and sits at the reading-end edge (see the leading spacer in code). */
+.case-letter-page {
+    -fx-padding: 16 20 16 20;
+}
+.case-letter-page .case-letter {
+    -fx-padding: 0;
+}
+.case-letter-signature {
+    -fx-font-style: italic;
+}
+
+/* ============================================================================
+   Multiplayer hub + two-seat lobby (.scratch/multiplayer-lobby; MENU_DESIGN #3/#4)
+   The Host/Join hub, the sunken-vellum code well, the host's large copyable join
+   code plate, and the two engraved detective place-settings. Built on the menu
+   chrome above (.menu-plate / MenuPage); this block owns only the new surfaces.
+   ============================================================================ */
+
+/* Quiet section label above a code well or a discovered-games list. */
+.mp-section-caption {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-sepia;
+}
+
+/* Sunken faded-vellum input well, typewriter face for the entered code (DESIGN.md §5). */
+.mp-code-well {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-prompt-text-fill: -sl-sepia;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 10 14 10 14;
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 1.3333em;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.mp-code-well:focused {
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 1.8;
+}
+
+/* In-world error/feedback line on the Join screen (oxblood, clear first — DESIGN.md §7). */
+.mp-status {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.0833em;
+    -fx-text-fill: -sl-oxblood;
+}
+
+/* Warm waiting/placeholder line ("Awaiting your partner…", "Searching for games…"). */
+.mp-waiting-caption {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-style: italic;
+    -fx-font-size: 1.25em;
+    -fx-text-fill: -sl-sepia;
+}
+
+/* The host's join code on a large engraved plate (MENU_DESIGN #3) — vellum plate, paper-thickness
+   inner line, the code itself set big in the petrol typewriter face; clicking it copies. */
+.join-code-plate {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink, derive(-sl-vellum, 18%);
+    -fx-border-width: 2, 0.8;
+    -fx-border-insets: 0, 3;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 18 32 18 32;
+}
+
+.join-code-caption {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.0833em;
+    -fx-text-fill: -sl-sepia;
+}
+
+.join-code-value {
+    -fx-font-family: "Special Elite", "Courier Prime", "Courier New", monospace;
+    -fx-font-size: 3.3333em;
+    -fx-text-fill: -sl-petrol;
+}
+
+/* A detective's place-setting frame (MENU_DESIGN #4): vellum plate, 2px Ink contour. The partner
+   seat is petrol-framed (the joined-player accent); the empty seat is a faint faded-vellum panel. */
+.mp-seat {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-padding: 8;
+}
+
+.mp-seat--partner {
+    -fx-border-color: -sl-petrol;
+    -fx-border-width: 2.5;
+}
+
+.mp-seat--awaiting {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-sepia;
+    -fx-border-width: 1.6;
+}
+
+.mp-seat-name {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.3333em;
+    -fx-text-fill: -sl-ink;
+}
+
+.mp-seat-awaiting-name {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-style: italic;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-sepia;
+}
+
+/* The host/ready badge — a small ochre wax stud (DESIGN.md §5 badges). */
+.mp-seat-badge {
+    -fx-background-color: -sl-ochre;
+    -fx-text-fill: -sl-on-ochre;
+    -fx-background-radius: 3;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+    -fx-padding: 1 8 1 8;
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 0.9167em;
+}
+
+/* ============================================================================
+   Player profile (.scratch/player-profile): the main-menu corner chip and the
+   Profile screen's avatar gallery. Engraved/ligne-claire on the menu chrome.
+   ============================================================================ */
+
+/* Corner profile chip — a demoted engraved pill (avatar disc + display name), in the
+   .menu-icon-button family: vellum, Ink contour, petrol on hover, ochre focus ring. */
+.menu-profile-chip {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 14;
+    -fx-border-radius: 14;
+    -fx-padding: 3 12 3 4;
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.0833em;
+    -fx-graphic-text-gap: 8;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.menu-profile-chip:hover {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-petrol;
+}
+
+.menu-profile-chip:focused {
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 2;
+}
+
+/* The chip's avatar thumbnail sits in a small Ink-ringed disc. */
+.menu-profile-chip-avatar {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 13;
+    -fx-border-radius: 13;
+    -fx-min-width: 28;
+    -fx-min-height: 28;
+    -fx-max-width: 28;
+    -fx-max-height: 28;
+}
+
+/* The large live preview of the chosen avatar, shown under the title — an engraved book-plate frame
+   (thicker Ink contour + faint paper-thickness inner line, DESIGN.md §5) so the pick reads clearly. */
+.avatar-preview {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink, derive(-sl-vellum, 16%);
+    -fx-border-width: 2.5, 1;
+    -fx-border-insets: 0, 3;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 12;
+}
+
+/* Section label above the name field / avatar gallery on the Profile screen. */
+.profile-field-label {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-sepia;
+}
+
+/* A selectable preset portrait — flat vellum plate, 2px Ink contour (DESIGN.md §5). */
+.avatar-chip {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 2;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-padding: 6;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.avatar-chip:hover {
+    -fx-background-color: -sl-faded-vellum;
+}
+
+.avatar-chip:focused {
+    -fx-border-color: -sl-ochre;
+}
+
+/* The chosen avatar — a petrol contour + faint ochre wash, like a wax-sealed pick. */
+.avatar-chip--selected {
+    -fx-border-color: -sl-petrol;
+    -fx-border-width: 3;
+    -fx-background-color: -sl-faded-vellum;
+}
+
+/* ============================================================================
+   Settings dossier · wax-seal toggles · pause menu · tutorial cards · add-case
+   (.scratch/menu-surfaces; MENU_DESIGN #5/#6/#7/#8). Built on the menu chrome
+   above (MenuPage / .menu-plate); this block owns only the new surfaces.
+   ============================================================================ */
+
+/* Settings dossier form — a vellum card holding the audio/language/theme sections. */
+.settings-card {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink, derive(-sl-vellum, 18%);
+    -fx-border-width: 2, 0.8;
+    -fx-border-insets: 0, 3;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 24 30 24 30;
+}
+
+.settings-section {
+    -fx-font-family: "Playfair Display", serif;
+    -fx-font-size: 1.5833em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-petrol;
+    -fx-border-color: -sl-ochre;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 0 3 0;
+}
+
+.settings-row-label {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-sepia;
+}
+
+.settings-hint {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-style: italic;
+    -fx-font-size: 1.0833em;
+    -fx-text-fill: -sl-sepia;
+}
+
+/* Engraved slider (volume + the two text-size sliders): a sunken faded-vellum groove with a 1.5px
+   ink contour (the "slide"), and an ochre brass-stud thumb (DESIGN.md §5 badges) sitting in it — the
+   contour is the affordance, no shadow. The track fill lives here (not only on .volume-slider) so the
+   text-size sliders get the same visible groove for the knob to sit in. */
+.engraved-slider .track {
+    -fx-background-color: -sl-faded-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-pref-height: 8;
+}
+
+.engraved-slider .thumb {
+    -fx-background-color: -sl-ochre;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 9;
+    -fx-padding: 9;
+}
+
+.engraved-slider .thumb:hover {
+    -fx-background-color: derive(-sl-ochre, 8%);
+}
+
+/* Discrete step NOTCHES on the engraved text-size sliders (.scratch/gui-typography-readability Phase
+   3). JavaFX renders Slider tick marks via a NumberAxis (.axis) with .axis-tick-mark Path nodes; theme
+   them ochre (never the modena gray), hide the numeric labels, and keep the axis line clear so only the
+   notches show under the groove. */
+.engraved-slider .axis {
+    -fx-background-color: transparent;
+    -fx-tick-length: 6;
+    -fx-minor-tick-length: 0;
+    -fx-tick-mark-visible: true;
+    -fx-minor-tick-visible: false;
+    -fx-tick-labels-visible: false;
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 0 0;
+}
+
+.engraved-slider .axis-tick-mark {
+    -fx-stroke: -sl-ochre;
+    -fx-stroke-width: 1.5;
+}
+
+/* Wax-seal toggle (mute / candlelight) — a clickable plate; the oxblood seal is painted on its
+   canvas, so the button itself carries only the label type + the ochre focus ring. */
+.wax-toggle {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 4 6 4 0;
+    -fx-cursor: hand;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.wax-toggle-label {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.3333em;
+    -fx-text-fill: -sl-ink;
+}
+
+.wax-toggle:focused .wax-toggle-label {
+    -fx-text-fill: -sl-petrol;
+    -fx-underline: true;
+}
+
+/* Pause menu (MENU_DESIGN #7) — a warm, dimmed (never black, §1) veil over the game plate with a
+   centred dossier card. */
+.pause-scrim {
+    -fx-background-color: -sl-scrim;
+}
+
+.pause-card {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink, derive(-sl-vellum, 18%);
+    -fx-border-width: 2, 0.8;
+    -fx-border-insets: 0, 3;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 26 34 26 34;
+    -fx-min-width: 300;
+    -fx-max-width: 360;
+}
+
+.pause-title {
+    -fx-font-family: "Playfair Display", serif;
+    -fx-font-size: 2.1667em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-ink;
+    -fx-padding: 0 0 6 0;
+}
+
+/* Tutorial contents cards (MENU_DESIGN #5) — engraved index cards; the wax-seal ✓ is painted on a
+   canvas graphic when completed. The border + the hover lift are the affordance (no shadow). */
+.tutorial-card {
+    -fx-background-color: -sl-vellum;
+    -fx-text-fill: -sl-ink;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: -sl-ink, derive(-sl-vellum, 18%);
+    -fx-border-width: 2, 0.8;
+    -fx-border-insets: 0, 2.4;
+    -fx-padding: 16 14 16 14;
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.3333em;
+    -fx-cursor: hand;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+/* The hover-lift and press-settle translate is owned by ui.util.Motion (eased over Motion.HOVER);
+   CSS keeps only the colour shift. */
+.tutorial-card:hover {
+    -fx-background-color: derive(-sl-vellum, 6%);
+}
+
+.tutorial-card:pressed {
+    -fx-background-color: derive(-sl-vellum, -7%);
+}
+
+.tutorial-card:focused {
+    -fx-border-color: -sl-ochre, derive(-sl-vellum, 18%);
+    -fx-border-width: 2.5, 0.8;
+}
+
+/* A completed lesson reads with a faint ochre tab at the top edge (behind the wax-seal ✓). */
+.tutorial-card--done {
+    -fx-border-color: -sl-ochre, derive(-sl-vellum, 18%);
+}
+
+/* "File a new case" modal (MENU_DESIGN #8) — a dossier panel matching the menu surfaces. */
+.dossier-panel {
+    -fx-background-color: -sl-parchment;
+}
+
+.dossier-title {
+    -fx-font-family: "Playfair Display", serif;
+    -fx-font-size: 1.8333em;
+    -fx-font-weight: bold;
+    -fx-text-fill: -sl-ink;
+}
+
+.dossier-intro {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.1667em;
+    -fx-text-fill: -sl-sepia;
+}
+
+.dossier-list {
+    -fx-background-color: -sl-vellum;
+    -fx-border-color: -sl-ink;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.dossier-status {
+    -fx-font-family: "Spectral", serif;
+    -fx-font-size: 1.0833em;
+    -fx-text-fill: -sl-sepia;
+}
+
+.dossier-status--ok {
+    -fx-text-fill: -sl-moss;
+}
+
+.dossier-status--error {
+    -fx-text-fill: -sl-oxblood;
+}
+
+/* Per-language typefaces for the menu chrome (ui-localization): every menu class above that pins a
+   Latin -fx-font-family is re-pointed to a script-covering face. Last in the sheet so it wins ties. */
+.lang-ar .menu-page-title,
+.lang-ar .menu-subtitle,
+.lang-ar .menu-plate,
+.lang-ar .menu-caption-ribbon,
+.lang-ar .menu-popover-title,
+.lang-ar .menu-version,
+.lang-ar .casebook-title,
+.lang-ar .casebook-author,
+.lang-ar .casebook-lang-tag,
+.lang-ar .casebook-excerpt,
+.lang-ar .casebook-add-label,
+.lang-ar .case-letter,
+.lang-ar .lang-suggest-text,
+.lang-ar .help-section-header,
+.lang-ar .help-description,
+.lang-ar .exam-review-correct,
+.lang-ar .exam-review-incorrect,
+.lang-ar .mp-section-caption,
+.lang-ar .mp-status,
+.lang-ar .mp-waiting-caption,
+.lang-ar .join-code-caption,
+.lang-ar .mp-seat-name,
+.lang-ar .mp-seat-awaiting-name,
+.lang-ar .mp-seat-badge,
+.lang-ar .settings-section,
+.lang-ar .settings-row-label,
+.lang-ar .settings-hint,
+.lang-ar .wax-toggle-label,
+.lang-ar .pause-title,
+.lang-ar .tutorial-card,
+.lang-ar .dossier-title,
+.lang-ar .dossier-intro,
+.lang-ar .dossier-status {
+    -fx-font-family: "Amiri";
+}
+
+.lang-ru .menu-page-title,
+.lang-ru .menu-subtitle,
+.lang-ru .menu-plate,
+.lang-ru .menu-caption-ribbon,
+.lang-ru .menu-popover-title,
+.lang-ru .menu-version,
+.lang-ru .casebook-title,
+.lang-ru .casebook-author,
+.lang-ru .casebook-lang-tag,
+.lang-ru .casebook-excerpt,
+.lang-ru .casebook-add-label,
+.lang-ru .case-letter,
+.lang-ru .lang-suggest-text,
+.lang-ru .help-section-header,
+.lang-ru .help-description,
+.lang-ru .exam-review-correct,
+.lang-ru .exam-review-incorrect,
+.lang-ru .mp-section-caption,
+.lang-ru .mp-status,
+.lang-ru .mp-waiting-caption,
+.lang-ru .join-code-caption,
+.lang-ru .mp-seat-name,
+.lang-ru .mp-seat-awaiting-name,
+.lang-ru .mp-seat-badge,
+.lang-ru .settings-section,
+.lang-ru .settings-row-label,
+.lang-ru .settings-hint,
+.lang-ru .wax-toggle-label,
+.lang-ru .pause-title,
+.lang-ru .tutorial-card,
+.lang-ru .dossier-title,
+.lang-ru .dossier-intro,
+.lang-ru .dossier-status {
+    -fx-font-family: "PT Serif";
+}
+
+.lang-zh .menu-page-title,
+.lang-zh .menu-subtitle,
+.lang-zh .menu-plate,
+.lang-zh .menu-caption-ribbon,
+.lang-zh .menu-popover-title,
+.lang-zh .menu-version,
+.lang-zh .casebook-title,
+.lang-zh .casebook-author,
+.lang-zh .casebook-lang-tag,
+.lang-zh .casebook-excerpt,
+.lang-zh .casebook-add-label,
+.lang-zh .case-letter,
+.lang-zh .lang-suggest-text,
+.lang-zh .help-section-header,
+.lang-zh .help-description,
+.lang-zh .exam-review-correct,
+.lang-zh .exam-review-incorrect,
+.lang-zh .mp-section-caption,
+.lang-zh .mp-status,
+.lang-zh .mp-waiting-caption,
+.lang-zh .join-code-caption,
+.lang-zh .mp-seat-name,
+.lang-zh .mp-seat-awaiting-name,
+.lang-zh .mp-seat-badge,
+.lang-zh .settings-section,
+.lang-zh .settings-row-label,
+.lang-zh .settings-hint,
+.lang-zh .wax-toggle-label,
+.lang-zh .pause-title,
+.lang-zh .tutorial-card,
+.lang-zh .dossier-title,
+.lang-zh .dossier-intro,
+.lang-zh .dossier-status {
+    -fx-font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Microsoft YaHei", "SimSun", "PingFang SC", "Songti SC", serif;
+}
+
+/* Theme-flipping strokes/fills for scene-graph Shapes that used to hardcode hex (DESIGN.md §8):
+   the room's suspect ring and the tutorial-overlay arrow. CSS re-resolves -sl-* on a theme swap, so
+   these recolour live without a redraw. */
+.suspect-ring {
+    -fx-stroke: -sl-ochre;
+}
+
+.tutorial-arrow {
+    -fx-fill: -sl-ochre;
+    -fx-stroke: -sl-oxblood;
+}
+
+/* Language NAMES render in their own script's face, independent of the active UI language
+   (.scratch/menu-surfaces DEC-10). Two classes on one node tie the .lang-* .menu-plate rules above
+   on specificity, and being last in the sheet, win. */
+.menu-plate.lang-name-en {
+    -fx-font-family: "Spectral", serif;
+}
+
+.menu-plate.lang-name-ar {
+    -fx-font-family: "Amiri";
+}
+
+.menu-plate.lang-name-ru {
+    -fx-font-family: "PT Serif";
+}
+
+.menu-plate.lang-name-zh {
+    -fx-font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Microsoft YaHei", "SimSun", "PingFang SC", "Songti SC", serif;
+}
+
+/* Turkish, German, French, Spanish are Latin — their names render in Spectral (the body face),
+   forcing the Latin face even when the active UI language pins a non-Latin face above. */
+.menu-plate.lang-name-tr,
+.menu-plate.lang-name-de,
+.menu-plate.lang-name-fr,
+.menu-plate.lang-name-es {
+    -fx-font-family: "Spectral", serif;
+}
+
+/* Bare per-script faces for embedded language-NAME spans (.scratch/gui-crosslang-banner-font). The
+   cross-language banner mixes the active-UI sentence with an embedded foreign language name, so it
+   is built from per-span Text nodes: each embedded name Text carries .lang-name-<code> and renders
+   in a face that covers its own script regardless of the active UI font — no glyph-by-glyph
+   fallback. These bare selectors are (0,1,0); the existing .menu-plate.lang-name-* (0,2,0) still win
+   on the language plates/tabs, so those are unchanged. Mirrors the .menu-plate.lang-name-* faces. */
+.lang-name-en,
+.lang-name-tr,
+.lang-name-de,
+.lang-name-fr,
+.lang-name-es {
+    -fx-font-family: "Spectral", serif;
+}
+.lang-name-ar {
+    -fx-font-family: "Amiri";
+}
+.lang-name-ru {
+    -fx-font-family: "PT Serif";
+}
+.lang-name-zh {
+    -fx-font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Microsoft YaHei", "SimSun", "PingFang SC", "Songti SC", serif;
+}
+
+/* Terminal surfaces under a case-script tag. A case can be READ in a language other than the
+   interface, and .terminal-line pins the typewriter face itself — which carries no Cyrillic/Arabic/
+   CJK — so JavaFX substitutes glyph-by-glyph and the text comes out widely spaced. MainController
+   tags the terminal panel with the CASE's .lang-name-<code>; these (0,2,0) rules then beat the base
+   .terminal-line (0,1,0). Latin-script languages keep the typewriter face (it covers them). */
+.lang-name-ar .terminal-area,
+.lang-name-ar .terminal-line,
+.lang-name-ar .terminal-input,
+.lang-name-ar .terminal-prompt,
+.lang-name-ar .suggestion-chip {
+    -fx-font-family: "Amiri";
+}
+.lang-name-ru .terminal-area,
+.lang-name-ru .terminal-line,
+.lang-name-ru .terminal-input,
+.lang-name-ru .terminal-prompt,
+.lang-name-ru .suggestion-chip {
+    -fx-font-family: "PT Serif";
+}
+.lang-name-zh .terminal-area,
+.lang-name-zh .terminal-line,
+.lang-name-zh .terminal-input,
+.lang-name-zh .terminal-prompt,
+.lang-name-zh .suggestion-chip {
+    -fx-font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Microsoft YaHei", "SimSun", "PingFang SC", "Songti SC", serif;
+}
+
+/* Banner span ink follows the surface it sits on — Text nodes use -fx-fill, not the Labeled
+   -fx-text-fill. Ink on the vellum body/keep plate; vellum on the petrol primary plate. */
+.lang-suggest-banner .banner-span {
+    -fx-fill: -sl-ink;
+}
+.menu-plate--primary .banner-span {
+    -fx-fill: -sl-vellum;
+}
+
+/* =====================================================================================
+   TYPE ROLES (DESIGN.md §3) — the standard this sheet follows. Two weights only: regular (400) and
+   bold. Each role is a fixed (family, weight); per-language faces (.lang-ar Amiri, .lang-ru PT Serif,
+   .lang-zh CJK) are re-pointed by the .lang-* blocks above and carry a real Regular + Bold (loaded by
+   ui.util.FontLoader), so a role reads at the same visual weight in every script.
+
+     · Display / title  — "Playfair Display", bold   (.menu-page-title, .victory-title, .window-title*)
+     · Section heading  — "Spectral", bold            (.panel-title, .help-section-header, *-heading)
+     · Body / UI        — "Spectral", 400             (.label, .button, descriptions, .dialogue-*-content)
+     · Caption / 2nd    — "Spectral" sepia, 400        (.sidebar-label, .menu-version, hints)
+     · Typewriter       — "Special Elite", REGULAR ONLY (.terminal-*, .typewriter, .exam-question,
+                          .help-command) — never bolded (the face has no bold; keeps scripts matched).
+   ===================================================================================== */
+
+/* =====================================================================================
+   TWO INDEPENDENT TEXT SIZES (.scratch/gui-typography-readability; Phase 3 = whole-interface
+   reading scale). ui.util.ContentScaleStyling tags every window root with a bucket class from one
+   of TWO Settings sliders:
+     · term-scale-NNN — the "Terminal text size" slider: the terminal transcript/input/prompt +
+       suggestion chips, and NOTHING else. These classes pin absolute px sizes above, so the
+       reading scale never reaches them.
+     · read-scale-NNN — the "Reading text size" slider: EVERYTHING else. The bucket re-bases the
+       root font size (12px at 100%); every other size in this sheet (and pinboard.css /
+       casemaker.css) is an em ratio of the inherited font, so menus, buttons, titles, letters,
+       sidebars, dialogs and sub-windows all scale together — no per-class enumeration.
+   The two rule sets are DISJOINT, so the main root can carry both. ============================ */
+
+/* ---- TERMINAL family (base: terminal text 15, chips 13). Notches are 20% apart (0.8 / 1.0 / 1.2 /
+   1.4 / 1.6) so each slider step is a clearly visible size change; sizes round to 0.5px. ---- */
+.term-scale-80 .suggestion-chip  { -fx-font-size: 10.5px; }
+.term-scale-80 .terminal-line,
+.term-scale-80 .terminal-input,
+.term-scale-80 .terminal-prompt  { -fx-font-size: 12px; }
+.term-scale-120 .suggestion-chip { -fx-font-size: 15.5px; }
+.term-scale-120 .terminal-line,
+.term-scale-120 .terminal-input,
+.term-scale-120 .terminal-prompt { -fx-font-size: 18px; }
+.term-scale-140 .suggestion-chip { -fx-font-size: 18px; }
+.term-scale-140 .terminal-line,
+.term-scale-140 .terminal-input,
+.term-scale-140 .terminal-prompt { -fx-font-size: 21px; }
+.term-scale-160 .suggestion-chip { -fx-font-size: 21px; }
+.term-scale-160 .terminal-line,
+.term-scale-160 .terminal-input,
+.term-scale-160 .terminal-prompt { -fx-font-size: 24px; }
+
+/* ---- READING family: the bucket re-bases the ROOT font size (12px at 100%); everything sized in
+   em — i.e. every non-terminal size in the app — follows. These sit after .root so they win the
+   same-specificity tie on the root node. Applied to every Scene/DialogPane root by
+   ui.util.ContentScaleStyling (creation-time via Theme.install; live re-tag on the main scene). ---- */
+.read-scale-80  { -fx-font-size: 9.6px;  }
+.read-scale-100 { -fx-font-size: 12px;   }
+.read-scale-120 { -fx-font-size: 14.4px; }
+.read-scale-140 { -fx-font-size: 16.8px; }
+.read-scale-160 { -fx-font-size: 19.2px; }

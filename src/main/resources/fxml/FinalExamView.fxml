@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<!-- No `stylesheets=` here: this view mounts inside the main Scene and inherits its theme sheets.
+     A Parent-level base stylesheet would outrank the scene-level theme_dark.css and keep the exam
+     screen stuck in light mode (DESIGN.md §8). -->
+<BorderPane xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ui.FinalExamViewController"
+            styleClass="panel">
+    <!-- All user-visible text is set by FinalExamViewController via L10n (i18n/messages_*). -->
+    <top>
+        <VBox alignment="CENTER" spacing="10" style="-fx-padding: 20;">
+            <!-- em, not px, so the title follows the Reading text-size slider like the rest of the sheet. -->
+            <Label fx:id="titleLabel" styleClass="panel-title" style="-fx-font-size: 2em;"/>
+            <Label fx:id="progressLabel" styleClass="sidebar-label"/>
+        </VBox>
+    </top>
+    <!-- Question pane and results pane share the SAME region (stacked), so switching between them is
+         a pure visible+managed toggle — no setCenter/setRight node-shuffling that leaves layout flags
+         inconsistent. Only the active pane is managed, so it always gets the full width; the other
+         reserves no space and can't squeeze it (windowed or fullscreen). -->
+    <center>
+        <StackPane>
+            <VBox fx:id="questionPane" alignment="CENTER" spacing="20" style="-fx-padding: 20;">
+                <!-- Final Exam questions read as a typed report (DESIGN.md §3). Prompt fills + wraps
+                     to the available width so it reads the same at any window size. -->
+                <Label fx:id="questionPromptLabel" styleClass="exam-question" wrapText="true"
+                       maxWidth="Infinity" alignment="CENTER" textAlignment="CENTER"/>
+                <HBox fx:id="slotsBox" alignment="CENTER" spacing="20" maxWidth="Infinity">
+                    <ComboBox fx:id="slot1ComboBox" styleClass="exam-slot" maxWidth="360" HBox.hgrow="ALWAYS"/>
+                    <ComboBox fx:id="slot2ComboBox" styleClass="exam-slot" maxWidth="360" HBox.hgrow="ALWAYS"/>
+                </HBox>
+            </VBox>
+            <ScrollPane fx:id="resultScrollPane" fitToWidth="true" visible="false" managed="false">
+                <VBox fx:id="resultVBox" spacing="10" style="-fx-padding: 10;"/>
+            </ScrollPane>
+        </StackPane>
+    </center>
+    <bottom>
+        <VBox alignment="CENTER" spacing="10" style="-fx-padding: 20;">
+            <HBox alignment="CENTER" spacing="10">
+                <!-- previous/next are hidden by the controller; they carry no text -->
+                <Button fx:id="previousButton"/>
+                <Button fx:id="nextButton"/>
+            </HBox>
+            <Button fx:id="submitButton"/>
+        </VBox>
+    </bottom>
+</BorderPane>

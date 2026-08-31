@@ -1,0 +1,1646 @@
+{
+  "red_herrings" : {
+    "suspects" : {
+      "JamesWard" : {
+        "is_red_herring" : true,
+        "narrative" : {
+          "en" : "Watson lowers his voice. 'That Ward fellow is loud, guilty of an old affair, and he quarrelled with the host — every arrow points at him. Too many arrows, Holmes. And three of us saw him by the fire when Mr. Gray died.'",
+          "ar" : "يخفض واطسون صوته: «ذلك الرجل وارد صاخب، مذنب بعلاقة قديمة، وقد تشاجر مع المضيف — كل سهم يشير إليه. سهام أكثر من اللازم يا هولمز. ثم إن ثلاثة منا رأوه عند المدفأة حين مات السيد غراي.»",
+          "ru" : "Уотсон понижает голос: «Этот Уорд громок, грешен старой связью и повздорил с хозяином — все стрелы указывают на него. Слишком много стрел, Холмс. К тому же трое из нас видели его у камина, когда погиб мистер Грей»."
+        }
+      },
+      "AlanPrice" : {
+        "is_red_herring" : true,
+        "narrative" : {
+          "en" : "Watson frowns at the doctor. 'He signed a verdict he was paid not to question, over a death he made himself believe a suicide. A coward and a forger of certificates, Holmes — not a murderer.'",
+          "ar" : "يقطّب واطسون في وجه الطبيب: «وقّع حكمًا دُفع له كي لا يشكك فيه، على موتٍ أقنع نفسه بأنه انتحار. جبان ومزوّر شهادات يا هولمز — لا قاتل.»",
+          "ru" : "Уотсон хмуро смотрит на доктора: «Он подписал вердикт, за неоспаривание которого ему заплатили, — над смертью, которую сам себя заставил считать самоубийством. Трус и подделыватель свидетельств, Холмс, — но не убийца»."
+        }
+      }
+    }
+  },
+  "leads" : [ {
+    "id" : "lead_study",
+    "title" : {
+      "en" : "Examine the study where Mr. Gray died",
+      "ar" : "افحص المكتب حيث مات السيد غراي",
+      "ru" : "Осмотрите кабинет, где погиб мистер Грей"
+    },
+    "description" : {
+      "en" : "Mr. Gray was killed in his study before he could speak. Look closely at what he left behind.",
+      "ar" : "قُتل السيد غراي في مكتبه قبل أن يتكلم. تمعّن فيما خلّفه وراءه.",
+      "ru" : "Мистера Грея убили в его кабинете прежде, чем он успел заговорить. Присмотритесь к тому, что он оставил."
+    },
+    "visibleWhen" : {
+      "type" : "ALWAYS"
+    },
+    "completeWhen" : {
+      "type" : "NOTE_DISCOVERED",
+      "noteId" : "blotter"
+    }
+  }, {
+    "id" : "lead_forgery",
+    "title" : {
+      "en" : "Uncover the old story",
+      "ar" : "اكشف الحكاية القديمة",
+      "ru" : "Раскройте старую историю"
+    },
+    "description" : {
+      "en" : "A fifteen-year-old death hangs over this house. Find out what really happened to Emma Shaw.",
+      "ar" : "موتٌ عمره خمسة عشر عامًا يخيّم على هذا البيت. اعرف ما الذي حدث حقًا لإيما شو.",
+      "ru" : "Над этим домом висит смерть пятнадцатилетней давности. Узнайте, что на самом деле случилось с Эммой Шоу."
+    },
+    "visibleWhen" : {
+      "type" : "NOTE_DISCOVERED",
+      "noteId" : "suicide_note"
+    },
+    "completeWhen" : {
+      "type" : "NOTE_DISCOVERED",
+      "noteId" : "emma_letter"
+    }
+  }, {
+    "id" : "lead_unmask",
+    "title" : {
+      "en" : "Unmask the forger",
+      "ar" : "اكشف المزوِّر",
+      "ru" : "Разоблачите поддельщика"
+    },
+    "description" : {
+      "en" : "The farewell note was forged. Match the hand that wrote it against the hands in this house, and confront its owner.",
+      "ar" : "رسالة الوداع مزوّرة. قارن الخط الذي كتبها بخطوط أهل هذا البيت، وواجه صاحبه.",
+      "ru" : "Прощальная записка подделана. Сличите руку, что её писала, с почерками этого дома — и предъявите её владельцу."
+    },
+    "visibleWhen" : {
+      "type" : "NOTE_DISCOVERED",
+      "noteId" : "emma_letter"
+    },
+    "completeWhen" : {
+      "type" : "CONTRADICTION_SUCCESS",
+      "deductionId" : "henry_confession"
+    }
+  } ],
+  "case_file" : {
+    "victim" : {
+      "name" : "Mr. Gray",
+      "relation_to_case" : "The host of Greystone House, found dead in his study the first night.",
+      "notes" : {
+        "en" : "A quiet, watchful man who gathered these strangers for a purpose he never lived to name. He was not quite who he seemed.",
+        "ar" : "رجل هادئ يقظ، جمع هؤلاء الغرباء لغايةٍ لم يعش لينطق بها. لم يكن تمامًا كما بدا.",
+        "ru" : "Тихий, наблюдательный человек, собравший этих незнакомцев ради цели, которую не успел назвать. Он был не совсем тем, кем казался."
+      }
+    },
+    "overview" : {
+      "en" : "Six strangers, one blizzard, and a host with a secret purpose. Mr. Gray brought them all to Greystone House to answer for something — and was killed before he could say what.",
+      "ar" : "ستة غرباء، وعاصفة ثلجية، ومضيف يخفي غاية. جمعهم السيد غراي جميعًا في منزل غرايستون ليحاسبهم على شيء — فقُتل قبل أن يقول ما هو.",
+      "ru" : "Шесть незнакомцев, одна метель и хозяин с тайной целью. Мистер Грей собрал их всех в Грейстоун-хаусе, чтобы призвать к ответу, — и был убит прежде, чем сказал, за что."
+    },
+    "suspect_profiles" : {
+      "JamesWard" : {
+        "profession" : {
+          "en" : "Member of Parliament",
+          "ar" : "عضو في البرلمان",
+          "ru" : "Член парламента"
+        },
+        "age" : 44,
+        "height_cm" : 180,
+        "weight_kg" : 82,
+        "relationship_to_victim" : {
+          "en" : "A guest — and, years ago, he knew Emma Shaw.",
+          "ar" : "ضيف — وقبل سنوات، عرف إيما شو.",
+          "ru" : "Гость — и много лет назад он знал Эмму Шоу."
+        },
+        "bio" : {
+          "en" : "Charming, loud, and quick to anger; a man with a past he would rather forget.",
+          "ar" : "فاتن، صاخب، سريع الغضب؛ رجل له ماضٍ يودّ لو ينساه.",
+          "ru" : "Обаятельный, громкий, скорый на гнев; человек с прошлым, которое он предпочёл бы забыть."
+        },
+        "imagePath" : "images/james_ward.png"
+      },
+      "HenryWard" : {
+        "profession" : {
+          "en" : "Banker",
+          "ar" : "مصرفي",
+          "ru" : "Банкир"
+        },
+        "age" : 47,
+        "height_cm" : 179,
+        "weight_kg" : 80,
+        "relationship_to_victim" : {
+          "en" : "James Ward's older brother, and also a guest.",
+          "ar" : "الأخ الأكبر لجيمس وارد، وضيف مثله.",
+          "ru" : "Старший брат Джеймса Уорда, тоже гость."
+        },
+        "bio" : {
+          "en" : "Quiet, respectable, and easy to overlook beside his brother — which suits him well.",
+          "ar" : "هادئ، محترم، يسهل تجاهله إلى جانب أخيه — وهذا يناسبه تمامًا.",
+          "ru" : "Тихий, почтенный, и его легко не заметить рядом с братом — что его вполне устраивает."
+        },
+        "imagePath" : "images/henry_ward.png"
+      },
+      "AlanPrice" : {
+        "profession" : {
+          "en" : "Physician",
+          "ar" : "طبيب",
+          "ru" : "Врач"
+        },
+        "age" : 58,
+        "height_cm" : 172,
+        "weight_kg" : 74,
+        "relationship_to_victim" : {
+          "en" : "The doctor who once attended at Highwood.",
+          "ar" : "الطبيب الذي كان يعالج في هايوود يومًا.",
+          "ru" : "Доктор, когда-то практиковавший в Хайвуде."
+        },
+        "bio" : {
+          "en" : "Eminent and careful — perhaps too careful about the past.",
+          "ar" : "مرموق حريص — وربما حريص أكثر مما ينبغي على الماضي.",
+          "ru" : "Именитый и осторожный — пожалуй, слишком осторожный во всём, что касается прошлого."
+        },
+        "imagePath" : "images/alan_price.png"
+      },
+      "MargaretCole" : {
+        "profession" : {
+          "en" : "Lady of Highwood",
+          "ar" : "سيدة هايوود",
+          "ru" : "Хозяйка Хайвуда"
+        },
+        "age" : 63,
+        "height_cm" : 165,
+        "weight_kg" : 62,
+        "relationship_to_victim" : {
+          "en" : "Emma Shaw's former employer.",
+          "ar" : "مخدومة إيما شو السابقة.",
+          "ru" : "Бывшая хозяйка Эммы Шоу."
+        },
+        "bio" : {
+          "en" : "Guards her family's name above all else — the name is all she has left to guard.",
+          "ar" : "تصون اسم عائلتها فوق كل شيء — فالاسم كل ما بقي لها لتصونه.",
+          "ru" : "Бережёт имя семьи превыше всего — имя и есть всё, что ей осталось беречь."
+        },
+        "imagePath" : "images/margaret_cole.png"
+      },
+      "SarahDean" : {
+        "profession" : {
+          "en" : "Housekeeper",
+          "ar" : "مدبّرة منزل",
+          "ru" : "Экономка"
+        },
+        "age" : 49,
+        "height_cm" : 168,
+        "weight_kg" : 66,
+        "relationship_to_victim" : {
+          "en" : "Once a maid at Highwood.",
+          "ar" : "كانت خادمة في هايوود يومًا.",
+          "ru" : "Когда-то горничная в Хайвуде."
+        },
+        "bio" : {
+          "en" : "Risen far from service, and uneasy about how she managed it.",
+          "ar" : "ارتقت بعيدًا عن الخدمة، وهي قلقة من الطريقة التي بلغت بها ذلك.",
+          "ru" : "Поднялась высоко над прислугой — и неспокойна оттого, каким путём."
+        },
+        "imagePath" : "images/sarah_dean.png"
+      },
+      "ThomasLane" : {
+        "profession" : {
+          "en" : "Solicitor",
+          "ar" : "محامٍ",
+          "ru" : "Стряпчий"
+        },
+        "age" : 55,
+        "height_cm" : 175,
+        "weight_kg" : 79,
+        "relationship_to_victim" : {
+          "en" : "Handled the family's affairs at Highwood.",
+          "ar" : "تولّى شؤون العائلة في هايوود.",
+          "ru" : "Вёл дела семьи в Хайвуде."
+        },
+        "bio" : {
+          "en" : "Keeps records, secrets, and his own counsel in equal measure.",
+          "ar" : "يحفظ السجلات والأسرار ورأيه لنفسه بالقدر نفسه.",
+          "ru" : "Хранит записи, чужие тайны и собственное мнение с одинаковым тщанием."
+        },
+        "imagePath" : "images/thomas_lane.png"
+      }
+    }
+  },
+  "universal_title" : "An Invitation to Judgement",
+  "metadata" : {
+    "watsonImagePath" : "images/watson.png",
+    "watsonImageScaleX" : 2.4860248447204962,
+    "watsonImageScaleY" : 2.4860248447204962,
+    "watsonLabelDX" : -0.02515577924323001,
+    "watsonLabelDY" : 0.4318408770087818
+  },
+  "startingInsightTokens" : 5,
+  "startingRoom" : "Entrance Hall",
+  "rooms" : [ {
+    "name" : "Entrance Hall",
+    "neighbors" : {
+      "north" : "Study",
+      "east" : "Drawing Room",
+      "west" : "Library"
+    },
+    "imagePath" : "images/bg_entrance_hall.png",
+    "watsonPosX" : 0.44768439108061747,
+    "watsonPosY" : 0.5514758433390509,
+    "objects" : [ {
+      "id" : "guest_book",
+      "name" : "guest_book",
+      "imagePath" : "images/guest_book.png",
+      "posX" : 0.2562624514248147,
+      "posY" : 0.7364810083647045,
+      "imageScaleX" : 2.6557730672411157,
+      "imageScaleY" : 2.3453416149068325,
+      "rotation" : -11.00864646636838,
+      "labelDX" : 0.11879494780189495,
+      "labelDY" : 0.2646893673462239
+    }, {
+      "id" : "doctor_notes",
+      "name" : "doctor_notes",
+      "imagePath" : "images/doctor_notes.png",
+      "posX" : 0.6389365351629502,
+      "posY" : 0.9110384505431675,
+      "imageScaleX" : 1.7137931034482758,
+      "imageScaleY" : 1.7137931034482758,
+      "labelDX" : 0.03586412701480467,
+      "labelDY" : -0.4722110056949281
+    } ]
+  }, {
+    "name" : "Study",
+    "neighbors" : {
+      "south" : "Entrance Hall"
+    },
+    "imagePath" : "images/bg_study.png",
+    "watsonPosX" : 0.19725557461406518,
+    "watsonPosY" : 0.563768582046884,
+    "objects" : [ {
+      "id" : "blotter",
+      "name" : "blotter",
+      "imagePath" : "images/blotter.png",
+      "posX" : 0.792410426097257,
+      "posY" : 0.6251626073655691,
+      "imageScaleX" : 0.9279503105590061,
+      "imageScaleY" : 0.9279503105590061,
+      "rotation" : 61.99165577734494,
+      "labelDX" : -0.12088680133459898,
+      "labelDY" : 0.6297422790593611
+    }, {
+      "id" : "torn_file",
+      "name" : "torn_file",
+      "imagePath" : "images/torn_file.png",
+      "posX" : 0.42051922769442907,
+      "posY" : 0.510066243363129,
+      "imageScaleX" : 1.145079923467623,
+      "imageScaleY" : 1.2263045100614938,
+      "rotation" : 14.064459347615262,
+      "labelDX" : 0.03087086151865732,
+      "labelDY" : 0.4074953720462766
+    }, {
+      "id" : "suicide_note",
+      "name" : "suicide_note",
+      "imagePath" : "images/suicide_note.png",
+      "posX" : 0.4917427296417539,
+      "posY" : 0.9122413664240121,
+      "imageScaleX" : 1.1597826086956524,
+      "imageScaleY" : 1.1597826086956524,
+      "rotation" : 45.057845290304286,
+      "labelDX" : 0.005546700476320684,
+      "labelDY" : -0.5015427671903894
+    }, {
+      "id" : "emma_letter",
+      "name" : "emma_letter",
+      "imagePath" : "images/emma_letter.png",
+      "posX" : 0.6460102518867107,
+      "posY" : 0.5817573233332448,
+      "imageScaleX" : 0.7754658385093169,
+      "imageScaleY" : 0.7754658385093169,
+      "rotation" : 56.203273787193474
+    } ]
+  }, {
+    "name" : "Library",
+    "neighbors" : {
+      "east" : "Entrance Hall",
+      "south" : "Servants Hall"
+    },
+    "imagePath" : "images/bg_library.png",
+    "watsonPosX" : 0.8198970840480274,
+    "watsonPosY" : 0.5975736134934249,
+    "objects" : [ ]
+  }, {
+    "name" : "Servants Hall",
+    "neighbors" : {
+      "north" : "Library"
+    },
+    "imagePath" : "images/bg_servants_hall.png",
+    "watsonPosX" : 0.8010291595197255,
+    "watsonPosY" : 0.6052565751858204,
+    "objects" : [ {
+      "id" : "hush_ledger",
+      "name" : "hush_ledger",
+      "imagePath" : "images/hush_ledger.png",
+      "posX" : 0.5145717315857183,
+      "posY" : 0.6054664291173251,
+      "imageScaleX" : 1.1515688584279284,
+      "imageScaleY" : 1.1515688584279284,
+      "rotation" : 7.84920886908305,
+      "labelDX" : -0.008812374127341137,
+      "labelDY" : 0.4613587054805883
+    } ]
+  }, {
+    "name" : "Drawing Room",
+    "neighbors" : {
+      "west" : "Entrance Hall",
+      "east" : "Guest Room"
+    },
+    "imagePath" : "images/bg_drawing_room.png",
+    "watsonPosX" : 0.7427101200686106,
+    "watsonPosY" : 0.5714515437392796,
+    "objects" : [ {
+      "id" : "old_newspaper",
+      "name" : "old_newspaper",
+      "imagePath" : "images/old_newspaper.png",
+      "posX" : 0.3160234220174108,
+      "posY" : 0.5191558260947141,
+      "imageScaleX" : 0.8892964232169629,
+      "imageScaleY" : 0.8892964232169629,
+      "rotation" : 30.534818062567446,
+      "labelDX" : -0.05563263336503501,
+      "labelDY" : 0.547054228089511
+    } ]
+  }, {
+    "name" : "Guest Room",
+    "neighbors" : {
+      "west" : "Drawing Room"
+    },
+    "imagePath" : "images/bg_guest_room.png",
+    "watsonPosX" : 0.6689536878216124,
+    "watsonPosY" : 0.5914272441395083,
+    "objects" : [ {
+      "id" : "love_letters",
+      "name" : "love_letters",
+      "imagePath" : "images/love_letters.png",
+      "posX" : 0.3343847779463126,
+      "posY" : 0.5703892939954958,
+      "imageScaleX" : 1.1035714285714286,
+      "imageScaleY" : 1.1035714285714286,
+      "rotation" : 27.976834638216488,
+      "labelDX" : -0.12393403284429656,
+      "labelDY" : 0.44884116479572356
+    } ]
+  } ],
+  "combine_logic" : [ {
+    "requires" : [ "suicide_note", "emma_letter" ],
+    "resultDeductionId" : "murder_not_suicide",
+    "resultText" : {
+      "en" : "The farewell note is not in Emma's hand — it is a forgery. She never wrote it. Emma Shaw did not drown herself; she was murdered, and the note was left to hide it.",
+      "ar" : "رسالة الوداع ليست بخط إيما — إنها مزوّرة. هي لم تكتبها قط. إيما شو لم تُغرق نفسها؛ بل قُتلت، وتُركت الورقة لتخفي ذلك.",
+      "ru" : "Прощальная записка написана не рукой Эммы — это подделка. Она её не писала. Эмма Шоу не утопилась: её убили, а записку оставили, чтобы это скрыть."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  }, {
+    "requires" : [ "suicide_note", "guest_book" ],
+    "resultDeductionId" : "note_in_henrys_hand",
+    "resultText" : {
+      "en" : "Matched against the guest book, the forged note is written in Henry Ward's sharp, careful hand — not his brother James's.",
+      "ar" : "بمقارنتها بسجل الضيوف، تبيّن أن الرسالة المزوّرة كُتبت بخط هنري وارد الحاد المتأني — لا بخط أخيه جيمس.",
+      "ru" : "Сверенная с книгой гостей, поддельная записка написана острым, аккуратным почерком Генри Уорда — не его брата Джеймса."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  }, {
+    "requires" : [ "torn_file", "blotter" ],
+    "resultDeductionId" : "killer_is_a_ward",
+    "resultText" : {
+      "en" : "Mr. Gray died writing 'it was W—' beside a file whose stolen page named his killer. Not 'wrong', not 'wicked' — a name. Only two guests in this house answer to W: Gray's killer is one of the Ward brothers.",
+      "ar" : "مات السيد غراي وهو يكتب «كان و—» إلى جانب ملفٍ انتُزعت منه الصفحة التي تسمّي قاتله. ليست «ويلًا» ولا «وداعًا» — بل اسم. ضيفان فقط في هذا البيت يبدأ اسمهما بالواو: قاتل غراي أحد الأخوين وارد.",
+      "ru" : "Мистер Грей умер, выводя «это был У—», рядом с папкой, из которой похищена страница с именем его убийцы. Не «ужасно», не «утонула» — имя. Лишь двое гостей в этом доме отзываются на У: убийца Грея — один из братьев Уорд."
+    },
+    "tokenReward" : 1,
+    "repeatable" : false
+  } ],
+  "watson" : {
+    "hints" : {
+      "general" : [ {
+        "id" : "w_general_1",
+        "text" : {
+          "en" : "Start in the study, where Mr. Gray fell — then find out why he gathered these six.",
+          "ar" : "ابدأ بالمكتب حيث سقط السيد غراي — ثم اعرف لماذا جمع هؤلاء الستة.",
+          "ru" : "Начните с кабинета, где упал мистер Грей, — а затем выясните, зачем он собрал этих шестерых."
+        }
+      }, {
+        "id" : "w_general_2",
+        "text" : {
+          "en" : "Two small clues can decide everything when you set them side by side. Try combining what you find.",
+          "ar" : "دليلان صغيران قد يحسمان كل شيء إذا وضعتهما جنبًا إلى جنب. جرّب أن تجمع بين ما تجده.",
+          "ru" : "Две малые улики могут решить всё, если положить их рядом. Пробуйте соединять найденное."
+        }
+      }, {
+        "id" : "w_general_3",
+        "text" : {
+          "en" : "Not everything here is what it was ruled to be. Question the old story you have been told.",
+          "ar" : "ليس كل ما هنا على ما حُكم به يومًا. شكّك في الحكاية القديمة التي رُويت لك.",
+          "ru" : "Не всё здесь таково, каким его когда-то признали. Подвергните сомнению старую историю, что вам рассказали."
+        }
+      } ],
+      "contradiction" : [ {
+        "id" : "w_contra_1",
+        "text" : {
+          "en" : "One of your suspects clings to a story the evidence quietly contradicts. When words can't be trusted, show them the proof and watch it crack.",
+          "ar" : "أحد المشتبه بهم يتشبث برواية تناقضها الأدلة في صمت. حين لا يُؤتمن الكلام، أرِه البرهان وراقب الرواية تتصدع.",
+          "ru" : "Один из подозреваемых держится за рассказ, которому улики тихо противоречат. Когда словам нет веры — покажите доказательство и смотрите, как рассказ даёт трещину."
+        }
+      } ]
+    }
+  },
+  "localizations" : {
+    "en" : {
+      "languageName" : "English",
+      "title" : "An Invitation to Judgement",
+      "invitation" : "To Mr. Sherlock Holmes,\n221B Baker Street,\nLondon.\n\nDear Mr. Holmes,\nYou do not know me, and I shall not give you my name until you are under my roof.\nThis weekend I have gathered six guests at Greystone House. Each believes he comes for his own reasons; none knows why the others were asked. Fifteen years ago these six buried a wrong between them, and I mean to dig it up in front of witnesses.\nI want the sharpest mind in England present when I do — not to assist me, but to see that what follows is justice and not revenge. Bring Dr. Watson. Tell no one why you come, and do not make yourself known to my guests.\nThe valley road is poor once the snow begins. Come Friday, before the weather turns.\n\n(The letter bears no signature.)",
+      "description" : "A lonely house on the moor, sealed by a blizzard. Six strangers, a murdered host, and a secret he died to keep.",
+      "roomDetails" : [ {
+        "name" : "Entrance Hall",
+        "displayName" : "Entrance Hall",
+        "description" : "A cold, high hall. The great doors are barred against the storm, and the guest book lies open on a stand."
+      }, {
+        "name" : "Study",
+        "displayName" : "Study",
+        "description" : "Mr. Gray's private study. His chair is overturned by the desk, where he was found. Papers lie scattered."
+      }, {
+        "name" : "Library",
+        "displayName" : "Library",
+        "description" : "A dim, book-lined room where the guests have gathered out of the cold, talking in low voices."
+      }, {
+        "name" : "Servants Hall",
+        "displayName" : "Servants Hall",
+        "description" : "A plain room below stairs, warm from the range. The few staff keep to themselves here."
+      }, {
+        "name" : "Drawing Room",
+        "displayName" : "Drawing Room",
+        "description" : "A grand room with a great fire, where most of the guests sat through the evening the host died."
+      }, {
+        "name" : "Guest Room",
+        "displayName" : "Guest Room",
+        "description" : "One of the guest bedrooms off the landing. The Ward brothers' cases were carried up together when the storm broke, and lie still half-unpacked."
+      } ],
+      "objectDetails" : [ {
+        "name" : "guest_book",
+        "displayName" : "Guest Book",
+        "description" : "The house's guest book, signed by each arrival.",
+        "examine" : "Every guest's handwriting sits here on one page — including both Ward brothers'.",
+        "deduce" : "Six hands, each signed and named. If ever a doubtful piece of writing turns up in this house, here is what to measure it against."
+      }, {
+        "name" : "doctor_notes",
+        "displayName" : "Doctor's Notes",
+        "description" : "Dr. Price's worn medical bag, set down with the coats and sticks the night the guests arrived — his old case notes still inside.",
+        "examine" : "The marks he recorded on Emma's body sat ill with a quiet drowning — and the notes stop short, as if the examiner chose not to look further.",
+        "deduce" : "The doctor saw enough to doubt the verdict he signed. Whatever he buried — suicide or worse — he buried it for someone, and was paid for the spade."
+      }, {
+        "name" : "blotter",
+        "displayName" : "Blotter",
+        "description" : "A sheet of blotting paper from Mr. Gray's desk.",
+        "examine" : "Held up to a mirror, the ghost of his last writing shows through: '...it was W—'. The rest is gone.",
+        "deduce" : "A dying man's last line. 'W—' might begin a name — or a word: 'wrong', 'wicked', 'we'. Alone it accuses no one. Beside whatever Mr. Gray was writing about, it might."
+      }, {
+        "name" : "torn_file",
+        "displayName" : "Mr. Gray's File",
+        "description" : "A leather file of Mr. Gray's private papers.",
+        "examine" : "Inside, a page on each guest's part in the old affair at Highwood — unheaded and unsigned, for Gray needed no reminding who each meant. One page has been torn away, and with it whatever would have told you whose it was.",
+        "deduce" : "The killer found this file before you did and removed the page that named him. The file cannot say who — but it says why Mr. Gray died: he meant to expose one of his guests."
+      }, {
+        "name" : "suicide_note",
+        "displayName" : "Farewell Note",
+        "description" : "A yellowed note kept in Mr. Gray's file: Emma Shaw's supposed last words.",
+        "examine" : "'I cannot go on. Forgive me.' It has been taken as her farewell for fifteen years.",
+        "deduce" : "Everyone believed this note proved a suicide. But a note only proves who held the pen."
+      }, {
+        "name" : "emma_letter",
+        "displayName" : "Emma's Letter",
+        "description" : "A real letter written by Emma Shaw, folded among Mr. Gray's papers.",
+        "examine" : "Her handwriting is round and looping, warm even in a note about mended gloves and Sunday walks.",
+        "deduce" : "A true sample of Emma Shaw's hand — the only sure one in the house. Anything claiming to be hers must answer to this."
+      }, {
+        "name" : "hush_ledger",
+        "displayName" : "Ledger",
+        "description" : "A private ledger, slipped from Mr. Lane's case when the staff carried the guests' luggage below stairs.",
+        "examine" : "Payments, fifteen years ago, to a doctor, a maid, and a newspaper — all around the time Emma died.",
+        "deduce" : "Emma's death was bought quiet. Several people in this house took the money."
+      }, {
+        "name" : "old_newspaper",
+        "displayName" : "Old Newspaper",
+        "description" : "A brittle newspaper cutting, folded on a side table by the drawing-room fire, the drowning story uppermost.",
+        "examine" : "'Governess Drowns Herself at Highwood.' The verdict was suicide; the family's name was kept out of it.",
+        "deduce" : "The world was told Emma drowned herself. The world was told wrong."
+      }, {
+        "name" : "love_letters",
+        "displayName" : "Love Letters",
+        "description" : "A bundle of letters and a small locket, hidden in a guest's case.",
+        "examine" : "Years of letters to Emma, growing from love to pleading — and her single, firm refusal, folded in with a small locket. Each letter is signed only 'your devoted W.'",
+        "deduce" : "One of the guests loved Emma to the point of obsession, and was refused. He signed himself 'W.' — the same initial the whole house whispers beside Mr. James Ward's name."
+      } ],
+      "suspects" : [ {
+        "name" : "JamesWard",
+        "id" : "jamesward",
+        "displayName" : "Mr. James Ward",
+        "imagePath" : "images/james_ward.png",
+        "imageScaleX" : 2.8886956521739133,
+        "imageScaleY" : 2.8886956521739133,
+        "homeRoom" : "Drawing Room",
+        "posX" : 0.15180102915951973,
+        "posY" : 0.5606953973699257,
+        "labelDX" : 0.0,
+        "labelDY" : 0.4119936859854204,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Yes, I knew Emma Shaw — the whole county knew, thanks to tongues like these. It was an affair, years ago, and I've paid for it in whispers ever since. Ask me anything; I've nothing left to hide and no reason to have wanted poor Gray dead.",
+        "clue" : "He owns the old affair with startling ease and offers three witnesses for his evening by the fire. A man this loud is either innocent — or wants very much to be looked at.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Yes, I knew Emma Shaw — the whole county knew, thanks to tongues like these. It was an affair, years ago, and I've paid for it in whispers ever since. Ask me anything; I've nothing left to hide and no reason to have wanted poor Gray dead.",
+            "contradictions" : [ {
+              "evidenceId" : "love_letters",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "james_cleared",
+              "successMessage" : "You lay the 'W.' letters before him. James Ward's bluster collapses into something quieter and older. 'So they've surfaced,' he says. 'Yes — I wrote them. I loved her and she chose no one. But I never left that fire, and you know it.'"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Very well — those letters are mine, and so is the shame. I loved her, I was refused, and I signed myself only 'W.' like a coward. But refusal is not murder. I was at the drawing-room fire from dinner until they found him — Lady Cole, Mr. Lane, and your own Watson will swear to it. I am guilty of a great many things, Detective. This is not one of them."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "HenryWard",
+        "id" : "henryward",
+        "displayName" : "Mr. Henry Ward",
+        "imagePath" : "images/henry_ward.png",
+        "imageScaleX" : 2.9405940594059405,
+        "imageScaleY" : 3.0,
+        "homeRoom" : "Library",
+        "posX" : 0.42,
+        "posY" : 0.575,
+        "labelDX" : 0.020487897846388416,
+        "labelDY" : 0.40634330728670354,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "I hardly knew the girl — that was my brother James's affair, not mine. I spent the whole evening reading in my room.",
+        "clue" : "The quiet brother, easily lost beside the loud one. No fire, no witnesses — only a book in his room, on the one evening in this house that wanted an alibi.",
+        "states" : {
+          "LIE" : {
+            "statement" : "I hardly knew the girl — that was my brother James's affair, not mine. I spent the whole evening reading in my room.",
+            "contradictions" : [ {
+              "evidenceId" : "note_in_henrys_hand",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "henry_confession",
+              "successMessage" : "Henry Ward goes very still as you set the forged note beside his own writing in the guest book. The quiet drains out of him. 'She should have chosen me,' he says at last, 'and Mr. Gray should have let the dead lie.'"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Yes. I loved Emma, and she refused me for my brother's easy charm. I let her drown, and I wrote that note in her name. When Mr. Gray learned the truth, I could not let him speak it."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "AlanPrice",
+        "id" : "alanprice",
+        "displayName" : "Dr. Alan Price",
+        "imagePath" : "images/alan_price.png",
+        "imageScaleX" : 1.8307142857142855,
+        "imageScaleY" : 1.8307142857142855,
+        "flipX" : true,
+        "homeRoom" : "Library",
+        "posX" : 0.6415094339622641,
+        "posY" : 0.5606953973699257,
+        "labelDX" : 0.01678680666305723,
+        "labelDY" : 0.478423989897131,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "The inquest was sound. The poor girl drowned herself — I signed the certificate myself.",
+        "clue" : "He vouches for a fifteen-year-old verdict a little too readily — and for his own whereabouts this evening not at all. He sat alone in the library, he says, with his bag beside him.",
+        "states" : {
+          "LIE" : {
+            "statement" : "The inquest was sound. The poor girl drowned herself — I signed the certificate myself.",
+            "contradictions" : [ {
+              "evidenceId" : "doctor_notes",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "price_confesses",
+              "successMessage" : "Faced with his own notes, Dr. Price sags into his chair. 'The marks sat ill with a drowning, yes. I was paid not to look closer — I swore to myself it was suicide, and I have spent fifteen years not looking.'"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "I took money to sign it quickly and ask nothing. The marks were wrong — I told myself the river had made them, and the poor girl a suicide. If it was murder, I helped bury it unknowing, and I have carried it ever since."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "MargaretCole",
+        "id" : "margaretcole",
+        "displayName" : "Lady Margaret Cole",
+        "imagePath" : "images/margaret_cole.png",
+        "imageScaleX" : 2.37,
+        "imageScaleY" : 2.37,
+        "flipX" : true,
+        "homeRoom" : "Drawing Room",
+        "posX" : 0.5514579759862779,
+        "posY" : 0.5683783590623214,
+        "labelDX" : 0.004322341317803463,
+        "labelDY" : 0.5100362755008087,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Emma Shaw was governess to my grandchildren, and I dismissed her the day her affair with Mr. Ward came to light. I would do it again — one does not keep scandal under one's roof. That the river took her a few days after is a grief, not a guilt. I sat by the drawing-room fire the whole of that dreadful evening, with Mr. James Ward and Mr. Lane, and I saw no one leave.",
+        "clue" : "She admits casting Emma out without a flicker of shame — her sin is pride, freely confessed. And she anchors the fireside alibi that shelters Mr. James Ward, Mr. Lane, and herself alike."
+      }, {
+        "name" : "SarahDean",
+        "id" : "sarahdean",
+        "displayName" : "Mrs. Sarah Dean",
+        "imagePath" : "images/sarah_dean.png",
+        "imageScaleX" : 2.4275155279503102,
+        "imageScaleY" : 2.4275155279503102,
+        "homeRoom" : "Servants Hall",
+        "posX" : 0.2804459691252144,
+        "posY" : 0.6283054602630075,
+        "labelDX" : 0.010549828420504231,
+        "labelDY" : 0.41144330839966503,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "I was a maid at Highwood then. At the inquest I said I had seen Miss Shaw walking to the river alone, weeping — and God forgive me, I saw no such thing. Mr. Lane put the words in my mouth and five pounds in my hand, and I was young and frightened. This evening I was below stairs with the staff from supper on — cook will tell you I never came up.",
+        "clue" : "She confesses the bought lie almost before you ask — fifteen years of wanting to. Below stairs all evening, with the staff to swear to it."
+      }, {
+        "name" : "ThomasLane",
+        "id" : "thomaslane",
+        "displayName" : "Mr. Thomas Lane",
+        "imagePath" : "images/thomas_lane.png",
+        "imageScaleX" : 2.547080745341615,
+        "imageScaleY" : 2.547080745341615,
+        "flipX" : true,
+        "homeRoom" : "Library",
+        "posX" : 0.1260720411663808,
+        "posY" : 0.6206224985706118,
+        "labelDX" : -0.018098275933608573,
+        "labelDY" : 0.43033678331024827,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "I shall speak plainly, since Mr. Gray's file has doubtless done it for me. The family wished the matter closed; I closed it. Payments to the doctor, to the girl at the inquest, to a newspaper man — all lawful enough on paper, and all in my ledger, which I see has wandered from my case. I believed I was tidying away a suicide, Detective, not burying a murder. And I was at the drawing-room fire until midnight; Lady Cole and Mr. Ward will say so.",
+        "clue" : "The fixer, unfixed: he admits the arrangements the moment he learns the ledger has surfaced. His alibi is the same fireside as Lady Cole's and Mr. James Ward's — three witnesses in one circle of armchairs."
+      } ],
+      "tasks" : [ "Examine the study where Mr. Gray was found.", "Learn why these six strangers were gathered.", "Question the guests, and weigh what they hide.", "When you are certain, name the killer in the final exam." ],
+      "rankingTiers" : [ {
+        "rankName" : "Sherlock Holmes",
+        "maxDeductions" : 3,
+        "description" : "A sharp, certain solve.",
+        "winningStatement" : "Masterful. You saw past the loud brother to the quiet one, and past a suicide to a murder. Henry Ward never stood a chance against you."
+      }, {
+        "rankName" : "Dr. Watson",
+        "maxDeductions" : 6,
+        "description" : "A sound investigation.",
+        "winningStatement" : "Well reasoned, Detective. The two brothers nearly had us — but you told them apart in the end."
+      }, {
+        "rankName" : "Curious Observer",
+        "maxDeductions" : 0,
+        "description" : "The truth, reached at last.",
+        "defaultRank" : true,
+        "winningStatement" : "You found the truth beneath the snow. With a sharper eye, you will find it sooner."
+      } ],
+      "final_exam" : {
+        "questions" : [ {
+          "question_prompt" : "Mr. Gray was killed by ______, to hide ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q1s1_cole",
+                "choice_text" : "Lady Cole"
+              }, {
+                "choice_id" : "q1s1_price",
+                "choice_text" : "Dr. Price"
+              }, {
+                "choice_id" : "q1s1_james",
+                "choice_text" : "James Ward"
+              }, {
+                "choice_id" : "q1s1_henry",
+                "choice_text" : "Henry Ward"
+              }, {
+                "choice_id" : "q1s1_dean",
+                "choice_text" : "Mrs. Dean"
+              }, {
+                "choice_id" : "q1s1_lane",
+                "choice_text" : "Mr. Lane"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q1s2_verdict",
+                "choice_text" : "a false verdict"
+              }, {
+                "choice_id" : "q1s2_affair",
+                "choice_text" : "an old affair"
+              }, {
+                "choice_id" : "q1s2_drown",
+                "choice_text" : "drowning Emma"
+              }, {
+                "choice_id" : "q1s2_cast",
+                "choice_text" : "casting Emma out"
+              }, {
+                "choice_id" : "q1s2_lie",
+                "choice_text" : "a lie at the inquest"
+              }, {
+                "choice_id" : "q1s2_hush",
+                "choice_text" : "hush-money"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q1s1_henry",
+            "slot2" : "q1s2_drown"
+          }
+        }, {
+          "question_prompt" : "At first the clues accused ______, but the real killer was ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q2s1_dean",
+                "choice_text" : "Mrs. Dean"
+              }, {
+                "choice_id" : "q2s1_price",
+                "choice_text" : "Dr. Price"
+              }, {
+                "choice_id" : "q2s1_cole",
+                "choice_text" : "Lady Cole"
+              }, {
+                "choice_id" : "q2s1_lane",
+                "choice_text" : "Mr. Lane"
+              }, {
+                "choice_id" : "q2s1_james",
+                "choice_text" : "James Ward"
+              }, {
+                "choice_id" : "q2s1_henry",
+                "choice_text" : "Henry Ward"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q2s2_cole",
+                "choice_text" : "Lady Cole"
+              }, {
+                "choice_id" : "q2s2_henry",
+                "choice_text" : "Henry Ward"
+              }, {
+                "choice_id" : "q2s2_price",
+                "choice_text" : "Dr. Price"
+              }, {
+                "choice_id" : "q2s2_james",
+                "choice_text" : "James Ward"
+              }, {
+                "choice_id" : "q2s2_lane",
+                "choice_text" : "Mr. Lane"
+              }, {
+                "choice_id" : "q2s2_dean",
+                "choice_text" : "Mrs. Dean"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q2s1_james",
+            "slot2" : "q2s2_henry"
+          }
+        }, {
+          "question_prompt" : "Emma Shaw was really ______, and the killer was exposed by ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q3s1_sent",
+                "choice_text" : "sent away"
+              }, {
+                "choice_id" : "q3s1_despair",
+                "choice_text" : "driven to despair"
+              }, {
+                "choice_id" : "q3s1_murdered",
+                "choice_text" : "murdered"
+              }, {
+                "choice_id" : "q3s1_accident",
+                "choice_text" : "lost by accident"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q3s2_doctor",
+                "choice_text" : "the doctor's notes"
+              }, {
+                "choice_id" : "q3s2_forged",
+                "choice_text" : "the forged note"
+              }, {
+                "choice_id" : "q3s2_ledger",
+                "choice_text" : "the hush-money ledger"
+              }, {
+                "choice_id" : "q3s2_dismissal",
+                "choice_text" : "the old newspaper"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q3s1_murdered",
+            "slot2" : "q3s2_forged"
+          }
+        } ]
+      }
+    },
+    "ar" : {
+      "languageName" : "العربية",
+      "title" : "دعوةٌ إلى الحساب",
+      "invitation" : "إلى السيد شرلوك هولمز،\nشارع بيكر ٢٢١ب،\nلندن.\n\nعزيزي السيد هولمز،\nأنت لا تعرفني، ولن أمنحك اسمي قبل أن تصير تحت سقفي.\nفي نهاية هذا الأسبوع جمعتُ ستة ضيوف في منزل غرايستون. كلٌّ منهم يظن أنه قادم لأسبابه الخاصة، ولا أحد يعرف لماذا دُعي الآخرون. قبل خمسة عشر عامًا دفن هؤلاء الستة ظلمًا فيما بينهم، وأعتزم نبشه أمام شهود.\nأريد أذكى عقل في إنجلترا حاضرًا حين أفعل ذلك — لا ليعينني، بل ليشهد أن ما سيجري عدلٌ لا انتقام. أحضر معك الدكتور واطسون. لا تُخبر أحدًا لماذا جئت، ولا تُعرّف بنفسك إلى ضيوفي.\nطريق الوادي رديء متى بدأ الثلج. تعال يوم الجمعة، قبل أن ينقلب الطقس.\n\n(الرسالة بلا توقيع.)",
+      "description" : "بيت منعزل فوق الأرض السبخة، أطبقت عليه عاصفة ثلجية. ستة غرباء، ومضيف قتيل، وسرٌّ مات دون أن يبوح به.",
+      "roomDetails" : [ {
+        "name" : "Entrance Hall",
+        "displayName" : "البهو الكبير",
+        "description" : "بهوٌ بارد عالي السقف. البابان الكبيران موصدان في وجه العاصفة، وسجل الضيوف مفتوح على حامله."
+      }, {
+        "name" : "Study",
+        "displayName" : "المكتب",
+        "description" : "مكتب السيد غراي الخاص. كرسيه مقلوب عند الطاولة حيث عُثر عليه، والأوراق مبعثرة."
+      }, {
+        "name" : "Library",
+        "displayName" : "المكتبة",
+        "description" : "غرفة معتمة تصطف الكتب على جدرانها، لجأ إليها الضيوف هربًا من البرد يتحدثون بأصوات خافتة."
+      }, {
+        "name" : "Servants Hall",
+        "displayName" : "قاعة الخدم",
+        "description" : "غرفة بسيطة تحت الدرج، دافئة بحرارة الموقد. الخدم القلائل يلزمون مكانهم هنا."
+      }, {
+        "name" : "Drawing Room",
+        "displayName" : "غرفة الجلوس",
+        "description" : "غرفة فخمة بمدفأة كبيرة، جلس فيها معظم الضيوف طوال الأمسية التي مات فيها المضيف."
+      }, {
+        "name" : "Guest Room",
+        "displayName" : "غرفة الضيوف",
+        "description" : "إحدى غرف النوم المطلة على البسطة. حقائب الأخوين وارد حُملت إلى هنا معًا حين هبّت العاصفة، وما تزال نصف مفتوحة."
+      } ],
+      "objectDetails" : [ {
+        "name" : "guest_book",
+        "displayName" : "سجل الضيوف",
+        "description" : "سجل ضيوف الدار، وقّعه كل قادم عند وصوله.",
+        "examine" : "خط يد كل ضيف ماثلٌ هنا على صفحة واحدة — بما في ذلك خطّا الأخوين وارد.",
+        "deduce" : "ستة خطوط، كلٌّ موقّع باسمه. إن ظهرت في هذا البيت ورقة مشكوك في كاتبها، فهذا هو الميزان الذي تُقاس عليه."
+      }, {
+        "name" : "doctor_notes",
+        "displayName" : "ملاحظات الطبيب",
+        "description" : "حقيبة الدكتور برايس الطبية البالية، وُضعت مع المعاطف والعصيّ ليلة وصول الضيوف — وما تزال ملاحظاته القديمة في داخلها.",
+        "examine" : "العلامات التي دوّنها على جسد إيما لا تستقيم مع غرقٍ هادئ — والملاحظات تتوقف فجأة، كأن الفاحص اختار ألا ينظر أبعد.",
+        "deduce" : "رأى الطبيب ما يكفي ليشك في الحكم الذي وقّعه. أيًّا كان ما دفنه — انتحارًا أو ما هو أسوأ — فقد دفنه لحساب أحدهم، وقبض ثمن المجرفة."
+      }, {
+        "name" : "blotter",
+        "displayName" : "ورق التنشيف",
+        "description" : "ورقة تنشيف من مكتب السيد غراي.",
+        "examine" : "أمام المرآة يظهر شبح آخر ما كتبه: «...كان و—». والباقي ضاع.",
+        "deduce" : "آخر سطر خطّه رجل يموت. قد تكون «و—» بداية اسم — أو كلمة: «ويلٌ»، «وداعًا»، «وَهْم». وحدها لا تتهم أحدًا. أما إلى جانب ما كان السيد غراي يكتب عنه، فربما."
+      }, {
+        "name" : "torn_file",
+        "displayName" : "ملف السيد غراي",
+        "description" : "ملف جلدي يضم أوراق السيد غراي الخاصة.",
+        "examine" : "في داخله صفحة عن دور كل ضيف في القضية القديمة في هايوود — بلا عناوين ولا أسماء، فغراي لم يكن يحتاج من يذكّره بأصحابها. صفحة واحدة انتُزعت، ومعها ذهب كل ما كان سيدلك على صاحبها.",
+        "deduce" : "القاتل وجد هذا الملف قبلك وانتزع الصفحة التي تسمّيه. الملف لا يستطيع أن يقول مَن — لكنه يقول لماذا مات السيد غراي: كان يعتزم فضح أحد ضيوفه."
+      }, {
+        "name" : "suicide_note",
+        "displayName" : "رسالة الوداع",
+        "description" : "ورقة مصفرّة محفوظة في ملف السيد غراي: الكلمات الأخيرة المنسوبة إلى إيما شو.",
+        "examine" : "«لا أستطيع المُضيّ. سامحوني.» ظلت تُعَدّ وداعها الأخير خمسة عشر عامًا.",
+        "deduce" : "صدّق الجميع أن هذه الورقة تثبت انتحارًا. لكن الورقة لا تثبت إلا مَن أمسك القلم."
+      }, {
+        "name" : "emma_letter",
+        "displayName" : "رسالة إيما",
+        "description" : "رسالة حقيقية بخط إيما شو، مطوية بين أوراق السيد غراي.",
+        "examine" : "خطها مستدير متعرّج، دافئ حتى في حديثها عن قفازات رُتقت ونزهات يوم الأحد.",
+        "deduce" : "نموذج صادق ليد إيما شو — الوحيد المؤكد في هذا البيت. كل ما يدّعي أنه بخطها عليه أن يُحاكَم إليه."
+      }, {
+        "name" : "hush_ledger",
+        "displayName" : "دفتر الحسابات",
+        "description" : "دفتر حسابات خاص، انزلق من حقيبة السيد لين حين حمل الخدم أمتعة الضيوف إلى تحت الدرج.",
+        "examine" : "مدفوعات، قبل خمسة عشر عامًا، إلى طبيب وخادمة وصحيفة — كلها حول وقت موت إيما.",
+        "deduce" : "موت إيما اشتُري له الصمت. وفي هذا البيت أكثر من واحد قبض الثمن."
+      }, {
+        "name" : "old_newspaper",
+        "displayName" : "جريدة قديمة",
+        "description" : "قصاصة صحيفة هشّة، مطوية على طاولة جانبية قرب مدفأة غرفة الجلوس، وخبرُ الغرق في صدارتها.",
+        "examine" : "«مربية تُغرق نفسها في هايوود.» كان الحكم انتحارًا، وأُبقي اسم العائلة بعيدًا عن الخبر.",
+        "deduce" : "قيل للعالم إن إيما أغرقت نفسها. وما قيل للعالم كان كذبًا."
+      }, {
+        "name" : "love_letters",
+        "displayName" : "رسائل الحب",
+        "description" : "رزمة رسائل وقلادة صغيرة، مخبأة في حقيبة أحد الضيوف.",
+        "examine" : "سنوات من الرسائل إلى إيما، تتدرج من الحب إلى التوسل — وردُّها الوحيد الحازم بالرفض، مطويٌّ معها مع قلادة صغيرة. كل رسالة موقعة فقط: «المخلص لكِ، و.»",
+        "deduce" : "أحد الضيوف أحب إيما حتى الهوس، فرُفض. وقّع لنفسه بحرف «و.» — الحرف نفسه الذي يهمس به البيت كله إلى جانب اسم السيد جيمس وارد."
+      } ],
+      "suspects" : [ {
+        "name" : "JamesWard",
+        "id" : "jamesward",
+        "displayName" : "السيد جيمس وارد",
+        "imagePath" : "images/james_ward.png",
+        "imageScaleX" : 2.8886956521739133,
+        "imageScaleY" : 2.8886956521739133,
+        "homeRoom" : "Drawing Room",
+        "posX" : 0.15180102915951973,
+        "posY" : 0.5606953973699257,
+        "labelDX" : 0.0,
+        "labelDY" : 0.4119936859854204,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "نعم، عرفتُ إيما شو — والمقاطعة كلها عرفت، بفضل ألسنة كهذه. كانت علاقة، منذ سنين، ودفعت ثمنها همسًا منذ ذلك الحين. اسألني ما شئت؛ لم يبقَ لديّ ما أخفيه، ولا سبب لأتمنى موت غراي المسكين.",
+        "clue" : "يعترف بالعلاقة القديمة بسهولة مذهلة، ويقدم ثلاثة شهود على أمسيته قرب المدفأة. رجل بهذا الصخب إما بريء — وإما يريد بشدة أن تتجه الأنظار إليه.",
+        "states" : {
+          "LIE" : {
+            "statement" : "نعم، عرفتُ إيما شو — والمقاطعة كلها عرفت، بفضل ألسنة كهذه. كانت علاقة، منذ سنين، ودفعت ثمنها همسًا منذ ذلك الحين. اسألني ما شئت؛ لم يبقَ لديّ ما أخفيه، ولا سبب لأتمنى موت غراي المسكين.",
+            "contradictions" : [ {
+              "evidenceId" : "love_letters",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "james_cleared",
+              "successMessage" : "تضع رسائل «و.» أمامه. تنهار جعجعة جيمس وارد إلى شيء أهدأ وأقدم. «إذن ظهرت»، يقول. «نعم — أنا كتبتها. أحببتها فلم تختر أحدًا. لكني لم أبرح تلك المدفأة، وأنت تعلم ذلك.»"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "حسنًا — تلك الرسائل لي، والعار لي كذلك. أحببتها، ورُفضت، ووقّعت باسم «و.» كالجبان. لكن الرفض ليس قتلًا. كنت عند مدفأة غرفة الجلوس من العشاء حتى وجدوه — الليدي كول والسيد لين وواطسون خاصتك سيقسمون على ذلك. أنا مذنب بأشياء كثيرة أيها المحقق. لكن هذه ليست منها."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "HenryWard",
+        "id" : "henryward",
+        "displayName" : "السيد هنري وارد",
+        "imagePath" : "images/henry_ward.png",
+        "imageScaleX" : 2.9405940594059405,
+        "imageScaleY" : 3.0,
+        "homeRoom" : "Library",
+        "posX" : 0.42,
+        "posY" : 0.575,
+        "labelDX" : 0.020487897846388416,
+        "labelDY" : 0.40634330728670354,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "بالكاد عرفت الفتاة — تلك كانت علاقة أخي جيمس، لا علاقتي. قضيت الأمسية كلها أقرأ في غرفتي.",
+        "clue" : "الأخ الهادئ، يضيع بسهولة في ظل أخيه الصاخب. لا مدفأة ولا شهود — كتاب في غرفته فحسب، في الأمسية الوحيدة في هذا البيت التي كانت تستوجب حجة غياب.",
+        "states" : {
+          "LIE" : {
+            "statement" : "بالكاد عرفت الفتاة — تلك كانت علاقة أخي جيمس، لا علاقتي. قضيت الأمسية كلها أقرأ في غرفتي.",
+            "contradictions" : [ {
+              "evidenceId" : "note_in_henrys_hand",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "henry_confession",
+              "successMessage" : "يجمد هنري وارد حين تضع الرسالة المزوّرة إلى جانب خطه في سجل الضيوف. ينسحب الهدوء من وجهه. يقول أخيرًا: «كان عليها أن تختارني أنا... وكان على السيد غراي أن يدع الموتى في سلام.»"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "نعم. أحببتُ إيما، ورفضتني من أجل سحر أخي السهل. تركتها تغرق، وكتبت تلك الورقة باسمها. وحين عرف السيد غراي الحقيقة، لم أستطع أن أدعه ينطق بها."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "AlanPrice",
+        "id" : "alanprice",
+        "displayName" : "الدكتور آلان برايس",
+        "imagePath" : "images/alan_price.png",
+        "imageScaleX" : 1.8307142857142855,
+        "imageScaleY" : 1.8307142857142855,
+        "flipX" : true,
+        "homeRoom" : "Library",
+        "posX" : 0.6415094339622641,
+        "posY" : 0.5606953973699257,
+        "labelDX" : 0.01678680666305723,
+        "labelDY" : 0.478423989897131,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "كان التحقيق سليمًا. الفتاة المسكينة أغرقت نفسها — وأنا من وقّع الشهادة بنفسي.",
+        "clue" : "يشهد لحكمٍ عمره خمسة عشر عامًا بسرعة زائدة قليلًا — أما عن مكانه هذه الأمسية فلا يشهد أحد. جلس وحده في المكتبة، على حد قوله، وحقيبته إلى جواره.",
+        "states" : {
+          "LIE" : {
+            "statement" : "كان التحقيق سليمًا. الفتاة المسكينة أغرقت نفسها — وأنا من وقّع الشهادة بنفسي.",
+            "contradictions" : [ {
+              "evidenceId" : "doctor_notes",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "price_confesses",
+              "successMessage" : "أمام ملاحظاته هو نفسه، يتهاوى الدكتور برايس في كرسيه: «نعم، لم تكن العلامات تستقيم مع الغرق. دُفع لي كي لا أدقق النظر — أقسمت لنفسي أنه انتحار، وقضيت خمسة عشر عامًا وأنا أشيح بوجهي.»"
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "قبضتُ مالًا لأوقّع سريعًا ولا أسأل. كانت العلامات خاطئة — قلت لنفسي إن النهر صنعها، وإن الفتاة المسكينة منتحرة. إن كانت جريمة، فقد ساعدت على دفنها دون علم، وحملتُ ذلك منذ ذلك الحين."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "MargaretCole",
+        "id" : "margaretcole",
+        "displayName" : "الليدي مارغريت كول",
+        "imagePath" : "images/margaret_cole.png",
+        "imageScaleX" : 2.37,
+        "imageScaleY" : 2.37,
+        "flipX" : true,
+        "homeRoom" : "Drawing Room",
+        "posX" : 0.5514579759862779,
+        "posY" : 0.5683783590623214,
+        "labelDX" : 0.004322341317803463,
+        "labelDY" : 0.5100362755008087,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "كانت إيما شو مربية أحفادي، وقد صرفتها يوم انكشفت علاقتها بالسيد وارد. ولو عاد الأمر لفعلتها ثانية — المرء لا يُبقي الفضيحة تحت سقفه. أما أن يأخذها النهر بعد أيام قليلة فذلك حزن، لا ذنب. جلست قرب مدفأة غرفة الجلوس تلك الأمسية الرهيبة كلها، مع السيد جيمس وارد والسيد لين، ولم أرَ أحدًا يغادر.",
+        "clue" : "تعترف بطرد إيما دون ذرة خجل — خطيئتها الكبرياء، وتقرّ بها طواعية. وهي ركيزة حجة الغياب عند المدفأة التي تظلل السيد جيمس وارد والسيد لين ونفسها معًا."
+      }, {
+        "name" : "SarahDean",
+        "id" : "sarahdean",
+        "displayName" : "السيدة سارة دين",
+        "imagePath" : "images/sarah_dean.png",
+        "imageScaleX" : 2.4275155279503102,
+        "imageScaleY" : 2.4275155279503102,
+        "homeRoom" : "Servants Hall",
+        "posX" : 0.2804459691252144,
+        "posY" : 0.6283054602630075,
+        "labelDX" : 0.010549828420504231,
+        "labelDY" : 0.41144330839966503,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "كنت خادمة في هايوود آنذاك. قلت في التحقيق إنني رأيت الآنسة شو تمشي إلى النهر وحدها باكية — وليغفر لي الله، ما رأيت شيئًا من ذلك. السيد لين وضع الكلمات في فمي وخمسة جنيهات في يدي، وكنت صغيرة خائفة. أما هذه الأمسية فكنت تحت الدرج مع الخدم منذ العشاء — والطاهية ستخبرك أنني لم أصعد قط.",
+        "clue" : "تعترف بالكذبة المدفوعة قبل أن تكاد تسأل — خمسة عشر عامًا وهي تتوق إلى ذلك. تحت الدرج طوال الأمسية، والخدم يشهدون لها."
+      }, {
+        "name" : "ThomasLane",
+        "id" : "thomaslane",
+        "displayName" : "السيد توماس لين",
+        "imagePath" : "images/thomas_lane.png",
+        "imageScaleX" : 2.547080745341615,
+        "imageScaleY" : 2.547080745341615,
+        "flipX" : true,
+        "homeRoom" : "Library",
+        "posX" : 0.1260720411663808,
+        "posY" : 0.6206224985706118,
+        "labelDX" : -0.018098275933608573,
+        "labelDY" : 0.43033678331024827,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "سأتكلم بصراحة، فملف السيد غراي قد تكلم عني بلا شك. أرادت العائلة إغلاق المسألة؛ فأغلقتها. مدفوعات للطبيب، وللفتاة في التحقيق، ولرجل صحافة — كلها قانونية بما يكفي على الورق، وكلها في دفتري الذي أرى أنه شرد من حقيبتي. اعتقدت أنني أرتّب أوراق انتحار، أيها المحقق، لا أنني أدفن جريمة. وكنت عند مدفأة غرفة الجلوس حتى منتصف الليل؛ الليدي كول والسيد وارد سيقولان ذلك.",
+        "clue" : "المدبّر وقد انكشف تدبيره: يقرّ بالترتيبات لحظة يعلم أن الدفتر ظهر. حجة غيابه هي المدفأة نفسها التي عند الليدي كول والسيد جيمس وارد — ثلاثة شهود في حلقة مقاعد واحدة."
+      } ],
+      "tasks" : [ "افحص المكتب حيث عُثر على السيد غراي.", "اعرف لماذا جُمع هؤلاء الغرباء الستة.", "استجوب الضيوف، وزِن ما يخفونه.", "وحين تتيقن، سمِّ القاتل في الاختبار الأخير." ],
+      "rankingTiers" : [ {
+        "rankName" : "Sherlock Holmes",
+        "maxDeductions" : 3,
+        "description" : "حلٌّ حادّ واثق.",
+        "winningStatement" : "بارع. رأيت ما وراء الأخ الصاخب إلى الأخ الهادئ، وما وراء انتحارٍ إلى جريمة. لم يكن لهنري وارد أمامك أي فرصة."
+      }, {
+        "rankName" : "Dr. Watson",
+        "maxDeductions" : 6,
+        "description" : "تحقيق متين.",
+        "winningStatement" : "استدلال محكم أيها المحقق. كاد الأخوان يخدعاننا — لكنك ميّزت أحدهما من الآخر في النهاية."
+      }, {
+        "rankName" : "Curious Observer",
+        "maxDeductions" : 0,
+        "description" : "الحقيقة، وقد بلغتها أخيرًا.",
+        "defaultRank" : true,
+        "winningStatement" : "وجدت الحقيقة تحت الثلج. وبعين أمضى، ستجدها أسرع."
+      } ],
+      "final_exam" : {
+        "questions" : [ {
+          "question_prompt" : "قُتل السيد غراي على يد ______، لإخفاء ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q1s1_cole",
+                "choice_text" : "الليدي كول"
+              }, {
+                "choice_id" : "q1s1_price",
+                "choice_text" : "الدكتور برايس"
+              }, {
+                "choice_id" : "q1s1_james",
+                "choice_text" : "جيمس وارد"
+              }, {
+                "choice_id" : "q1s1_henry",
+                "choice_text" : "هنري وارد"
+              }, {
+                "choice_id" : "q1s1_dean",
+                "choice_text" : "السيدة دين"
+              }, {
+                "choice_id" : "q1s1_lane",
+                "choice_text" : "السيد لين"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q1s2_verdict",
+                "choice_text" : "حكمٍ زائف"
+              }, {
+                "choice_id" : "q1s2_affair",
+                "choice_text" : "علاقةٍ قديمة"
+              }, {
+                "choice_id" : "q1s2_drown",
+                "choice_text" : "إغراق إيما"
+              }, {
+                "choice_id" : "q1s2_cast",
+                "choice_text" : "طرد إيما"
+              }, {
+                "choice_id" : "q1s2_lie",
+                "choice_text" : "كذبةٍ في التحقيق"
+              }, {
+                "choice_id" : "q1s2_hush",
+                "choice_text" : "مال الصمت"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q1s1_henry",
+            "slot2" : "q1s2_drown"
+          }
+        }, {
+          "question_prompt" : "في البداية اتهمت الأدلة ______، لكن القاتل الحقيقي كان ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q2s1_dean",
+                "choice_text" : "السيدة دين"
+              }, {
+                "choice_id" : "q2s1_price",
+                "choice_text" : "الدكتور برايس"
+              }, {
+                "choice_id" : "q2s1_cole",
+                "choice_text" : "الليدي كول"
+              }, {
+                "choice_id" : "q2s1_lane",
+                "choice_text" : "السيد لين"
+              }, {
+                "choice_id" : "q2s1_james",
+                "choice_text" : "جيمس وارد"
+              }, {
+                "choice_id" : "q2s1_henry",
+                "choice_text" : "هنري وارد"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q2s2_cole",
+                "choice_text" : "الليدي كول"
+              }, {
+                "choice_id" : "q2s2_henry",
+                "choice_text" : "هنري وارد"
+              }, {
+                "choice_id" : "q2s2_price",
+                "choice_text" : "الدكتور برايس"
+              }, {
+                "choice_id" : "q2s2_james",
+                "choice_text" : "جيمس وارد"
+              }, {
+                "choice_id" : "q2s2_lane",
+                "choice_text" : "السيد لين"
+              }, {
+                "choice_id" : "q2s2_dean",
+                "choice_text" : "السيدة دين"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q2s1_james",
+            "slot2" : "q2s2_henry"
+          }
+        }, {
+          "question_prompt" : "إيما شو في الحقيقة ______، والدليل الذي فضح القاتل هو ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q3s1_sent",
+                "choice_text" : "أُبعدت عن المكان"
+              }, {
+                "choice_id" : "q3s1_despair",
+                "choice_text" : "دُفعت إلى اليأس"
+              }, {
+                "choice_id" : "q3s1_murdered",
+                "choice_text" : "قُتلت"
+              }, {
+                "choice_id" : "q3s1_accident",
+                "choice_text" : "ماتت في حادث"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q3s2_doctor",
+                "choice_text" : "ملاحظات الطبيب"
+              }, {
+                "choice_id" : "q3s2_forged",
+                "choice_text" : "الرسالة المزوّرة"
+              }, {
+                "choice_id" : "q3s2_ledger",
+                "choice_text" : "دفتر مال الصمت"
+              }, {
+                "choice_id" : "q3s2_dismissal",
+                "choice_text" : "الجريدة القديمة"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q3s1_murdered",
+            "slot2" : "q3s2_forged"
+          }
+        } ]
+      }
+    },
+    "ru" : {
+      "languageName" : "Русский",
+      "title" : "Приглашение на суд",
+      "invitation" : "Мистеру Шерлоку Холмсу,\nБейкер-стрит, 221б,\nЛондон.\n\nУважаемый мистер Холмс,\nВы меня не знаете, и я не назову своего имени, пока вы не окажетесь под моей крышей.\nВ эти выходные я собрал шестерых гостей в Грейстоун-хаусе. Каждый полагает, что едет по своим причинам; никто не знает, зачем позваны остальные. Пятнадцать лет назад эти шестеро похоронили одно злодеяние, и я намерен выкопать его при свидетелях.\nМне нужен тончайший ум Англии в этой комнате — не в помощь мне, а чтобы засвидетельствовать: то, что последует, есть правосудие, а не месть. Возьмите доктора Уотсона. Никому не говорите, зачем едете, и не открывайтесь моим гостям.\nДорога по долине скверна, как только пойдёт снег. Приезжайте в пятницу, пока не переменилась погода.\n\n(Письмо не подписано.)",
+      "description" : "Одинокий дом на пустоши, запечатанный метелью. Шесть незнакомцев, убитый хозяин и тайна, за которую он умер.",
+      "roomDetails" : [ {
+        "name" : "Entrance Hall",
+        "displayName" : "Вестибюль",
+        "description" : "Холодный, высокий холл. Большие двери заперты от бури, на подставке раскрыта книга гостей."
+      }, {
+        "name" : "Study",
+        "displayName" : "Кабинет",
+        "description" : "Личный кабинет мистера Грея. Его кресло опрокинуто у стола, где его нашли. Повсюду разбросаны бумаги."
+      }, {
+        "name" : "Library",
+        "displayName" : "Библиотека",
+        "description" : "Полутёмная комната в книжных полках, куда гости сошлись от холода и переговариваются вполголоса."
+      }, {
+        "name" : "Servants Hall",
+        "displayName" : "Людская",
+        "description" : "Простая комната под лестницей, тёплая от плиты. Немногочисленная прислуга держится здесь особняком."
+      }, {
+        "name" : "Drawing Room",
+        "displayName" : "Гостиная",
+        "description" : "Парадная комната с большим камином, где большинство гостей просидело весь вечер, когда погиб хозяин."
+      }, {
+        "name" : "Guest Room",
+        "displayName" : "Гостевая комната",
+        "description" : "Одна из гостевых спален у лестничной площадки. Чемоданы братьев Уорд внесли сюда вместе, когда разыгралась буря, — они так и стоят полураспакованными."
+      } ],
+      "objectDetails" : [ {
+        "name" : "guest_book",
+        "displayName" : "Книга гостей",
+        "description" : "Домовая книга гостей, подписанная каждым по приезде.",
+        "examine" : "Почерк каждого гостя — здесь, на одной странице. В том числе обоих братьев Уорд.",
+        "deduce" : "Шесть рук, каждая подписана именем. Если в этом доме объявится сомнительная бумага — вот мерило, к которому её приложить."
+      }, {
+        "name" : "doctor_notes",
+        "displayName" : "Записи доктора",
+        "description" : "Потёртый докторский саквояж Прайса, поставленный вместе с пальто и тростями в вечер приезда гостей, — старые записи всё ещё внутри.",
+        "examine" : "Отметины, которые он записал на теле Эммы, плохо вязались с тихим утоплением — и записи обрываются, будто осматривавший предпочёл не смотреть дальше.",
+        "deduce" : "Доктор увидел достаточно, чтобы усомниться в вердикте, который подписал. Что бы он ни похоронил — самоубийство или худшее, — он похоронил это для кого-то, и за лопату ему заплатили."
+      }, {
+        "name" : "blotter",
+        "displayName" : "Промокательная бумага",
+        "description" : "Лист промокательной бумаги со стола мистера Грея.",
+        "examine" : "В зеркале проступает призрак его последних строк: «...это был У—». Остальное пропало.",
+        "deduce" : "Последняя строка умирающего. «У—» может начинать имя — или слово: «ужасно», «утонула», «у нас». Сама по себе она не обвиняет никого. Рядом с тем, о чём писал мистер Грей, — возможно."
+      }, {
+        "name" : "torn_file",
+        "displayName" : "Папка мистера Грея",
+        "description" : "Кожаная папка с личными бумагами мистера Грея.",
+        "examine" : "Внутри — страница о роли каждого гостя в старой истории в Хайвуде; без заголовков и подписей: Грею не нужно было напоминать, кто есть кто. Одна страница вырвана — и с нею всё, что сказало бы вам, чья она.",
+        "deduce" : "Убийца нашёл эту папку раньше вас и вырвал страницу со своим именем. Папка не скажет кто — но говорит, за что погиб мистер Грей: он собирался разоблачить одного из своих гостей."
+      }, {
+        "name" : "suicide_note",
+        "displayName" : "Прощальная записка",
+        "description" : "Пожелтевшая записка из папки мистера Грея: последние слова, приписываемые Эмме Шоу.",
+        "examine" : "«Я не могу больше. Простите меня». Пятнадцать лет её считали прощанием Эммы.",
+        "deduce" : "Все верили, что записка доказывает самоубийство. Но записка доказывает лишь то, кто держал перо."
+      }, {
+        "name" : "emma_letter",
+        "displayName" : "Письмо Эммы",
+        "description" : "Настоящее письмо, написанное Эммой Шоу, — сложено среди бумаг мистера Грея.",
+        "examine" : "Почерк у неё круглый, с петлями, тёплый даже в письме о заштопанных перчатках и воскресных прогулках.",
+        "deduce" : "Подлинный образец руки Эммы Шоу — единственный надёжный в этом доме. Всё, что выдаёт себя за её почерк, должно держать ответ перед ним."
+      }, {
+        "name" : "hush_ledger",
+        "displayName" : "Гроссбух",
+        "description" : "Частный гроссбух, выскользнувший из чемодана мистера Лейна, когда прислуга сносила багаж гостей под лестницу.",
+        "examine" : "Платежи пятнадцатилетней давности: доктору, горничной, газете — все около времени смерти Эммы.",
+        "deduce" : "Смерти Эммы купили молчание. В этом доме деньги взяли сразу несколько человек."
+      }, {
+        "name" : "old_newspaper",
+        "displayName" : "Старая газета",
+        "description" : "Ломкая газетная вырезка, сложенная на столике у камина в гостиной, — заметкой об утоплении кверху.",
+        "examine" : "«Гувернантка утопилась в Хайвуде». Вердикт — самоубийство; имя семьи в газету не попало.",
+        "deduce" : "Миру сказали, что Эмма утопилась. Миру сказали неправду."
+      }, {
+        "name" : "love_letters",
+        "displayName" : "Любовные письма",
+        "description" : "Связка писем и маленький медальон, спрятанные в чьём-то чемодане.",
+        "examine" : "Годы писем к Эмме — от любви к мольбам — и её единственный твёрдый отказ, вложенный вместе с маленьким медальоном. Каждое письмо подписано лишь: «Преданный вам У.»",
+        "deduce" : "Один из гостей любил Эмму до одержимости — и получил отказ. Он подписывался «У.» — тем самым инициалом, который весь дом шёпотом ставит рядом с именем мистера Джеймса Уорда."
+      } ],
+      "suspects" : [ {
+        "name" : "JamesWard",
+        "id" : "jamesward",
+        "displayName" : "Мистер Джеймс Уорд",
+        "imagePath" : "images/james_ward.png",
+        "imageScaleX" : 2.8886956521739133,
+        "imageScaleY" : 2.8886956521739133,
+        "homeRoom" : "Drawing Room",
+        "posX" : 0.15180102915951973,
+        "posY" : 0.5606953973699257,
+        "labelDX" : 0.0,
+        "labelDY" : 0.4119936859854204,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Да, я знал Эмму Шоу — всё графство знало, спасибо таким вот языкам. Это была связь, много лет назад, и я расплачиваюсь за неё шепотками с тех пор. Спрашивайте о чём угодно; мне нечего больше скрывать и незачем было желать бедному Грею смерти.",
+        "clue" : "Он признаёт старую связь с поразительной лёгкостью и выставляет трёх свидетелей своего вечера у камина. Человек настолько громкий либо невиновен — либо очень хочет, чтобы смотрели на него.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Да, я знал Эмму Шоу — всё графство знало, спасибо таким вот языкам. Это была связь, много лет назад, и я расплачиваюсь за неё шепотками с тех пор. Спрашивайте о чём угодно; мне нечего больше скрывать и незачем было желать бедному Грею смерти.",
+            "contradictions" : [ {
+              "evidenceId" : "love_letters",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "james_cleared",
+              "successMessage" : "Вы кладёте перед ним письма с подписью «У.». Бахвальство Джеймса Уорда оседает в нечто более тихое и давнее. «Значит, они всплыли, — говорит он. — Да, я их писал. Я любил её, а она не выбрала никого. Но я не отходил от того камина, и вы это знаете»."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Хорошо — те письма мои, и стыд тоже мой. Я любил её, мне отказали, и я подписывался лишь «У.», как трус. Но отказ — не убийство. Я был у камина в гостиной от ужина и до той минуты, когда его нашли, — леди Коул, мистер Лейн и ваш собственный Уотсон поклянутся в этом. Я виновен во многом, детектив. Но не в этом."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "HenryWard",
+        "id" : "henryward",
+        "displayName" : "Мистер Генри Уорд",
+        "imagePath" : "images/henry_ward.png",
+        "imageScaleX" : 2.9405940594059405,
+        "imageScaleY" : 3.0,
+        "homeRoom" : "Library",
+        "posX" : 0.42,
+        "posY" : 0.575,
+        "labelDX" : 0.020487897846388416,
+        "labelDY" : 0.40634330728670354,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Я почти не знал эту девушку — то была история моего брата Джеймса, не моя. Весь вечер я читал у себя в комнате.",
+        "clue" : "Тихий брат, которого легко не заметить рядом с громким. Ни камина, ни свидетелей — только книга у себя в комнате, в тот единственный вечер в этом доме, который требовал алиби.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Я почти не знал эту девушку — то была история моего брата Джеймса, не моя. Весь вечер я читал у себя в комнате.",
+            "contradictions" : [ {
+              "evidenceId" : "note_in_henrys_hand",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "henry_confession",
+              "successMessage" : "Генри Уорд застывает, когда вы кладёте поддельную записку рядом с его собственной подписью в книге гостей. Спокойствие сходит с него. «Ей следовало выбрать меня, — говорит он наконец, — а мистеру Грею следовало не тревожить мёртвых»."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Да. Я любил Эмму, а она отказала мне ради лёгкого обаяния брата. Я дал ей утонуть и написал ту записку её именем. Когда мистер Грей узнал правду, я не мог позволить ему её произнести."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "AlanPrice",
+        "id" : "alanprice",
+        "displayName" : "Доктор Алан Прайс",
+        "imagePath" : "images/alan_price.png",
+        "imageScaleX" : 1.8307142857142855,
+        "imageScaleY" : 1.8307142857142855,
+        "flipX" : true,
+        "homeRoom" : "Library",
+        "posX" : 0.6415094339622641,
+        "posY" : 0.5606953973699257,
+        "labelDX" : 0.01678680666305723,
+        "labelDY" : 0.478423989897131,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Дознание было проведено как должно. Бедная девушка утопилась — я сам подписал свидетельство.",
+        "clue" : "За вердикт пятнадцатилетней давности он ручается чуть слишком охотно — а за собственное местонахождение в этот вечер не ручается никто. Сидел один в библиотеке, по его словам, с саквояжем под рукой.",
+        "states" : {
+          "LIE" : {
+            "statement" : "Дознание было проведено как должно. Бедная девушка утопилась — я сам подписал свидетельство.",
+            "contradictions" : [ {
+              "evidenceId" : "doctor_notes",
+              "nextState" : "TRUTH",
+              "rewardDeductionId" : "price_confesses",
+              "successMessage" : "Перед собственными записями доктор Прайс оседает в кресле: «Да, отметины плохо вязались с утоплением. Мне заплатили, чтобы я не вглядывался, — я поклялся себе, что это самоубийство, и пятнадцать лет не вглядывался»."
+            } ]
+          },
+          "TRUTH" : {
+            "statement" : "Я взял деньги за то, чтобы подписать быстро и ни о чём не спрашивать. Отметины были не те — я сказал себе, что их оставила река, а бедная девушка — самоубийца. Если это было убийство, я помог его похоронить, сам не зная, — и несу это с тех пор."
+          },
+          "PANIC" : { }
+        }
+      }, {
+        "name" : "MargaretCole",
+        "id" : "margaretcole",
+        "displayName" : "Леди Маргарет Коул",
+        "imagePath" : "images/margaret_cole.png",
+        "imageScaleX" : 2.37,
+        "imageScaleY" : 2.37,
+        "flipX" : true,
+        "homeRoom" : "Drawing Room",
+        "posX" : 0.5514579759862779,
+        "posY" : 0.5683783590623214,
+        "labelDX" : 0.004322341317803463,
+        "labelDY" : 0.5100362755008087,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Эмма Шоу была гувернанткой моих внуков, и я рассчитала её в тот же день, как открылась её связь с мистером Уордом. И поступила бы так снова — скандал под своей крышей не держат. Что река забрала её несколько дней спустя — это горе, а не вина. Весь тот страшный вечер я просидела у камина в гостиной, с мистером Джеймсом Уордом и мистером Лейном, и не видела, чтобы кто-нибудь выходил.",
+        "clue" : "Она признаёт, что выгнала Эмму, без тени стыда — её грех гордыня, и в нём она кается охотно. И именно она держит алиби у камина, укрывающее мистера Джеймса Уорда, мистера Лейна и её саму."
+      }, {
+        "name" : "SarahDean",
+        "id" : "sarahdean",
+        "displayName" : "Миссис Сара Дин",
+        "imagePath" : "images/sarah_dean.png",
+        "imageScaleX" : 2.4275155279503102,
+        "imageScaleY" : 2.4275155279503102,
+        "homeRoom" : "Servants Hall",
+        "posX" : 0.2804459691252144,
+        "posY" : 0.6283054602630075,
+        "labelDX" : 0.010549828420504231,
+        "labelDY" : 0.41144330839966503,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Я тогда служила горничной в Хайвуде. На дознании я сказала, что видела, как мисс Шоу одна, в слезах, идёт к реке, — и прости меня Господь, ничего такого я не видела. Мистер Лейн вложил мне в рот слова, а в руку пять фунтов, а я была молода и напугана. Этим же вечером я с самого ужина была под лестницей с прислугой — кухарка подтвердит, что наверх я не поднималась.",
+        "clue" : "Она сознаётся в купленной лжи едва ли не раньше, чем вы спросите, — пятнадцать лет ей этого хотелось. Весь вечер под лестницей, и прислуга готова поклясться."
+      }, {
+        "name" : "ThomasLane",
+        "id" : "thomaslane",
+        "displayName" : "Мистер Томас Лейн",
+        "imagePath" : "images/thomas_lane.png",
+        "imageScaleX" : 2.547080745341615,
+        "imageScaleY" : 2.547080745341615,
+        "flipX" : true,
+        "homeRoom" : "Library",
+        "posX" : 0.1260720411663808,
+        "posY" : 0.6206224985706118,
+        "labelDX" : -0.018098275933608573,
+        "labelDY" : 0.43033678331024827,
+        "stationary" : true,
+        "initialState" : "LIE",
+        "statement" : "Буду говорить прямо — папка мистера Грея, без сомнения, уже сказала всё за меня. Семья желала закрыть дело; я его закрыл. Платежи доктору, девушке на дознании, газетчику — на бумаге всё вполне законно, и всё в моём гроссбухе, который, как я вижу, ушёл из моего чемодана погулять. Я полагал, что подчищаю самоубийство, детектив, а не хороню убийство. И я сидел у камина в гостиной до полуночи; леди Коул и мистер Уорд это подтвердят.",
+        "clue" : "Устроитель, у которого всё расстроилось: он признаёт свои «меры» в ту же минуту, как узнаёт, что гроссбух всплыл. Его алиби — тот же камин, что у леди Коул и мистера Джеймса Уорда: три свидетеля в одном кругу кресел."
+      } ],
+      "tasks" : [ "Осмотрите кабинет, где нашли мистера Грея.", "Узнайте, зачем собрали этих шестерых незнакомцев.", "Допросите гостей и взвесьте, что они скрывают.", "Когда будете уверены — назовите убийцу на итоговом экзамене." ],
+      "rankingTiers" : [ {
+        "rankName" : "Sherlock Holmes",
+        "maxDeductions" : 3,
+        "description" : "Острое, уверенное раскрытие.",
+        "winningStatement" : "Мастерски. Вы разглядели за громким братом тихого, а за самоубийством — убийство. У Генри Уорда не было против вас ни единого шанса."
+      }, {
+        "rankName" : "Dr. Watson",
+        "maxDeductions" : 6,
+        "description" : "Основательное расследование.",
+        "winningStatement" : "Отлично выстроено, детектив. Братья едва нас не провели — но в конце концов вы отличили одного от другого."
+      }, {
+        "rankName" : "Curious Observer",
+        "maxDeductions" : 0,
+        "description" : "Истина, достигнутая наконец.",
+        "defaultRank" : true,
+        "winningStatement" : "Вы нашли правду под снегом. С более острым глазом найдёте её быстрее."
+      } ],
+      "final_exam" : {
+        "questions" : [ {
+          "question_prompt" : "Мистера Грея убил(а) ______, чтобы скрыть ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q1s1_cole",
+                "choice_text" : "леди Коул"
+              }, {
+                "choice_id" : "q1s1_price",
+                "choice_text" : "доктор Прайс"
+              }, {
+                "choice_id" : "q1s1_james",
+                "choice_text" : "Джеймс Уорд"
+              }, {
+                "choice_id" : "q1s1_henry",
+                "choice_text" : "Генри Уорд"
+              }, {
+                "choice_id" : "q1s1_dean",
+                "choice_text" : "миссис Дин"
+              }, {
+                "choice_id" : "q1s1_lane",
+                "choice_text" : "мистер Лейн"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q1s2_verdict",
+                "choice_text" : "ложный вердикт"
+              }, {
+                "choice_id" : "q1s2_affair",
+                "choice_text" : "старую связь"
+              }, {
+                "choice_id" : "q1s2_drown",
+                "choice_text" : "утопление Эммы"
+              }, {
+                "choice_id" : "q1s2_cast",
+                "choice_text" : "изгнание Эммы"
+              }, {
+                "choice_id" : "q1s2_lie",
+                "choice_text" : "ложь на дознании"
+              }, {
+                "choice_id" : "q1s2_hush",
+                "choice_text" : "плату за молчание"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q1s1_henry",
+            "slot2" : "q1s2_drown"
+          }
+        }, {
+          "question_prompt" : "Поначалу улики обвиняли ______, но настоящим убийцей был(а) ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q2s1_dean",
+                "choice_text" : "миссис Дин"
+              }, {
+                "choice_id" : "q2s1_price",
+                "choice_text" : "доктора Прайса"
+              }, {
+                "choice_id" : "q2s1_cole",
+                "choice_text" : "леди Коул"
+              }, {
+                "choice_id" : "q2s1_lane",
+                "choice_text" : "мистера Лейна"
+              }, {
+                "choice_id" : "q2s1_james",
+                "choice_text" : "Джеймса Уорда"
+              }, {
+                "choice_id" : "q2s1_henry",
+                "choice_text" : "Генри Уорда"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q2s2_cole",
+                "choice_text" : "леди Коул"
+              }, {
+                "choice_id" : "q2s2_henry",
+                "choice_text" : "Генри Уорд"
+              }, {
+                "choice_id" : "q2s2_price",
+                "choice_text" : "доктор Прайс"
+              }, {
+                "choice_id" : "q2s2_james",
+                "choice_text" : "Джеймс Уорд"
+              }, {
+                "choice_id" : "q2s2_lane",
+                "choice_text" : "мистер Лейн"
+              }, {
+                "choice_id" : "q2s2_dean",
+                "choice_text" : "миссис Дин"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q2s1_james",
+            "slot2" : "q2s2_henry"
+          }
+        }, {
+          "question_prompt" : "В действительности Эмма Шоу была ______; убийцу же разоблачила улика: ______.",
+          "slots" : {
+            "slot1" : {
+              "slot_id" : "slot1",
+              "choices" : [ {
+                "choice_id" : "q3s1_sent",
+                "choice_text" : "отослана прочь"
+              }, {
+                "choice_id" : "q3s1_despair",
+                "choice_text" : "доведена до отчаяния"
+              }, {
+                "choice_id" : "q3s1_murdered",
+                "choice_text" : "убита"
+              }, {
+                "choice_id" : "q3s1_accident",
+                "choice_text" : "жертвой несчастного случая"
+              } ]
+            },
+            "slot2" : {
+              "slot_id" : "slot2",
+              "choices" : [ {
+                "choice_id" : "q3s2_doctor",
+                "choice_text" : "записи доктора"
+              }, {
+                "choice_id" : "q3s2_forged",
+                "choice_text" : "поддельная записка"
+              }, {
+                "choice_id" : "q3s2_ledger",
+                "choice_text" : "гроссбух с платежами"
+              }, {
+                "choice_id" : "q3s2_dismissal",
+                "choice_text" : "старая газета"
+              } ]
+            }
+          },
+          "correct_combination" : {
+            "slot1" : "q3s1_murdered",
+            "slot2" : "q3s2_forged"
+          }
+        } ]
+      }
+    }
+  }
+}

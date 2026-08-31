@@ -1,0 +1,258 @@
+{
+  "universal_title": "A Study in Practice",
+  "startingRoom": "Study",
+  "startingInsightTokens": 5,
+  "case_file": {
+    "victim": {
+      "name": "Mr. Hollow",
+      "relation_to_case": "The master of the house, found collapsed in his Study",
+      "notes": {
+        "en": "A teaching case. Everything here is a rehearsal for the real investigations to come."
+      }
+    },
+    "overview": {
+      "en": "A quiet house, two small rooms, and a single household servant. The perfect place to practise the detective's craft before a true case."
+    },
+    "suspect_profiles": {
+      "TheValet": {
+        "profession": {
+          "en": "Valet"
+        },
+        "age": 39,
+        "height_cm": 178,
+        "weight_kg": 74,
+        "relationship_to_victim": {
+          "en": "Mr. Hollow's personal valet, in service for eleven years."
+        },
+        "bio": {
+          "en": "Composed and precise, he answers every question with a practised calm. Calm, that is, until the evidence speaks louder than he does."
+        }
+      }
+    }
+  },
+  "rooms": [
+    {
+      "name": "Study",
+      "neighbors": {
+        "east": "Parlour"
+      },
+      "objects": [
+        {
+          "name": "torn_letter"
+        },
+        {
+          "name": "muddy_boot"
+        }
+      ],
+      "imagePath": "images/presets/rooms/room_study.png"
+    },
+    {
+      "name": "Parlour",
+      "neighbors": {
+        "west": "Study"
+      },
+      "objects": [],
+      "imagePath": "images/presets/rooms/room_parlour.png"
+    }
+  ],
+  "combine_logic": [
+    {
+      "requires": [
+        "torn_letter",
+        "muddy_boot"
+      ],
+      "resultDeductionId": "valet_trail_insight",
+      "resultText": {
+        "en": "The torn letter names a midnight meeting in the garden; the muddy boot proves someone kept it. Together they place the valet outside, not in the kitchen as he claims."
+      },
+      "tokenReward": 1,
+      "repeatable": false
+    }
+  ],
+  "watson": {
+    "hints": {
+      "general": [
+        {
+          "id": "w_general_1",
+          "text": {
+            "en": "Start by examining what is in front of you, then carry what you learn from room to room."
+          }
+        }
+      ],
+      "contradiction": [
+        {
+          "id": "w_contra_1",
+          "text": {
+            "en": "The valet says he never left the kitchen. The mud on that boot may disagree."
+          }
+        }
+      ],
+      "red_herring": [
+        {
+          "id": "w_rh_1",
+          "text": {
+            "en": "Not every clue points to guilt. Some only point to the truth."
+          }
+        }
+      ]
+    }
+  },
+  "localizations": {
+    "en": {
+      "languageName": "English",
+      "title": "A Study in Practice",
+      "invitation": "Welcome, detective. This is a practice case — a safe room to learn the tools of the trade. Examine, question, deduce, and present your evidence. Nothing here can go wrong. When you are ready, name the culprit in the final exam.",
+      "description": "A quiet house, two small rooms, and a single household servant. The perfect place to practise the detective's craft before a true case.",
+      "suspects": [
+        {
+          "name": "The Valet",
+          "statement": "I never left the kitchen all evening, sir. I heard nothing and saw no one.",
+          "clue": "He answers a little too quickly when asked about the garden.",
+          "initialState": "LIE",
+          "states": {
+            "LIE": {
+              "statement": "I never left the kitchen all evening, sir. I heard nothing and saw no one.",
+              "contradictions": [
+                {
+                  "evidenceId": "muddy_boot",
+                  "nextState": "TRUTH",
+                  "successMessage": "The valet stares at the muddy boot and his composure cracks. 'All right — I walked the garden path at midnight. But I touched nothing, I swear it!'",
+                  "rewardDeductionId": "valet_confession"
+                }
+              ]
+            },
+            "TRUTH": {
+              "statement": "Yes — I went out to the garden at midnight. I was ashamed to admit I'd left my post. But I am no thief."
+            }
+          },
+          "homeRoom": "Parlour",
+          "posX": 0.5,
+          "posY": 0.6,
+          "stationary": false
+        }
+      ],
+      "roomDetails": [
+        {
+          "name": "Study",
+          "description": "A small wood-panelled study. A writing desk sits beneath the window, and the hearth has long gone cold."
+        },
+        {
+          "name": "Parlour",
+          "description": "A modest parlour with two armchairs and a tea service. The valet stands stiffly by the window."
+        }
+      ],
+      "objectDetails": [
+        {
+          "name": "torn_letter",
+          "description": "Half of a handwritten letter, torn cleanly down the middle.",
+          "examine": "The surviving half reads: '...the garden, at midnight. Tell no one.' The hand is hurried but educated.",
+          "deduce": "Whoever received this letter was asked to be in the garden at midnight — and chose to keep the appointment secret."
+        },
+        {
+          "name": "muddy_boot",
+          "description": "A single gentleman's boot, its sole caked with fresh garden mud.",
+          "examine": "The mud is still damp and smells of the night garden. Whoever wore this was outside very recently.",
+          "deduce": "Fresh garden mud means the wearer was on the garden path tonight — not indoors, and certainly not in the kitchen."
+        }
+      ],
+      "final_exam": {
+        "questions": [
+          {
+            "question_prompt": "The culprit was lured to the ______ and is, in fact, the ____.",
+            "slots": {
+              "slot1": {
+                "slot_id": "slot1",
+                "choices": [
+                  {
+                    "choice_id": "s1_opt1",
+                    "choice_text": "garden at midnight"
+                  },
+                  {
+                    "choice_id": "s1_opt2",
+                    "choice_text": "kitchen at dawn"
+                  },
+                  {
+                    "choice_id": "s1_opt3",
+                    "choice_text": "study at noon"
+                  }
+                ]
+              },
+              "slot2": {
+                "slot_id": "slot2",
+                "choices": [
+                  {
+                    "choice_id": "s2_opt1",
+                    "choice_text": "the valet"
+                  },
+                  {
+                    "choice_id": "s2_opt2",
+                    "choice_text": "the cook"
+                  },
+                  {
+                    "choice_id": "s2_opt3",
+                    "choice_text": "the gardener"
+                  }
+                ]
+              }
+            },
+            "correct_combination": {
+              "slot1": "s1_opt1",
+              "slot2": "s2_opt1"
+            }
+          },
+          {
+            "question_prompt": "The single piece of evidence that shattered his alibi was the ______.",
+            "slots": {
+              "slot1": {
+                "slot_id": "slot1",
+                "choices": [
+                  {
+                    "choice_id": "q2_opt1",
+                    "choice_text": "muddy boot"
+                  },
+                  {
+                    "choice_id": "q2_opt2",
+                    "choice_text": "torn letter"
+                  },
+                  {
+                    "choice_id": "q2_opt3",
+                    "choice_text": "silver candlestick"
+                  }
+                ]
+              }
+            },
+            "correct_combination": {
+              "slot1": "q2_opt1"
+            }
+          }
+        ]
+      },
+      "tasks": [
+        "Examine the clues in the Study.",
+        "Question the valet in the Parlour.",
+        "Present the muddy boot to break his alibi.",
+        "Name the culprit in the final exam."
+      ],
+      "rankingTiers": [
+        {
+          "rankName": "Sherlock Holmes",
+          "maxDeductions": 2,
+          "description": "A flawless practice run.",
+          "winningStatement": "Masterful. You are ready for a real case, detective."
+        },
+        {
+          "rankName": "Dr. Watson",
+          "maxDeductions": 5,
+          "description": "A solid effort.",
+          "winningStatement": "Well done. The craft is becoming second nature to you."
+        },
+        {
+          "rankName": "Curious Observer",
+          "defaultRank": true,
+          "description": "The basics, learned.",
+          "winningStatement": "You found the truth. With practice, you will find it faster."
+        }
+      ]
+    }
+  }
+}

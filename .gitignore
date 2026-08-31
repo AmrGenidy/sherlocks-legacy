@@ -1,0 +1,77 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+*.iml
+*.ipr
+*.iws
+.idea
+.idea/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Environment files
+*.env
+*.env.*
+
+### Build artifacts (never commit) ###
+target/
+build/
+*.class
+bin/
+lib/
+dist/
+/dist/
+/nbdist/
+jpackage_input/
+# jpackage / native packaging output
+*.app
+*.dmg
+*.pkg
+*.msi
+*.exe
+*.deb
+*.rpm
+
+### Archives (never commit) ###
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+### Logs & crash dumps (never commit) ###
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+### Backups / scratch (never commit) ###
+*.bak
+*.corrupted-backup.bak
+*~
+*.orig
+
+
