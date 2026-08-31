@@ -14,7 +14,7 @@
 ---
 
 <div align="center">
-<img src="docs/images/screenshot-room.png" alt="Investigating a room in Sherlock's Legacy" width="80%"/>
+<img src="docs/images/screenshot-room2.png" alt="Investigating a room in Sherlock's Legacy" width="80%"/>
 </div>
 
 ---
