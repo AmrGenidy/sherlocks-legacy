@@ -8,6 +8,7 @@
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 [![Download](https://img.shields.io/badge/Download-v1.0-2ea44f.svg)](https://github.com/AmrGenidy/sherlocks-legacy/releases)
+[![itch.io](https://img.shields.io/badge/Play%20on-itch.io-fa5c5c.svg)](https://amr-genidy.itch.io/sherlocks-legacy)
 
 </div>
 
@@ -66,7 +67,7 @@ Each case has its own setting, its own art, and its own way of lying to you:
 
 ## Play it
 
-Grab the latest build from [**Releases**](https://github.com/AmrGenidy/sherlocks-legacy/releases). Unzip, open the folder, run **`Sherlock's Legacy.exe`**. That's it. No Java, no installer, no setup.
+Grab the latest build from [**Releases**](https://github.com/AmrGenidy/sherlocks-legacy/releases) or from [**itch.io**](https://amr-genidy.itch.io/sherlocks-legacy). Unzip, open the folder, run **`Sherlock's Legacy.exe`**. That's it. No Java, no installer, no setup.
 
 > Windows may warn you because the app isn't code-signed. Click **More info**, then **Run anyway**.
 

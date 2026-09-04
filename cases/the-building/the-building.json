@@ -130,8 +130,8 @@
         "height_cm" : 172,
         "weight_kg" : 76,
         "relationship_to_victim" : {
-          "en" : "The victim was drafting her eviction — and had refused to finish it.",
-          "ar" : "المرحوم كان بيكتب إنذار إخلائها — ورفض يكمّله."
+          "en" : "The victim was drafting her eviction - and had refused to finish it.",
+          "ar" : "المرحوم كان بيكتب إنذار إخلائها - ورفض يكمّله."
         },
         "bio" : {
           "en" : "Fifty-one years in the same flat at eleven pounds a month. Buries every neighbour and outlives every landlord.",
@@ -170,8 +170,8 @@
           "ar" : "اخو مرات سعيد؛ كان شغال في العمارة الليلة دي."
         },
         "bio" : {
-          "en" : "Not a resident — a visitor with a ladder, a signature, and the same kunya as the doorkeeper.",
-          "ar" : "مش ساكن — زاير معاه سلم وإمضا ونفس الكنية بتاعة البواب."
+          "en" : "Not a resident - a visitor with a ladder, a signature, and the same kunya as the doorkeeper.",
+          "ar" : "مش ساكن - زاير معاه سلم وإمضا ونفس الكنية بتاعة البواب."
         },
         "imagePath" : "images/ghany.png"
       }
@@ -182,22 +182,22 @@
       "Ibrahim" : {
         "is_red_herring" : true,
         "narrative" : {
-          "en" : "Fouad lowers his voice. 'The doorkeeper lied about the hour, and he is the only man with a key to every flat. But he lied to protect thirty years of employment, not a murder — and the clock he could not have known about is what caught him.'",
-          "ar" : "فؤاد يوطي صوته: «البواب كدب في الساعة، وهو الوحيد اللي معاه مفتاح كل شقة. بس هو كدب عشان يحمي تلاتين سنة شغل، مش عشان جريمة — والساعة اللي مكانش يعرف عنها حاجة هي اللي كشفته»."
+          "en" : "Fouad lowers his voice. 'The doorkeeper lied about the hour, and he is the only man with a key to every flat. But he lied to protect thirty years of employment, not a murder - and the clock he could not have known about is what caught him.'",
+          "ar" : "فؤاد يوطي صوته: «البواب كدب في الساعة، وهو الوحيد اللي معاه مفتاح كل شقة. بس هو كدب عشان يحمي تلاتين سنة شغل، مش عشان جريمة - والساعة اللي مكانش يعرف عنها حاجة هي اللي كشفته»."
         }
       },
       "Touheda" : {
         "is_red_herring" : true,
         "narrative" : {
-          "en" : "Fouad shakes his head. 'An old woman about to lose the only home she can afford — the motive writes itself. Except the man she is supposed to have killed had already refused to finish the paper, and told her so over tea.'",
-          "ar" : "فؤاد بيهز راسه: «ست عجوزة على وش تخسر البيت الوحيد اللي تقدر عليه — الدافع بيكتب نفسه. إلا إن الراجل اللي المفروض قتلته كان رافض يكمّل الورقة أصلاً، وقالها كده وهما قاعدين بيشربوا شاي»."
+          "en" : "Fouad shakes his head. 'An old woman about to lose the only home she can afford - the motive writes itself. Except the man she is supposed to have killed had already refused to finish the paper, and told her so over tea.'",
+          "ar" : "فؤاد بيهز راسه: «ست عجوزة على وش تخسر البيت الوحيد اللي تقدر عليه - الدافع بيكتب نفسه. إلا إن الراجل اللي المفروض قتلته كان رافض يكمّل الورقة أصلاً، وقالها كده وهما قاعدين بيشربوا شاي»."
         }
       },
       "Youssef" : {
         "is_red_herring" : true,
         "narrative" : {
-          "en" : "Fouad frowns. 'The nephew searched the ledger, denied it, and stands to lose an inheritance — three marks against him. And not one of them puts him on the stairs at a quarter past nine.'",
-          "ar" : "فؤاد يلعب بحواجبه: «ابن الأخ فتّش الدفتر، وأنكر، وهيخسر ميراث — تلات علامات ضده. ولا واحدة فيهم بتحطه في السلم الساعة تسعة وربع»."
+          "en" : "Fouad frowns. 'The nephew searched the ledger, denied it, and stands to lose an inheritance - three marks against him. And not one of them puts him on the stairs at a quarter past nine.'",
+          "ar" : "فؤاد يلعب بحواجبه: «ابن الأخ فتّش الدفتر، وأنكر، وهيخسر ميراث - تلات علامات ضده. ولا واحدة فيهم بتحطه في السلم الساعة تسعة وربع»."
         }
       }
     }
@@ -580,8 +580,8 @@
     "requires" : [ "stairwell_clock", "real_cut_time" ],
     "resultDeductionId" : "early_darkness",
     "resultText" : {
-      "en" : "The stairwell clock runs on the building's own current, and it died at 9:15 — twenty-five minutes before the district did. Everyone remembers one darkness that night. There were two.",
-      "ar" : "ساعة بير السلم شغالة على كهربة العمارة نفسها، ووقفت ٩:١٥ — قبل الحي بخمسة وعشرين دقيقة. كل الناس فاكرة إن كان في ظلمة واحدة الليلة دي. الحقيقة إن كان فيه ظلمتين."
+      "en" : "The stairwell clock runs on the building's own current, and it died at 9:15 - twenty-five minutes before the district did. Everyone remembers one darkness that night. There were two.",
+      "ar" : "ساعة بير السلم شغالة على كهربة العمارة نفسها، ووقفت ٩:١٥ - قبل الحي بخمسة وعشرين دقيقة. كل الناس فاكرة إن كان في ظلمة واحدة الليلة دي. الحقيقة إن كان فيه ظلمتين."
     },
     "tokenReward" : 1,
     "repeatable" : false
@@ -598,8 +598,8 @@
     "requires" : [ "zaki_ledger", "carbon_sheet" ],
     "resultDeductionId" : "ghost_impression",
     "resultText" : {
-      "en" : "The ledger's numbering skips one petition. But Zaki reused his carbons — and pressed into the back of an old sheet is the ghost of the missing page: a complaint about dangerous wiring, in his own hand.",
-      "ar" : "ترقيم الدفتر ناقص عريضة واحدة. بس الحاج زكي كان بيعيد استعمال الكربون — وعلى ضهر ورقة قديمة طالع شبح الصفحة الضايعة: شكوى من تركيبة أسلاك كهربا خطر، بخط إيده هو."
+      "en" : "The ledger's numbering skips one petition. But Zaki reused his carbons - and pressed into the back of an old sheet is the ghost of the missing page: a complaint about dangerous wiring, in his own hand.",
+      "ar" : "ترقيم الدفتر ناقص عريضة واحدة. بس الحاج زكي كان بيعيد استعمال الكربون - وعلى ضهر ورقة قديمة طالع شبح الصفحة الضايعة: شكوى من تركيبة أسلاك كهربا خطر، بخط إيده هو."
     },
     "tokenReward" : 1,
     "repeatable" : false
@@ -617,7 +617,7 @@
     "resultDeductionId" : "two_abu_kareems",
     "resultText" : {
       "en" : "'Abu Kareem, 9:10' says the gate book. But the ledger keeps legal names, and two of Zaki's clients are fathers of a Kareem: Ibrahim the doorkeeper, and Abd El-Ghany. The sighting names two men at once.",
-      "ar" : "«أبو كريم — ٩:١٠» مكتوبة في دفتر البواب. بس دفتر الحاج زكي بيسجل الأسامي الرسمية، وطلع في اتنين أباهات لواد اسمه كريم: عم إبراهيم البواب، وعبد الغني. الشهادة بتسمّي اتنين في نفس الوقت."
+      "ar" : "«أبو كريم - ٩:١٠» مكتوبة في دفتر البواب. بس دفتر الحاج زكي بيسجل الأسامي الرسمية، وطلع في اتنين أباهات لواد اسمه كريم: عم إبراهيم البواب، وعبد الغني. الشهادة بتسمّي اتنين في نفس الوقت."
     },
     "tokenReward" : 1,
     "repeatable" : false
@@ -625,8 +625,8 @@
     "requires" : [ "two_abu_kareems", "dish_receipt" ],
     "resultDeductionId" : "abu_kareem_resolved",
     "resultText" : {
-      "en" : "The dish receipt is signed and timed: Abd El-Ghany was on the roof until half past nine. And Ibrahim never left his doorway. The man at the meter board was a third — seen in a workman's galabiyya and named by habit, not by sight.",
-      "ar" : "إيصال الدِش ممضي وعليه الوقت: عبد الغني كان فوق على السطح لحد ٩:٣٠. وعم إبراهيم مقامش من قدام باب العمارة. اللي كان عند لوحة الكهربا واحد تالت — الشاهد شافه بلبس صنايعي فنادى عليه تلقائي، مش بالشوفة."
+      "en" : "The dish receipt is signed and timed: Abd El-Ghany was on the roof until half past nine. And Ibrahim never left his doorway. The man at the meter board was a third - seen in a workman's galabiyya and named by habit, not by sight.",
+      "ar" : "إيصال الدِش ممضي وعليه الوقت: عبد الغني كان فوق على السطح لحد ٩:٣٠. وعم إبراهيم مقامش من قدام باب العمارة. اللي كان عند لوحة الكهربا واحد تالت - الشاهد شافه بلبس صنايعي فنادى عليه تلقائي، مش بالشوفة."
     },
     "tokenReward" : 1,
     "repeatable" : false
@@ -634,8 +634,8 @@
     "requires" : [ "old_newspaper", "fathy_warned" ],
     "resultDeductionId" : "collapse_identified",
     "resultText" : {
-      "en" : "The old report names no one — or so every reader has assumed. Ṣābir is a description to any eye but a document-writer's: read as a name, it is Saber. And the ustā who has repaired this building for nine years, whom nobody here has ever called anything but Fathy, is Fathy Saber.",
-      "ar" : "الخبر القديم مش مكتوب فيه اسم — كده اللي أي حد هيقراه. «المقاول صابر على تنفيذ المخالفة» دي جملة وصف في عين أي حد إلا واحد شغلته يكتب أوراق رسمية. لما تقراها اسم، تطلع صابر. فتحي صابر، اللي بيصلّح في العمارة دي من تسع سنين."
+      "en" : "The old report names no one - or so every reader has assumed. Ṣābir is a description to any eye but a document-writer's: read as a name, it is Saber. And the ustā who has repaired this building for nine years, whom nobody here has ever called anything but Fathy, is Fathy Saber.",
+      "ar" : "الخبر القديم مش مكتوب فيه اسم - كده اللي أي حد هيقراه. «المقاول صابر على تنفيذ المخالفة» دي جملة وصف في عين أي حد إلا واحد شغلته يكتب أوراق رسمية. لما تقراها اسم، تطلع صابر. فتحي صابر، اللي بيصلّح في العمارة دي من تسع سنين."
     },
     "tokenReward" : 1,
     "repeatable" : false
@@ -657,8 +657,8 @@
       }, {
         "id" : "w_general_3",
         "text" : {
-          "en" : "Two small things side by side decide everything. Combine what you find — and combine what you conclude.",
-          "ar" : "حاجتين صغيرين جنب بعض بيحسموا كل حاجة. اجمع اللي بتلاقيه — واجمع اللي بتستنتجه."
+          "en" : "Two small things side by side decide everything. Combine what you find - and combine what you conclude.",
+          "ar" : "حاجتين صغيرين جنب بعض بيحسموا كل حاجة. اجمع اللي بتلاقيه - واجمع اللي بتستنتجه."
         }
       }, {
         "id" : "w_general_4",
@@ -680,7 +680,7 @@
     "en" : {
       "languageName" : "English",
       "title" : "The Building",
-      "invitation" : "To Mr. Kamal El-Dessouky,\nInvestigations Office,\nCairo.\n\nDear Sir,\nA man died on our stairs on Thursday night and the district said he fell. He did not fall. Ustaz Zaki wrote the papers of everyone in this building for nine years, and the last paper he wrote is missing from his ledger.\nI cannot go to the police with what I think, because what I think is about a neighbour. Come as a tenant looking at the empty flat. Ask about the electricity.\n\n— A resident of the building",
+      "invitation" : "To Mr. Kamal El-Dessouky,\nInvestigations Office,\nCairo.\n\nDear Sir,\nA man died on our stairs on Thursday night and the district said he fell. He did not fall. Ustaz Zaki wrote the papers of everyone in this building for nine years, and the last paper he wrote is missing from his ledger.\nI cannot go to the police with what I think, because what I think is about a neighbour. Come as a tenant looking at the empty flat. Ask about the electricity.\n\n- A resident of the building",
       "description" : "Cairo, summer 2000. A petition-writer dies in a dark stairwell during a power cut, and every alibi in the building is anchored to a minute that was chosen for them.",
       "detectiveName" : "Kamal El-Dessouky",
       "helperName" : "Fouad",
@@ -691,7 +691,7 @@
       }, {
         "name" : "Doorkeepers Room",
         "displayName" : "The Doorkeeper's Room",
-        "description" : "Amm Ibrahim's room beside the entrance — a bed, a small television, a primus, and a notebook where every visitor's name is written in a hand that learned to write late."
+        "description" : "Amm Ibrahim's room beside the entrance - a bed, a small television, a primus, and a notebook where every visitor's name is written in a hand that learned to write late."
       }, {
         "name" : "Zakis Corner",
         "displayName" : "Zaki's Corner",
@@ -731,74 +731,74 @@
         "name" : "cut_schedule",
         "displayName" : "Posted Cut Schedule",
         "description" : "The electricity company's schedule of planned cuts, pasted to the kiosk's side and half torn.",
-        "examine" : "This quarter, Thursdays: 9:40 to 11:00. The neighbouring street is on a different sheet and a different hour — which is why its windows were still lit when this building went black.",
+        "examine" : "This quarter, Thursdays: 9:40 to 11:00. The neighbouring street is on a different sheet and a different hour - which is why its windows were still lit when this building went black.",
         "deduce" : "A schedule is a promise the company keeps badly but keeps. If this building died before its hour, it died of something local."
       }, {
         "name" : "gate_log",
         "displayName" : "The Gate Book",
         "description" : "Amm Ibrahim's notebook of everyone who comes in and goes out, kept for thirty years.",
-        "examine" : "Thursday's page, in a careful late-learned hand: '8:50 the teacher's student — 9:10 Abu Kareem up — 9:30 the dish man down.' No family name anywhere on the page; he writes people as the building calls them.",
-        "deduce" : "Someone was at the top of the stairs at 9:10, five minutes before the lights died. The book calls him Abu Kareem — and in this building that is not one man's name."
+        "examine" : "Thursday's page, in a careful late-learned hand: '8:50 the teacher's student - 9:10 Abu Kareem up - 9:30 the dish man down.' No family name anywhere on the page; he writes people as the building calls them.",
+        "deduce" : "Someone was at the top of the stairs at 9:10, five minutes before the lights died. The book calls him Abu Kareem - and in this building that is not one man's name."
       }, {
         "name" : "zaki_ledger",
         "displayName" : "Zaki's Ledger",
         "description" : "The petition ledger: every document Zaki wrote for forty years, numbered, dated, and filed with the client's full legal name.",
-        "examine" : "Numbers run unbroken except for one gap: 4471 is followed by 4473. And two clients this year share a first son named Kareem — Ibrahim Abdel-Salam, doorkeeper, and Abd El-Ghany Metwally, satellite fitter.",
-        "deduce" : "The ledger keeps what the building does not: real names. It proves a petition was removed — and it proves 'Abu Kareem' names two different men."
+        "examine" : "Numbers run unbroken except for one gap: 4471 is followed by 4473. And two clients this year share a first son named Kareem - Ibrahim Abdel-Salam, doorkeeper, and Abd El-Ghany Metwally, satellite fitter.",
+        "deduce" : "The ledger keeps what the building does not: real names. It proves a petition was removed - and it proves 'Abu Kareem' names two different men."
       }, {
         "name" : "carbon_sheet",
         "displayName" : "Reused Carbon Sheet",
         "description" : "A spent carbon sheet from under the typewriter platen. Zaki never threw one away until both sides were used.",
         "examine" : "Held to the light, the used side carries the reverse ghost of what was typed above it: a complaint of dangerous wiring on the second floor, the words 'إهمال جسيم' pressed deep enough to read.",
-        "deduce" : "The missing petition was not destroyed — only taken. Its shadow stayed behind on the sheet beneath, because a frugal man reuses his carbons."
+        "deduce" : "The missing petition was not destroyed - only taken. Its shadow stayed behind on the sheet beneath, because a frugal man reuses his carbons."
       }, {
         "name" : "old_newspaper",
         "displayName" : "Old Newspaper Cutting",
         "description" : "A brittle photocopy of a newspaper report, folded into the back of the ledger. Years old, the print grey and thickened.",
-        "examine" : "A building collapsed in another quarter; a woman and a child died. The report blames unlicensed work and adds one line: «wa-qad tabayyana anna al-muqāwil ṣābir ʿalā tanfīdh al-mukhālafa raghma indhār al-ḥayy» — 'it became clear that the contractor ṣābir upon carrying out the violation despite the district's warning.' Ṣābir is an ordinary Arabic word meaning steadfast, persisting. It is also an ordinary Arabic surname. No other name appears in the column.",
-        "deduce" : "For years every reader has taken ṣābir as a description — a contractor who stubbornly persisted. Read the same letters as a name and the sentence quietly hands over a surname it has been carrying in the open all along. A man whose trade is reading official Arabic would notice which way it sits."
+        "examine" : "A building collapsed in another quarter; a woman and a child died. The report blames unlicensed work and adds one line: «wa-qad tabayyana anna al-muqāwil ṣābir ʿalā tanfīdh al-mukhālafa raghma indhār al-ḥayy» - 'it became clear that the contractor ṣābir upon carrying out the violation despite the district's warning.' Ṣābir is an ordinary Arabic word meaning steadfast, persisting. It is also an ordinary Arabic surname. No other name appears in the column.",
+        "deduce" : "For years every reader has taken ṣābir as a description - a contractor who stubbornly persisted. Read the same letters as a name and the sentence quietly hands over a surname it has been carrying in the open all along. A man whose trade is reading official Arabic would notice which way it sits."
       }, {
         "name" : "customs_document",
         "displayName" : "Customs Declaration",
         "description" : "A carbon copy of a customs declaration written for Saeed El-Ragawy on his return from the Gulf.",
         "examine" : "The declared value of the household goods is a comfortable fiction, and the handwriting adjusting it downward is Zaki's. Saeed saved a great deal of duty that day.",
-        "deduce" : "The one favour Zaki did that he should not have. It gives a man in this building something to lose — but a customs fraud is not worth a life."
+        "deduce" : "The one favour Zaki did that he should not have. It gives a man in this building something to lose - but a customs fraud is not worth a life."
       }, {
         "name" : "stairwell_clock",
         "displayName" : "Stairwell Clock",
         "description" : "The electric wall clock above the meter board, wired into the building's own supply.",
-        "examine" : "Its hands are stopped at 9:15 — the moment its current died. It has no battery and never had one; when the building goes dark, it stops where it stands.",
+        "examine" : "Its hands are stopped at 9:15 - the moment its current died. It has no battery and never had one; when the building goes dark, it stops where it stands.",
         "deduce" : "A clock that dies with the current is an honest witness: it records not the time it was told, but the exact minute this building lost its power."
       }, {
         "name" : "meter_box",
         "displayName" : "The Meter Board",
         "description" : "The building's electrical board, set into the stairwell wall at the turn of the stairs.",
-        "examine" : "The main lever is pushed hard down and seated. The padlock hangs open and unscratched — opened with its key. The only key hangs in the workshop, and one man has carried its twin for nine years.",
+        "examine" : "The main lever is pushed hard down and seated. The padlock hangs open and unscratched - opened with its key. The only key hangs in the workshop, and one man has carried its twin for nine years.",
         "deduce" : "A fault trips a main halfway and scars a lock. This lever was placed, and this lock was opened properly. The darkness was a decision."
       }, {
         "name" : "zaki_glasses",
         "displayName" : "Zaki's Spectacles",
         "description" : "The dead man's reading glasses, one lens starred, found three steps above where he lay.",
-        "examine" : "The lenses are thick — the eyes behind them had been failing for two years. In an unlit stairwell their owner would have gone down slowly, one hand on the rail, and seen very little of whoever waited.",
-        "deduce" : "He could not have seen his killer, and his killer knew it. This was not a struggle — it was an appointment kept in the dark."
+        "examine" : "The lenses are thick - the eyes behind them had been failing for two years. In an unlit stairwell their owner would have gone down slowly, one hand on the rail, and seen very little of whoever waited.",
+        "deduce" : "He could not have seen his killer, and his killer knew it. This was not a struggle - it was an appointment kept in the dark."
       }, {
         "name" : "eviction_draft",
         "displayName" : "Draft Eviction Notice",
         "description" : "An unfinished draft in Zaki's hand, kept folded in Hagga Touheda's dresser where she was not meant to find it.",
         "examine" : "Mustashar Adel commissioned it: notice to quit against a fifty-year rent-controlled lease. Zaki wrote three lines and stopped, and in the margin he has written to himself: 'أفكر تاني'.",
-        "deduce" : "A woman who cannot afford any other rent in Cairo learned she was being put out. The oldest motive in the building — and the one the writer himself was refusing to finish."
+        "deduce" : "A woman who cannot afford any other rent in Cairo learned she was being put out. The oldest motive in the building - and the one the writer himself was refusing to finish."
       }, {
         "name" : "burnt_socket",
         "displayName" : "The Melted Socket",
         "description" : "A charred power socket faceplate and a stub of burnt cable, wrapped in newspaper and kept in Mustashar Adel's desk drawer.",
-        "examine" : "The bakelite is melted along one edge and the copper inside is blackened and thinned — the cable was carrying far more than it was rated for. Adel cut it out of the wall himself and kept it, and the replacement socket upstairs is new.",
-        "deduce" : "This is the fault the vanished petition described, kept as evidence by a lawyer who knew he would need it. Someone repaired the wall in a day and painted over it — but the proof had already been taken out of it."
+        "examine" : "The bakelite is melted along one edge and the copper inside is blackened and thinned - the cable was carrying far more than it was rated for. Adel cut it out of the wall himself and kept it, and the replacement socket upstairs is new.",
+        "deduce" : "This is the fault the vanished petition described, kept as evidence by a lawyer who knew he would need it. Someone repaired the wall in a day and painted over it - but the proof had already been taken out of it."
       }, {
         "name" : "insurance_letter",
         "displayName" : "Insurance Correspondence",
         "description" : "A letter from an insurance office on Mustashar Adel's desk, opened and re-folded many times.",
-        "examine" : "The policy on the building will not answer for damage caused by unlicensed work. To claim anything, Adel needed a documented fault and a named workman — which is precisely what he asked Zaki to write.",
-        "deduce" : "The landlord's motive for the petition was money, not justice. But it explains why the document existed at all — and why its subject could not let it be filed."
+        "examine" : "The policy on the building will not answer for damage caused by unlicensed work. To claim anything, Adel needed a documented fault and a named workman - which is precisely what he asked Zaki to write.",
+        "deduce" : "The landlord's motive for the petition was money, not justice. But it explains why the document existed at all - and why its subject could not let it be filed."
       }, {
         "name" : "tool_bag",
         "displayName" : "The Tool Bag",
@@ -809,20 +809,20 @@
         "name" : "dish_receipt",
         "displayName" : "Dish Installation Receipt",
         "description" : "A carbon receipt from the satellite fitter, left on the Ragawy sideboard.",
-        "examine" : "'Installation and alignment, roof — from 8:15 to 9:30 — Abd El-Ghany Metwally', signed by Saeed and timed in the fitter's own hand.",
+        "examine" : "'Installation and alignment, roof - from 8:15 to 9:30 - Abd El-Ghany Metwally', signed by Saeed and timed in the fitter's own hand.",
         "deduce" : "One of the two men called Abu Kareem was on the roof with his hands full until half past nine. He was not at the meter board at 9:15."
       }, {
         "name" : "lesson_notebook",
         "displayName" : "Lesson Notebook",
         "description" : "Ustaza Nabila's exercise book for private lessons.",
-        "examine" : "Thursday, 8:45 to 10:15, signed. And at the back, in a different and older hand, drafts of petitions in formal Arabic — Zaki's work, written out by her, for a year now.",
-        "deduce" : "She was teaching, with a witness, through the whole of it. And she has been writing his petitions for a year — which is what a man leaves when he leaves a trade instead of money."
+        "examine" : "Thursday, 8:45 to 10:15, signed. And at the back, in a different and older hand, drafts of petitions in formal Arabic - Zaki's work, written out by her, for a year now.",
+        "deduce" : "She was teaching, with a witness, through the whole of it. And she has been writing his petitions for a year - which is what a man leaves when he leaves a trade instead of money."
       }, {
         "name" : "phone_junction",
         "displayName" : "Telephone Junction Box",
         "description" : "The building's telephone junction on the workshop wall, its cover hanging loose.",
-        "examine" : "A crocodile clip and a length of flex are still fastened to the landlord's pair — a handset can be spliced in here by anyone who knows how. The clip is warm-bright where the paint has been rubbed away nightly.",
-        "deduce" : "Someone has been standing at this box at night, night after night. Whoever it is was here in the dark hour — and saw the workshop, and its door, and who came through it."
+        "examine" : "A crocodile clip and a length of flex are still fastened to the landlord's pair - a handset can be spliced in here by anyone who knows how. The clip is warm-bright where the paint has been rubbed away nightly.",
+        "deduce" : "Someone has been standing at this box at night, night after night. Whoever it is was here in the dark hour - and saw the workshop, and its door, and who came through it."
       } ],
       "suspects" : [ {
         "name" : "Fathy",
@@ -838,11 +838,11 @@
         "labelDY" : 0.4071291208220669,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "Ustaz Zaki was a good man and I fixed his radio for nothing twice. I was in the workshop from after Isha, and when the current went I went nowhere — a man doesn't work in the dark. I heard the noise like everyone and came down like everyone.",
-        "clue" : "The man everyone trusts because everything in the building passes through his hands. He was in the workshop, he says — the one room with a clear view of the stairs, and the only key to the meter board hangs there.",
+        "statement" : "Ustaz Zaki was a good man and I fixed his radio for nothing twice. I was in the workshop from after Isha, and when the current went I went nowhere - a man doesn't work in the dark. I heard the noise like everyone and came down like everyone.",
+        "clue" : "The man everyone trusts because everything in the building passes through his hands. He was in the workshop, he says - the one room with a clear view of the stairs, and the only key to the meter board hangs there.",
         "states" : {
           "LIE" : {
-            "statement" : "Ustaz Zaki was a good man and I fixed his radio for nothing twice. I was in the workshop from after Isha, and when the current went I went nowhere — a man doesn't work in the dark. I heard the noise like everyone and came down like everyone.",
+            "statement" : "Ustaz Zaki was a good man and I fixed his radio for nothing twice. I was in the workshop from after Isha, and when the current went I went nowhere - a man doesn't work in the dark. I heard the noise like everyone and came down like everyone.",
             "contradictions" : [ {
               "evidenceId" : "cut_was_manual",
               "nextState" : "TRUTH",
@@ -852,7 +852,7 @@
               "evidenceId" : "collapse_identified",
               "nextState" : "TRUTH",
               "rewardDeductionId" : "fathy_confesses",
-              "successMessage" : "You read the line aloud the way Zaki read it — not as a description, but as a name. 'Ṣābir.' The workshop goes very quiet. 'He read it the same way,' says Fathy at last. 'Out loud, exactly like that. Nobody in nine years read it out loud.'"
+              "successMessage" : "You read the line aloud the way Zaki read it - not as a description, but as a name. 'Ṣābir.' The workshop goes very quiet. 'He read it the same way,' says Fathy at last. 'Out loud, exactly like that. Nobody in nine years read it out loud.'"
             } ]
           },
           "TRUTH" : {
@@ -874,7 +874,7 @@
         "stationary" : true,
         "initialState" : "LIE",
         "statement" : "I locked the gate at nine and I did not move from my door until they shouted. Write that. The building is my responsibility and nothing enters it that I do not see.",
-        "clue" : "Thirty years at this gate and a fierce pride in it. He answers for the building before he answers for himself — which is a reason to lie that has nothing to do with murder.",
+        "clue" : "Thirty years at this gate and a fierce pride in it. He answers for the building before he answers for himself - which is a reason to lie that has nothing to do with murder.",
         "states" : {
           "LIE" : {
             "statement" : "I locked the gate at nine and I did not move from my door until they shouted. Write that. The building is my responsibility and nothing enters it that I do not see.",
@@ -903,11 +903,11 @@
         "labelDY" : 0.4294377021649748,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "My uncle taught me the work and I never touched his ledger without permission. I was at the corner all evening keeping the pitch — ask anyone who came looking for him.",
-        "clue" : "The nephew who expected to inherit and has begun to suspect he will not. He had every reason to open that ledger and every reason to deny it — which is not the same as a reason to kill.",
+        "statement" : "My uncle taught me the work and I never touched his ledger without permission. I was at the corner all evening keeping the pitch - ask anyone who came looking for him.",
+        "clue" : "The nephew who expected to inherit and has begun to suspect he will not. He had every reason to open that ledger and every reason to deny it - which is not the same as a reason to kill.",
         "states" : {
           "LIE" : {
-            "statement" : "My uncle taught me the work and I never touched his ledger without permission. I was at the corner all evening keeping the pitch — ask anyone who came looking for him.",
+            "statement" : "My uncle taught me the work and I never touched his ledger without permission. I was at the corner all evening keeping the pitch - ask anyone who came looking for him.",
             "contradictions" : [ {
               "evidenceId" : "zaki_ledger",
               "nextState" : "TRUTH",
@@ -916,7 +916,7 @@
             } ]
           },
           "TRUTH" : {
-            "statement" : "Fine — I went through it. Two years I sat beside him and lately he stopped handing me the work, and I wanted to know what he had written down about me and about the pitch. I found nothing about a will and I took nothing. I did not know a page was missing until you told me. He was going to give it to the schoolteacher, wasn't he."
+            "statement" : "Fine - I went through it. Two years I sat beside him and lately he stopped handing me the work, and I wanted to know what he had written down about me and about the pitch. I found nothing about a will and I took nothing. I did not know a page was missing until you told me. He was going to give it to the schoolteacher, wasn't he."
           }
         }
       }, {
@@ -946,7 +946,7 @@
             } ]
           },
           "TRUTH" : {
-            "statement" : "The declaration was under-valued and he wrote it that way for me, and every time he passed me on the stairs after that I felt the size of it. I didn't want him dead — I wanted him to forget. A man who forgives you a favour owns you a little, and I have been owned enough in my life."
+            "statement" : "The declaration was under-valued and he wrote it that way for me, and every time he passed me on the stairs after that I felt the size of it. I didn't want him dead - I wanted him to forget. A man who forgives you a favour owns you a little, and I have been owned enough in my life."
           }
         }
       }, {
@@ -963,20 +963,20 @@
         "labelDY" : 0.4364796451127388,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "I wasn't here! I wasn't in the building at all, I was at my mother's in Rod El-Farag, ask her, ask the microbus driver, ask Usta Fathy Saber himself — I don't know anything about anything.",
-        "clue" : "Terrified out of all proportion and entirely the wrong crime. Whatever he is hiding, he is hiding it loudly — and the boy is on the stairs at all hours by his own admission.",
+        "statement" : "I wasn't here! I wasn't in the building at all, I was at my mother's in Rod El-Farag, ask her, ask the microbus driver, ask Usta Fathy Saber himself - I don't know anything about anything.",
+        "clue" : "Terrified out of all proportion and entirely the wrong crime. Whatever he is hiding, he is hiding it loudly - and the boy is on the stairs at all hours by his own admission.",
         "states" : {
           "LIE" : {
-            "statement" : "I wasn't here! I wasn't in the building at all, I was at my mother's in Rod El-Farag, ask her, ask the microbus driver, ask Usta Fathy Saber himself — I don't know anything about anything.",
+            "statement" : "I wasn't here! I wasn't in the building at all, I was at my mother's in Rod El-Farag, ask her, ask the microbus driver, ask Usta Fathy Saber himself - I don't know anything about anything.",
             "contradictions" : [ {
               "evidenceId" : "phone_junction",
               "nextState" : "TRUTH",
               "rewardDeductionId" : "hamada_confesses",
-              "successMessage" : "You point out the clip on the landlord's pair and the paint rubbed bright by nightly hands. Hamada bursts into tears before you finish the sentence and confesses at length — to telephone theft. Then, wiping his face, he tells you what he saw at the board."
+              "successMessage" : "You point out the clip on the landlord's pair and the paint rubbed bright by nightly hands. Hamada bursts into tears before you finish the sentence and confesses at length - to telephone theft. Then, wiping his face, he tells you what he saw at the board."
             } ]
           },
           "TRUTH" : {
-            "statement" : "All right! All right. I was at the junction box. I've been clipping onto the Mustashar's line at night and calling a girl in Tanta, that's all, that's the whole crime, I'll pay him back every piastre, please don't tell my mother. And yes — I saw the ustā come up to the board and open it with his key, and then the lights went. I thought he was fixing something. He's always fixing something."
+            "statement" : "All right! All right. I was at the junction box. I've been clipping onto the Mustashar's line at night and calling a girl in Tanta, that's all, that's the whole crime, I'll pay him back every piastre, please don't tell my mother. And yes - I saw the ustā come up to the board and open it with his key, and then the lights went. I thought he was fixing something. He's always fixing something."
           }
         }
       }, {
@@ -993,8 +993,8 @@
         "labelDY" : 0.40269635269247056,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "I was giving a lesson from a quarter to nine until after ten — the girl's mother sat in the room the whole time, as she always does. Ustaz Zaki taught me the work in the evenings this past year; my eyes are good and his were not. I am a teacher of Arabic and he used to say the language was the whole trade, the typewriter was a table with legs.",
-        "clue" : "Teaching, with a witness, through the whole of the dark hour. The only person in the building who can actually do the dead man's work — which is a motive to some eyes, and to his it was simply the right hand for it."
+        "statement" : "I was giving a lesson from a quarter to nine until after ten - the girl's mother sat in the room the whole time, as she always does. Ustaz Zaki taught me the work in the evenings this past year; my eyes are good and his were not. I am a teacher of Arabic and he used to say the language was the whole trade, the typewriter was a table with legs.",
+        "clue" : "Teaching, with a witness, through the whole of the dark hour. The only person in the building who can actually do the dead man's work - which is a motive to some eyes, and to his it was simply the right hand for it."
       }, {
         "name" : "Touheda",
         "id" : "touheda",
@@ -1009,7 +1009,7 @@
         "labelDY" : 0.38705372038705366,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "Fifty-one years I have paid my rent on the second of the month and never once late, and now the Mustashar wants me in the street at seventy-three. Yes I knew about the paper. Ustaz Zaki himself told me — he came up here, sat where you're sitting, drank tea, and said 'Hagga, I am not going to finish it.' Then someone killed him, and now who will not finish it?",
+        "statement" : "Fifty-one years I have paid my rent on the second of the month and never once late, and now the Mustashar wants me in the street at seventy-three. Yes I knew about the paper. Ustaz Zaki himself told me - he came up here, sat where you're sitting, drank tea, and said 'Hagga, I am not going to finish it.' Then someone killed him, and now who will not finish it?",
         "clue" : "The oldest and most obvious motive in the building, freely admitted and immediately complicated: the dead man had already refused to finish the paper, and told her so to her face."
       }, {
         "name" : "Adel",
@@ -1025,8 +1025,8 @@
         "labelDY" : 0.4382592709440959,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "I asked for two documents this month and I make no apology for either. The socket nearly burned my flat; the insurance will not pay for unlicensed work unless the fault is on record with a name against it. And yes, the eviction — the woman pays eleven pounds a month for a flat worth eleven hundred. I was on the telephone to my daughter in Alexandria when the lights failed. The line stayed up; the exchange has its own current.",
-        "clue" : "He commissioned both papers and hides neither. His telephone is the only one in the building and it was in his hand and busy through the dark hour — which his daughter can confirm, and which is why nobody called anyone."
+        "statement" : "I asked for two documents this month and I make no apology for either. The socket nearly burned my flat; the insurance will not pay for unlicensed work unless the fault is on record with a name against it. And yes, the eviction - the woman pays eleven pounds a month for a flat worth eleven hundred. I was on the telephone to my daughter in Alexandria when the lights failed. The line stayed up; the exchange has its own current.",
+        "clue" : "He commissioned both papers and hides neither. His telephone is the only one in the building and it was in his hand and busy through the dark hour - which his daughter can confirm, and which is why nobody called anyone."
       }, {
         "name" : "Ghany",
         "id" : "ghany",
@@ -1044,7 +1044,7 @@
         "statement" : "I fit dishes, that's my trade. I was on that roof from a quarter past eight aligning to Nilesat with the boy holding the ladder, and I came down at half past nine and signed the paper and drank a Pepsi. Half the building calls me Abu Kareem, same as they call the doorkeeper, and I've told them for a year it causes confusion. Nobody listens.",
         "clue" : "A visitor, not a resident, and the second man in this building to answer to Abu Kareem. His timed and countersigned receipt puts him on the roof with both hands occupied through the dark hour."
       } ],
-      "tasks" : [ "Examine the stairwell where Ustaz Zaki was found.", "Walk the building from the gate to the roof, and question its nine.", "Fix the true hour the lights died — and who decided it.", "Find the petition that is missing from the ledger.", "When you are certain, deliver your verdict in the final exam." ],
+      "tasks" : [ "Examine the stairwell where Ustaz Zaki was found.", "Walk the building from the gate to the roof, and question its nine.", "Fix the true hour the lights died - and who decided it.", "Find the petition that is missing from the ledger.", "When you are certain, deliver your verdict in the final exam." ],
       "rankingTiers" : [ {
         "rankName" : "Kamal El-Dessouky",
         "maxDeductions" : 5,
@@ -1273,7 +1273,7 @@
     "ar" : {
       "languageName" : "العربية",
       "title" : "العمارة",
-      "invitation" : "إلى الأستاذ كمال الدسوقي،\nمكتب التحقيقات،\nالقاهرة.\n\nحضرة الأستاذ،\nراجل مات على سلمنا ليلة الخميس والحي قال إنه وقع. هو ماوقعش. الحاج زكي كتب ورق كل واحد في العمارة دي بقالو تسع سنين، وآخر ورقة كتبها مش موجودة في دفتره.\nوأنا ماقدرش أقول للبوليس اللي في دماغي، لأن اللي في دماغي عن واحد من الجيران. تعالى كأنك حد جاي يأجر جاي يشوف الشقة الفاضية. واسأل عن الكهربا.\n\n— واحد من سكان العمارة",
+      "invitation" : "إلى الأستاذ كمال الدسوقي،\nمكتب التحقيقات،\nالقاهرة.\n\nحضرة الأستاذ،\nراجل مات على سلمنا ليلة الخميس والحي قال إنه وقع. هو ماوقعش. الحاج زكي كتب ورق كل واحد في العمارة دي بقالو تسع سنين، وآخر ورقة كتبها مش موجودة في دفتره.\nوأنا ماقدرش أقول للبوليس اللي في دماغي، لأن اللي في دماغي عن واحد من الجيران. تعالى كأنك حد جاي يأجر جاي يشوف الشقة الفاضية. واسأل عن الكهربا.\n\n- واحد من سكان العمارة",
       "description" : "القاهرة، صيف ٢٠٠٠. عرضحالجي بيموت في بير سلم ضلمة وقت قطع الكهربا، وكل حجة غياب في العمارة مربوطة بدقيقة حد تاني هو اللي اختارها.",
       "roomDetails" : [ {
         "name" : "Street",
@@ -1282,7 +1282,7 @@
       }, {
         "name" : "Doorkeepers Room",
         "displayName" : "السقيفة",
-        "description" : "أوضة عم إبراهيم جنب المدخل — سرير، وتلفزيون صغير، وباجور، ودفتر مكتوب فيه اسم كل واحد داخل وخارج، بخط اتعلم الكتابة متأخر."
+        "description" : "أوضة عم إبراهيم جنب المدخل - سرير، وتلفزيون صغير، وباجور، ودفتر مكتوب فيه اسم كل واحد داخل وخارج، بخط اتعلم الكتابة متأخر."
       }, {
         "name" : "Zakis Corner",
         "displayName" : "ركن الحاج زكي",
@@ -1322,74 +1322,74 @@
         "name" : "cut_schedule",
         "displayName" : "جدول قطع الكهربا",
         "description" : "جدول شركة الكهربا بمواعيد القطع، ملزوق على جنب الكشك ونصه مقطوع.",
-        "examine" : "المنطقة دي، يوم الخميس: من ٩:٤٠ لـ ١١:٠٠. والشارع اللي جنبنا على ورقة تانية وميعاد تاني — وعشان كده شبابيكه كانت لسه منورة والعمارة دي بقت ضلمة.",
+        "examine" : "المنطقة دي، يوم الخميس: من ٩:٤٠ لـ ١١:٠٠. والشارع اللي جنبنا على ورقة تانية وميعاد تاني - وعشان كده شبابيكه كانت لسه منورة والعمارة دي بقت ضلمة.",
         "deduce" : "الجدول وعد الشركة بتنفذه بالعافية بس بتنفذه. لو العمارة دي فصلت قبل ميعادها، يبقى فصلت بسبب من جواها."
       }, {
         "name" : "gate_log",
         "displayName" : "دفتر البواب",
         "description" : "دفتر عم إبراهيم اللي بيكتب فيه كل داخل وخارج، من تلاتين سنة.",
-        "examine" : "صفحة الخميس، بخط متأني اتعلم متأخر: «٨:٥٠ تلميذة الأستاذة — ٩:١٠ أبو كريم طالع — ٩:٣٠ بتاع الدِش نازل». مفيش اسم عيلة واحد في الصفحة كلها؛ هو بيكتب الناس زي ما العمارة بتناديهم.",
-        "deduce" : "كان فيه حد فوق في السلم ٩:١٠، قبل ما النور يقطع بخمس دقايق. الدفتر بيقول «أبو كريم» — وفي العمارة دي الاسم ده مش على راجل واحد."
+        "examine" : "صفحة الخميس، بخط متأني اتعلم متأخر: «٨:٥٠ تلميذة الأستاذة - ٩:١٠ أبو كريم طالع - ٩:٣٠ بتاع الدِش نازل». مفيش اسم عيلة واحد في الصفحة كلها؛ هو بيكتب الناس زي ما العمارة بتناديهم.",
+        "deduce" : "كان فيه حد فوق في السلم ٩:١٠، قبل ما النور يقطع بخمس دقايق. الدفتر بيقول «أبو كريم» - وفي العمارة دي الاسم ده مش على راجل واحد."
       }, {
         "name" : "zaki_ledger",
         "displayName" : "دفتر الحاج زكي",
         "description" : "دفتر العرائض: كل ورقة كتبها الحاج زكي في أربعين سنة، مرقّمة وبالتاريخ وجنبها اسم صاحبها الرسمي بالكامل.",
-        "examine" : "الترقيم ماشي ورا بعضه إلا فتحة واحدة: بعد ٤٤٧١ على طول ٤٤٧٣. واتنين من زباين السنة دي ابنهم الكبير اسمه كريم — إبراهيم عبد السلام، بواب، وعبد الغني متولي، فني دِش.",
-        "deduce" : "الدفتر بيحفظ اللي العمارة مش بتحفظه: الأسامي الحقيقية. وهو بيثبت إن فيه عريضة اتشالت — وبيثبت إن «أبو كريم» ده اسم علي اتنين مش راجل واحد بس."
+        "examine" : "الترقيم ماشي ورا بعضه إلا فتحة واحدة: بعد ٤٤٧١ على طول ٤٤٧٣. واتنين من زباين السنة دي ابنهم الكبير اسمه كريم - إبراهيم عبد السلام، بواب، وعبد الغني متولي، فني دِش.",
+        "deduce" : "الدفتر بيحفظ اللي العمارة مش بتحفظه: الأسامي الحقيقية. وهو بيثبت إن فيه عريضة اتشالت - وبيثبت إن «أبو كريم» ده اسم علي اتنين مش راجل واحد بس."
       }, {
         "name" : "carbon_sheet",
         "displayName" : "ورقة كربون مستعملة",
         "description" : "ورقة كربون مستهلكة من بكرة الآلة الكاتبة. الحاج زكي عمره ما رمى ورقة قبل ما يستعمل وشها وضهرها.",
         "examine" : "لو رفعتها في النور، الوش المستعمل عليه شبح مقلوب لللي اتكتب فوقيها: شكوى من تركيب أسلاك كهربا خطر في الدور التاني، وكلمة «إهمال جسيم» مضغوطة لحد ما تتقري.",
-        "deduce" : "العريضة الضايعة مااتحرقتش — اتشالت وخلاص. وضلها فضل على الورقة اللي تحتيها، لأن الراجل المقتصد عم ذكي بيعيد استعمال الكربون."
+        "deduce" : "العريضة الضايعة مااتحرقتش - اتشالت وخلاص. وضلها فضل على الورقة اللي تحتيها، لأن الراجل المقتصد عم ذكي بيعيد استعمال الكربون."
       }, {
         "name" : "old_newspaper",
         "displayName" : "قصاصة جريدة قديمة",
         "description" : "صورة ضوئية هشة من خبر جريدة، مطبقة ومحطوطة في آخر الدفتر. من سنين، والحبر رمادي وقرب يختفس.",
         "examine" : "عمارة وقعت في منطقة تانية؛ ماتت ست وطفل. الخبر بيحمّل المسؤولية لشغل بدون ترخيص، وبيقول: «وقد تبيّن أن المقاول صابر على تنفيذ المخالفة, رغم إنذار الحي». ومفيش اسم مكتوب في العمود كله غير كده.",
-        "deduce" : "كل اللي قروا السطر ده من سنين فهموا «صابر» وصف — مقاول عنيد صمّم يكمّل. اقرا نفس الحروف اسم، تلاقي الجملة بتسلّم بهدوء لقب كان مستخبي على المكشوف من الأول. والراجل اللي شغلته يقرا عربي رسمي هو اللي ياخد باله منها."
+        "deduce" : "كل اللي قروا السطر ده من سنين فهموا «صابر» وصف - مقاول عنيد صمّم يكمّل. اقرا نفس الحروف اسم، تلاقي الجملة بتسلّم بهدوء لقب كان مستخبي على المكشوف من الأول. والراجل اللي شغلته يقرا عربي رسمي هو اللي ياخد باله منها."
       }, {
         "name" : "customs_document",
         "displayName" : "إقرار جمركي",
         "description" : "صورة كربونية من إقرار جمركي اتكتب لسعيد الرجاوي وهو راجع من الخليج.",
         "examine" : "القيمة المعلنة للعفش رقم قليل ومش حقيقي، والخط اللي معدّلها لأقل خط الحاج زكي. سعيد وفّر جمارك كتير اليوم ده.",
-        "deduce" : "المعروف الوحيد اللي الحاج زكي عمله وكان لازم ميعملهوش. ده بيدي واحد في العمارة حاجة يخاف عليها — بس تهريب جمركي مايستاهلش روح."
+        "deduce" : "المعروف الوحيد اللي الحاج زكي عمله وكان لازم ميعملهوش. ده بيدي واحد في العمارة حاجة يخاف عليها - بس تهريب جمركي مايستاهلش روح."
       }, {
         "name" : "stairwell_clock",
         "displayName" : "ساعة بير السلم",
         "description" : "ساعة الحيطة الكهربا اللي فوق لوحة العدادات، موصولة على كهربا العمارة نفسها.",
-        "examine" : "عقاربها واقفة على ٩:١٥ — لحظة ما الكهربا فصلت عنها. مفيهاش بطارية ومكانش فيها أصلاً؛ أول ما العمارة تفصل، بتقف مكانها.",
+        "examine" : "عقاربها واقفة على ٩:١٥ - لحظة ما الكهربا فصلت عنها. مفيهاش بطارية ومكانش فيها أصلاً؛ أول ما العمارة تفصل، بتقف مكانها.",
         "deduce" : "الساعة اللي بتموت مع الكهربا شاهد أمين: هي مش بتسجل الوقت اللي حد قالهولها، هي بتسجل الدقيقة اللي العمارة فصلت فيها بالظبط."
       }, {
         "name" : "meter_box",
         "displayName" : "لوحة الكهربا",
         "description" : "لوحة كهربا العمارة، متركبة في حيطة بير السلم عند دوران السلم.",
-        "examine" : "مفتاح العمومي مضروب لتحت ومستقر في آخره. والقفل مفتوح ومفيهوش أي خربشة — اتفتح بمفتاحه. والمفتاح الوحيد متعلق في الورشة، وفيه واحد شايل نسخته من تسع سنين.",
+        "examine" : "مفتاح العمومي مضروب لتحت ومستقر في آخره. والقفل مفتوح ومفيهوش أي خربشة - اتفتح بمفتاحه. والمفتاح الوحيد متعلق في الورشة، وفيه واحد شايل نسخته من تسع سنين.",
         "deduce" : "العطل بيرمي المفتاح في النص وبيسيب أثر على القفل. المفتاح ده اتحط، والقفل ده اتفتح بالأصول. الضلمة كانت قرار."
       }, {
         "name" : "zaki_glasses",
         "displayName" : "نضارة الحاج زكي",
         "description" : "نضارة القراية بتاعة المرحوم، عدسة منهم مشروخة، اتلاقت على بُعد تلات درجات فوق مكان ما كان واقع.",
-        "examine" : "العدسات تخينة — العينين اللي وراها بايظين . في بير سلم ضلمة، صاحبها كان هينزل بالراحة وإيده على الترابزين، ومش هيشوف حاجة من اللي مستنيه.",
-        "deduce" : "مكانش يقدر يشوف اللي ضربه، واللي ضربه عارف كده. دي مكانتش خناقة — دي كانت معاد اتحدد في الضلمة."
+        "examine" : "العدسات تخينة - العينين اللي وراها بايظين . في بير سلم ضلمة، صاحبها كان هينزل بالراحة وإيده على الترابزين، ومش هيشوف حاجة من اللي مستنيه.",
+        "deduce" : "مكانش يقدر يشوف اللي ضربه، واللي ضربه عارف كده. دي مكانتش خناقة - دي كانت معاد اتحدد في الضلمة."
       }, {
         "name" : "eviction_draft",
         "displayName" : "مسوّدة إنذار إخلاء",
         "description" : "مسوّدة ناقصة بخط الحاج زكي، متطبقة في دولاب الحاجة توحيدة وهي مكانتش المفروض تلاقيها.",
         "examine" : "المستشار عادل هو اللي طلبها: إنذار بالإخلاء ضد عقد إيجار قديم عمره خمسين سنة. الحاج زكي كتب تلات سطور ووقف، وعلى الهامش كاتب لنفسه: «أفكر تاني».",
-        "deduce" : "ست معندهاش قدرة تدفع إيجار تاني في مصر كلها عرفت إنهم راميينها في الشارع. أقدم دافع في العمارة — واللي كاتبه هو نفسه كان رافض يكمّله."
+        "deduce" : "ست معندهاش قدرة تدفع إيجار تاني في مصر كلها عرفت إنهم راميينها في الشارع. أقدم دافع في العمارة - واللي كاتبه هو نفسه كان رافض يكمّله."
       }, {
         "name" : "burnt_socket",
         "displayName" : "البريزة المحروقة",
         "description" : "غطا بريزة كهربا متفحّم وحتة سلك محروقة، ملفوفين في جرنان ومحطوطين علي مكتب المستشار عادل.",
-        "examine" : "البلاستيك سايح والنحاس اللي جوه أسود ورفيع — السلك كان شايل حمل أكبر منه بكتير. المستشار عادل قصّها من الحيطة بنفسه واحتفظ بيها، والبريزة اللي راكبة دي لسه جديدة.",
-        "deduce" : "ده العطل اللي العريضة الضايعة كانت بتتكلم عنه، محفوظ كدليل عند محامي عارف إنه هيحتاجه. حد صلّح الحيطة في يوم ودهنها — بس الدليل كان اتشال منها قبل كده."
+        "examine" : "البلاستيك سايح والنحاس اللي جوه أسود ورفيع - السلك كان شايل حمل أكبر منه بكتير. المستشار عادل قصّها من الحيطة بنفسه واحتفظ بيها، والبريزة اللي راكبة دي لسه جديدة.",
+        "deduce" : "ده العطل اللي العريضة الضايعة كانت بتتكلم عنه، محفوظ كدليل عند محامي عارف إنه هيحتاجه. حد صلّح الحيطة في يوم ودهنها - بس الدليل كان اتشال منها قبل كده."
       }, {
         "name" : "insurance_letter",
         "displayName" : "خطاب التأمين",
         "description" : "جواب من مكتب تأمين على مكتب المستشار عادل، اتفتح واتطبق كذا مرة.",
-        "examine" : "وثيقة تأمين العمارة مش هتغطي أي ضرر سببه شغل بدون ترخيص. عشان ياخد أي حاجة، المستشار عادل كان محتاج عطل موثّق واسم صنايعي — وده بالظبط اللي طلب من الحاج زكي يكتبه.",
-        "deduce" : "دافع صاحب العمارة من العريضة كان فلوس، مش عدل. بس ده بيفسّر ليه الورقة دي اتكتبت أصلاً — وليه اللي مكتوبة عنه ماقدرش يسيبها تتقدّم."
+        "examine" : "وثيقة تأمين العمارة مش هتغطي أي ضرر سببه شغل بدون ترخيص. عشان ياخد أي حاجة، المستشار عادل كان محتاج عطل موثّق واسم صنايعي - وده بالظبط اللي طلب من الحاج زكي يكتبه.",
+        "deduce" : "دافع صاحب العمارة من العريضة كان فلوس، مش عدل. بس ده بيفسّر ليه الورقة دي اتكتبت أصلاً - وليه اللي مكتوبة عنه ماقدرش يسيبها تتقدّم."
       }, {
         "name" : "tool_bag",
         "displayName" : "شنطة العدة",
@@ -1400,20 +1400,20 @@
         "name" : "dish_receipt",
         "displayName" : "إيصال تركيب دِش",
         "description" : "إيصال كربون من فني الدِش، متساب على بوفيه الرجاوي.",
-        "examine" : "«تركيب وضبط، السطح — من ٨:١٥ لـ ٩:٣٠ — عبد الغني متولي»، وممضي من سعيد ومكتوب عليه الوقت بخط الفني نفسه.",
+        "examine" : "«تركيب وضبط، السطح - من ٨:١٥ لـ ٩:٣٠ - عبد الغني متولي»، وممضي من سعيد ومكتوب عليه الوقت بخط الفني نفسه.",
         "deduce" : "واحد من الاتنين اللي اسمهم «أبو كريم» كان فوق على السطح وإيديه مليانة لحد ٩:٣٠. مكانش عند لوحة الكهربا ٩:١٥."
       }, {
         "name" : "lesson_notebook",
         "displayName" : "كشكول الدروس",
         "description" : "كشكول الأستاذة نبيلة للدروس الخصوصية، كل حصة ليها تاريخ.",
-        "examine" : "الخميس، من ٨:٤٥ لـ ١٠:١٥، وممضي. وفي آخر الكشكول، بخط تاني وأقدم، مسودات عرائض بلغة رسمية — شغل الحاج زكي، مكتوب بإيدها هي، من سنة كده.",
-        "deduce" : "كانت بتدي درس، وقدام شاهدة، طول الوقت ده. وهي بتكتب عرائضه محترمة من سنة — وده اللي الراجل بيسيبه لما يورّث صنعة مش فلوس."
+        "examine" : "الخميس، من ٨:٤٥ لـ ١٠:١٥، وممضي. وفي آخر الكشكول، بخط تاني وأقدم، مسودات عرائض بلغة رسمية - شغل الحاج زكي، مكتوب بإيدها هي، من سنة كده.",
+        "deduce" : "كانت بتدي درس، وقدام شاهدة، طول الوقت ده. وهي بتكتب عرائضه محترمة من سنة - وده اللي الراجل بيسيبه لما يورّث صنعة مش فلوس."
       }, {
         "name" : "phone_junction",
         "displayName" : "علبة تليفونات العمارة",
         "description" : "علبة تليفونات العمارة على حيطة الورشة، وغطاها مفكوك.",
-        "examine" : "مشبك تمساح وسلك لسه مربوطين على خط المستشار — أي حد يعرف يقدر يوصل سماعة من هنا. والمشبك بيلمع من كتر الإستعمال اليومي.",
-        "deduce" : "فيه حد بيقف عند العلبة دي بالليل، ليلة ورا التانية. أياً كان مين، كان هنا في ساعة الضلمة — وشاف الورشة، وبابها، ومين دخل منه."
+        "examine" : "مشبك تمساح وسلك لسه مربوطين على خط المستشار - أي حد يعرف يقدر يوصل سماعة من هنا. والمشبك بيلمع من كتر الإستعمال اليومي.",
+        "deduce" : "فيه حد بيقف عند العلبة دي بالليل، ليلة ورا التانية. أياً كان مين، كان هنا في ساعة الضلمة - وشاف الورشة، وبابها، ومين دخل منه."
       } ],
       "suspects" : [ {
         "name" : "Fathy",
@@ -1429,11 +1429,11 @@
         "labelDY" : 0.4071291208220669,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "الحاج زكي كان راجل طيب وأنا صلّحتله الراديو ببلاش مرتين. أنا كنت في الورشة من بعد العشا، ولما الكهربا فصلت مارحتش في حته — الصنايعي مابيشتغلش في الضلمة. سمعت الصوت زي الناس ونزلت زي الناس.",
-        "clue" : "الراجل اللي كل الناس واثقة فيه لأن كل حاجة في العمارة بتعدي من تحت إيده. بيقول إنه كان في الورشة — الأوضة الوحيدة اللي شايفة السلم، والمفتاح الوحيد للوحة الكهربا معلق فيها.",
+        "statement" : "الحاج زكي كان راجل طيب وأنا صلّحتله الراديو ببلاش مرتين. أنا كنت في الورشة من بعد العشا، ولما الكهربا فصلت مارحتش في حته - الصنايعي مابيشتغلش في الضلمة. سمعت الصوت زي الناس ونزلت زي الناس.",
+        "clue" : "الراجل اللي كل الناس واثقة فيه لأن كل حاجة في العمارة بتعدي من تحت إيده. بيقول إنه كان في الورشة - الأوضة الوحيدة اللي شايفة السلم، والمفتاح الوحيد للوحة الكهربا معلق فيها.",
         "states" : {
           "LIE" : {
-            "statement" : "الحاج زكي كان راجل طيب وأنا صلّحتله الراديو ببلاش مرتين. أنا كنت في الورشة من بعد العشا، ولما الكهربا فصلت مارحتش في حته — الصنايعي مابيشتغلش في الضلمة. سمعت الصوت زي الناس ونزلت زي الناس.",
+            "statement" : "الحاج زكي كان راجل طيب وأنا صلّحتله الراديو ببلاش مرتين. أنا كنت في الورشة من بعد العشا، ولما الكهربا فصلت مارحتش في حته - الصنايعي مابيشتغلش في الضلمة. سمعت الصوت زي الناس ونزلت زي الناس.",
             "contradictions" : [ {
               "evidenceId" : "cut_was_manual",
               "nextState" : "TRUTH",
@@ -1443,7 +1443,7 @@
               "evidenceId" : "collapse_identified",
               "nextState" : "TRUTH",
               "rewardDeductionId" : "fathy_confesses",
-              "successMessage" : "تقرا السطر بصوت عالي زي ما الحاج زكي قراه — مش وصف، اسم. «صابر». الورشة تسكت خالص. يقول فتحي في الآخر: «هو قراها بنفس الطريقة. بصوت عالي، كده بالظبط. تسع سنين محدِش قراها بصوت عالي»."
+              "successMessage" : "تقرا السطر بصوت عالي زي ما الحاج زكي قراه - مش وصف، اسم. «صابر». الورشة تسكت خالص. يقول فتحي في الآخر: «هو قراها بنفس الطريقة. بصوت عالي، كده بالظبط. تسع سنين محدِش قراها بصوت عالي»."
             } ]
           },
           "TRUTH" : {
@@ -1465,7 +1465,7 @@
         "stationary" : true,
         "initialState" : "LIE",
         "statement" : "أنا قفلت الباب الساعة تسعة ومقمتش من قدام أوضتي لحد ما الناس زعقت. اكتب كده. العمارة دي مسؤوليتي ومحدِش بيدخلها من غير ما أشوفه.",
-        "clue" : "تلاتين سنة على الباب ده وفخور بيه لدرجة الشراسة. بيدافع عن العمارة الأول وعن نفسه بعدين — وده سبب للكدب مالوش أي علاقة بجريمة قتل.",
+        "clue" : "تلاتين سنة على الباب ده وفخور بيه لدرجة الشراسة. بيدافع عن العمارة الأول وعن نفسه بعدين - وده سبب للكدب مالوش أي علاقة بجريمة قتل.",
         "states" : {
           "LIE" : {
             "statement" : "أنا قفلت الباب الساعة تسعة ومقمتش من قدام أوضتي لحد ما الناس زعقت. اكتب كده. العمارة دي مسؤوليتي ومحدِش بيدخلها من غير ما أشوفه.",
@@ -1494,11 +1494,11 @@
         "labelDY" : 0.4294377021649748,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "عمي علّمني الصنعة وأنا عمري ما فتحت دفتره من غير إذنه. كنت على الركن طول الليل ماسك مكانه — اسأل أي حد جه يدوّر او يسأل عليه.",
-        "clue" : "ابن الأخ اللي كان مستني يورث وابتدى يشك إنه مش هيورث. عنده كل الأسباب إنه يفتح الدفتر ده وكل الأسباب إنه ينكر — وده مش نفس الشيء ككل الأسباب اللي تخليه يقتل.",
+        "statement" : "عمي علّمني الصنعة وأنا عمري ما فتحت دفتره من غير إذنه. كنت على الركن طول الليل ماسك مكانه - اسأل أي حد جه يدوّر او يسأل عليه.",
+        "clue" : "ابن الأخ اللي كان مستني يورث وابتدى يشك إنه مش هيورث. عنده كل الأسباب إنه يفتح الدفتر ده وكل الأسباب إنه ينكر - وده مش نفس الشيء ككل الأسباب اللي تخليه يقتل.",
         "states" : {
           "LIE" : {
-            "statement" : "عمي علّمني الصنعة وأنا عمري ما فتحت دفتره من غير إذنه. كنت على الركن طول الليل ماسك مكانه — اسأل أي حد جه يدوّر او يسأل عليه.",
+            "statement" : "عمي علّمني الصنعة وأنا عمري ما فتحت دفتره من غير إذنه. كنت على الركن طول الليل ماسك مكانه - اسأل أي حد جه يدوّر او يسأل عليه.",
             "contradictions" : [ {
               "evidenceId" : "zaki_ledger",
               "nextState" : "TRUTH",
@@ -1507,7 +1507,7 @@
             } ]
           },
           "TRUTH" : {
-            "statement" : "طيب — أنا قلّبته. سنتين وأنا قاعد جنبه، وفي الآخر بطّل يديني الشغل، وأنا كنت عايز أعرف كتب إيه عني وعن الركن. مالقتش أي كلام عن وصية، وماخدتش حاجة. وماكنتش عارف إن فيه صفحة ناقصة لحد ما انت قلت لي. هو كان ناوي يديه للأستاذة، مش كده؟"
+            "statement" : "طيب - أنا قلّبته. سنتين وأنا قاعد جنبه، وفي الآخر بطّل يديني الشغل، وأنا كنت عايز أعرف كتب إيه عني وعن الركن. مالقتش أي كلام عن وصية، وماخدتش حاجة. وماكنتش عارف إن فيه صفحة ناقصة لحد ما انت قلت لي. هو كان ناوي يديه للأستاذة، مش كده؟"
           }
         }
       }, {
@@ -1537,7 +1537,7 @@
             } ]
           },
           "TRUTH" : {
-            "statement" : "الإقرار كان بقيمة أقل من الحقيقة وهو كتبه ليا كده، وكل مرة كان بيعدي عليّ في السلم بعدها كنت حاسس بحجمها. أنا مكنتش عايزه يموت — كنت عايزه ينسى. الراجل اللي بيعملك معروف بيمتلكك شوية، وأنا اتملكت كفاية في حياتي."
+            "statement" : "الإقرار كان بقيمة أقل من الحقيقة وهو كتبه ليا كده، وكل مرة كان بيعدي عليّ في السلم بعدها كنت حاسس بحجمها. أنا مكنتش عايزه يموت - كنت عايزه ينسى. الراجل اللي بيعملك معروف بيمتلكك شوية، وأنا اتملكت كفاية في حياتي."
           }
         }
       }, {
@@ -1554,20 +1554,20 @@
         "labelDY" : 0.4364796451127388,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "أنا مكنتش هنا! مكنتش في العمارة خالص، كنت عند أمي في روض الفرج، اسألها، اسأل سواق الميكروباص، اسأل المعلم فتحي صابر نفسه — أنا معرفش حاجة عن أي حاجة.",
-        "clue" : "خايف أكتر من اللازم بكتير، ومن الجريمة الغلط تماماً. أياً كان اللي بيخبيه، بيخبيه بصوت عالي — والواد بيقول بنفسه إنه في السلم في كل الأوقات.",
+        "statement" : "أنا مكنتش هنا! مكنتش في العمارة خالص، كنت عند أمي في روض الفرج، اسألها، اسأل سواق الميكروباص، اسأل المعلم فتحي صابر نفسه - أنا معرفش حاجة عن أي حاجة.",
+        "clue" : "خايف أكتر من اللازم بكتير، ومن الجريمة الغلط تماماً. أياً كان اللي بيخبيه، بيخبيه بصوت عالي - والواد بيقول بنفسه إنه في السلم في كل الأوقات.",
         "states" : {
           "LIE" : {
-            "statement" : "أنا مكنتش هنا! مكنتش في العمارة خالص، كنت عند أمي في روض الفرج، اسألها، اسأل سواق الميكروباص، اسأل المعلم فتحي صابر نفسه — أنا معرفش حاجة عن أي حاجة.",
+            "statement" : "أنا مكنتش هنا! مكنتش في العمارة خالص، كنت عند أمي في روض الفرج، اسألها، اسأل سواق الميكروباص، اسأل المعلم فتحي صابر نفسه - أنا معرفش حاجة عن أي حاجة.",
             "contradictions" : [ {
               "evidenceId" : "phone_junction",
               "nextState" : "TRUTH",
               "rewardDeductionId" : "hamada_confesses",
-              "successMessage" : "تورّيه المشبك على خط المستشار والبوية اللي اتحكّت من الإيد كل ليلة. حمادة يعيّط قبل ما تكمّل جملتك ويعترف اعتراف طويل عريض — بسرقة تليفون. وبعدين وهو بيمسح وشه، يقولك شاف إيه عند اللوحة."
+              "successMessage" : "تورّيه المشبك على خط المستشار والبوية اللي اتحكّت من الإيد كل ليلة. حمادة يعيّط قبل ما تكمّل جملتك ويعترف اعتراف طويل عريض - بسرقة تليفون. وبعدين وهو بيمسح وشه، يقولك شاف إيه عند اللوحة."
             } ]
           },
           "TRUTH" : {
-            "statement" : "خلاص! خلاص. أنا كنت عند علبة التليفونات. بوصّل على خط المستشار بالليل وبكلم بنت في طنطا، وبس، دي الجريمة كلها، وأنا هرجعله كل مليم، بس بالله عليك متقولش لأمي. وأيوه — شفت الأسطى طالع للوحة وفتحها بمفتاحه، وبعدها النور فصل. وأنا افتكرته بيصلّح حاجة. هو دايماً بيصلّح حاجة."
+            "statement" : "خلاص! خلاص. أنا كنت عند علبة التليفونات. بوصّل على خط المستشار بالليل وبكلم بنت في طنطا، وبس، دي الجريمة كلها، وأنا هرجعله كل مليم، بس بالله عليك متقولش لأمي. وأيوه - شفت الأسطى طالع للوحة وفتحها بمفتاحه، وبعدها النور فصل. وأنا افتكرته بيصلّح حاجة. هو دايماً بيصلّح حاجة."
           }
         }
       }, {
@@ -1584,8 +1584,8 @@
         "labelDY" : 0.40269635269247056,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "كنت بدي درس من تسعة إلا ربع لحد بعد الساعة عشرة — ووالدة البنت قاعدة في الأوضة طول الوقت زي كل مرة. الحاج زكي كان بيعلّمني الشغل بالليل السنة اللي فاتت؛ عيني كويسة وعينه لأ. أنا مدرّسة عربي، وهو كان بيقول إن اللغة هي الصنعة كلها، والآلة الكاتبة دي ترابيزة بأربع رجلين.",
-        "clue" : "كانت بتدي درس، وقدام شاهدة، طول ساعة الضلمة. الوحيدة في العمارة اللي تقدر فعلاً تعمل شغل المرحوم — وده في عين ناس دافع، وفي عينه هو كان ببساطة الإيد الصح للصنعة."
+        "statement" : "كنت بدي درس من تسعة إلا ربع لحد بعد الساعة عشرة - ووالدة البنت قاعدة في الأوضة طول الوقت زي كل مرة. الحاج زكي كان بيعلّمني الشغل بالليل السنة اللي فاتت؛ عيني كويسة وعينه لأ. أنا مدرّسة عربي، وهو كان بيقول إن اللغة هي الصنعة كلها، والآلة الكاتبة دي ترابيزة بأربع رجلين.",
+        "clue" : "كانت بتدي درس، وقدام شاهدة، طول ساعة الضلمة. الوحيدة في العمارة اللي تقدر فعلاً تعمل شغل المرحوم - وده في عين ناس دافع، وفي عينه هو كان ببساطة الإيد الصح للصنعة."
       }, {
         "name" : "Touheda",
         "id" : "touheda",
@@ -1600,7 +1600,7 @@
         "labelDY" : 0.38705372038705366,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "واحد وخمسين سنة وأنا بدفع الإيجار يوم اتنين من الشهر وعمري ما اتأخرت يوم، ودلوقتي المستشار عايزني في الشارع وأنا عندي تلاتة وسبعين. أيوه كنت عارفة وشوفت الورقة. الحاج زكي هو اللي قالي — طلع هنا، وقعد مطرحك، وشرب شاي، وقالي: «يا حاجة، أنا مش هكمّلها». وبعدين حد قتله، ودلوقتي مين اللي مش هيكمّلها؟",
+        "statement" : "واحد وخمسين سنة وأنا بدفع الإيجار يوم اتنين من الشهر وعمري ما اتأخرت يوم، ودلوقتي المستشار عايزني في الشارع وأنا عندي تلاتة وسبعين. أيوه كنت عارفة وشوفت الورقة. الحاج زكي هو اللي قالي - طلع هنا، وقعد مطرحك، وشرب شاي، وقالي: «يا حاجة، أنا مش هكمّلها». وبعدين حد قتله، ودلوقتي مين اللي مش هيكمّلها؟",
         "clue" : "أقدم وأوضح دافع في العمارة، معترفة بيه من غير لف ودوران، وبيتعقّد على طول: المرحوم كان رافض يكمّل الورقة من الأصل، وقالها كده في وشها."
       }, {
         "name" : "Adel",
@@ -1616,8 +1616,8 @@
         "labelDY" : 0.4382592709440959,
         "stationary" : true,
         "initialState" : "LIE",
-        "statement" : "أنا طلبت ورقتين الشهر ده ومش هعتذر عن ولا واحدة. البريزة كانت هتولّع شقتي؛ والتأمين مش هيدفع على شغل بدون ترخيص إلا لو العطل متسجل ومكتوب جنبه اسم. وأيوه، الإخلاء — الست بتدفع حداشر جنيه في الشهر على شقة تساوي ألف ومية. وأنا كنت على التليفون مع بنتي في إسكندرية لما النور فصل. الخط فضل شغال؛ السنترال عنده كهربا لوحده.",
-        "clue" : "هو اللي طلب الورقتين والاتنين مش مخبيهم. تليفونه هو الوحيد في العمارة وكان في إيده ومشغول طول ساعة الضلمة — وبنته تقدر تأكد، وده السبب إن محدِش كلم حد."
+        "statement" : "أنا طلبت ورقتين الشهر ده ومش هعتذر عن ولا واحدة. البريزة كانت هتولّع شقتي؛ والتأمين مش هيدفع على شغل بدون ترخيص إلا لو العطل متسجل ومكتوب جنبه اسم. وأيوه، الإخلاء - الست بتدفع حداشر جنيه في الشهر على شقة تساوي ألف ومية. وأنا كنت على التليفون مع بنتي في إسكندرية لما النور فصل. الخط فضل شغال؛ السنترال عنده كهربا لوحده.",
+        "clue" : "هو اللي طلب الورقتين والاتنين مش مخبيهم. تليفونه هو الوحيد في العمارة وكان في إيده ومشغول طول ساعة الضلمة - وبنته تقدر تأكد، وده السبب إن محدِش كلم حد."
       }, {
         "name" : "Ghany",
         "id" : "ghany",
@@ -1635,7 +1635,7 @@
         "statement" : "أنا بركّب دِش، دي صنعتي. كنت على السطح ده من تمانية وربع بظبط على نايل سات والواد ماسك السلم، ونزلت تسعة ونص وإمضيت الورقة وشربت بيبسي. ونص العمارة بتناديني أبو كريم زي ما بتنادي البواب، وأنا قايلهم من سنة إن ده بيلخبط. محدِش بيسمع.",
         "clue" : "زاير مش ساكن، وتاني راجل في العمارة بيتنادي عليه «أبو كريم». وإيصاله المكتوب عليه الوقت والممضي من الطرفين بيحطه على السطح وإيديه الاتنين مشغولين طول ساعة الضلمة."
       } ],
-      "tasks" : [ "افحص بير السلم اللي اتلاقى فيه الأستاذ زكي.", "لف العمارة من الباب لحد السطح، واستجوب كل اللي في العمارة.", "حدد الساعة الحقيقية اللي النور فصل فيها — ومين اللي قررها.", "دوّر على العريضة الناقصة من الدفتر.", "ولما تتأكد، قول حكمك في الاختبار الأخير." ],
+      "tasks" : [ "افحص بير السلم اللي اتلاقى فيه الأستاذ زكي.", "لف العمارة من الباب لحد السطح، واستجوب كل اللي في العمارة.", "حدد الساعة الحقيقية اللي النور فصل فيها - ومين اللي قررها.", "دوّر على العريضة الناقصة من الدفتر.", "ولما تتأكد، قول حكمك في الاختبار الأخير." ],
       "rankingTiers" : [ {
         "rankName" : "Kamal El-Dessouky",
         "maxDeductions" : 5,

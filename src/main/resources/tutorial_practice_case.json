@@ -101,7 +101,7 @@
     "en": {
       "languageName": "English",
       "title": "A Study in Practice",
-      "invitation": "Welcome, detective. This is a practice case — a safe room to learn the tools of the trade. Examine, question, deduce, and present your evidence. Nothing here can go wrong. When you are ready, name the culprit in the final exam.",
+      "invitation": "Welcome, detective. This is a practice case - a safe room to learn the tools of the trade. Examine, question, deduce, and present your evidence. Nothing here can go wrong. When you are ready, name the culprit in the final exam.",
       "description": "A quiet house, two small rooms, and a single household servant. The perfect place to practise the detective's craft before a true case.",
       "suspects": [
         {
@@ -116,13 +116,13 @@
                 {
                   "evidenceId": "muddy_boot",
                   "nextState": "TRUTH",
-                  "successMessage": "The valet stares at the muddy boot and his composure cracks. 'All right — I walked the garden path at midnight. But I touched nothing, I swear it!'",
+                  "successMessage": "The valet stares at the muddy boot and his composure cracks. 'All right - I walked the garden path at midnight. But I touched nothing, I swear it!'",
                   "rewardDeductionId": "valet_confession"
                 }
               ]
             },
             "TRUTH": {
-              "statement": "Yes — I went out to the garden at midnight. I was ashamed to admit I'd left my post. But I am no thief."
+              "statement": "Yes - I went out to the garden at midnight. I was ashamed to admit I'd left my post. But I am no thief."
             }
           },
           "homeRoom": "Parlour",
@@ -146,13 +146,13 @@
           "name": "torn_letter",
           "description": "Half of a handwritten letter, torn cleanly down the middle.",
           "examine": "The surviving half reads: '...the garden, at midnight. Tell no one.' The hand is hurried but educated.",
-          "deduce": "Whoever received this letter was asked to be in the garden at midnight — and chose to keep the appointment secret."
+          "deduce": "Whoever received this letter was asked to be in the garden at midnight - and chose to keep the appointment secret."
         },
         {
           "name": "muddy_boot",
           "description": "A single gentleman's boot, its sole caked with fresh garden mud.",
           "examine": "The mud is still damp and smells of the night garden. Whoever wore this was outside very recently.",
-          "deduce": "Fresh garden mud means the wearer was on the garden path tonight — not indoors, and certainly not in the kitchen."
+          "deduce": "Fresh garden mud means the wearer was on the garden path tonight - not indoors, and certainly not in the kitchen."
         }
       ],
       "final_exam": {

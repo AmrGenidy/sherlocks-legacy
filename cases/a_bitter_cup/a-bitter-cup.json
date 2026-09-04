@@ -5,24 +5,24 @@
       "relation_to_case": "The master of Oakfield House, found dead over his evening tea.",
       "notes": {
         "en": "A man who built his fortune on other men's ruin, and dined comfortably ever after. Of late he had grown watchful, as if a face from the old days had followed him home.",
-        "ru": "Человек, построивший состояние на чужом разорении и потом двадцать лет ужинавший спокойно. В последнее время он стал насторожен — словно лицо из прошлого добралось до его дома.",
-        "fr": "Un homme qui bâtit sa fortune sur la ruine d'autrui, puis dîna tranquillement pendant vingt ans. Ces derniers temps, il était devenu méfiant — comme si un visage d'autrefois l'avait suivi jusque chez lui.",
+        "ru": "Человек, построивший состояние на чужом разорении и потом двадцать лет ужинавший спокойно. В последнее время он стал насторожен - словно лицо из прошлого добралось до его дома.",
+        "fr": "Un homme qui bâtit sa fortune sur la ruine d'autrui, puis dîna tranquillement pendant vingt ans. Ces derniers temps, il était devenu méfiant - comme si un visage d'autrefois l'avait suivi jusque chez lui.",
         "es": "Un hombre que levantó su fortuna sobre la ruina ajena y cenó tranquilo veinte años después. Últimamente andaba receloso, como si una cara de los viejos tiempos lo hubiera seguido hasta casa.",
         "ar": "رجل بنى ثروته على خراب الآخرين، ثم تعشّى مطمئناً عشرين عاماً. وفي الآونة الأخيرة صار حذراً متوجساً، كأن وجهاً من الأيام الخوالي تبعه إلى داره.",
-        "tr": "Servetini başkalarının yıkımı üzerine kuran ve sonrasında yirmi yıl rahatça sofraya oturan bir adam. Son zamanlarda tetikteydi — sanki eski günlerden bir yüz onu evine kadar izlemişti.",
+        "tr": "Servetini başkalarının yıkımı üzerine kuran ve sonrasında yirmi yıl rahatça sofraya oturan bir adam. Son zamanlarda tetikteydi - sanki eski günlerden bir yüz onu evine kadar izlemişti.",
         "zh": "一个把家业建立在他人破产之上的人，此后二十年安然用餐。近来他变得警觉起来，仿佛旧日的一张面孔一路跟到了家门口。",
-        "de": "Ein Mann, der sein Vermögen auf dem Ruin anderer errichtete und danach zwanzig Jahre lang ungestört speiste. In letzter Zeit war er wachsam geworden — als wäre ihm ein Gesicht aus alten Tagen bis nach Hause gefolgt."
+        "de": "Ein Mann, der sein Vermögen auf dem Ruin anderer errichtete und danach zwanzig Jahre lang ungestört speiste. In letzter Zeit war er wachsam geworden - als wäre ihm ein Gesicht aus alten Tagen bis nach Hause gefolgt."
       }
     },
     "overview": {
-      "en": "Oakfield House sits quiet under a grey dusk. In his study, Mr. Henry Blake lies slumped over a cold cup of tea. The doctor calls it his heart — but the cup was his alone, the house was locked, and someone within these few rooms wanted him dead.",
-      "ru": "Оукфилд-хаус тих в серых сумерках. В кабинете мистер Генри Блейк осел над остывшей чашкой чая. Доктор говорит — сердце; но чашка была только его, дом был заперт, и кто-то в этих немногих комнатах желал его смерти.",
-      "fr": "Oakfield House repose, silencieuse, dans un crépuscule gris. Dans son bureau, M. Henry Blake est affaissé sur une tasse de thé froide. Le docteur parle du cœur — mais la tasse n'était qu'à lui, la maison était fermée, et quelqu'un, dans ces quelques pièces, voulait sa mort.",
+      "en": "Oakfield House sits quiet under a grey dusk. In his study, Mr. Henry Blake lies slumped over a cold cup of tea. The doctor calls it his heart - but the cup was his alone, the house was locked, and someone within these few rooms wanted him dead.",
+      "ru": "Оукфилд-хаус тих в серых сумерках. В кабинете мистер Генри Блейк осел над остывшей чашкой чая. Доктор говорит - сердце; но чашка была только его, дом был заперт, и кто-то в этих немногих комнатах желал его смерти.",
+      "fr": "Oakfield House repose, silencieuse, dans un crépuscule gris. Dans son bureau, M. Henry Blake est affaissé sur une tasse de thé froide. Le docteur parle du cœur - mais la tasse n'était qu'à lui, la maison était fermée, et quelqu'un, dans ces quelques pièces, voulait sa mort.",
       "es": "Oakfield House descansa en silencio bajo un anochecer gris. En su estudio, el señor Henry Blake yace desplomado sobre una taza de té fría. El doctor lo llama corazón; pero la taza era solo suya, la casa estaba cerrada, y alguien en estas pocas habitaciones lo quería muerto.",
-      "ar": "منزل أوكفيلد ساكن تحت غسقٍ رمادي. في مكتبه، السيد هنري بليك منهار فوق فنجان شاي بارد. يقول الطبيب إنه القلب — لكن الفنجان كان له وحده، والمنزل كان موصداً، وأحدهم بين هذه الغرف القليلة أراده ميتاً.",
-      "tr": "Oakfield Konağı gri bir alacakaranlıkta sessizce duruyor. Çalışma odasında Bay Henry Blake, soğumuş bir çay fincanının üzerine yığılmış. Doktor kalp diyor — ama fincan yalnızca onundu, ev kilitliydi ve bu birkaç odanın içinden biri onun ölmesini istiyordu.",
-      "zh": "奥克菲尔德庄园静卧在灰色的暮霭里。书房中，亨利·布莱克先生伏在一杯冷茶上。医生说是心脏的毛病——可那杯茶只属于他一人，房门紧锁，而这寥寥几间屋子里，有人要他死。",
-      "de": "Oakfield House liegt still in grauer Dämmerung. In seinem Arbeitszimmer ist Mr. Henry Blake über einer kalten Tasse Tee zusammengesunken. Der Doktor nennt es das Herz — doch die Tasse war seine allein, das Haus war verschlossen, und jemand in diesen wenigen Zimmern wollte ihn tot sehen."
+      "ar": "منزل أوكفيلد ساكن تحت غسقٍ رمادي. في مكتبه، السيد هنري بليك منهار فوق فنجان شاي بارد. يقول الطبيب إنه القلب - لكن الفنجان كان له وحده، والمنزل كان موصداً، وأحدهم بين هذه الغرف القليلة أراده ميتاً.",
+      "tr": "Oakfield Konağı gri bir alacakaranlıkta sessizce duruyor. Çalışma odasında Bay Henry Blake, soğumuş bir çay fincanının üzerine yığılmış. Doktor kalp diyor - ama fincan yalnızca onundu, ev kilitliydi ve bu birkaç odanın içinden biri onun ölmesini istiyordu.",
+      "zh": "奥克菲尔德庄园静卧在灰色的暮霭里。书房中，亨利·布莱克先生伏在一杯冷茶上。医生说是心脏的毛病--可那杯茶只属于他一人，房门紧锁，而这寥寥几间屋子里，有人要他死。",
+      "de": "Oakfield House liegt still in grauer Dämmerung. In seinem Arbeitszimmer ist Mr. Henry Blake über einer kalten Tasse Tee zusammengesunken. Der Doktor nennt es das Herz - doch die Tasse war seine allein, das Haus war verschlossen, und jemand in diesen wenigen Zimmern wollte ihn tot sehen."
     },
     "suspect_profiles": {
       "JamesCarter": {
@@ -86,14 +86,14 @@
           "de": "Seit elf Jahren Köchin in Oakfield House."
         },
         "bio": {
-          "en": "Quiet, exact, and never idle. Every cup the master drank passed through her hands — a fact she knows better than anyone tonight.",
-          "ru": "Тихая, точная, ни минуты без дела. Каждая чашка, которую пил хозяин, проходила через её руки — сегодня она знает это лучше всех.",
-          "fr": "Silencieuse, précise, jamais oisive. Chaque tasse que buvait le maître passait par ses mains — un fait qu'elle mesure ce soir mieux que quiconque.",
+          "en": "Quiet, exact, and never idle. Every cup the master drank passed through her hands - a fact she knows better than anyone tonight.",
+          "ru": "Тихая, точная, ни минуты без дела. Каждая чашка, которую пил хозяин, проходила через её руки - сегодня она знает это лучше всех.",
+          "fr": "Silencieuse, précise, jamais oisive. Chaque tasse que buvait le maître passait par ses mains - un fait qu'elle mesure ce soir mieux que quiconque.",
           "es": "Callada, exacta y nunca ociosa. Cada taza que bebía el señor pasaba por sus manos, algo que esta noche ella sabe mejor que nadie.",
-          "ar": "هادئة دقيقة لا تعرف الكسل. كل فنجان شربه السيد مرّ من بين يديها — وهي الليلة أدرى الناس بذلك.",
-          "tr": "Sessiz, titiz ve hiç boş durmayan biri. Efendinin içtiği her fincan onun ellerinden geçti — bu gece bunu herkesten iyi biliyor.",
-          "zh": "沉静、一丝不苟、从不偷闲。主人喝的每一杯茶都经过她的手——今晚，这一点她比谁都清楚。",
-          "de": "Still, genau und nie untätig. Jede Tasse, die der Hausherr trank, ging durch ihre Hände — eine Tatsache, die sie heute Abend besser kennt als irgendjemand sonst."
+          "ar": "هادئة دقيقة لا تعرف الكسل. كل فنجان شربه السيد مرّ من بين يديها - وهي الليلة أدرى الناس بذلك.",
+          "tr": "Sessiz, titiz ve hiç boş durmayan biri. Efendinin içtiği her fincan onun ellerinden geçti - bu gece bunu herkesten iyi biliyor.",
+          "zh": "沉静、一丝不苟、从不偷闲。主人喝的每一杯茶都经过她的手--今晚，这一点她比谁都清楚。",
+          "de": "Still, genau und nie untätig. Jede Tasse, die der Hausherr trank, ging durch ihre Hände - eine Tatsache, die sie heute Abend besser kennt als irgendjemand sonst."
         },
         "imagePath": "images/mary_reed.png"
       },
@@ -129,7 +129,7 @@
           "ar": "قريبة فقيرة تقرأ للسيد وتعتمد على نفقته في كل شيء. أبت أن تصدّق حكم الطبيب بأن قلبه كان ضعيفاً.",
           "tr": "Efendiye kitap okuyan ve her şeyiyle onun harçlığına bağlı yoksul bir akraba. Doktorun 'zayıf kalp' hükmüne inanmayı reddetti.",
           "zh": "一位清贫的亲戚，为主人读书，生活全赖他的津贴。她拒绝相信医生“心脏衰弱”的结论。",
-          "de": "Eine arme Verwandte, die dem Hausherrn vorliest und in allem von seinem Unterhalt abhängt. Sie weigerte sich, dem Urteil des Doktors — ein schwaches Herz — zu glauben."
+          "de": "Eine arme Verwandte, die dem Hausherrn vorliest und in allem von seinem Unterhalt abhängt. Sie weigerte sich, dem Urteil des Doktors - ein schwaches Herz - zu glauben."
         },
         "imagePath": "images/alice_turner.png"
       },
@@ -176,27 +176,27 @@
       "JamesCarter": {
         "is_red_herring": true,
         "narrative": {
-          "en": "Watson lowers his voice. 'The nephew reeks of debt, Holmes, and he gains the estate — yet the club's chit places him in town past nine, after the tea was poured. He had every reason and no opportunity.'",
-          "ru": "Уотсон понижает голос: «От племянника за милю несёт долгами, Холмс, и имение достаётся ему. Но клубный счёт держит его в городе после девяти — когда чай уже был разлит. У него были все причины и ни одной возможности».",
-          "fr": "Watson baisse la voix : « Le neveu sent la dette à plein nez, Holmes, et le domaine lui revient — pourtant la note du club le place en ville passé neuf heures, le thé déjà servi. Toutes les raisons, aucune occasion. »",
+          "en": "Watson lowers his voice. 'The nephew reeks of debt, Holmes, and he gains the estate - yet the club's chit places him in town past nine, after the tea was poured. He had every reason and no opportunity.'",
+          "ru": "Уотсон понижает голос: «От племянника за милю несёт долгами, Холмс, и имение достаётся ему. Но клубный счёт держит его в городе после девяти - когда чай уже был разлит. У него были все причины и ни одной возможности».",
+          "fr": "Watson baisse la voix : « Le neveu sent la dette à plein nez, Holmes, et le domaine lui revient - pourtant la note du club le place en ville passé neuf heures, le thé déjà servi. Toutes les raisons, aucune occasion. »",
           "es": "Watson baja la voz: «El sobrino apesta a deudas, Holmes, y la finca pasa a él; pero la nota del club lo sitúa en la ciudad pasadas las nueve, con el té ya servido. Tenía todas las razones y ninguna oportunidad».",
-          "ar": "يخفض واطسون صوته: «ابن الأخ تفوح منه رائحة الديون يا هولمز، والضيعة تؤول إليه — لكن قسيمة النادي تُثبته في المدينة بعد التاسعة، والشاي كان قد صُبّ. كانت لديه كل الأسباب ولم تكن لديه أي فرصة».",
-          "tr": "Watson sesini alçaltır: 'Yeğen borç kokuyor, Holmes, ve mülk ona kalıyor — ama kulüp fişi onu dokuzdan sonra şehirde gösteriyor, çay çoktan servis edilmişti. Her nedeni vardı ama hiç fırsatı yoktu.'",
-          "zh": "华生压低声音：“那位侄少爷浑身债味，福尔摩斯，产业又归他——可俱乐部的账单证明九点之后他还在城里，那时茶早已斟下。他有千般理由，却无一分机会。”",
-          "de": "Watson senkt die Stimme: „Der Neffe riecht förmlich nach Schulden, Holmes, und das Gut fällt ihm zu — doch die Clubrechnung hält ihn bis nach neun in der Stadt, als der Tee längst eingeschenkt war. Jeden Grund, keine Gelegenheit.“"
+          "ar": "يخفض واطسون صوته: «ابن الأخ تفوح منه رائحة الديون يا هولمز، والضيعة تؤول إليه - لكن قسيمة النادي تُثبته في المدينة بعد التاسعة، والشاي كان قد صُبّ. كانت لديه كل الأسباب ولم تكن لديه أي فرصة».",
+          "tr": "Watson sesini alçaltır: 'Yeğen borç kokuyor, Holmes, ve mülk ona kalıyor - ama kulüp fişi onu dokuzdan sonra şehirde gösteriyor, çay çoktan servis edilmişti. Her nedeni vardı ama hiç fırsatı yoktu.'",
+          "zh": "华生压低声音：“那位侄少爷浑身债味，福尔摩斯，产业又归他--可俱乐部的账单证明九点之后他还在城里，那时茶早已斟下。他有千般理由，却无一分机会。”",
+          "de": "Watson senkt die Stimme: „Der Neffe riecht förmlich nach Schulden, Holmes, und das Gut fällt ihm zu - doch die Clubrechnung hält ihn bis nach neun in der Stadt, als der Tee längst eingeschenkt war. Jeden Grund, keine Gelegenheit.“"
         }
       },
       "MaryReed": {
         "is_red_herring": true,
         "narrative": {
-          "en": "Watson frowns. 'The sap, the newspaper, the pot — everything gathers in that kitchen a little too neatly. Yet she gains nothing by his death and stands to lose her place by it. Ask not what stayed in her hands, but what passed through them.'",
-          "ru": "Уотсон хмурится: «Сок, газета, чайник — всё сходится на этой кухне как-то слишком уж складно. А ведь его смерть ей ничего не даёт и грозит потерей места. Спрашивайте не о том, что осталось в её руках, а о том, что через них прошло».",
-          "fr": "Watson fronce les sourcils : « La sève, le journal, la théière — tout se rassemble dans cette cuisine un peu trop proprement. Or sa mort ne lui rapporte rien et lui coûte sa place. Ne demandez pas ce qui est resté entre ses mains, mais ce qui y est passé. »",
+          "en": "Watson frowns. 'The sap, the newspaper, the pot - everything gathers in that kitchen a little too neatly. Yet she gains nothing by his death and stands to lose her place by it. Ask not what stayed in her hands, but what passed through them.'",
+          "ru": "Уотсон хмурится: «Сок, газета, чайник - всё сходится на этой кухне как-то слишком уж складно. А ведь его смерть ей ничего не даёт и грозит потерей места. Спрашивайте не о том, что осталось в её руках, а о том, что через них прошло».",
+          "fr": "Watson fronce les sourcils : « La sève, le journal, la théière - tout se rassemble dans cette cuisine un peu trop proprement. Or sa mort ne lui rapporte rien et lui coûte sa place. Ne demandez pas ce qui est resté entre ses mains, mais ce qui y est passé. »",
           "es": "Watson frunce el ceño: «La savia, el periódico, la tetera: todo se junta en esa cocina demasiado ordenadamente. Y sin embargo su muerte no le da nada y le cuesta el puesto. No pregunte qué quedó en sus manos, sino qué pasó por ellas».",
-          "ar": "يقطّب واطسون جبينه: «العُصارة والجريدة والإبريق — كل شيء يجتمع في ذلك المطبخ باتساق زائد عن الحد. ومع ذلك فموته لا يعود عليها بشيء، بل يهدد مكانها. لا تسأل عمّا بقي في يديها، بل عمّا مرّ بهما».",
-          "tr": "Watson kaşlarını çatar: 'Özsu, gazete, demlik — her şey o mutfakta biraz fazla düzgün toplanıyor. Oysa onun ölümü kadına hiçbir şey kazandırmıyor, üstelik yerinden ediyor. Ellerinde ne kaldığını değil, ellerinden ne geçtiğini sorun.'",
-          "zh": "华生皱起眉头:“汁液、报纸、茶壶——一切都在那间厨房里凑得太整齐了。可他一死，她非但一无所得，反倒要丢了饭碗。别问什么留在了她手里，要问什么经过了她的手。”",
-          "de": "Watson runzelt die Stirn: „Der Saft, die Zeitung, die Kanne — alles sammelt sich eine Spur zu ordentlich in dieser Küche. Dabei bringt sein Tod ihr nichts ein und kostet sie wohl die Stellung. Fragen Sie nicht, was in ihren Händen blieb, sondern was durch sie hindurchging.“"
+          "ar": "يقطّب واطسون جبينه: «العُصارة والجريدة والإبريق - كل شيء يجتمع في ذلك المطبخ باتساق زائد عن الحد. ومع ذلك فموته لا يعود عليها بشيء، بل يهدد مكانها. لا تسأل عمّا بقي في يديها، بل عمّا مرّ بهما».",
+          "tr": "Watson kaşlarını çatar: 'Özsu, gazete, demlik - her şey o mutfakta biraz fazla düzgün toplanıyor. Oysa onun ölümü kadına hiçbir şey kazandırmıyor, üstelik yerinden ediyor. Ellerinde ne kaldığını değil, ellerinden ne geçtiğini sorun.'",
+          "zh": "华生皱起眉头:“汁液、报纸、茶壶--一切都在那间厨房里凑得太整齐了。可他一死，她非但一无所得，反倒要丢了饭碗。别问什么留在了她手里，要问什么经过了她的手。”",
+          "de": "Watson runzelt die Stirn: „Der Saft, die Zeitung, die Kanne - alles sammelt sich eine Spur zu ordentlich in dieser Küche. Dabei bringt sein Tod ihr nichts ein und kostet sie wohl die Stellung. Fragen Sie nicht, was in ihren Händen blieb, sondern was durch sie hindurchging.“"
         }
       }
     }
@@ -425,14 +425,14 @@
       ],
       "resultDeductionId": "method_digitalis_tea",
       "resultText": {
-        "en": "The crushed leaf in the master's cup and the freshly-cut foxglove are one and the same. He was killed with digitalis — drawn from his own conservatory and steeped into his evening tea.",
-        "fr": "La feuille broyée dans la tasse du maître et la digitale fraîchement coupée ne font qu'une. Il a été tué à la digitaline — tirée de sa propre serre et infusée dans son thé du soir.",
+        "en": "The crushed leaf in the master's cup and the freshly-cut foxglove are one and the same. He was killed with digitalis - drawn from his own conservatory and steeped into his evening tea.",
+        "fr": "La feuille broyée dans la tasse du maître et la digitale fraîchement coupée ne font qu'une. Il a été tué à la digitaline - tirée de sa propre serre et infusée dans son thé du soir.",
         "es": "La hoja machacada de la taza del señor y la dedalera recién cortada son la misma planta. Lo mataron con digitalina, sacada de su propio invernadero e infusionada en su té de la noche.",
-        "tr": "Efendinin fincanındaki ezilmiş yaprak ile taze kesilmiş yüksükotu bir ve aynı. Dijitalle öldürüldü — kendi kış bahçesinden alınıp akşam çayında demlenen zehirle.",
-        "zh": "主人杯中的碎叶与新割的毛地黄是同一种植物。他死于洋地黄毒素——取自他自家的温室，泡进了他的晚茶。",
-        "ar": "الورقة المهروسة في فنجان السيد والقمعية المقطوعة حديثاً هما نبتة واحدة. لقد قُتل بالديجيتال — المستخلص من مشتله الزجاجي هو نفسه، والمنقوع في شاي مسائه.",
-        "de": "Das zerdrückte Blatt in der Tasse des Hausherrn und der frisch geschnittene Fingerhut sind ein und dieselbe Pflanze. Er wurde mit Digitalis getötet — gewonnen aus seinem eigenen Wintergarten und in seinen Abendtee gebrüht.",
-        "ru": "Измельчённый лист в чашке хозяина и свежесрезанная наперстянка — одно и то же. Его убили дигиталисом, взятым из его собственной оранжереи и заваренным в его вечерний чай."
+        "tr": "Efendinin fincanındaki ezilmiş yaprak ile taze kesilmiş yüksükotu bir ve aynı. Dijitalle öldürüldü - kendi kış bahçesinden alınıp akşam çayında demlenen zehirle.",
+        "zh": "主人杯中的碎叶与新割的毛地黄是同一种植物。他死于洋地黄毒素--取自他自家的温室，泡进了他的晚茶。",
+        "ar": "الورقة المهروسة في فنجان السيد والقمعية المقطوعة حديثاً هما نبتة واحدة. لقد قُتل بالديجيتال - المستخلص من مشتله الزجاجي هو نفسه، والمنقوع في شاي مسائه.",
+        "de": "Das zerdrückte Blatt in der Tasse des Hausherrn und der frisch geschnittene Fingerhut sind ein und dieselbe Pflanze. Er wurde mit Digitalis getötet - gewonnen aus seinem eigenen Wintergarten und in seinen Abendtee gebrüht.",
+        "ru": "Измельчённый лист в чашке хозяина и свежесрезанная наперстянка - одно и то же. Его убили дигиталисом, взятым из его собственной оранжереи и заваренным в его вечерний чай."
       },
       "tokenReward": 1,
       "repeatable": false
@@ -444,14 +444,14 @@
       ],
       "resultDeductionId": "poison_in_the_herbs",
       "resultText": {
-        "en": "The broad leaf hidden among the mint matches the foxglove's cut leaves exactly. The poison never needed a hand inside the house — it rode up from the garden in the evening's herb bundle, to be steeped unquestioned into the master's pot.",
-        "fr": "La feuille large cachée parmi la menthe correspond exactement aux feuilles coupées de la digitale. Le poison n'a jamais eu besoin d'une main dans la maison — il est monté du jardin dans le bouquet du soir, pour être infusé sans question dans la théière du maître.",
+        "en": "The broad leaf hidden among the mint matches the foxglove's cut leaves exactly. The poison never needed a hand inside the house - it rode up from the garden in the evening's herb bundle, to be steeped unquestioned into the master's pot.",
+        "fr": "La feuille large cachée parmi la menthe correspond exactement aux feuilles coupées de la digitale. Le poison n'a jamais eu besoin d'une main dans la maison - il est monté du jardin dans le bouquet du soir, pour être infusé sans question dans la théière du maître.",
         "es": "La hoja ancha escondida entre la menta coincide exactamente con las hojas cortadas de la dedalera. El veneno nunca necesitó una mano dentro de la casa: subió del jardín en el manojo de la noche, para infusionarse sin preguntas en la tetera del señor.",
-        "tr": "Nanenin arasına gizlenmiş geniş yaprak, yüksükotunun kesilmiş yapraklarıyla tıpatıp aynı. Zehrin evin içinde bir ele hiç ihtiyacı olmadı — akşamın ot demetiyle bahçeden yukarı çıktı ve sorgusuz sualsiz efendinin demliğinde demlendi.",
-        "zh": "藏在薄荷中的那片宽叶，与毛地黄被割下的叶子完全吻合。毒药根本不需要宅内的任何一只手——它随晚间的香草束从园中送上来，不经盘问便泡进了主人的茶壶。",
-        "ar": "الورقة العريضة المخبأة بين النعناع تطابق أوراق القمعية المقطوعة تماماً. لم يحتج السمّ يداً داخل المنزل قط — صعد من الحديقة في حزمة أعشاب المساء، ليُنقع بلا سؤال في إبريق السيد.",
-        "de": "Das breite Blatt, das zwischen der Minze versteckt war, passt genau zu den abgeschnittenen Blättern des Fingerhuts. Das Gift brauchte nie eine Hand im Haus — es kam mit dem abendlichen Kräuterbündel aus dem Garten herauf, um ungefragt in der Kanne des Hausherrn zu ziehen.",
-        "ru": "Широкий лист, спрятанный среди мяты, в точности совпадает со срезанными листьями наперстянки. Яду не нужна была рука внутри дома — он поднялся из сада в вечернем пучке трав, чтобы его без вопросов заварили в хозяйский чайник."
+        "tr": "Nanenin arasına gizlenmiş geniş yaprak, yüksükotunun kesilmiş yapraklarıyla tıpatıp aynı. Zehrin evin içinde bir ele hiç ihtiyacı olmadı - akşamın ot demetiyle bahçeden yukarı çıktı ve sorgusuz sualsiz efendinin demliğinde demlendi.",
+        "zh": "藏在薄荷中的那片宽叶，与毛地黄被割下的叶子完全吻合。毒药根本不需要宅内的任何一只手--它随晚间的香草束从园中送上来，不经盘问便泡进了主人的茶壶。",
+        "ar": "الورقة العريضة المخبأة بين النعناع تطابق أوراق القمعية المقطوعة تماماً. لم يحتج السمّ يداً داخل المنزل قط - صعد من الحديقة في حزمة أعشاب المساء، ليُنقع بلا سؤال في إبريق السيد.",
+        "de": "Das breite Blatt, das zwischen der Minze versteckt war, passt genau zu den abgeschnittenen Blättern des Fingerhuts. Das Gift brauchte nie eine Hand im Haus - es kam mit dem abendlichen Kräuterbündel aus dem Garten herauf, um ungefragt in der Kanne des Hausherrn zu ziehen.",
+        "ru": "Широкий лист, спрятанный среди мяты, в точности совпадает со срезанными листьями наперстянки. Яду не нужна была рука внутри дома - он поднялся из сада в вечернем пучке трав, чтобы его без вопросов заварили в хозяйский чайник."
       },
       "tokenReward": 1,
       "repeatable": false
@@ -463,14 +463,14 @@
       ],
       "resultDeductionId": "hill_is_alderton",
       "resultText": {
-        "en": "The old newspaper tells of the ruin of Alderton Nurseries at Mr. Blake's hands — and locked in his own desk, the master kept a letter of condolence addressed to Mr. Thomas Alderton. Blake had discovered who tended his garden: the gardener who calls himself Tom Hill is the Alderton who survived.",
-        "fr": "Le vieux journal raconte la ruine des pépinières Alderton par M. Blake — et dans le tiroir fermé de son propre bureau, le maître gardait une lettre de condoléances adressée à M. Thomas Alderton. Blake avait découvert qui soignait son jardin : le jardinier qui se fait appeler Tom Hill est l'Alderton qui a survécu.",
-        "tr": "Eski gazete, Alderton Fidanlığı'nın Bay Blake'in eliyle yıkımını anlatıyor — ve efendinin kendi masasının kilitli çekmecesinde, Bay Thomas Alderton'a yazılmış bir başsağlığı mektubu saklıydı. Blake bahçesine kimin baktığını öğrenmişti: kendine Tom Hill diyen bahçıvan, sağ kalan Alderton'dır.",
-        "zh": "旧报纸记载着奥尔德顿苗圃毁于布莱克先生之手——而在他自己书桌的锁抽屉里，主人收着一封写给托马斯·奥尔德顿先生的唁函。布莱克已经查明是谁在照料他的花园：自称汤姆·希尔的园丁，正是那个幸存下来的奥尔德顿。",
+        "en": "The old newspaper tells of the ruin of Alderton Nurseries at Mr. Blake's hands - and locked in his own desk, the master kept a letter of condolence addressed to Mr. Thomas Alderton. Blake had discovered who tended his garden: the gardener who calls himself Tom Hill is the Alderton who survived.",
+        "fr": "Le vieux journal raconte la ruine des pépinières Alderton par M. Blake - et dans le tiroir fermé de son propre bureau, le maître gardait une lettre de condoléances adressée à M. Thomas Alderton. Blake avait découvert qui soignait son jardin : le jardinier qui se fait appeler Tom Hill est l'Alderton qui a survécu.",
+        "tr": "Eski gazete, Alderton Fidanlığı'nın Bay Blake'in eliyle yıkımını anlatıyor - ve efendinin kendi masasının kilitli çekmecesinde, Bay Thomas Alderton'a yazılmış bir başsağlığı mektubu saklıydı. Blake bahçesine kimin baktığını öğrenmişti: kendine Tom Hill diyen bahçıvan, sağ kalan Alderton'dır.",
+        "zh": "旧报纸记载着奥尔德顿苗圃毁于布莱克先生之手--而在他自己书桌的锁抽屉里，主人收着一封写给托马斯·奥尔德顿先生的唁函。布莱克已经查明是谁在照料他的花园：自称汤姆·希尔的园丁，正是那个幸存下来的奥尔德顿。",
         "es": "El periódico viejo cuenta la ruina de los viveros Alderton a manos del señor Blake, y en el cajón cerrado de su propio escritorio el señor guardaba una carta de pésame dirigida al Sr. Thomas Alderton. Blake había descubierto quién cuidaba su jardín: el jardinero que se hace llamar Tom Hill es el Alderton que sobrevivió.",
-        "ar": "الجريدة القديمة تروي خراب مشاتل ألدرتون على يد السيد بليك — وفي الدرج الموصد من مكتبه احتفظ السيد بليك برسالة تعزية معنونة إلى السيد توماس ألدرتون. لقد اكتشف بليك مَن يعتني بحديقته: البستاني الذي يسمّي نفسه توم هيل هو ابن ألدرتون الذي نجا.",
-        "de": "Die alte Zeitung berichtet vom Ruin der Alderton-Gärtnereien durch Mr. Blakes Hand — und in der verschlossenen Schublade seines eigenen Schreibtischs verwahrte der Hausherr einen Kondolenzbrief, adressiert an Mr. Thomas Alderton. Blake hatte entdeckt, wer seinen Garten pflegte: Der Gärtner, der sich Tom Hill nennt, ist der Alderton, der überlebte.",
-        "ru": "Старая газета рассказывает о разорении питомников Олдертонов руками мистера Блейка, а в запертом ящике его собственного стола хранилось письмо с соболезнованиями, адресованное мистеру Томасу Олдертону. Блейк узнал, кто ухаживает за его садом: садовник, называющий себя Томом Хиллом, — и есть выживший Олдертон."
+        "ar": "الجريدة القديمة تروي خراب مشاتل ألدرتون على يد السيد بليك - وفي الدرج الموصد من مكتبه احتفظ السيد بليك برسالة تعزية معنونة إلى السيد توماس ألدرتون. لقد اكتشف بليك مَن يعتني بحديقته: البستاني الذي يسمّي نفسه توم هيل هو ابن ألدرتون الذي نجا.",
+        "de": "Die alte Zeitung berichtet vom Ruin der Alderton-Gärtnereien durch Mr. Blakes Hand - und in der verschlossenen Schublade seines eigenen Schreibtischs verwahrte der Hausherr einen Kondolenzbrief, adressiert an Mr. Thomas Alderton. Blake hatte entdeckt, wer seinen Garten pflegte: Der Gärtner, der sich Tom Hill nennt, ist der Alderton, der überlebte.",
+        "ru": "Старая газета рассказывает о разорении питомников Олдертонов руками мистера Блейка, а в запертом ящике его собственного стола хранилось письмо с соболезнованиями, адресованное мистеру Томасу Олдертону. Блейк узнал, кто ухаживает за его садом: садовник, называющий себя Томом Хиллом, - и есть выживший Олдертон."
       },
       "tokenReward": 0,
       "repeatable": false
@@ -495,26 +495,26 @@
         {
           "id": "w_general_2",
           "text": {
-            "en": "Two clues that mean little apart may mean everything together — try combining what you find.",
-            "fr": "Deux indices qui séparément disent peu peuvent tout dire ensemble — essayez de combiner vos trouvailles.",
+            "en": "Two clues that mean little apart may mean everything together - try combining what you find.",
+            "fr": "Deux indices qui séparément disent peu peuvent tout dire ensemble - essayez de combiner vos trouvailles.",
             "es": "Dos pistas que por separado dicen poco pueden decirlo todo juntas: pruebe a combinar lo que encuentre.",
-            "tr": "Tek başına az şey söyleyen iki ipucu, birlikte her şeyi söyleyebilir — bulduklarınızı birleştirmeyi deneyin.",
-            "zh": "两条各自无足轻重的线索，合在一起也许就是全部——试着把你的发现组合起来。",
-            "ar": "دليلان لا يعنيان شيئاً منفصلَين قد يعنيان كل شيء مجتمعَين — جرّب أن تجمع بين ما تجده.",
-            "de": "Zwei Hinweise, die einzeln wenig bedeuten, können zusammen alles bedeuten — versuchen Sie, Ihre Funde zu kombinieren.",
-            "ru": "Две улики, что порознь значат мало, вместе могут значить всё — попробуйте соединять найденное."
+            "tr": "Tek başına az şey söyleyen iki ipucu, birlikte her şeyi söyleyebilir - bulduklarınızı birleştirmeyi deneyin.",
+            "zh": "两条各自无足轻重的线索，合在一起也许就是全部--试着把你的发现组合起来。",
+            "ar": "دليلان لا يعنيان شيئاً منفصلَين قد يعنيان كل شيء مجتمعَين - جرّب أن تجمع بين ما تجده.",
+            "de": "Zwei Hinweise, die einzeln wenig bedeuten, können zusammen alles bedeuten - versuchen Sie, Ihre Funde zu kombinieren.",
+            "ru": "Две улики, что порознь значат мало, вместе могут значить всё - попробуйте соединять найденное."
           }
         },
         {
           "id": "w_general_3",
           "text": {
-            "en": "Poison travels the paths of habit, Holmes — mind the small rituals of this house that no one thinks to question.",
-            "fr": "Le poison emprunte les chemins de l'habitude, Holmes — observez les petits rituels de cette maison que personne ne songe à questionner.",
+            "en": "Poison travels the paths of habit, Holmes - mind the small rituals of this house that no one thinks to question.",
+            "fr": "Le poison emprunte les chemins de l'habitude, Holmes - observez les petits rituels de cette maison que personne ne songe à questionner.",
             "es": "El veneno viaja por los caminos de la costumbre, Holmes: fíjese en los pequeños rituales de esta casa que nadie piensa en cuestionar.",
-            "tr": "Zehir alışkanlığın yollarından gider, Holmes — bu evin kimsenin sorgulamayı akıl etmediği küçük törenlerine dikkat edin.",
-            "zh": "毒药走的是习惯的路，福尔摩斯——留意这宅子里那些没人想到要过问的小小惯例。",
-            "ar": "السمّ يسلك دروب العادة يا هولمز — انتبه إلى طقوس هذا البيت الصغيرة التي لا يفكر أحد في مساءلتها.",
-            "de": "Gift wandert auf den Pfaden der Gewohnheit, Holmes — achten Sie auf die kleinen Rituale dieses Hauses, die niemand zu hinterfragen denkt.",
+            "tr": "Zehir alışkanlığın yollarından gider, Holmes - bu evin kimsenin sorgulamayı akıl etmediği küçük törenlerine dikkat edin.",
+            "zh": "毒药走的是习惯的路，福尔摩斯--留意这宅子里那些没人想到要过问的小小惯例。",
+            "ar": "السمّ يسلك دروب العادة يا هولمز - انتبه إلى طقوس هذا البيت الصغيرة التي لا يفكر أحد في مساءلتها.",
+            "de": "Gift wandert auf den Pfaden der Gewohnheit, Holmes - achten Sie auf die kleinen Rituale dieses Hauses, die niemand zu hinterfragen denkt.",
             "ru": "Яд ходит тропами привычки, Холмс. Присмотритесь к маленьким ритуалам этого дома, о которых никто не задумывается."
           }
         }
@@ -530,7 +530,7 @@
             "zh": "有人对今晚的说辞，与你此刻手中之物相互矛盾。把证据摆到他面前，看那套说辞如何崩裂。",
             "ar": "رواية أحدهم عن هذه الأمسية تتصادم مع ما بين يديك الآن. أرِه البرهان وراقب الحكاية تتصدّع.",
             "de": "Jemandes Bericht über diesen Abend widerspricht dem, was Sie jetzt in Händen halten. Zeigen Sie den Beweis, und sehen Sie zu, wie die Geschichte Risse bekommt.",
-            "ru": "Чей-то рассказ об этом вечере расходится с тем, что вы теперь держите в руках. Предъявите доказательство — и история даст трещину."
+            "ru": "Чей-то рассказ об этом вечере расходится с тем, что вы теперь держите в руках. Предъявите доказательство - и история даст трещину."
           }
         }
       ]
@@ -540,7 +540,7 @@
     "en": {
       "languageName": "English",
       "title": "A Bitter Cup",
-      "invitation": "Detective — the village doctor says my uncle's heart simply failed, but I cannot believe it. Mr. Henry Blake drank his evening tea, as he did every night, and within the hour he was dead. The tea was his alone and the house was locked. Please come to Oakfield House: examine the cup, search the rooms, and question us all. And when you are certain, name the killer, the method, and the motive. — Miss Alice Turner",
+      "invitation": "Detective - the village doctor says my uncle's heart simply failed, but I cannot believe it. Mr. Henry Blake drank his evening tea, as he did every night, and within the hour he was dead. The tea was his alone and the house was locked. Please come to Oakfield House: examine the cup, search the rooms, and question us all. And when you are certain, name the killer, the method, and the motive. - Miss Alice Turner",
       "description": "A quiet country house at dusk. The master lies dead over his evening tea, and a small, watchful household each had reason to wish him gone.",
       "roomDetails": [
         {
@@ -564,50 +564,50 @@
           "name": "teacup",
           "displayName": "Tea Cup",
           "description": "The master's china cup, half-drained and long gone cold beside his hand.",
-          "examine": "A faint bitterness clings to the dregs, and a sediment of crushed green leaf has settled at the bottom — leaf cut clean at the stem, not torn.",
-          "deduce": "This was no weak heart. The tea was tampered with — a leaf that had no business in any pot, cut by a careful and practised hand."
+          "examine": "A faint bitterness clings to the dregs, and a sediment of crushed green leaf has settled at the bottom - leaf cut clean at the stem, not torn.",
+          "deduce": "This was no weak heart. The tea was tampered with - a leaf that had no business in any pot, cut by a careful and practised hand."
         },
         {
           "name": "old_letter",
           "displayName": "Old Letter",
-          "description": "A worn envelope locked away in the drawer of Mr. Blake's desk, soft with years of handling — though the hands were not his.",
-          "examine": "A letter of condolence, decades old, on the death of a brother — addressed in a careful hand to Mr. Thomas Alderton.",
-          "deduce": "Mr. Blake found this before you did. He had learned whose grief was living under his roof — and a week after locking it away, he was dead."
+          "description": "A worn envelope locked away in the drawer of Mr. Blake's desk, soft with years of handling - though the hands were not his.",
+          "examine": "A letter of condolence, decades old, on the death of a brother - addressed in a careful hand to Mr. Thomas Alderton.",
+          "deduce": "Mr. Blake found this before you did. He had learned whose grief was living under his roof - and a week after locking it away, he was dead."
         },
         {
           "name": "old_newspaper",
           "displayName": "Old Newspaper",
           "description": "A brittle old newspaper page, tucked hastily into a kitchen drawer.",
           "examine": "An old notice: RUIN AT ALDERTON NURSERIES. A family's livelihood foreclosed upon by Mr. H. Blake; the younger son afterwards dead by his own hand, and the survivors scattered.",
-          "deduce": "Someone under this roof has fed a grief for years. But a kitchen drawer only says where the page landed — not whose hand carried it."
+          "deduce": "Someone under this roof has fed a grief for years. But a kitchen drawer only says where the page landed - not whose hand carried it."
         },
         {
           "name": "stained_apron",
           "displayName": "Stained Apron",
           "description": "A cook's apron hanging by the kitchen door, its hem marked with fresh green.",
-          "examine": "The stain is sap, still damp — crushed foxglove fibres caught in the cloth. Whoever wore this handled the plant tonight.",
-          "deduce": "The apron ties its wearer to the foxglove — yet the cook swears she never goes near the plants. Either she lies, or the plant somehow came to her."
+          "examine": "The stain is sap, still damp - crushed foxglove fibres caught in the cloth. Whoever wore this handled the plant tonight.",
+          "deduce": "The apron ties its wearer to the foxglove - yet the cook swears she never goes near the plants. Either she lies, or the plant somehow came to her."
         },
         {
           "name": "herb_bundle",
           "displayName": "Herb Bundle",
           "description": "A half-used bundle of fresh kitchen greens on the board, tied with green garden twine.",
-          "examine": "Mint and lemon balm, sent up from the garden as they are every evening for the master's tea — but among them sits one broad, downy leaf that is no mint at all, cut clean at the stem.",
+          "examine": "Mint and lemon balm, sent up from the garden as they are every evening for the master's tea - but among them sits one broad, downy leaf that is no mint at all, cut clean at the stem.",
           "deduce": "Whoever tied this bundle hid a stranger among the herbs, knowing every leaf of it would be steeped, unexamined, into the master's pot."
         },
         {
           "name": "club_receipt",
           "displayName": "Club Receipt",
-          "description": "A folded chit from a gentlemen's club in town, left in Mr. Carter's coat — brushed and hung to dry beside the kitchen range after his late arrival.",
-          "examine": "The club's stamp reads half past nine — the hour Mr. Carter signed his account and called for a cab home.",
+          "description": "A folded chit from a gentlemen's club in town, left in Mr. Carter's coat - brushed and hung to dry beside the kitchen range after his late arrival.",
+          "examine": "The club's stamp reads half past nine - the hour Mr. Carter signed his account and called for a cab home.",
           "deduce": "Mr. Carter only reached the house after the tea was served and his uncle already dead. He had the motive of money, but not the moment."
         },
         {
           "name": "foxglove",
           "displayName": "Foxglove",
           "description": "A tall foxglove in a terracotta pot, its bells nodding in the glass-house damp.",
-          "examine": "Several lower leaves have been cut away tonight — cleanly, at the stem, with a gardener's knife. Digitalis drawn from these leaves stops the heart.",
-          "deduce": "The poison came from this very room — foxglove leaves, freshly and expertly taken, bound for something the master would drink."
+          "examine": "Several lower leaves have been cut away tonight - cleanly, at the stem, with a gardener's knife. Digitalis drawn from these leaves stops the heart.",
+          "deduce": "The poison came from this very room - foxglove leaves, freshly and expertly taken, bound for something the master would drink."
         }
       ],
       "suspects": [
@@ -624,8 +624,8 @@
           "posY": 0.5399514008004574,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "I'll not pretend grief I don't feel — my uncle was a hard man, and yes, I came down tonight to ask him for money. But I was at my club in town until half nine; the chit is in my coat. By the time my cab set me down, the house was already in uproar. Poor Alice — the estate comes to me entire, you know. She's left with nothing.",
-          "clue": "He came home late, in debt, and inherits everything — yet by his own account the tea was long drunk before he arrived. His coat may bear him out."
+          "statement": "I'll not pretend grief I don't feel - my uncle was a hard man, and yes, I came down tonight to ask him for money. But I was at my club in town until half nine; the chit is in my coat. By the time my cab set me down, the house was already in uproar. Poor Alice - the estate comes to me entire, you know. She's left with nothing.",
+          "clue": "He came home late, in debt, and inherits everything - yet by his own account the tea was long drunk before he arrived. His coat may bear him out."
         },
         {
           "name": "MaryReed",
@@ -644,22 +644,22 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "I made that tea myself, from my own stores, same as every evening these eleven years. Nothing went into that pot that I did not put there with my own two hands — and I never set foot in that conservatory. The plants are the gardener's business, not mine.",
+              "statement": "I made that tea myself, from my own stores, same as every evening these eleven years. Nothing went into that pot that I did not put there with my own two hands - and I never set foot in that conservatory. The plants are the gardener's business, not mine.",
               "contradictions": [
                 {
                   "evidenceId": "herb_bundle",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "reed_unwitting",
-                  "successMessage": "You lay the twine-bound bundle on the kitchen table, the strange broad leaf uppermost. Mrs. Reed's hands go still, the colour drains from her face — and at last she stops pretending the greens were hers."
+                  "successMessage": "You lay the twine-bound bundle on the kitchen table, the strange broad leaf uppermost. Mrs. Reed's hands go still, the colour drains from her face - and at last she stops pretending the greens were hers."
                 }
               ]
             },
             "TRUTH": {
-              "statement": "...All right. The greens were not from my stores — they come up from Mr. Hill, every evening, for the master's tea. He swore by them. I steeped them without a glance, same as always... God forgive me, I made the poison myself and never knew it. And that old newspaper in the drawer they'll say is mine — I found it slipped among his greens a week past, and hadn't the heart to burn a family's sorrow."
+              "statement": "...All right. The greens were not from my stores - they come up from Mr. Hill, every evening, for the master's tea. He swore by them. I steeped them without a glance, same as always... God forgive me, I made the poison myself and never knew it. And that old newspaper in the drawer they'll say is mine - I found it slipped among his greens a week past, and hadn't the heart to burn a family's sorrow."
             }
           },
           "statement": "I made that tea myself, from my own stores, same as every evening these eleven years. Nothing went into that pot that I did not put there with my own two hands.",
-          "clue": "Every cup the master drank passed through her kitchen — and she insists, a little too firmly, that nothing entered the pot but what was hers."
+          "clue": "Every cup the master drank passed through her kitchen - and she insists, a little too firmly, that nothing entered the pot but what was hers."
         },
         {
           "name": "AliceTurner",
@@ -676,7 +676,7 @@
           "labelDY": 0.47365062804665997,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "It was I who sent for you — the doctor may sign what he likes, but Uncle's heart was sound as a bell. I'll confess I once peeked at the will in his desk, so I know how I stand: my allowance dies with him and Mr. Carter takes it all. I had every reason to keep Uncle alive. One thing more: he gave Mr. Hill his notice last week and would not say why. Only that he 'knew the man's face at last.'",
+          "statement": "It was I who sent for you - the doctor may sign what he likes, but Uncle's heart was sound as a bell. I'll confess I once peeked at the will in his desk, so I know how I stand: my allowance dies with him and Mr. Carter takes it all. I had every reason to keep Uncle alive. One thing more: he gave Mr. Hill his notice last week and would not say why. Only that he 'knew the man's face at last.'",
           "clue": "She loses everything by her uncle's death, and she is the one who refused to let it rest. Her strangest gift to you is a sentence: the master 'knew the man's face at last.'"
         },
         {
@@ -695,13 +695,13 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "Aye, he gave me my notice, and no reason with it — that's gentry for you. But I cut nothing today; my beds are as I left them. I keep to my glass-house, and I sent nothing up to that kitchen tonight. What the cook steeps in her pots is no business of mine.",
+              "statement": "Aye, he gave me my notice, and no reason with it - that's gentry for you. But I cut nothing today; my beds are as I left them. I keep to my glass-house, and I sent nothing up to that kitchen tonight. What the cook steeps in her pots is no business of mine.",
               "contradictions": [
                 {
                   "evidenceId": "poison_in_the_herbs",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "hill_confession",
-                  "successMessage": "You tell him what the bundle held: his mint, his twine, his clean-cut foxglove leaf — steeped by an innocent hand into the master's cup. The gardener looks at his boots for a long moment, and when he looks up, Tom Hill is gone and another man stands in his place."
+                  "successMessage": "You tell him what the bundle held: his mint, his twine, his clean-cut foxglove leaf - steeped by an innocent hand into the master's cup. The gardener looks at his boots for a long moment, and when he looks up, Tom Hill is gone and another man stands in his place."
                 },
                 {
                   "evidenceId": "hill_is_alderton",
@@ -712,11 +712,11 @@
               ]
             },
             "TRUTH": {
-              "statement": "My name is Thomas Alderton. Blake foreclosed on my father's nurseries for a debt he engineered himself — my brother took his own life over the shame of it, and Blake dined well for twenty years after. I took this post to be near him; I told myself I only wanted to look at him. Then last week he knew my face at last, and gave me notice. So I tied his death in with his mint, and let his own house brew it. I never set foot past the kitchen door — I didn't need to."
+              "statement": "My name is Thomas Alderton. Blake foreclosed on my father's nurseries for a debt he engineered himself - my brother took his own life over the shame of it, and Blake dined well for twenty years after. I took this post to be near him; I told myself I only wanted to look at him. Then last week he knew my face at last, and gave me notice. So I tied his death in with his mint, and let his own house brew it. I never set foot past the kitchen door - I didn't need to."
             }
           },
-          "statement": "Aye, he gave me my notice, and no reason with it — that's gentry for you. But I cut nothing today; my beds are as I left them. I keep to my glass-house, and what the kitchen does with its pots is no business of mine.",
-          "clue": "He is bitter at his dismissal and grows the very poison — yet a gardener with sap on his gloves proves nothing. It is his claim to have cut nothing, and sent nothing, that wants testing."
+          "statement": "Aye, he gave me my notice, and no reason with it - that's gentry for you. But I cut nothing today; my beds are as I left them. I keep to my glass-house, and what the kitchen does with its pots is no business of mine.",
+          "clue": "He is bitter at his dismissal and grows the very poison - yet a gardener with sap on his gloves proves nothing. It is his claim to have cut nothing, and sent nothing, that wants testing."
         }
       ],
       "tasks": [
@@ -730,7 +730,7 @@
           "rankName": "Sherlock Holmes",
           "maxDeductions": 3,
           "description": "A swift and certain solve.",
-          "winningStatement": "Masterful. You saw past the debts, past the kitchen, past the flowers themselves — to the man who never had to enter the house at all."
+          "winningStatement": "Masterful. You saw past the debts, past the kitchen, past the flowers themselves - to the man who never had to enter the house at all."
         },
         {
           "rankName": "Dr. Watson",
@@ -907,7 +907,7 @@
     "ar": {
       "languageName": "العربية",
       "title": "كأسٌ مُرّة",
-      "invitation": "أيها المحقق — يقول طبيب القرية إن قلب عمي قد توقف فحسب، لكنني لا أستطيع تصديق ذلك. شرب السيد هنري بليك شاي المساء كعادته كل ليلة، وقبل أن تمضي ساعة كان قد فارق الحياة. كان الشاي له وحده، وكان المنزل موصداً. أرجوك أن تأتي إلى منزل أوكفيلد: افحص الفنجان، وفتّش الغرف، واستجوبنا جميعاً. وحين تتيقن، سمِّ القاتل والوسيلة والدافع. — الآنسة أليس تيرنر",
+      "invitation": "أيها المحقق - يقول طبيب القرية إن قلب عمي قد توقف فحسب، لكنني لا أستطيع تصديق ذلك. شرب السيد هنري بليك شاي المساء كعادته كل ليلة، وقبل أن تمضي ساعة كان قد فارق الحياة. كان الشاي له وحده، وكان المنزل موصداً. أرجوك أن تأتي إلى منزل أوكفيلد: افحص الفنجان، وفتّش الغرف، واستجوبنا جميعاً. وحين تتيقن، سمِّ القاتل والوسيلة والدافع. - الآنسة أليس تيرنر",
       "description": "منزل ريفي هادئ عند الغسق. سيد الدار ميت فوق شاي مسائه، ولكل فرد من أهل هذا البيت الصغير المترقب سببٌ يجعله يتمنى موته.",
       "roomDetails": [
         {
@@ -931,50 +931,50 @@
           "name": "teacup",
           "displayName": "فنجان الشاي",
           "description": "فنجان السيد الخزفي، نصفه مشروب وقد برد منذ وقت طويل بجوار يده.",
-          "examine": "مرارة خفيفة عالقة بالثُّفل، وفي القاع رسبت بقايا ورقة خضراء مهروسة — ورقة قُطعت من ساقها قطعاً نظيفاً، لا انتزاعاً.",
-          "deduce": "لم يكن هذا قلباً ضعيفاً. لقد عُبث بالشاي — ورقة لا شأن لها بأي إبريق، قطعتها يدٌ متأنية خبيرة."
+          "examine": "مرارة خفيفة عالقة بالثُّفل، وفي القاع رسبت بقايا ورقة خضراء مهروسة - ورقة قُطعت من ساقها قطعاً نظيفاً، لا انتزاعاً.",
+          "deduce": "لم يكن هذا قلباً ضعيفاً. لقد عُبث بالشاي - ورقة لا شأن لها بأي إبريق، قطعتها يدٌ متأنية خبيرة."
         },
         {
           "name": "old_letter",
           "displayName": "رسالة قديمة",
-          "description": "ظرف بالٍ محفوظ في الدرج الموصد من مكتب السيد بليك، لان من كثرة ما تداولته الأيدي عبر السنين — وما كانت تلك الأيدي يديه.",
-          "examine": "رسالة تعزية مضى عليها عقود، في وفاة أخ — معنونة بخط متأنٍّ إلى السيد توماس ألدرتون.",
-          "deduce": "عثر السيد بليك على هذه الرسالة قبلك. لقد عرف حزنَ مَن كان يعيش تحت سقفه — وبعد أسبوع من إخفائها في درجه كان في عداد الموتى."
+          "description": "ظرف بالٍ محفوظ في الدرج الموصد من مكتب السيد بليك، لان من كثرة ما تداولته الأيدي عبر السنين - وما كانت تلك الأيدي يديه.",
+          "examine": "رسالة تعزية مضى عليها عقود، في وفاة أخ - معنونة بخط متأنٍّ إلى السيد توماس ألدرتون.",
+          "deduce": "عثر السيد بليك على هذه الرسالة قبلك. لقد عرف حزنَ مَن كان يعيش تحت سقفه - وبعد أسبوع من إخفائها في درجه كان في عداد الموتى."
         },
         {
           "name": "old_newspaper",
           "displayName": "جريدة قديمة",
           "description": "صفحة هشة من جريدة قديمة، دُسّت على عجل في درج بالمطبخ.",
           "examine": "خبر قديم: «خرابُ مشاتل ألدرتون». مصدر رزق عائلة صادره السيد هـ. بليك؛ ثم مات الابن الأصغر منتحراً، وتشتّت الناجون.",
-          "deduce": "أحدهم تحت هذا السقف يغذّي حزناً منذ سنين. لكن درج المطبخ لا يقول إلا أين استقرت الصفحة — لا اليد التي حملتها."
+          "deduce": "أحدهم تحت هذا السقف يغذّي حزناً منذ سنين. لكن درج المطبخ لا يقول إلا أين استقرت الصفحة - لا اليد التي حملتها."
         },
         {
           "name": "stained_apron",
           "displayName": "مئزر ملطّخ",
           "description": "مئزر طاهية معلق عند باب المطبخ، وحاشيته موسومة بخضرة طرية.",
-          "examine": "البقعة عُصارة نبات، ما تزال رطبة — وألياف قمعية مسحوقة عالقة بالقماش. من ارتدى هذا المئزر لمس النبتة الليلة.",
-          "deduce": "المئزر يربط لابسه بنبتة القمعية — لكن الطاهية تقسم إنها لا تقترب من النباتات أبداً. فإما أنها تكذب، وإما أن النبتة جاءت إليها بنفسها."
+          "examine": "البقعة عُصارة نبات، ما تزال رطبة - وألياف قمعية مسحوقة عالقة بالقماش. من ارتدى هذا المئزر لمس النبتة الليلة.",
+          "deduce": "المئزر يربط لابسه بنبتة القمعية - لكن الطاهية تقسم إنها لا تقترب من النباتات أبداً. فإما أنها تكذب، وإما أن النبتة جاءت إليها بنفسها."
         },
         {
           "name": "herb_bundle",
           "displayName": "حزمة الأعشاب",
           "description": "حزمة من الخُضرة الطازجة استُعمل بعضها، موضوعة على اللوح ومربوطة بخيط بستنة أخضر.",
-          "examine": "نعناع وترنجان يُرسلان من الحديقة كل مساء لشاي السيد — لكن بينها ورقة واحدة عريضة زغباء ليست نعناعاً البتة، قُطعت من ساقها قطعاً نظيفاً.",
+          "examine": "نعناع وترنجان يُرسلان من الحديقة كل مساء لشاي السيد - لكن بينها ورقة واحدة عريضة زغباء ليست نعناعاً البتة، قُطعت من ساقها قطعاً نظيفاً.",
           "deduce": "من ربط هذه الحزمة أخفى غريبةً بين الأعشاب، عالماً أن كل ورقة فيها ستُنقع في إبريق السيد بلا تمحيص."
         },
         {
           "name": "club_receipt",
           "displayName": "إيصال النادي",
-          "description": "قسيمة مطوية من نادٍ للسادة في المدينة، بقيت في معطف السيد كارتر — الذي نُظّف وعُلّق ليجف قرب موقد المطبخ بعد وصوله المتأخر.",
-          "examine": "ختم النادي يشير إلى التاسعة والنصف — الساعة التي وقّع فيها السيد كارتر حسابه وطلب عربة تُقلّه إلى المنزل.",
+          "description": "قسيمة مطوية من نادٍ للسادة في المدينة، بقيت في معطف السيد كارتر - الذي نُظّف وعُلّق ليجف قرب موقد المطبخ بعد وصوله المتأخر.",
+          "examine": "ختم النادي يشير إلى التاسعة والنصف - الساعة التي وقّع فيها السيد كارتر حسابه وطلب عربة تُقلّه إلى المنزل.",
           "deduce": "لم يبلغ السيد كارتر المنزل إلا بعد أن قُدّم الشاي ومات عمه. كان لديه دافع المال، لكن لم تكن لديه اللحظة."
         },
         {
           "name": "foxglove",
           "displayName": "نبتة القمعية",
           "description": "قمعية طويلة في أصيص من الفخار، أجراسها تتمايل في رطوبة البيت الزجاجي.",
-          "examine": "قُطعت الليلة عدة أوراق سفلية — قطعاً نظيفاً من الساق بسكين بستاني. الديجيتال المستخلص من هذه الأوراق يوقف القلب.",
-          "deduce": "السُّم جاء من هذه الغرفة بعينها — أوراق قمعية أُخذت طرية بيد خبيرة، في طريقها إلى شيء سيشربه السيد."
+          "examine": "قُطعت الليلة عدة أوراق سفلية - قطعاً نظيفاً من الساق بسكين بستاني. الديجيتال المستخلص من هذه الأوراق يوقف القلب.",
+          "deduce": "السُّم جاء من هذه الغرفة بعينها - أوراق قمعية أُخذت طرية بيد خبيرة، في طريقها إلى شيء سيشربه السيد."
         }
       ],
       "suspects": [
@@ -991,8 +991,8 @@
           "posY": 0.5399514008004574,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "لن أتصنّع حزناً لا أشعر به — كان عمي رجلاً قاسياً، وأجل، جئت الليلة لأطلب منه مالاً. لكنني كنت في ناديّ في المدينة حتى التاسعة والنصف؛ والقسيمة في معطفي. وحين أنزلتني العربة كان المنزل قد ضجّ بالفوضى. مسكينة أليس — الضيعة تؤول إليّ بكاملها، كما تعلم. ولا يبقى لها شيء.",
-          "clue": "عاد متأخراً، غارقاً في الديون، ويرث كل شيء — لكن الشاي، بحسب روايته، شُرب قبل وصوله بوقت طويل. وقد يشهد له معطفه."
+          "statement": "لن أتصنّع حزناً لا أشعر به - كان عمي رجلاً قاسياً، وأجل، جئت الليلة لأطلب منه مالاً. لكنني كنت في ناديّ في المدينة حتى التاسعة والنصف؛ والقسيمة في معطفي. وحين أنزلتني العربة كان المنزل قد ضجّ بالفوضى. مسكينة أليس - الضيعة تؤول إليّ بكاملها، كما تعلم. ولا يبقى لها شيء.",
+          "clue": "عاد متأخراً، غارقاً في الديون، ويرث كل شيء - لكن الشاي، بحسب روايته، شُرب قبل وصوله بوقت طويل. وقد يشهد له معطفه."
         },
         {
           "name": "MaryReed",
@@ -1011,22 +1011,22 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "أعددتُ ذلك الشاي بنفسي، من مؤونتي الخاصة، كما أفعل كل مساء منذ أحد عشر عاماً. لم يدخل ذلك الإبريق شيء لم أضعه بيديّ هاتين — وأنا لا أطأ ذلك المشتل الزجاجي أبداً. النباتات شأن البستاني، لا شأني.",
+              "statement": "أعددتُ ذلك الشاي بنفسي، من مؤونتي الخاصة، كما أفعل كل مساء منذ أحد عشر عاماً. لم يدخل ذلك الإبريق شيء لم أضعه بيديّ هاتين - وأنا لا أطأ ذلك المشتل الزجاجي أبداً. النباتات شأن البستاني، لا شأني.",
               "contradictions": [
                 {
                   "evidenceId": "herb_bundle",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "reed_unwitting",
-                  "successMessage": "تضع الحزمة المربوطة بالخيط على طاولة المطبخ، والورقة العريضة الغريبة في أعلاها. تتجمد يدا السيدة ريد، ويهرب اللون من وجهها — وأخيراً تكفّ عن التظاهر بأن الخُضرة كانت خُضرتها."
+                  "successMessage": "تضع الحزمة المربوطة بالخيط على طاولة المطبخ، والورقة العريضة الغريبة في أعلاها. تتجمد يدا السيدة ريد، ويهرب اللون من وجهها - وأخيراً تكفّ عن التظاهر بأن الخُضرة كانت خُضرتها."
                 }
               ]
             },
             "TRUTH": {
-              "statement": "...حسناً. لم تكن الخُضرة من مؤونتي — إنها تصعد كل مساء من عند السيد هيل، لشاي السيد. كان لا يفتأ يثني عليها. كنت أنقعها دون أن ألقي عليها نظرة، كعادتي... ليغفر لي الله، أنا من أعدّ السمّ بيدي ولم أعلم. وتلك الجريدة القديمة في الدرج سيقولون إنها لي — وجدتها قبل أسبوع مدسوسة بين خُضرته، ولم يطاوعني قلبي على حرق حزن عائلة."
+              "statement": "...حسناً. لم تكن الخُضرة من مؤونتي - إنها تصعد كل مساء من عند السيد هيل، لشاي السيد. كان لا يفتأ يثني عليها. كنت أنقعها دون أن ألقي عليها نظرة، كعادتي... ليغفر لي الله، أنا من أعدّ السمّ بيدي ولم أعلم. وتلك الجريدة القديمة في الدرج سيقولون إنها لي - وجدتها قبل أسبوع مدسوسة بين خُضرته، ولم يطاوعني قلبي على حرق حزن عائلة."
             }
           },
           "statement": "أعددتُ ذلك الشاي بنفسي، من مؤونتي الخاصة، كما أفعل كل مساء منذ أحد عشر عاماً. لم يدخل ذلك الإبريق شيء لم أضعه بيديّ هاتين.",
-          "clue": "كل فنجان شربه السيد مرّ عبر مطبخها — وهي تُصرّ، بحزم زائد قليلاً، على أن شيئاً غريباً لم يدخل الإبريق."
+          "clue": "كل فنجان شربه السيد مرّ عبر مطبخها - وهي تُصرّ، بحزم زائد قليلاً، على أن شيئاً غريباً لم يدخل الإبريق."
         },
         {
           "name": "AliceTurner",
@@ -1043,7 +1043,7 @@
           "labelDY": 0.47365062804665997,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "أنا من أرسلت في طلبك — فليوقّع الطبيب ما يشاء، لكن قلب عمي كان سليماً كالجرس. أعترف أنني اختلست مرة نظرة إلى الوصية في مكتبه، فأنا أعرف حالي: نفقتي تموت بموته، ويأخذ السيد كارتر كل شيء. كانت لديّ كل الأسباب لأُبقي عمي حياً. وأمر آخر: قبل أسبوع أنهى خدمة السيد هيل ولم يشأ أن يقول لماذا. قال فقط إنه «عرف وجه ذلك الرجل أخيراً».",
+          "statement": "أنا من أرسلت في طلبك - فليوقّع الطبيب ما يشاء، لكن قلب عمي كان سليماً كالجرس. أعترف أنني اختلست مرة نظرة إلى الوصية في مكتبه، فأنا أعرف حالي: نفقتي تموت بموته، ويأخذ السيد كارتر كل شيء. كانت لديّ كل الأسباب لأُبقي عمي حياً. وأمر آخر: قبل أسبوع أنهى خدمة السيد هيل ولم يشأ أن يقول لماذا. قال فقط إنه «عرف وجه ذلك الرجل أخيراً».",
           "clue": "بموت عمها تخسر كل شيء، وهي التي أبت أن يُطوى الأمر. وأغرب ما قدّمته لك جملة واحدة: السيد «عرف وجه ذلك الرجل أخيراً»."
         },
         {
@@ -1062,13 +1062,13 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "أجل، أنهى خدمتي، وبلا سبب يذكره — هكذا هم السادة. لكنني لم أقطع شيئاً اليوم؛ أحواضي كما تركتها. أنا ألزم بيتي الزجاجي، ولم أرسل شيئاً إلى ذلك المطبخ الليلة. وما تنقعه الطاهية في أباريقها ليس من شأني.",
+              "statement": "أجل، أنهى خدمتي، وبلا سبب يذكره - هكذا هم السادة. لكنني لم أقطع شيئاً اليوم؛ أحواضي كما تركتها. أنا ألزم بيتي الزجاجي، ولم أرسل شيئاً إلى ذلك المطبخ الليلة. وما تنقعه الطاهية في أباريقها ليس من شأني.",
               "contradictions": [
                 {
                   "evidenceId": "poison_in_the_herbs",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "hill_confession",
-                  "successMessage": "تخبره بما كانت تحويه الحزمة: نعناعه، وخيطه، وورقة قمعيته المقطوعة قطعاً نظيفاً — نقعتها يد بريئة في فنجان السيد. يحدّق البستاني في حذائه طويلاً، وحين يرفع عينيه يكون توم هيل قد اختفى، ووقف مكانه رجل آخر."
+                  "successMessage": "تخبره بما كانت تحويه الحزمة: نعناعه، وخيطه، وورقة قمعيته المقطوعة قطعاً نظيفاً - نقعتها يد بريئة في فنجان السيد. يحدّق البستاني في حذائه طويلاً، وحين يرفع عينيه يكون توم هيل قد اختفى، ووقف مكانه رجل آخر."
                 },
                 {
                   "evidenceId": "hill_is_alderton",
@@ -1079,11 +1079,11 @@
               ]
             },
             "TRUTH": {
-              "statement": "اسمي توماس ألدرتون. صادر بليك مشاتل أبي لقاء دين حاكه هو بنفسه — فلم يحتمل أخي العار وأزهق روحه، وظل بليك يتعشى مطمئناً عشرين عاماً. جئت إلى هذا العمل لأكون قريباً منه؛ وأقنعت نفسي أنني أريد فقط أن أنظر إليه. ثم في الأسبوع الماضي عرف وجهي أخيراً، فأنهى خدمتي. فربطتُ موته في نعناعه، وتركت داره هي التي تنقعه. لم أتجاوز عتبة المطبخ قط — ولم أكن بحاجة إلى ذلك."
+              "statement": "اسمي توماس ألدرتون. صادر بليك مشاتل أبي لقاء دين حاكه هو بنفسه - فلم يحتمل أخي العار وأزهق روحه، وظل بليك يتعشى مطمئناً عشرين عاماً. جئت إلى هذا العمل لأكون قريباً منه؛ وأقنعت نفسي أنني أريد فقط أن أنظر إليه. ثم في الأسبوع الماضي عرف وجهي أخيراً، فأنهى خدمتي. فربطتُ موته في نعناعه، وتركت داره هي التي تنقعه. لم أتجاوز عتبة المطبخ قط - ولم أكن بحاجة إلى ذلك."
             }
           },
-          "statement": "أجل، أنهى خدمتي، وبلا سبب يذكره — هكذا هم السادة. لكنني لم أقطع شيئاً اليوم؛ أحواضي كما تركتها. أنا ألزم بيتي الزجاجي، وما ينقعه المطبخ في أباريقه ليس من شأني.",
-          "clue": "ساخط على فصله ويزرع السمّ بعينه — لكن بستانياً على قفازيه عُصارة لا يُدين نفسه بشيء. ما يستحق الاختبار هو زعمه أنه لم يقطع شيئاً، ولم يرسل شيئاً."
+          "statement": "أجل، أنهى خدمتي، وبلا سبب يذكره - هكذا هم السادة. لكنني لم أقطع شيئاً اليوم؛ أحواضي كما تركتها. أنا ألزم بيتي الزجاجي، وما ينقعه المطبخ في أباريقه ليس من شأني.",
+          "clue": "ساخط على فصله ويزرع السمّ بعينه - لكن بستانياً على قفازيه عُصارة لا يُدين نفسه بشيء. ما يستحق الاختبار هو زعمه أنه لم يقطع شيئاً، ولم يرسل شيئاً."
         }
       ],
       "tasks": [
@@ -1097,7 +1097,7 @@
           "rankName": "Sherlock Holmes",
           "maxDeductions": 3,
           "description": "حلٌّ سريع وواثق.",
-          "winningStatement": "بارع. لقد رأيت ما وراء الديون، وما وراء المطبخ، وما وراء الأزهار ذاتها — إلى الرجل الذي لم يكن بحاجة إلى دخول المنزل أصلاً."
+          "winningStatement": "بارع. لقد رأيت ما وراء الديون، وما وراء المطبخ، وما وراء الأزهار ذاتها - إلى الرجل الذي لم يكن بحاجة إلى دخول المنزل أصلاً."
         },
         {
           "rankName": "Dr. Watson",
@@ -1274,7 +1274,7 @@
     "ru": {
       "languageName": "Русский",
       "title": "Горькая чаша",
-      "invitation": "Детектив! Деревенский доктор говорит, что у дяди просто отказало сердце, но я не могу в это поверить. Мистер Генри Блейк выпил свой вечерний чай, как пил его каждый вечер, и не прошло и часа, как он был мёртв. Чай был только его, а дом заперт. Прошу вас, приезжайте в Оукфилд-хаус: осмотрите чашку, обойдите комнаты и расспросите нас всех. А когда будете уверены — назовите убийцу, способ и мотив. — Мисс Элис Тёрнер",
+      "invitation": "Детектив! Деревенский доктор говорит, что у дяди просто отказало сердце, но я не могу в это поверить. Мистер Генри Блейк выпил свой вечерний чай, как пил его каждый вечер, и не прошло и часа, как он был мёртв. Чай был только его, а дом заперт. Прошу вас, приезжайте в Оукфилд-хаус: осмотрите чашку, обойдите комнаты и расспросите нас всех. А когда будете уверены - назовите убийцу, способ и мотив. - Мисс Элис Тёрнер",
       "description": "Тихий загородный дом в сумерках. Хозяин лежит мёртвым над вечерним чаем, и у каждого из немногочисленных домочадцев была причина желать его смерти.",
       "roomDetails": [
         {
@@ -1297,50 +1297,50 @@
         {
           "name": "teacup",
           "displayName": "Чайная чашка",
-          "description": "Фарфоровая чашка хозяина — наполовину выпитая и давно остывшая, возле его руки.",
-          "examine": "В осадке чувствуется слабая горечь, а на дне осел измельчённый зелёный лист — срезанный у черешка чисто, не сорванный.",
-          "deduce": "Это не слабое сердце. В чай что-то подмешали — лист, которому не место ни в одном чайнике, срезанный аккуратной, умелой рукой."
+          "description": "Фарфоровая чашка хозяина - наполовину выпитая и давно остывшая, возле его руки.",
+          "examine": "В осадке чувствуется слабая горечь, а на дне осел измельчённый зелёный лист - срезанный у черешка чисто, не сорванный.",
+          "deduce": "Это не слабое сердце. В чай что-то подмешали - лист, которому не место ни в одном чайнике, срезанный аккуратной, умелой рукой."
         },
         {
           "name": "old_letter",
           "displayName": "Старое письмо",
-          "description": "Потёртый конверт, запертый в ящике письменного стола мистера Блейка, — мягкий от долгих лет в руках, только руки эти были не его.",
-          "examine": "Письмо с соболезнованиями, которому не один десяток лет, — о смерти брата. Адресовано аккуратным почерком мистеру Томасу Олдертону.",
-          "deduce": "Мистер Блейк нашёл это письмо раньше вас. Он узнал, чьё горе живёт под его крышей, — и через неделю после того, как запер его в ящик, был мёртв."
+          "description": "Потёртый конверт, запертый в ящике письменного стола мистера Блейка, - мягкий от долгих лет в руках, только руки эти были не его.",
+          "examine": "Письмо с соболезнованиями, которому не один десяток лет, - о смерти брата. Адресовано аккуратным почерком мистеру Томасу Олдертону.",
+          "deduce": "Мистер Блейк нашёл это письмо раньше вас. Он узнал, чьё горе живёт под его крышей, - и через неделю после того, как запер его в ящик, был мёртв."
         },
         {
           "name": "old_newspaper",
           "displayName": "Старая газета",
           "description": "Ломкая страница старой газеты, наспех засунутая в кухонный ящик.",
           "examine": "Старая заметка: «РАЗОРЕНИЕ ПИТОМНИКОВ ОЛДЕРТОНОВ». Мистер Г. Блейк отобрал у семьи дело за долги; младший сын вскоре покончил с собой, а остальные разъехались кто куда.",
-          "deduce": "Кто-то под этой крышей годами носил в себе горе. Но кухонный ящик говорит лишь о том, куда страница попала, — а не о том, чья рука её принесла."
+          "deduce": "Кто-то под этой крышей годами носил в себе горе. Но кухонный ящик говорит лишь о том, куда страница попала, - а не о том, чья рука её принесла."
         },
         {
           "name": "stained_apron",
           "displayName": "Испачканный фартук",
           "description": "Фартук кухарки на крючке у кухонной двери; подол испачкан свежей зеленью.",
-          "examine": "Пятно — это сок, ещё влажный: в ткани застряли волокна раздавленной наперстянки. Тот, кто носил этот фартук, сегодня держал в руках это растение.",
-          "deduce": "Фартук связывает того, кто его носил, с наперстянкой — но кухарка клянётся, что к растениям не подходит. Либо она лжёт, либо растение само пришло к ней."
+          "examine": "Пятно - это сок, ещё влажный: в ткани застряли волокна раздавленной наперстянки. Тот, кто носил этот фартук, сегодня держал в руках это растение.",
+          "deduce": "Фартук связывает того, кто его носил, с наперстянкой - но кухарка клянётся, что к растениям не подходит. Либо она лжёт, либо растение само пришло к ней."
         },
         {
           "name": "herb_bundle",
           "displayName": "Пучок трав",
           "description": "Начатый пучок свежей зелени на кухонной доске, перевязанный зелёным садовым шпагатом.",
-          "examine": "Мята и мелисса, которые каждый вечер присылают из сада к чаю хозяина, — но среди них один широкий бархатистый лист, вовсе не мятный, чисто срезанный у черешка.",
+          "examine": "Мята и мелисса, которые каждый вечер присылают из сада к чаю хозяина, - но среди них один широкий бархатистый лист, вовсе не мятный, чисто срезанный у черешка.",
           "deduce": "Тот, кто вязал этот пучок, спрятал среди трав чужака, зная: каждый его лист без разбора заварят в хозяйский чайник."
         },
         {
           "name": "club_receipt",
           "displayName": "Клубный счёт",
-          "description": "Сложенный счёт из джентльменского клуба в городе, оставшийся в пальто мистера Картера, — пальто вычистили и повесили сушиться у кухонной плиты после его позднего приезда.",
-          "examine": "Штамп клуба показывает половину десятого — час, когда мистер Картер подписал счёт и вызвал кэб домой.",
+          "description": "Сложенный счёт из джентльменского клуба в городе, оставшийся в пальто мистера Картера, - пальто вычистили и повесили сушиться у кухонной плиты после его позднего приезда.",
+          "examine": "Штамп клуба показывает половину десятого - час, когда мистер Картер подписал счёт и вызвал кэб домой.",
           "deduce": "Мистер Картер добрался до дома, когда чай был давно подан, а его дядя уже мёртв. У него был денежный мотив, но не было момента."
         },
         {
           "name": "foxglove",
           "displayName": "Наперстянка",
           "description": "Высокая наперстянка в терракотовом горшке; её колокольчики покачиваются во влажном воздухе оранжереи.",
-          "examine": "Несколько нижних листьев срезаны сегодня — чисто, у черешка, садовым ножом. Дигиталис из этих листьев останавливает сердце.",
+          "examine": "Несколько нижних листьев срезаны сегодня - чисто, у черешка, садовым ножом. Дигиталис из этих листьев останавливает сердце.",
           "deduce": "Яд взят из этой самой комнаты: листья наперстянки, срезанные свежо и умело, предназначались для того, что хозяин выпьет."
         }
       ],
@@ -1358,8 +1358,8 @@
           "posY": 0.5399514008004574,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "Не стану изображать горе, которого не чувствую: дядя был жёстким человеком, и да, я приехал сегодня просить у него денег. Но до половины десятого я был в своём клубе в городе — счёт лежит у меня в пальто. Когда кэб привёз меня, в доме уже стоял переполох. Бедная Элис: имение, знаете ли, целиком переходит ко мне. Она остаётся ни с чем.",
-          "clue": "Он вернулся поздно, весь в долгах — и наследует всё. Но, по его словам, чай был выпит задолго до его приезда. Его пальто может это подтвердить."
+          "statement": "Не стану изображать горе, которого не чувствую: дядя был жёстким человеком, и да, я приехал сегодня просить у него денег. Но до половины десятого я был в своём клубе в городе - счёт лежит у меня в пальто. Когда кэб привёз меня, в доме уже стоял переполох. Бедная Элис: имение, знаете ли, целиком переходит ко мне. Она остаётся ни с чем.",
+          "clue": "Он вернулся поздно, весь в долгах - и наследует всё. Но, по его словам, чай был выпит задолго до его приезда. Его пальто может это подтвердить."
         },
         {
           "name": "MaryReed",
@@ -1378,22 +1378,22 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "Я сама заварила этот чай из собственных запасов, как каждый вечер вот уже одиннадцать лет. В тот чайник не попало ничего, что я не положила бы своими руками, — и в оранжерею я не захожу. Растения — дело садовника, не моё.",
+              "statement": "Я сама заварила этот чай из собственных запасов, как каждый вечер вот уже одиннадцать лет. В тот чайник не попало ничего, что я не положила бы своими руками, - и в оранжерею я не захожу. Растения - дело садовника, не моё.",
               "contradictions": [
                 {
                   "evidenceId": "herb_bundle",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "reed_unwitting",
-                  "successMessage": "Вы кладёте перевязанный шпагатом пучок на кухонный стол, чужим широким листом кверху. Руки миссис Рид замирают, краска сходит с лица — и она наконец перестаёт делать вид, что зелень была её собственной."
+                  "successMessage": "Вы кладёте перевязанный шпагатом пучок на кухонный стол, чужим широким листом кверху. Руки миссис Рид замирают, краска сходит с лица - и она наконец перестаёт делать вид, что зелень была её собственной."
                 }
               ]
             },
             "TRUTH": {
-              "statement": "...Хорошо. Зелень была не из моих запасов — её каждый вечер присылает мистер Хилл, к хозяйскому чаю. Хозяин на неё не мог нахвалиться. Я заваривала её не глядя, как всегда... Господи, прости — я сама заварила яд и не знала того. А та старая газета в ящике, скажут, моя — я нашла её неделю назад среди его зелени, и рука не поднялась сжечь чужое горе."
+              "statement": "...Хорошо. Зелень была не из моих запасов - её каждый вечер присылает мистер Хилл, к хозяйскому чаю. Хозяин на неё не мог нахвалиться. Я заваривала её не глядя, как всегда... Господи, прости - я сама заварила яд и не знала того. А та старая газета в ящике, скажут, моя - я нашла её неделю назад среди его зелени, и рука не поднялась сжечь чужое горе."
             }
           },
           "statement": "Я сама заварила этот чай из собственных запасов, как каждый вечер вот уже одиннадцать лет. В тот чайник не попало ничего, что я не положила бы своими руками.",
-          "clue": "Каждая чашка, которую пил хозяин, проходила через её кухню — и она слишком уж настойчиво твердит, что в чайник не попало ничего чужого."
+          "clue": "Каждая чашка, которую пил хозяин, проходила через её кухню - и она слишком уж настойчиво твердит, что в чайник не попало ничего чужого."
         },
         {
           "name": "AliceTurner",
@@ -1410,8 +1410,8 @@
           "labelDY": 0.47365062804665997,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "Это я послала за вами. Доктор может подписывать что угодно, но сердце у дяди было крепкое, как колокол. Признаюсь: однажды я заглянула в завещание у него в столе, так что знаю, как обстоят мои дела, — с его смертью моё содержание кончается, и всё достаётся мистеру Картеру. У меня были все причины беречь дядю. И ещё одно: на прошлой неделе он дал мистеру Хиллу расчёт и не объяснил почему. Сказал только, что «наконец узнал лицо этого человека».",
-          "clue": "Со смертью дяди она теряет всё — и именно она не дала делу замяться. Самый странный её подарок вам — одна фраза: хозяин «наконец узнал лицо этого человека»."
+          "statement": "Это я послала за вами. Доктор может подписывать что угодно, но сердце у дяди было крепкое, как колокол. Признаюсь: однажды я заглянула в завещание у него в столе, так что знаю, как обстоят мои дела, - с его смертью моё содержание кончается, и всё достаётся мистеру Картеру. У меня были все причины беречь дядю. И ещё одно: на прошлой неделе он дал мистеру Хиллу расчёт и не объяснил почему. Сказал только, что «наконец узнал лицо этого человека».",
+          "clue": "Со смертью дяди она теряет всё - и именно она не дала делу замяться. Самый странный её подарок вам - одна фраза: хозяин «наконец узнал лицо этого человека»."
         },
         {
           "name": "TomHill",
@@ -1429,13 +1429,13 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "Да, он дал мне расчёт — и без всякой причины. Господа, что с них взять. Но сегодня я ничего не срезал: грядки мои как стояли, так и стоят. Я сижу в своей оранжерее и на кухню нынче вечером ничего не посылал. Что кухарка заваривает в своих чайниках — не моя забота.",
+              "statement": "Да, он дал мне расчёт - и без всякой причины. Господа, что с них взять. Но сегодня я ничего не срезал: грядки мои как стояли, так и стоят. Я сижу в своей оранжерее и на кухню нынче вечером ничего не посылал. Что кухарка заваривает в своих чайниках - не моя забота.",
               "contradictions": [
                 {
                   "evidenceId": "poison_in_the_herbs",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "hill_confession",
-                  "successMessage": "Вы говорите ему, что было в пучке: его мята, его шпагат, его чисто срезанный лист наперстянки — заваренный невинной рукой в хозяйскую чашку. Садовник долго смотрит себе под ноги, а когда поднимает глаза, Тома Хилла больше нет — перед вами стоит другой человек."
+                  "successMessage": "Вы говорите ему, что было в пучке: его мята, его шпагат, его чисто срезанный лист наперстянки - заваренный невинной рукой в хозяйскую чашку. Садовник долго смотрит себе под ноги, а когда поднимает глаза, Тома Хилла больше нет - перед вами стоит другой человек."
                 },
                 {
                   "evidenceId": "hill_is_alderton",
@@ -1446,25 +1446,25 @@
               ]
             },
             "TRUTH": {
-              "statement": "Моё имя — Томас Олдертон. Блейк отобрал у отца питомники за долг, который сам же и подстроил; брат не пережил позора и наложил на себя руки, а Блейк ещё двадцать лет спокойно ужинал. Я нанялся сюда, чтобы быть рядом; говорил себе, что хочу только смотреть на него. А на прошлой неделе он наконец узнал моё лицо — и дал мне расчёт. Тогда я ввязал его смерть в его же мяту, и его собственный дом её заварил. Я не переступал кухонного порога — мне и не нужно было."
+              "statement": "Моё имя - Томас Олдертон. Блейк отобрал у отца питомники за долг, который сам же и подстроил; брат не пережил позора и наложил на себя руки, а Блейк ещё двадцать лет спокойно ужинал. Я нанялся сюда, чтобы быть рядом; говорил себе, что хочу только смотреть на него. А на прошлой неделе он наконец узнал моё лицо - и дал мне расчёт. Тогда я ввязал его смерть в его же мяту, и его собственный дом её заварил. Я не переступал кухонного порога - мне и не нужно было."
             }
           },
-          "statement": "Да, он дал мне расчёт — и без всякой причины. Господа, что с них взять. Но сегодня я ничего не срезал: грядки мои как стояли, так и стоят. Я сижу в своей оранжерее, а что кухня заваривает в своих чайниках — не моя забота.",
-          "clue": "Он озлоблен увольнением и выращивает тот самый яд — но сок на перчатках садовника ничего не доказывает. Проверки требует другое: его слова, будто он ничего не срезал и ничего не посылал."
+          "statement": "Да, он дал мне расчёт - и без всякой причины. Господа, что с них взять. Но сегодня я ничего не срезал: грядки мои как стояли, так и стоят. Я сижу в своей оранжерее, а что кухня заваривает в своих чайниках - не моя забота.",
+          "clue": "Он озлоблен увольнением и выращивает тот самый яд - но сок на перчатках садовника ничего не доказывает. Проверки требует другое: его слова, будто он ничего не срезал и ничего не посылал."
         }
       ],
       "tasks": [
         "Осмотрите место и последний вечер хозяина.",
         "Обыщите дом: что здесь не на своём месте?",
         "Расспросите всех, кто под этой крышей.",
-        "Когда будете уверены — вынесите вердикт на итоговом экзамене."
+        "Когда будете уверены - вынесите вердикт на итоговом экзамене."
       ],
       "rankingTiers": [
         {
           "rankName": "Sherlock Holmes",
           "maxDeductions": 3,
           "description": "Быстрое и уверенное раскрытие.",
-          "winningStatement": "Мастерски. Вы увидели за долгами, за кухней, за самими цветами — человека, которому вовсе не нужно было входить в дом."
+          "winningStatement": "Мастерски. Вы увидели за долгами, за кухней, за самими цветами - человека, которому вовсе не нужно было входить в дом."
         },
         {
           "rankName": "Dr. Watson",
@@ -1641,7 +1641,7 @@
     "tr": {
       "languageName": "Türkçe",
       "title": "Acı Bir Fincan",
-      "invitation": "Dedektif — köy doktoru amcamın kalbinin durduğunu söylüyor, ama buna inanamıyorum. Bay Henry Blake her akşamki gibi akşam çayını içti ve bir saat geçmeden ölmüştü. Çay yalnızca onundu, ev de kilitliydi. Lütfen Oakfield Konağı'na gelin: fincanı inceleyin, odaları arayın, hepimizi sorgulayın. Ve emin olduğunuzda katili, yöntemi ve nedeni söyleyin. — Bayan Alice Turner",
+      "invitation": "Dedektif - köy doktoru amcamın kalbinin durduğunu söylüyor, ama buna inanamıyorum. Bay Henry Blake her akşamki gibi akşam çayını içti ve bir saat geçmeden ölmüştü. Çay yalnızca onundu, ev de kilitliydi. Lütfen Oakfield Konağı'na gelin: fincanı inceleyin, odaları arayın, hepimizi sorgulayın. Ve emin olduğunuzda katili, yöntemi ve nedeni söyleyin. - Bayan Alice Turner",
       "description": "Alacakaranlıkta sessiz bir kır evi. Evin efendisi akşam çayının başında ölü yatıyor ve bu küçük, tetikte evdeki herkesin onun ölümünü istemek için bir nedeni vardı.",
       "roomDetails": [
         {
@@ -1665,50 +1665,50 @@
           "name": "teacup",
           "displayName": "Çay Fincanı",
           "description": "Efendinin porselen fincanı; yarısı içilmiş, elinin yanında çoktan soğumuş.",
-          "examine": "Dibindeki tortuda hafif bir acılık var; ezilmiş yeşil bir yaprağın kalıntısı çökmüş — sapından temizce kesilmiş, koparılmamış bir yaprak.",
-          "deduce": "Bu zayıf bir kalp değildi. Çaya bir şey karıştırılmış — hiçbir demliğe ait olmayan, özenli ve usta bir elle kesilmiş bir yaprak."
+          "examine": "Dibindeki tortuda hafif bir acılık var; ezilmiş yeşil bir yaprağın kalıntısı çökmüş - sapından temizce kesilmiş, koparılmamış bir yaprak.",
+          "deduce": "Bu zayıf bir kalp değildi. Çaya bir şey karıştırılmış - hiçbir demliğe ait olmayan, özenli ve usta bir elle kesilmiş bir yaprak."
         },
         {
           "name": "old_letter",
           "displayName": "Eski Mektup",
-          "description": "Bay Blake'in yazı masasının kilitli çekmecesinde saklanan, yılların elleriyle yumuşamış eski bir zarf — gelgelelim o eller onun elleri değildi.",
-          "examine": "Onlarca yıllık bir başsağlığı mektubu, bir kardeşin ölümü üzerine — özenli bir el yazısıyla Bay Thomas Alderton'a yazılmış.",
-          "deduce": "Bay Blake bu mektubu sizden önce buldu. Çatısının altında kimin acısının yaşadığını öğrenmişti — ve mektubu çekmeceye kilitledikten bir hafta sonra ölmüştü."
+          "description": "Bay Blake'in yazı masasının kilitli çekmecesinde saklanan, yılların elleriyle yumuşamış eski bir zarf - gelgelelim o eller onun elleri değildi.",
+          "examine": "Onlarca yıllık bir başsağlığı mektubu, bir kardeşin ölümü üzerine - özenli bir el yazısıyla Bay Thomas Alderton'a yazılmış.",
+          "deduce": "Bay Blake bu mektubu sizden önce buldu. Çatısının altında kimin acısının yaşadığını öğrenmişti - ve mektubu çekmeceye kilitledikten bir hafta sonra ölmüştü."
         },
         {
           "name": "old_newspaper",
           "displayName": "Eski Gazete",
           "description": "Bir mutfak çekmecesine aceleyle tıkıştırılmış, gevremiş eski bir gazete sayfası.",
           "examine": "Eski bir haber: ALDERTON FİDANLIĞI'NIN YIKIMI. Bir ailenin geçim kaynağına Bay H. Blake el koymuş; küçük oğul sonrasında kendi canına kıymış, sağ kalanlar dağılmış.",
-          "deduce": "Bu çatının altında biri yıllardır bir acıyı besliyor. Ama bir mutfak çekmecesi yalnızca sayfanın nereye düştüğünü söyler — onu hangi elin taşıdığını değil."
+          "deduce": "Bu çatının altında biri yıllardır bir acıyı besliyor. Ama bir mutfak çekmecesi yalnızca sayfanın nereye düştüğünü söyler - onu hangi elin taşıdığını değil."
         },
         {
           "name": "stained_apron",
           "displayName": "Lekeli Önlük",
           "description": "Mutfak kapısının yanında asılı bir aşçı önlüğü; eteği taze yeşille lekelenmiş.",
-          "examine": "Leke özsu, hâlâ nemli — kumaşa ezilmiş yüksükotu lifleri takılmış. Bu önlüğü giyen kişi bu gece o bitkiye dokundu.",
-          "deduce": "Önlük, giyenini yüksükotuna bağlıyor — oysa aşçı bitkilere asla yaklaşmadığına yemin ediyor. Ya yalan söylüyor ya da bitki bir şekilde ona geldi."
+          "examine": "Leke özsu, hâlâ nemli - kumaşa ezilmiş yüksükotu lifleri takılmış. Bu önlüğü giyen kişi bu gece o bitkiye dokundu.",
+          "deduce": "Önlük, giyenini yüksükotuna bağlıyor - oysa aşçı bitkilere asla yaklaşmadığına yemin ediyor. Ya yalan söylüyor ya da bitki bir şekilde ona geldi."
         },
         {
           "name": "herb_bundle",
           "displayName": "Ot Demeti",
           "description": "Tahtanın üzerinde, yeşil bahçıvan sicimiyle bağlanmış, yarısı kullanılmış taze bir yeşillik demeti.",
-          "examine": "Nane ve oğulotu — efendinin çayı için her akşam bahçeden gönderilir. Ama aralarında nane olmayan tek bir geniş, tüylü yaprak var; sapından temizce kesilmiş.",
+          "examine": "Nane ve oğulotu - efendinin çayı için her akşam bahçeden gönderilir. Ama aralarında nane olmayan tek bir geniş, tüylü yaprak var; sapından temizce kesilmiş.",
           "deduce": "Bu demeti bağlayan kişi, her yaprağının sorgusuz sualsiz efendinin demliğine atılacağını bilerek otların arasına bir yabancı sakladı."
         },
         {
           "name": "club_receipt",
           "displayName": "Kulüp Fişi",
-          "description": "Şehirdeki bir beyler kulübünden katlanmış bir fiş, Bay Carter'ın paltosunda kalmış — palto, geç gelişinin ardından fırçalanıp kurusun diye mutfak ocağının yanına asılmış.",
-          "examine": "Kulübün damgası dokuz buçuğu gösteriyor — Bay Carter'ın hesabını imzalayıp eve araba çağırdığı saat.",
+          "description": "Şehirdeki bir beyler kulübünden katlanmış bir fiş, Bay Carter'ın paltosunda kalmış - palto, geç gelişinin ardından fırçalanıp kurusun diye mutfak ocağının yanına asılmış.",
+          "examine": "Kulübün damgası dokuz buçuğu gösteriyor - Bay Carter'ın hesabını imzalayıp eve araba çağırdığı saat.",
           "deduce": "Bay Carter eve, çay çoktan servis edilmiş ve amcası ölmüşken vardı. Para gibi bir nedeni vardı, ama fırsatı yoktu."
         },
         {
           "name": "foxglove",
           "displayName": "Yüksükotu",
           "description": "Pişmiş toprak bir saksıda uzun bir yüksükotu; çanları cam evin neminde sallanıyor.",
-          "examine": "Alt yapraklardan birkaçı bu gece kesilmiş — temizce, sapından, bahçıvan bıçağıyla. Bu yapraklardan çıkarılan dijital, kalbi durdurur.",
-          "deduce": "Zehir tam da bu odadan geldi — taze ve usta bir elle alınmış yüksükotu yaprakları, efendinin içeceği bir şeye karıştırılmak üzere."
+          "examine": "Alt yapraklardan birkaçı bu gece kesilmiş - temizce, sapından, bahçıvan bıçağıyla. Bu yapraklardan çıkarılan dijital, kalbi durdurur.",
+          "deduce": "Zehir tam da bu odadan geldi - taze ve usta bir elle alınmış yüksükotu yaprakları, efendinin içeceği bir şeye karıştırılmak üzere."
         }
       ],
       "suspects": [
@@ -1725,8 +1725,8 @@
           "posY": 0.5399514008004574,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "Hissetmediğim bir kederi taklit edecek değilim — amcam sert bir adamdı ve evet, bu gece ondan para istemeye geldim. Ama dokuz buçuğa kadar şehirdeki kulübümdeydim; fiş paltomun cebinde. Arabam beni bıraktığında ev çoktan karışmıştı. Zavallı Alice — mülk olduğu gibi bana kalıyor, biliyorsunuz. Ona hiçbir şey kalmıyor.",
-          "clue": "Eve geç geldi, borç içinde ve her şeyin mirasçısı — ama kendi anlatımına göre çay, o gelmeden çok önce içilmişti. Paltosu onu doğrulayabilir."
+          "statement": "Hissetmediğim bir kederi taklit edecek değilim - amcam sert bir adamdı ve evet, bu gece ondan para istemeye geldim. Ama dokuz buçuğa kadar şehirdeki kulübümdeydim; fiş paltomun cebinde. Arabam beni bıraktığında ev çoktan karışmıştı. Zavallı Alice - mülk olduğu gibi bana kalıyor, biliyorsunuz. Ona hiçbir şey kalmıyor.",
+          "clue": "Eve geç geldi, borç içinde ve her şeyin mirasçısı - ama kendi anlatımına göre çay, o gelmeden çok önce içilmişti. Paltosu onu doğrulayabilir."
         },
         {
           "name": "MaryReed",
@@ -1745,22 +1745,22 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "O çayı kendi ellerimle, kendi erzağımdan yaptım; on bir yıldır her akşam olduğu gibi. O demliğe benim koymadığım hiçbir şey girmedi — ve o kış bahçesine adımımı bile atmam. Bitkiler bahçıvanın işidir, benim değil.",
+              "statement": "O çayı kendi ellerimle, kendi erzağımdan yaptım; on bir yıldır her akşam olduğu gibi. O demliğe benim koymadığım hiçbir şey girmedi - ve o kış bahçesine adımımı bile atmam. Bitkiler bahçıvanın işidir, benim değil.",
               "contradictions": [
                 {
                   "evidenceId": "herb_bundle",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "reed_unwitting",
-                  "successMessage": "Sicimle bağlı demeti mutfak masasına koyarsınız; o tuhaf geniş yaprak en üstte. Bayan Reed'in elleri durur, yüzünün rengi çekilir — ve sonunda yeşilliklerin kendisinin olduğu numarasını bırakır."
+                  "successMessage": "Sicimle bağlı demeti mutfak masasına koyarsınız; o tuhaf geniş yaprak en üstte. Bayan Reed'in elleri durur, yüzünün rengi çekilir - ve sonunda yeşilliklerin kendisinin olduğu numarasını bırakır."
                 }
               ]
             },
             "TRUTH": {
-              "statement": "...Peki. Yeşillikler benim erzağımdan değildi — her akşam Bay Hill'den gelir, efendinin çayı için. Efendi onlara pek düşkündü. Ben de her zamanki gibi bakmadan demledim... Tanrı beni affetsin, zehri kendi ellerimle demledim de bilmedim. Çekmecedeki o eski gazeteye de benim diyecekler — bir hafta önce onun yeşilliklerinin arasında buldum ve bir ailenin acısını yakmaya gönlüm el vermedi."
+              "statement": "...Peki. Yeşillikler benim erzağımdan değildi - her akşam Bay Hill'den gelir, efendinin çayı için. Efendi onlara pek düşkündü. Ben de her zamanki gibi bakmadan demledim... Tanrı beni affetsin, zehri kendi ellerimle demledim de bilmedim. Çekmecedeki o eski gazeteye de benim diyecekler - bir hafta önce onun yeşilliklerinin arasında buldum ve bir ailenin acısını yakmaya gönlüm el vermedi."
             }
           },
           "statement": "O çayı kendi ellerimle, kendi erzağımdan yaptım; on bir yıldır her akşam olduğu gibi. O demliğe, benim koymadığım hiçbir şey girmedi.",
-          "clue": "Efendinin içtiği her fincan onun mutfağından geçti — ve demliğe yabancı hiçbir şeyin girmediğinde biraz fazla kararlılıkla ısrar ediyor."
+          "clue": "Efendinin içtiği her fincan onun mutfağından geçti - ve demliğe yabancı hiçbir şeyin girmediğinde biraz fazla kararlılıkla ısrar ediyor."
         },
         {
           "name": "AliceTurner",
@@ -1777,8 +1777,8 @@
           "labelDY": 0.47365062804665997,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "Sizi çağırtan bendim — doktor ne isterse imzalasın, amcamın kalbi çan gibi sağlamdı. İtiraf edeyim: bir keresinde masasındaki vasiyete göz attım, o yüzden durumumu biliyorum: harçlığım onunla birlikte ölüyor ve her şey Bay Carter'a kalıyor. Amcamı yaşatmak için her türlü nedenim vardı. Bir şey daha: geçen hafta Bay Hill'in işine son verdi ve nedenini söylemedi. Yalnızca 'o adamın yüzünü sonunda tanıdığını' söyledi.",
-          "clue": "Amcasının ölümüyle her şeyini kaybediyor — ve olayın kapanmasına izin vermeyen de o. Size en tuhaf armağanı tek bir cümle: efendi 'o adamın yüzünü sonunda tanımıştı.'"
+          "statement": "Sizi çağırtan bendim - doktor ne isterse imzalasın, amcamın kalbi çan gibi sağlamdı. İtiraf edeyim: bir keresinde masasındaki vasiyete göz attım, o yüzden durumumu biliyorum: harçlığım onunla birlikte ölüyor ve her şey Bay Carter'a kalıyor. Amcamı yaşatmak için her türlü nedenim vardı. Bir şey daha: geçen hafta Bay Hill'in işine son verdi ve nedenini söylemedi. Yalnızca 'o adamın yüzünü sonunda tanıdığını' söyledi.",
+          "clue": "Amcasının ölümüyle her şeyini kaybediyor - ve olayın kapanmasına izin vermeyen de o. Size en tuhaf armağanı tek bir cümle: efendi 'o adamın yüzünü sonunda tanımıştı.'"
         },
         {
           "name": "TomHill",
@@ -1796,28 +1796,28 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "Evet, işime son verdi, hem de tek bir neden göstermeden — beyler işte, böyledir. Ama bugün hiçbir şey kesmedim; tarhlarım bıraktığım gibi duruyor. Ben cam evimden çıkmam ve bu akşam o mutfağa hiçbir şey göndermedim. Aşçının demliklerine ne attığı beni ilgilendirmez.",
+              "statement": "Evet, işime son verdi, hem de tek bir neden göstermeden - beyler işte, böyledir. Ama bugün hiçbir şey kesmedim; tarhlarım bıraktığım gibi duruyor. Ben cam evimden çıkmam ve bu akşam o mutfağa hiçbir şey göndermedim. Aşçının demliklerine ne attığı beni ilgilendirmez.",
               "contradictions": [
                 {
                   "evidenceId": "poison_in_the_herbs",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "hill_confession",
-                  "successMessage": "Ona demetin içindekileri söylersiniz: kendi nanesi, kendi sicimi, temizce kesilmiş kendi yüksükotu yaprağı — masum bir elle efendinin fincanında demlenmiş. Bahçıvan uzun uzun çizmelerine bakar; başını kaldırdığında Tom Hill gitmiştir, yerinde başka bir adam durmaktadır."
+                  "successMessage": "Ona demetin içindekileri söylersiniz: kendi nanesi, kendi sicimi, temizce kesilmiş kendi yüksükotu yaprağı - masum bir elle efendinin fincanında demlenmiş. Bahçıvan uzun uzun çizmelerine bakar; başını kaldırdığında Tom Hill gitmiştir, yerinde başka bir adam durmaktadır."
                 },
                 {
                   "evidenceId": "hill_is_alderton",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "hill_confession",
-                  "successMessage": "Alderton adını söylersiniz; gerisini gazete ile mektup anlatır. Bahçıvanın omuzları çöker — sanki bu adı, artık inkâr edemeyecek kadar uzun süredir taşımaktadır."
+                  "successMessage": "Alderton adını söylersiniz; gerisini gazete ile mektup anlatır. Bahçıvanın omuzları çöker - sanki bu adı, artık inkâr edemeyecek kadar uzun süredir taşımaktadır."
                 }
               ]
             },
             "TRUTH": {
-              "statement": "Adım Thomas Alderton. Blake, babamın fidanlığına kendi tezgâhladığı bir borç yüzünden el koydu — kardeşim utancından canına kıydı, Blake ise yirmi yıl daha rahatça sofraya oturdu. Bu işe ona yakın olmak için girdim; kendime yalnızca ona bakmak istediğimi söyledim. Sonra geçen hafta yüzümü sonunda tanıdı ve işime son verdi. Ben de ölümünü nanesinin arasına bağladım ve kendi evinin onu demlemesine izin verdim. Mutfak kapısından içeri hiç adım atmadım — gerek de yoktu."
+              "statement": "Adım Thomas Alderton. Blake, babamın fidanlığına kendi tezgâhladığı bir borç yüzünden el koydu - kardeşim utancından canına kıydı, Blake ise yirmi yıl daha rahatça sofraya oturdu. Bu işe ona yakın olmak için girdim; kendime yalnızca ona bakmak istediğimi söyledim. Sonra geçen hafta yüzümü sonunda tanıdı ve işime son verdi. Ben de ölümünü nanesinin arasına bağladım ve kendi evinin onu demlemesine izin verdim. Mutfak kapısından içeri hiç adım atmadım - gerek de yoktu."
             }
           },
-          "statement": "Evet, işime son verdi, hem de tek bir neden göstermeden — beyler işte, böyledir. Ama bugün hiçbir şey kesmedim; tarhlarım bıraktığım gibi duruyor. Ben cam evimden çıkmam; mutfağın demliklerine ne attığı da beni ilgilendirmez.",
-          "clue": "İşten çıkarıldığı için öfkeli ve zehrin ta kendisini yetiştiriyor — ama eldivenlerinde özsu olan bir bahçıvan hiçbir şey kanıtlamaz. Sınanması gereken, hiçbir şey kesmediği ve hiçbir şey göndermediği iddiası."
+          "statement": "Evet, işime son verdi, hem de tek bir neden göstermeden - beyler işte, böyledir. Ama bugün hiçbir şey kesmedim; tarhlarım bıraktığım gibi duruyor. Ben cam evimden çıkmam; mutfağın demliklerine ne attığı da beni ilgilendirmez.",
+          "clue": "İşten çıkarıldığı için öfkeli ve zehrin ta kendisini yetiştiriyor - ama eldivenlerinde özsu olan bir bahçıvan hiçbir şey kanıtlamaz. Sınanması gereken, hiçbir şey kesmediği ve hiçbir şey göndermediği iddiası."
         }
       ],
       "tasks": [
@@ -1831,7 +1831,7 @@
           "rankName": "Sherlock Holmes",
           "maxDeductions": 3,
           "description": "Hızlı ve kararlı bir çözüm.",
-          "winningStatement": "Ustaca. Borçların, mutfağın, hatta çiçeklerin bile ötesini gördünüz — eve girmesine hiç gerek olmayan adamı."
+          "winningStatement": "Ustaca. Borçların, mutfağın, hatta çiçeklerin bile ötesini gördünüz - eve girmesine hiç gerek olmayan adamı."
         },
         {
           "rankName": "Dr. Watson",
@@ -2008,7 +2008,7 @@
     "zh": {
       "languageName": "中文",
       "title": "一杯苦茶",
-      "invitation": "侦探先生——村里的医生说我伯父只是心脏衰竭，可我无法相信。亨利·布莱克先生像每天晚上一样喝了他的晚茶，不到一个小时就去世了。那杯茶只属于他一个人，房子也是锁着的。请您来奥克菲尔德庄园：查验那只茶杯，搜查各个房间，盘问我们所有人。当您确信无疑时，请说出凶手、手法与动机。——爱丽丝·特纳小姐",
+      "invitation": "侦探先生--村里的医生说我伯父只是心脏衰竭，可我无法相信。亨利·布莱克先生像每天晚上一样喝了他的晚茶，不到一个小时就去世了。那杯茶只属于他一个人，房子也是锁着的。请您来奥克菲尔德庄园：查验那只茶杯，搜查各个房间，盘问我们所有人。当您确信无疑时，请说出凶手、手法与动机。--爱丽丝·特纳小姐",
       "description": "暮色中一座宁静的乡间宅邸。主人死在他的晚茶旁，而这座小小宅子里警觉的每一个人，都有盼他死去的理由。",
       "roomDetails": [
         {
@@ -2032,50 +2032,50 @@
           "name": "teacup",
           "displayName": "茶杯",
           "description": "主人的瓷茶杯，喝了一半，早已在他手边凉透。",
-          "examine": "残茶里带着一丝苦味，杯底沉着一片碾碎的绿叶——叶柄处切口干净利落，是切下来的，不是撕下来的。",
-          "deduce": "这不是什么心脏衰弱。茶被人动了手脚——一片本不该出现在任何茶壶里的叶子，出自一只细心而老练的手。"
+          "examine": "残茶里带着一丝苦味，杯底沉着一片碾碎的绿叶--叶柄处切口干净利落，是切下来的，不是撕下来的。",
+          "deduce": "这不是什么心脏衰弱。茶被人动了手脚--一片本不该出现在任何茶壶里的叶子，出自一只细心而老练的手。"
         },
         {
           "name": "old_letter",
           "displayName": "旧信件",
-          "description": "一只磨旧的信封，锁在布莱克先生书桌的抽屉里，经年摩挲已经发软——只是摩挲它的手并不是他的。",
-          "examine": "一封几十年前的唁函，为一位兄弟之死而写——工整的字迹上写着收信人：托马斯·奥尔德顿先生。",
-          "deduce": "布莱克先生比你先找到了这封信。他已查明是谁的悲痛住在他的屋檐下——而把信锁进抽屉一个星期后，他就死了。"
+          "description": "一只磨旧的信封，锁在布莱克先生书桌的抽屉里，经年摩挲已经发软--只是摩挲它的手并不是他的。",
+          "examine": "一封几十年前的唁函，为一位兄弟之死而写--工整的字迹上写着收信人：托马斯·奥尔德顿先生。",
+          "deduce": "布莱克先生比你先找到了这封信。他已查明是谁的悲痛住在他的屋檐下--而把信锁进抽屉一个星期后，他就死了。"
         },
         {
           "name": "old_newspaper",
           "displayName": "旧报纸",
           "description": "一页发脆的旧报纸，被匆匆塞进厨房的抽屉里。",
           "examine": "一则旧闻：《奥尔德顿苗圃破产》。一家人的生计被亨·布莱克先生强行抵收；小儿子随后自尽，幸存者四散飘零。",
-          "deduce": "这屋檐下有人多年来怀着一桩旧痛。可厨房抽屉只能说明这页纸落在了哪里——说不出是谁的手把它带来的。"
+          "deduce": "这屋檐下有人多年来怀着一桩旧痛。可厨房抽屉只能说明这页纸落在了哪里--说不出是谁的手把它带来的。"
         },
         {
           "name": "stained_apron",
           "displayName": "沾污的围裙",
           "description": "挂在厨房门边的厨娘围裙，裙边沾着新鲜的绿渍。",
-          "examine": "污渍是植物的汁液，还没干——布料里嵌着碾碎的毛地黄纤维。今晚穿过这条围裙的人碰过那株植物。",
-          "deduce": "围裙把穿它的人和毛地黄连在了一起——可厨娘发誓她从不靠近那些花草。要么她在撒谎，要么是那株植物自己来到了她跟前。"
+          "examine": "污渍是植物的汁液，还没干--布料里嵌着碾碎的毛地黄纤维。今晚穿过这条围裙的人碰过那株植物。",
+          "deduce": "围裙把穿它的人和毛地黄连在了一起--可厨娘发誓她从不靠近那些花草。要么她在撒谎，要么是那株植物自己来到了她跟前。"
         },
         {
           "name": "herb_bundle",
           "displayName": "香草束",
           "description": "案板上一束用了一半的新鲜香草，用绿色的园艺麻绳捆着。",
-          "examine": "薄荷和香蜂草，每晚从园子里送上来给主人泡茶——可其中夹着一片宽大而带绒毛的叶子，根本不是薄荷，叶柄处切口干净利落。",
+          "examine": "薄荷和香蜂草，每晚从园子里送上来给主人泡茶--可其中夹着一片宽大而带绒毛的叶子，根本不是薄荷，叶柄处切口干净利落。",
           "deduce": "捆这束香草的人在其中藏进了一片外来的叶子，他很清楚：这束里的每一片叶子都会不经查看，径直泡进主人的茶壶。"
         },
         {
           "name": "club_receipt",
           "displayName": "俱乐部收据",
-          "description": "一张折起的城里绅士俱乐部账单，留在卡特先生的大衣里——那件大衣在他深夜到家后被刷净，挂在厨房炉灶边烘干。",
-          "examine": "俱乐部的印章显示九点半——正是卡特先生签下账单、叫车回家的时刻。",
+          "description": "一张折起的城里绅士俱乐部账单，留在卡特先生的大衣里--那件大衣在他深夜到家后被刷净，挂在厨房炉灶边烘干。",
+          "examine": "俱乐部的印章显示九点半--正是卡特先生签下账单、叫车回家的时刻。",
           "deduce": "卡特先生到家时，茶早已端上，他的伯父也已经死了。他有钱财上的动机，却没有下手的时机。"
         },
         {
           "name": "foxglove",
           "displayName": "毛地黄",
           "description": "陶盆里一株高高的毛地黄，铃铛似的花朵在暖房的湿气里轻轻摇晃。",
-          "examine": "几片下层的叶子是今晚才被割走的——用园艺刀从叶柄处切得干干净净。从这些叶子里提出的洋地黄毒素能让心脏停跳。",
-          "deduce": "毒就出自这间屋子——新鲜而熟练地取下的毛地黄叶，去向是主人将要喝下的东西。"
+          "examine": "几片下层的叶子是今晚才被割走的--用园艺刀从叶柄处切得干干净净。从这些叶子里提出的洋地黄毒素能让心脏停跳。",
+          "deduce": "毒就出自这间屋子--新鲜而熟练地取下的毛地黄叶，去向是主人将要喝下的东西。"
         }
       ],
       "suspects": [
@@ -2092,8 +2092,8 @@
           "posY": 0.5399514008004574,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "我不会假装悲伤——我伯父是个冷硬的人，而且没错，我今晚是来向他要钱的。可我在城里的俱乐部一直待到九点半，账单就在我大衣里。等马车把我送到，宅子里早已乱作一团。可怜的爱丽丝——您知道的，产业全归我一人，她什么也得不到。",
-          "clue": "他回来得晚，一身债务，却继承一切——但照他自己的说法，茶早在他到家之前就喝完了。他的大衣或许能为他作证。"
+          "statement": "我不会假装悲伤--我伯父是个冷硬的人，而且没错，我今晚是来向他要钱的。可我在城里的俱乐部一直待到九点半，账单就在我大衣里。等马车把我送到，宅子里早已乱作一团。可怜的爱丽丝--您知道的，产业全归我一人，她什么也得不到。",
+          "clue": "他回来得晚，一身债务，却继承一切--但照他自己的说法，茶早在他到家之前就喝完了。他的大衣或许能为他作证。"
         },
         {
           "name": "MaryReed",
@@ -2112,22 +2112,22 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "那壶茶是我亲手泡的，用的是我自己的存货，十一年来每天晚上都是如此。凡不是我亲手放进去的东西，一样也进不了那把壶——而且我从不踏进那间温室。花草是园丁的事，与我无关。",
+              "statement": "那壶茶是我亲手泡的，用的是我自己的存货，十一年来每天晚上都是如此。凡不是我亲手放进去的东西，一样也进不了那把壶--而且我从不踏进那间温室。花草是园丁的事，与我无关。",
               "contradictions": [
                 {
                   "evidenceId": "herb_bundle",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "reed_unwitting",
-                  "successMessage": "你把那束麻绳捆着的香草放到厨房桌上，那片古怪的宽叶朝上摆着。里德太太的双手僵住了，脸上血色尽褪——她终于不再假装那些香草是她自己的了。"
+                  "successMessage": "你把那束麻绳捆着的香草放到厨房桌上，那片古怪的宽叶朝上摆着。里德太太的双手僵住了，脸上血色尽褪--她终于不再假装那些香草是她自己的了。"
                 }
               ]
             },
             "TRUTH": {
-              "statement": "……好吧。那些香草不是我的存货——是希尔先生每晚送上来的，给主人泡茶用。主人对它们赞不绝口。我像往常一样，看也没看就泡了下去……上帝饶恕我，毒是我亲手泡的，我却毫不知情。还有抽屉里那张旧报纸，他们会说是我的——一个礼拜前我在他送来的香草里发现了它，实在不忍心把一户人家的伤心事付之一炬。"
+              "statement": "……好吧。那些香草不是我的存货--是希尔先生每晚送上来的，给主人泡茶用。主人对它们赞不绝口。我像往常一样，看也没看就泡了下去……上帝饶恕我，毒是我亲手泡的，我却毫不知情。还有抽屉里那张旧报纸，他们会说是我的--一个礼拜前我在他送来的香草里发现了它，实在不忍心把一户人家的伤心事付之一炬。"
             }
           },
           "statement": "那壶茶是我亲手泡的，用的是我自己的存货，十一年来每天晚上都是如此。凡不是我亲手放进去的东西，一样也进不了那把壶。",
-          "clue": "主人喝的每一杯茶都经过她的厨房——而她一口咬定壶里没进过任何外来的东西，语气未免太过坚决。"
+          "clue": "主人喝的每一杯茶都经过她的厨房--而她一口咬定壶里没进过任何外来的东西，语气未免太过坚决。"
         },
         {
           "name": "AliceTurner",
@@ -2144,7 +2144,7 @@
           "labelDY": 0.47365062804665997,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "是我请您来的——医生爱签什么就签什么，可伯父的心脏结实得像口钟。我承认有一次偷看过他书桌里的遗嘱，所以我清楚自己的处境：他一死，我的生活费就断了，一切归卡特先生。我有千万个理由盼伯父活着。还有一件事：上礼拜他辞退了希尔先生，却不肯说为什么，只说他“总算认出了那个人的脸”。",
+          "statement": "是我请您来的--医生爱签什么就签什么，可伯父的心脏结实得像口钟。我承认有一次偷看过他书桌里的遗嘱，所以我清楚自己的处境：他一死，我的生活费就断了，一切归卡特先生。我有千万个理由盼伯父活着。还有一件事：上礼拜他辞退了希尔先生，却不肯说为什么，只说他“总算认出了那个人的脸”。",
           "clue": "伯父一死她便一无所有，而偏偏是她不肯让这事就此了结。她给你的最古怪的礼物是一句话：主人“总算认出了那个人的脸”。"
         },
         {
@@ -2163,13 +2163,13 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "是啊，他辞了我，连个理由都不给——老爷们就是这样。可我今天什么也没割过，我的苗床原封未动。我只守着我的暖房，今晚也没往那间厨房送过任何东西。厨娘往她的壶里泡什么，与我无关。",
+              "statement": "是啊，他辞了我，连个理由都不给--老爷们就是这样。可我今天什么也没割过，我的苗床原封未动。我只守着我的暖房，今晚也没往那间厨房送过任何东西。厨娘往她的壶里泡什么，与我无关。",
               "contradictions": [
                 {
                   "evidenceId": "poison_in_the_herbs",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "hill_confession",
-                  "successMessage": "你告诉他那束香草里有什么：他的薄荷、他的麻绳、他那片切口干净的毛地黄叶——由一只无辜的手泡进了主人的茶杯。园丁久久盯着自己的靴子，再抬起头时，汤姆·希尔已经不在了，站在那里的是另一个人。"
+                  "successMessage": "你告诉他那束香草里有什么：他的薄荷、他的麻绳、他那片切口干净的毛地黄叶--由一只无辜的手泡进了主人的茶杯。园丁久久盯着自己的靴子，再抬起头时，汤姆·希尔已经不在了，站在那里的是另一个人。"
                 },
                 {
                   "evidenceId": "hill_is_alderton",
@@ -2180,11 +2180,11 @@
               ]
             },
             "TRUTH": {
-              "statement": "我的名字是托马斯·奥尔德顿。布莱克用一笔他自己设下的债，夺走了我父亲的苗圃——我弟弟不堪其辱，自尽了，而布莱克此后二十年安然用餐。我到这里做工，是为了离他近些；我对自己说，我只想看着他。可上礼拜，他总算认出了我的脸，随即辞退了我。于是我把他的死捆进了他的薄荷里，让他自己的宅子替我泡好。我从没跨过厨房的门槛——我根本不需要。"
+              "statement": "我的名字是托马斯·奥尔德顿。布莱克用一笔他自己设下的债，夺走了我父亲的苗圃--我弟弟不堪其辱，自尽了，而布莱克此后二十年安然用餐。我到这里做工，是为了离他近些；我对自己说，我只想看着他。可上礼拜，他总算认出了我的脸，随即辞退了我。于是我把他的死捆进了他的薄荷里，让他自己的宅子替我泡好。我从没跨过厨房的门槛--我根本不需要。"
             }
           },
-          "statement": "是啊，他辞了我，连个理由都不给——老爷们就是这样。可我今天什么也没割过，我的苗床原封未动。我只守着我的暖房，厨房往壶里泡什么，与我无关。",
-          "clue": "他因被辞退而怨愤，种的又恰恰是那种毒草——可园丁手套上沾着汁液证明不了什么。真正需要检验的，是他那句“什么也没割、什么也没送”。"
+          "statement": "是啊，他辞了我，连个理由都不给--老爷们就是这样。可我今天什么也没割过，我的苗床原封未动。我只守着我的暖房，厨房往壶里泡什么，与我无关。",
+          "clue": "他因被辞退而怨愤，种的又恰恰是那种毒草--可园丁手套上沾着汁液证明不了什么。真正需要检验的，是他那句“什么也没割、什么也没送”。"
         }
       ],
       "tasks": [
@@ -2198,7 +2198,7 @@
           "rankName": "Sherlock Holmes",
           "maxDeductions": 3,
           "description": "迅速而笃定的破案。",
-          "winningStatement": "高明至极。你看穿了债务，看穿了厨房，甚至看穿了花草本身——直到那个根本无需踏进宅门的人。"
+          "winningStatement": "高明至极。你看穿了债务，看穿了厨房，甚至看穿了花草本身--直到那个根本无需踏进宅门的人。"
         },
         {
           "rankName": "Dr. Watson",
@@ -2375,7 +2375,7 @@
     "fr": {
       "languageName": "Français",
       "title": "Une tasse amère",
-      "invitation": "Détective — le médecin du village affirme que le cœur de mon oncle a simplement lâché, mais je ne puis le croire. M. Henry Blake a bu son thé du soir, comme chaque soir, et moins d'une heure après il était mort. Ce thé n'était que le sien, et la maison était fermée à clef. Venez à Oakfield House, je vous en prie : examinez la tasse, fouillez les pièces, interrogez-nous tous. Et quand vous serez certain, nommez le coupable, la méthode et le mobile. — Mlle Alice Turner",
+      "invitation": "Détective - le médecin du village affirme que le cœur de mon oncle a simplement lâché, mais je ne puis le croire. M. Henry Blake a bu son thé du soir, comme chaque soir, et moins d'une heure après il était mort. Ce thé n'était que le sien, et la maison était fermée à clef. Venez à Oakfield House, je vous en prie : examinez la tasse, fouillez les pièces, interrogez-nous tous. Et quand vous serez certain, nommez le coupable, la méthode et le mobile. - Mlle Alice Turner",
       "description": "Une paisible maison de campagne au crépuscule. Le maître gît mort devant son thé du soir, et chacun, dans cette petite maisonnée aux aguets, avait une raison de souhaiter sa disparition.",
       "roomDetails": [
         {
@@ -2399,50 +2399,50 @@
           "name": "teacup",
           "displayName": "Tasse de thé",
           "description": "La tasse de porcelaine du maître, à demi vidée et refroidie depuis longtemps, près de sa main.",
-          "examine": "Une légère amertume s'accroche au fond, où s'est déposé un sédiment de feuille verte broyée — une feuille coupée net à la tige, et non arrachée.",
-          "deduce": "Ce n'était pas un cœur fragile. Le thé a été trafiqué — une feuille qui n'avait sa place dans aucune théière, coupée par une main soigneuse et exercée."
+          "examine": "Une légère amertume s'accroche au fond, où s'est déposé un sédiment de feuille verte broyée - une feuille coupée net à la tige, et non arrachée.",
+          "deduce": "Ce n'était pas un cœur fragile. Le thé a été trafiqué - une feuille qui n'avait sa place dans aucune théière, coupée par une main soigneuse et exercée."
         },
         {
           "name": "old_letter",
           "displayName": "Vieille lettre",
-          "description": "Une enveloppe usée, enfermée dans le tiroir du bureau de M. Blake, assouplie par des années de manipulation — mais ces mains n'étaient pas les siennes.",
-          "examine": "Une lettre de condoléances, vieille de plusieurs décennies, sur la mort d'un frère — adressée d'une main soignée à M. Thomas Alderton.",
-          "deduce": "M. Blake a trouvé cette lettre avant vous. Il avait appris quel chagrin vivait sous son toit — et une semaine après l'avoir mise sous clef, il était mort."
+          "description": "Une enveloppe usée, enfermée dans le tiroir du bureau de M. Blake, assouplie par des années de manipulation - mais ces mains n'étaient pas les siennes.",
+          "examine": "Une lettre de condoléances, vieille de plusieurs décennies, sur la mort d'un frère - adressée d'une main soignée à M. Thomas Alderton.",
+          "deduce": "M. Blake a trouvé cette lettre avant vous. Il avait appris quel chagrin vivait sous son toit - et une semaine après l'avoir mise sous clef, il était mort."
         },
         {
           "name": "old_newspaper",
           "displayName": "Vieux journal",
           "description": "Une page de vieux journal, cassante, fourrée à la hâte dans un tiroir de cuisine.",
           "examine": "Un vieil avis : RUINE DES PÉPINIÈRES ALDERTON. Le gagne-pain d'une famille saisi par M. H. Blake ; le fils cadet mort ensuite de sa propre main, et les survivants dispersés.",
-          "deduce": "Quelqu'un sous ce toit nourrit un chagrin depuis des années. Mais un tiroir de cuisine dit seulement où la page a atterri — pas quelle main l'a portée."
+          "deduce": "Quelqu'un sous ce toit nourrit un chagrin depuis des années. Mais un tiroir de cuisine dit seulement où la page a atterri - pas quelle main l'a portée."
         },
         {
           "name": "stained_apron",
           "displayName": "Tablier taché",
           "description": "Un tablier de cuisinière pendu près de la porte de la cuisine, l'ourlet marqué de vert frais.",
-          "examine": "La tache est de la sève, encore humide — des fibres de digitale écrasée prises dans l'étoffe. Celui qui portait ce tablier a manipulé la plante ce soir.",
-          "deduce": "Le tablier lie celle qui le porte à la digitale — pourtant la cuisinière jure ne jamais approcher des plantes. Ou bien elle ment, ou bien la plante est venue à elle."
+          "examine": "La tache est de la sève, encore humide - des fibres de digitale écrasée prises dans l'étoffe. Celui qui portait ce tablier a manipulé la plante ce soir.",
+          "deduce": "Le tablier lie celle qui le porte à la digitale - pourtant la cuisinière jure ne jamais approcher des plantes. Ou bien elle ment, ou bien la plante est venue à elle."
         },
         {
           "name": "herb_bundle",
           "displayName": "Bouquet d'herbes",
           "description": "Un bouquet entamé de verdure fraîche sur la planche, lié d'une ficelle verte de jardinier.",
-          "examine": "De la menthe et de la mélisse, montées du jardin comme chaque soir pour le thé du maître — mais parmi elles, une seule feuille large et duveteuse qui n'est pas de la menthe, coupée net à la tige.",
+          "examine": "De la menthe et de la mélisse, montées du jardin comme chaque soir pour le thé du maître - mais parmi elles, une seule feuille large et duveteuse qui n'est pas de la menthe, coupée net à la tige.",
           "deduce": "Celui qui a lié ce bouquet y a caché une étrangère, sachant que chaque feuille en serait infusée, sans examen, dans la théière du maître."
         },
         {
           "name": "club_receipt",
           "displayName": "Reçu du club",
-          "description": "Une note pliée d'un club de gentlemen en ville, restée dans le manteau de M. Carter — brossé et pendu à sécher près du fourneau de la cuisine après son arrivée tardive.",
-          "examine": "Le tampon du club indique neuf heures et demie — l'heure où M. Carter a signé sa note et fait appeler un fiacre.",
+          "description": "Une note pliée d'un club de gentlemen en ville, restée dans le manteau de M. Carter - brossé et pendu à sécher près du fourneau de la cuisine après son arrivée tardive.",
+          "examine": "Le tampon du club indique neuf heures et demie - l'heure où M. Carter a signé sa note et fait appeler un fiacre.",
           "deduce": "M. Carter n'est arrivé qu'après le service du thé, son oncle déjà mort. Il avait le mobile de l'argent, mais pas le moment."
         },
         {
           "name": "foxglove",
           "displayName": "Digitale",
           "description": "Une haute digitale dans un pot de terre cuite, ses clochettes oscillant dans l'air moite de la serre.",
-          "examine": "Plusieurs feuilles basses ont été coupées ce soir — proprement, à la tige, au couteau de jardinier. La digitaline tirée de ces feuilles arrête le cœur.",
-          "deduce": "Le poison vient de cette pièce même — des feuilles de digitale, prélevées de frais et de main experte, destinées à quelque chose que le maître boirait."
+          "examine": "Plusieurs feuilles basses ont été coupées ce soir - proprement, à la tige, au couteau de jardinier. La digitaline tirée de ces feuilles arrête le cœur.",
+          "deduce": "Le poison vient de cette pièce même - des feuilles de digitale, prélevées de frais et de main experte, destinées à quelque chose que le maître boirait."
         }
       ],
       "suspects": [
@@ -2459,8 +2459,8 @@
           "posY": 0.5399514008004574,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "Je ne feindrai pas un chagrin que je n'éprouve pas — mon oncle était un homme dur, et oui, je suis venu ce soir lui demander de l'argent. Mais j'étais à mon club en ville jusqu'à neuf heures et demie ; la note est dans mon manteau. Quand mon fiacre m'a déposé, la maison était déjà sens dessus dessous. Pauvre Alice — le domaine me revient en entier, voyez-vous. Elle ne garde rien.",
-          "clue": "Rentré tard, criblé de dettes, et il hérite de tout — mais à l'en croire, le thé était bu bien avant son arrivée. Son manteau pourrait en témoigner."
+          "statement": "Je ne feindrai pas un chagrin que je n'éprouve pas - mon oncle était un homme dur, et oui, je suis venu ce soir lui demander de l'argent. Mais j'étais à mon club en ville jusqu'à neuf heures et demie ; la note est dans mon manteau. Quand mon fiacre m'a déposé, la maison était déjà sens dessus dessous. Pauvre Alice - le domaine me revient en entier, voyez-vous. Elle ne garde rien.",
+          "clue": "Rentré tard, criblé de dettes, et il hérite de tout - mais à l'en croire, le thé était bu bien avant son arrivée. Son manteau pourrait en témoigner."
         },
         {
           "name": "MaryReed",
@@ -2479,22 +2479,22 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "J'ai fait ce thé moi-même, de mes propres réserves, comme chaque soir depuis onze ans. Rien n'est entré dans cette théière que je n'y aie mis de mes deux mains — et je ne mets jamais les pieds dans cette serre. Les plantes, c'est l'affaire du jardinier, pas la mienne.",
+              "statement": "J'ai fait ce thé moi-même, de mes propres réserves, comme chaque soir depuis onze ans. Rien n'est entré dans cette théière que je n'y aie mis de mes deux mains - et je ne mets jamais les pieds dans cette serre. Les plantes, c'est l'affaire du jardinier, pas la mienne.",
               "contradictions": [
                 {
                   "evidenceId": "herb_bundle",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "reed_unwitting",
-                  "successMessage": "Vous posez le bouquet lié de ficelle sur la table de la cuisine, l'étrange feuille large bien en vue. Les mains de Mme Reed s'immobilisent, la couleur quitte son visage — et elle cesse enfin de prétendre que la verdure était la sienne."
+                  "successMessage": "Vous posez le bouquet lié de ficelle sur la table de la cuisine, l'étrange feuille large bien en vue. Les mains de Mme Reed s'immobilisent, la couleur quitte son visage - et elle cesse enfin de prétendre que la verdure était la sienne."
                 }
               ]
             },
             "TRUTH": {
-              "statement": "...C'est bon. La verdure ne venait pas de mes réserves — M. Hill la fait monter chaque soir, pour le thé du maître. Il ne jurait que par elle. Je l'infusais sans un regard, comme toujours... Dieu me pardonne, c'est moi qui ai préparé le poison sans le savoir. Et ce vieux journal dans le tiroir, on dira qu'il est à moi — je l'ai trouvé glissé dans sa verdure il y a une semaine, et je n'ai pas eu le cœur de brûler le chagrin d'une famille."
+              "statement": "...C'est bon. La verdure ne venait pas de mes réserves - M. Hill la fait monter chaque soir, pour le thé du maître. Il ne jurait que par elle. Je l'infusais sans un regard, comme toujours... Dieu me pardonne, c'est moi qui ai préparé le poison sans le savoir. Et ce vieux journal dans le tiroir, on dira qu'il est à moi - je l'ai trouvé glissé dans sa verdure il y a une semaine, et je n'ai pas eu le cœur de brûler le chagrin d'une famille."
             }
           },
           "statement": "J'ai fait ce thé moi-même, de mes propres réserves, comme chaque soir depuis onze ans. Rien n'est entré dans cette théière que je n'y aie mis de mes deux mains.",
-          "clue": "Chaque tasse que buvait le maître passait par sa cuisine — et elle répète, un peu trop fermement, que rien d'étranger n'est entré dans la théière."
+          "clue": "Chaque tasse que buvait le maître passait par sa cuisine - et elle répète, un peu trop fermement, que rien d'étranger n'est entré dans la théière."
         },
         {
           "name": "AliceTurner",
@@ -2511,7 +2511,7 @@
           "labelDY": 0.47365062804665997,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "C'est moi qui vous ai fait venir — le docteur peut signer ce qu'il veut, le cœur de mon oncle était solide comme un roc. J'avoue avoir un jour jeté un œil au testament dans son bureau ; je sais donc où j'en suis : ma pension s'éteint avec lui et M. Carter prend tout. J'avais toutes les raisons de garder mon oncle en vie. Une chose encore : il a congédié M. Hill la semaine dernière sans vouloir dire pourquoi. Seulement qu'il « avait enfin reconnu le visage de cet homme ».",
+          "statement": "C'est moi qui vous ai fait venir - le docteur peut signer ce qu'il veut, le cœur de mon oncle était solide comme un roc. J'avoue avoir un jour jeté un œil au testament dans son bureau ; je sais donc où j'en suis : ma pension s'éteint avec lui et M. Carter prend tout. J'avais toutes les raisons de garder mon oncle en vie. Une chose encore : il a congédié M. Hill la semaine dernière sans vouloir dire pourquoi. Seulement qu'il « avait enfin reconnu le visage de cet homme ».",
           "clue": "La mort de son oncle lui fait tout perdre, et c'est elle qui a refusé d'en rester là. Son plus étrange cadeau est une phrase : le maître « avait enfin reconnu le visage de cet homme »."
         },
         {
@@ -2530,13 +2530,13 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "Oui, il m'a donné mon congé, et sans raison — voilà bien les messieurs. Mais je n'ai rien coupé aujourd'hui ; mes plates-bandes sont comme je les ai laissées. Je reste dans ma serre, et je n'ai rien fait monter à cette cuisine ce soir. Ce que la cuisinière fait infuser dans ses théières ne me regarde pas.",
+              "statement": "Oui, il m'a donné mon congé, et sans raison - voilà bien les messieurs. Mais je n'ai rien coupé aujourd'hui ; mes plates-bandes sont comme je les ai laissées. Je reste dans ma serre, et je n'ai rien fait monter à cette cuisine ce soir. Ce que la cuisinière fait infuser dans ses théières ne me regarde pas.",
               "contradictions": [
                 {
                   "evidenceId": "poison_in_the_herbs",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "hill_confession",
-                  "successMessage": "Vous lui dites ce que contenait le bouquet : sa menthe, sa ficelle, sa feuille de digitale coupée net — infusée par une main innocente dans la tasse du maître. Le jardinier fixe longuement ses bottes, et quand il relève les yeux, Tom Hill a disparu : un autre homme se tient à sa place."
+                  "successMessage": "Vous lui dites ce que contenait le bouquet : sa menthe, sa ficelle, sa feuille de digitale coupée net - infusée par une main innocente dans la tasse du maître. Le jardinier fixe longuement ses bottes, et quand il relève les yeux, Tom Hill a disparu : un autre homme se tient à sa place."
                 },
                 {
                   "evidenceId": "hill_is_alderton",
@@ -2547,11 +2547,11 @@
               ]
             },
             "TRUTH": {
-              "statement": "Mon nom est Thomas Alderton. Blake a saisi les pépinières de mon père pour une dette qu'il avait lui-même machinée — mon frère s'est donné la mort de honte, et Blake a bien dîné vingt ans durant. J'ai pris ce poste pour être près de lui ; je me disais que je voulais seulement le regarder. Puis, la semaine dernière, il a enfin reconnu mon visage, et m'a congédié. Alors j'ai lié sa mort dans sa menthe, et laissé sa propre maison la faire infuser. Je n'ai jamais passé la porte de la cuisine — je n'en avais pas besoin."
+              "statement": "Mon nom est Thomas Alderton. Blake a saisi les pépinières de mon père pour une dette qu'il avait lui-même machinée - mon frère s'est donné la mort de honte, et Blake a bien dîné vingt ans durant. J'ai pris ce poste pour être près de lui ; je me disais que je voulais seulement le regarder. Puis, la semaine dernière, il a enfin reconnu mon visage, et m'a congédié. Alors j'ai lié sa mort dans sa menthe, et laissé sa propre maison la faire infuser. Je n'ai jamais passé la porte de la cuisine - je n'en avais pas besoin."
             }
           },
-          "statement": "Oui, il m'a donné mon congé, et sans raison — voilà bien les messieurs. Mais je n'ai rien coupé aujourd'hui ; mes plates-bandes sont comme je les ai laissées. Je reste dans ma serre, et ce que la cuisine fait infuser dans ses théières ne me regarde pas.",
-          "clue": "Amer d'être congédié, et il cultive le poison même — mais un jardinier aux gants tachés de sève ne prouve rien. C'est sa prétention de n'avoir rien coupé, rien envoyé, qu'il faut éprouver."
+          "statement": "Oui, il m'a donné mon congé, et sans raison - voilà bien les messieurs. Mais je n'ai rien coupé aujourd'hui ; mes plates-bandes sont comme je les ai laissées. Je reste dans ma serre, et ce que la cuisine fait infuser dans ses théières ne me regarde pas.",
+          "clue": "Amer d'être congédié, et il cultive le poison même - mais un jardinier aux gants tachés de sève ne prouve rien. C'est sa prétention de n'avoir rien coupé, rien envoyé, qu'il faut éprouver."
         }
       ],
       "tasks": [
@@ -2565,7 +2565,7 @@
           "rankName": "Sherlock Holmes",
           "maxDeductions": 3,
           "description": "Une résolution rapide et sûre.",
-          "winningStatement": "Magistral. Vous avez vu au-delà des dettes, de la cuisine, des fleurs elles-mêmes — jusqu'à l'homme qui n'a jamais eu besoin d'entrer dans la maison."
+          "winningStatement": "Magistral. Vous avez vu au-delà des dettes, de la cuisine, des fleurs elles-mêmes - jusqu'à l'homme qui n'a jamais eu besoin d'entrer dans la maison."
         },
         {
           "rankName": "Dr. Watson",
@@ -2742,7 +2742,7 @@
     "es": {
       "languageName": "Español",
       "title": "Una taza amarga",
-      "invitation": "Detective: el médico del pueblo dice que a mi tío simplemente le falló el corazón, pero no puedo creerlo. El señor Henry Blake tomó su té de la noche, como cada noche, y en menos de una hora estaba muerto. El té era solo suyo y la casa estaba cerrada con llave. Venga a Oakfield House, se lo ruego: examine la taza, registre las habitaciones e interróguenos a todos. Y cuando esté seguro, nombre al asesino, el método y el motivo. — Srta. Alice Turner",
+      "invitation": "Detective: el médico del pueblo dice que a mi tío simplemente le falló el corazón, pero no puedo creerlo. El señor Henry Blake tomó su té de la noche, como cada noche, y en menos de una hora estaba muerto. El té era solo suyo y la casa estaba cerrada con llave. Venga a Oakfield House, se lo ruego: examine la taza, registre las habitaciones e interróguenos a todos. Y cuando esté seguro, nombre al asesino, el método y el motivo. - Srta. Alice Turner",
       "description": "Una tranquila casa de campo al anochecer. El señor yace muerto sobre su té de la noche, y en esta pequeña y vigilante casa cada cual tenía motivos para desear su muerte.",
       "roomDetails": [
         {
@@ -3109,7 +3109,7 @@
     "de": {
       "languageName": "Deutsch",
       "title": "Eine bittere Tasse",
-      "invitation": "Detektiv — der Dorfarzt sagt, das Herz meines Onkels habe einfach versagt, aber ich kann es nicht glauben. Mr. Henry Blake trank seinen Abendtee, wie jeden Abend, und keine Stunde später war er tot. Der Tee war seiner allein, und das Haus war verschlossen. Bitte kommen Sie nach Oakfield House: Untersuchen Sie die Tasse, durchsuchen Sie die Zimmer und befragen Sie uns alle. Und wenn Sie sicher sind, nennen Sie den Mörder, die Methode und das Motiv. — Fräulein Alice Turner",
+      "invitation": "Detektiv - der Dorfarzt sagt, das Herz meines Onkels habe einfach versagt, aber ich kann es nicht glauben. Mr. Henry Blake trank seinen Abendtee, wie jeden Abend, und keine Stunde später war er tot. Der Tee war seiner allein, und das Haus war verschlossen. Bitte kommen Sie nach Oakfield House: Untersuchen Sie die Tasse, durchsuchen Sie die Zimmer und befragen Sie uns alle. Und wenn Sie sicher sind, nennen Sie den Mörder, die Methode und das Motiv. - Fräulein Alice Turner",
       "description": "Ein stilles Landhaus in der Abenddämmerung. Der Hausherr liegt tot über seinem Abendtee, und jeder in diesem kleinen, wachsamen Haushalt hatte einen Grund, ihm den Tod zu wünschen.",
       "roomDetails": [
         {
@@ -3133,50 +3133,50 @@
           "name": "teacup",
           "displayName": "Teetasse",
           "description": "Die Porzellantasse des Hausherrn, halb geleert und längst erkaltet, neben seiner Hand.",
-          "examine": "Eine leise Bitterkeit haftet am Satz, und am Boden hat sich ein zerdrücktes grünes Blatt abgesetzt — am Stiel sauber abgeschnitten, nicht abgerissen.",
-          "deduce": "Das war kein schwaches Herz. Am Tee wurde etwas verändert — ein Blatt, das in keine Kanne gehörte, geschnitten von einer sorgfältigen, geübten Hand."
+          "examine": "Eine leise Bitterkeit haftet am Satz, und am Boden hat sich ein zerdrücktes grünes Blatt abgesetzt - am Stiel sauber abgeschnitten, nicht abgerissen.",
+          "deduce": "Das war kein schwaches Herz. Am Tee wurde etwas verändert - ein Blatt, das in keine Kanne gehörte, geschnitten von einer sorgfältigen, geübten Hand."
         },
         {
           "name": "old_letter",
           "displayName": "Alter Brief",
-          "description": "Ein abgegriffener Umschlag, verschlossen in der Schublade von Mr. Blakes Schreibtisch, weich geworden von Jahren des Anfassens — nur waren es nicht seine Hände.",
-          "examine": "Ein Kondolenzbrief, Jahrzehnte alt, zum Tod eines Bruders — in sorgfältiger Handschrift adressiert an Mr. Thomas Alderton.",
-          "deduce": "Mr. Blake fand diesen Brief vor Ihnen. Er hatte erfahren, wessen Kummer unter seinem Dach lebte — und eine Woche, nachdem er ihn weggeschlossen hatte, war er tot."
+          "description": "Ein abgegriffener Umschlag, verschlossen in der Schublade von Mr. Blakes Schreibtisch, weich geworden von Jahren des Anfassens - nur waren es nicht seine Hände.",
+          "examine": "Ein Kondolenzbrief, Jahrzehnte alt, zum Tod eines Bruders - in sorgfältiger Handschrift adressiert an Mr. Thomas Alderton.",
+          "deduce": "Mr. Blake fand diesen Brief vor Ihnen. Er hatte erfahren, wessen Kummer unter seinem Dach lebte - und eine Woche, nachdem er ihn weggeschlossen hatte, war er tot."
         },
         {
           "name": "old_newspaper",
           "displayName": "Alte Zeitung",
           "description": "Eine brüchige Seite einer alten Zeitung, hastig in eine Küchenschublade gestopft.",
           "examine": "Eine alte Meldung: RUIN DER ALDERTON-GÄRTNEREIEN. Der Lebensunterhalt einer Familie, gepfändet von Mr. H. Blake; der jüngere Sohn starb danach von eigener Hand, und die Überlebenden zerstreuten sich.",
-          "deduce": "Jemand unter diesem Dach nährt seit Jahren einen Kummer. Doch eine Küchenschublade verrät nur, wo die Seite gelandet ist — nicht, wessen Hand sie trug."
+          "deduce": "Jemand unter diesem Dach nährt seit Jahren einen Kummer. Doch eine Küchenschublade verrät nur, wo die Seite gelandet ist - nicht, wessen Hand sie trug."
         },
         {
           "name": "stained_apron",
           "displayName": "Befleckte Schürze",
           "description": "Eine Küchenschürze am Haken neben der Küchentür, der Saum von frischem Grün gezeichnet.",
-          "examine": "Der Fleck ist Pflanzensaft, noch feucht — Fasern von zerdrücktem Fingerhut hängen im Stoff. Wer diese Schürze trug, hat heute Abend die Pflanze angefasst.",
-          "deduce": "Die Schürze verbindet ihre Trägerin mit dem Fingerhut — doch die Köchin schwört, sie gehe nie an die Pflanzen. Entweder lügt sie, oder die Pflanze ist irgendwie zu ihr gekommen."
+          "examine": "Der Fleck ist Pflanzensaft, noch feucht - Fasern von zerdrücktem Fingerhut hängen im Stoff. Wer diese Schürze trug, hat heute Abend die Pflanze angefasst.",
+          "deduce": "Die Schürze verbindet ihre Trägerin mit dem Fingerhut - doch die Köchin schwört, sie gehe nie an die Pflanzen. Entweder lügt sie, oder die Pflanze ist irgendwie zu ihr gekommen."
         },
         {
           "name": "herb_bundle",
           "displayName": "Kräuterbündel",
           "description": "Ein halb verbrauchtes Bündel frischen Küchengrüns auf dem Brett, gebunden mit grüner Gärtnerschnur.",
-          "examine": "Minze und Zitronenmelisse, wie jeden Abend aus dem Garten heraufgeschickt für den Tee des Hausherrn — doch dazwischen sitzt ein einzelnes breites, flaumiges Blatt, das keine Minze ist, am Stiel sauber abgeschnitten.",
-          "deduce": "Wer dieses Bündel band, versteckte einen Fremdling zwischen den Kräutern — wohl wissend, dass jedes Blatt darin ungeprüft in der Kanne des Hausherrn ziehen würde."
+          "examine": "Minze und Zitronenmelisse, wie jeden Abend aus dem Garten heraufgeschickt für den Tee des Hausherrn - doch dazwischen sitzt ein einzelnes breites, flaumiges Blatt, das keine Minze ist, am Stiel sauber abgeschnitten.",
+          "deduce": "Wer dieses Bündel band, versteckte einen Fremdling zwischen den Kräutern - wohl wissend, dass jedes Blatt darin ungeprüft in der Kanne des Hausherrn ziehen würde."
         },
         {
           "name": "club_receipt",
           "displayName": "Clubrechnung",
-          "description": "Eine gefaltete Rechnung aus einem Herrenclub in der Stadt, zurückgeblieben in Mr. Carters Mantel — gebürstet und zum Trocknen neben den Küchenherd gehängt nach seiner späten Ankunft.",
-          "examine": "Der Stempel des Clubs zeigt halb zehn — die Stunde, zu der Mr. Carter seine Rechnung unterschrieb und eine Droschke nach Hause rufen ließ.",
+          "description": "Eine gefaltete Rechnung aus einem Herrenclub in der Stadt, zurückgeblieben in Mr. Carters Mantel - gebürstet und zum Trocknen neben den Küchenherd gehängt nach seiner späten Ankunft.",
+          "examine": "Der Stempel des Clubs zeigt halb zehn - die Stunde, zu der Mr. Carter seine Rechnung unterschrieb und eine Droschke nach Hause rufen ließ.",
           "deduce": "Mr. Carter erreichte das Haus erst, als der Tee serviert und sein Onkel bereits tot war. Er hatte das Motiv des Geldes, aber nicht den Augenblick."
         },
         {
           "name": "foxglove",
           "displayName": "Fingerhut",
           "description": "Ein hoher Fingerhut in einem Terrakottatopf; seine Glocken wiegen sich in der feuchten Luft des Glashauses.",
-          "examine": "Mehrere untere Blätter wurden heute Abend abgeschnitten — sauber, am Stiel, mit einem Gärtnermesser. Das Digitalis aus diesen Blättern bringt das Herz zum Stillstand.",
-          "deduce": "Das Gift stammt aus ebendiesem Raum — Fingerhutblätter, frisch und fachkundig genommen, bestimmt für etwas, das der Hausherr trinken würde."
+          "examine": "Mehrere untere Blätter wurden heute Abend abgeschnitten - sauber, am Stiel, mit einem Gärtnermesser. Das Digitalis aus diesen Blättern bringt das Herz zum Stillstand.",
+          "deduce": "Das Gift stammt aus ebendiesem Raum - Fingerhutblätter, frisch und fachkundig genommen, bestimmt für etwas, das der Hausherr trinken würde."
         }
       ],
       "suspects": [
@@ -3193,8 +3193,8 @@
           "posY": 0.5399514008004574,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "Ich werde keine Trauer heucheln, die ich nicht empfinde — mein Onkel war ein harter Mann, und ja, ich kam heute Abend, um ihn um Geld zu bitten. Aber ich war bis halb zehn in meinem Club in der Stadt; die Rechnung steckt in meinem Mantel. Als meine Droschke mich absetzte, stand das Haus bereits kopf. Die arme Alice — das Gut fällt vollständig an mich, wissen Sie. Ihr bleibt nichts.",
-          "clue": "Er kam spät heim, hoch verschuldet, und erbt alles — doch nach seiner eigenen Darstellung war der Tee längst getrunken, ehe er eintraf. Sein Mantel könnte ihn entlasten."
+          "statement": "Ich werde keine Trauer heucheln, die ich nicht empfinde - mein Onkel war ein harter Mann, und ja, ich kam heute Abend, um ihn um Geld zu bitten. Aber ich war bis halb zehn in meinem Club in der Stadt; die Rechnung steckt in meinem Mantel. Als meine Droschke mich absetzte, stand das Haus bereits kopf. Die arme Alice - das Gut fällt vollständig an mich, wissen Sie. Ihr bleibt nichts.",
+          "clue": "Er kam spät heim, hoch verschuldet, und erbt alles - doch nach seiner eigenen Darstellung war der Tee längst getrunken, ehe er eintraf. Sein Mantel könnte ihn entlasten."
         },
         {
           "name": "MaryReed",
@@ -3213,22 +3213,22 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "Diesen Tee habe ich selbst gemacht, aus meinen eigenen Vorräten, wie jeden Abend seit elf Jahren. In diese Kanne kam nichts, was ich nicht mit meinen eigenen Händen hineingetan habe — und in diesen Wintergarten setze ich keinen Fuß. Die Pflanzen sind Sache des Gärtners, nicht meine.",
+              "statement": "Diesen Tee habe ich selbst gemacht, aus meinen eigenen Vorräten, wie jeden Abend seit elf Jahren. In diese Kanne kam nichts, was ich nicht mit meinen eigenen Händen hineingetan habe - und in diesen Wintergarten setze ich keinen Fuß. Die Pflanzen sind Sache des Gärtners, nicht meine.",
               "contradictions": [
                 {
                   "evidenceId": "herb_bundle",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "reed_unwitting",
-                  "successMessage": "Sie legen das mit Schnur gebundene Bündel auf den Küchentisch, das fremde breite Blatt obenauf. Frau Reeds Hände erstarren, die Farbe weicht aus ihrem Gesicht — und endlich hört sie auf, so zu tun, als wäre das Grün ihr eigenes gewesen."
+                  "successMessage": "Sie legen das mit Schnur gebundene Bündel auf den Küchentisch, das fremde breite Blatt obenauf. Frau Reeds Hände erstarren, die Farbe weicht aus ihrem Gesicht - und endlich hört sie auf, so zu tun, als wäre das Grün ihr eigenes gewesen."
                 }
               ]
             },
             "TRUTH": {
-              "statement": "...Also gut. Das Grün stammte nicht aus meinen Vorräten — es kommt jeden Abend von Mr. Hill herauf, für den Tee des Hausherrn. Er schwor darauf. Ich ließ es ziehen, ohne hinzusehen, wie immer... Gott vergebe mir, ich habe das Gift selbst aufgebrüht und wusste es nicht. Und die alte Zeitung in der Schublade — man wird sagen, sie sei meine. Ich fand sie vor einer Woche zwischen seinem Grün, und ich brachte es nicht übers Herz, den Kummer einer Familie zu verbrennen."
+              "statement": "...Also gut. Das Grün stammte nicht aus meinen Vorräten - es kommt jeden Abend von Mr. Hill herauf, für den Tee des Hausherrn. Er schwor darauf. Ich ließ es ziehen, ohne hinzusehen, wie immer... Gott vergebe mir, ich habe das Gift selbst aufgebrüht und wusste es nicht. Und die alte Zeitung in der Schublade - man wird sagen, sie sei meine. Ich fand sie vor einer Woche zwischen seinem Grün, und ich brachte es nicht übers Herz, den Kummer einer Familie zu verbrennen."
             }
           },
           "statement": "Diesen Tee habe ich selbst gemacht, aus meinen eigenen Vorräten, wie jeden Abend seit elf Jahren. In diese Kanne kam nichts, was ich nicht mit meinen eigenen Händen hineingetan habe.",
-          "clue": "Jede Tasse, die der Hausherr trank, ging durch ihre Küche — und sie beharrt eine Spur zu bestimmt darauf, dass nichts Fremdes in die Kanne gelangt sei."
+          "clue": "Jede Tasse, die der Hausherr trank, ging durch ihre Küche - und sie beharrt eine Spur zu bestimmt darauf, dass nichts Fremdes in die Kanne gelangt sei."
         },
         {
           "name": "AliceTurner",
@@ -3245,8 +3245,8 @@
           "labelDY": 0.47365062804665997,
           "stationary": true,
           "initialState": "LIE",
-          "statement": "Ich war es, die nach Ihnen schickte — der Doktor mag unterschreiben, was er will, aber Onkels Herz war kerngesund. Ich gestehe: Ich habe einmal heimlich in das Testament in seinem Schreibtisch geschaut, darum weiß ich, wie ich dastehe — mein Unterhalt stirbt mit ihm, und Mr. Carter bekommt alles. Ich hatte jeden Grund, Onkel am Leben zu halten. Noch eines: Vorige Woche kündigte er Mr. Hill und wollte nicht sagen, warum. Nur, dass er 'das Gesicht dieses Mannes nun endlich kenne'.",
-          "clue": "Mit dem Tod ihres Onkels verliert sie alles — und sie war es, die die Sache nicht ruhen ließ. Ihr seltsamstes Geschenk an Sie ist ein einziger Satz: Der Hausherr 'kannte das Gesicht dieses Mannes nun endlich'."
+          "statement": "Ich war es, die nach Ihnen schickte - der Doktor mag unterschreiben, was er will, aber Onkels Herz war kerngesund. Ich gestehe: Ich habe einmal heimlich in das Testament in seinem Schreibtisch geschaut, darum weiß ich, wie ich dastehe - mein Unterhalt stirbt mit ihm, und Mr. Carter bekommt alles. Ich hatte jeden Grund, Onkel am Leben zu halten. Noch eines: Vorige Woche kündigte er Mr. Hill und wollte nicht sagen, warum. Nur, dass er 'das Gesicht dieses Mannes nun endlich kenne'.",
+          "clue": "Mit dem Tod ihres Onkels verliert sie alles - und sie war es, die die Sache nicht ruhen ließ. Ihr seltsamstes Geschenk an Sie ist ein einziger Satz: Der Hausherr 'kannte das Gesicht dieses Mannes nun endlich'."
         },
         {
           "name": "TomHill",
@@ -3264,13 +3264,13 @@
           "initialState": "LIE",
           "states": {
             "LIE": {
-              "statement": "Ja, er hat mir gekündigt, und ohne einen Grund zu nennen — so sind die Herrschaften eben. Aber ich habe heute nichts geschnitten; meine Beete liegen da, wie ich sie verlassen habe. Ich bleibe in meinem Glashaus, und ich habe heute Abend nichts in diese Küche geschickt. Was die Köchin in ihren Kannen ziehen lässt, geht mich nichts an.",
+              "statement": "Ja, er hat mir gekündigt, und ohne einen Grund zu nennen - so sind die Herrschaften eben. Aber ich habe heute nichts geschnitten; meine Beete liegen da, wie ich sie verlassen habe. Ich bleibe in meinem Glashaus, und ich habe heute Abend nichts in diese Küche geschickt. Was die Köchin in ihren Kannen ziehen lässt, geht mich nichts an.",
               "contradictions": [
                 {
                   "evidenceId": "poison_in_the_herbs",
                   "nextState": "TRUTH",
                   "rewardDeductionId": "hill_confession",
-                  "successMessage": "Sie sagen ihm, was das Bündel enthielt: seine Minze, seine Schnur, sein sauber geschnittenes Fingerhutblatt — von einer unschuldigen Hand in die Tasse des Hausherrn gebrüht. Der Gärtner starrt lange auf seine Stiefel, und als er aufblickt, ist Tom Hill verschwunden, und ein anderer Mann steht an seiner Stelle."
+                  "successMessage": "Sie sagen ihm, was das Bündel enthielt: seine Minze, seine Schnur, sein sauber geschnittenes Fingerhutblatt - von einer unschuldigen Hand in die Tasse des Hausherrn gebrüht. Der Gärtner starrt lange auf seine Stiefel, und als er aufblickt, ist Tom Hill verschwunden, und ein anderer Mann steht an seiner Stelle."
                 },
                 {
                   "evidenceId": "hill_is_alderton",
@@ -3281,11 +3281,11 @@
               ]
             },
             "TRUTH": {
-              "statement": "Mein Name ist Thomas Alderton. Blake pfändete die Gärtnereien meines Vaters für eine Schuld, die er selbst eingefädelt hatte — mein Bruder nahm sich vor Scham das Leben, und Blake speiste danach noch zwanzig Jahre in aller Ruhe. Ich nahm diese Stelle an, um in seiner Nähe zu sein; ich redete mir ein, ich wolle ihn nur ansehen. Dann, vorige Woche, erkannte er endlich mein Gesicht — und kündigte mir. Also band ich seinen Tod in seine Minze und ließ sein eigenes Haus ihn aufbrühen. Ich habe die Küchentür nie überschritten — ich musste es nicht."
+              "statement": "Mein Name ist Thomas Alderton. Blake pfändete die Gärtnereien meines Vaters für eine Schuld, die er selbst eingefädelt hatte - mein Bruder nahm sich vor Scham das Leben, und Blake speiste danach noch zwanzig Jahre in aller Ruhe. Ich nahm diese Stelle an, um in seiner Nähe zu sein; ich redete mir ein, ich wolle ihn nur ansehen. Dann, vorige Woche, erkannte er endlich mein Gesicht - und kündigte mir. Also band ich seinen Tod in seine Minze und ließ sein eigenes Haus ihn aufbrühen. Ich habe die Küchentür nie überschritten - ich musste es nicht."
             }
           },
-          "statement": "Ja, er hat mir gekündigt, und ohne einen Grund zu nennen — so sind die Herrschaften eben. Aber ich habe heute nichts geschnitten; meine Beete liegen da, wie ich sie verlassen habe. Ich bleibe in meinem Glashaus, und was die Küche in ihren Kannen ziehen lässt, geht mich nichts an.",
-          "clue": "Er ist verbittert über seine Entlassung und züchtet ausgerechnet das Gift selbst — doch ein Gärtner mit Saft an den Handschuhen beweist nichts. Zu prüfen ist seine Behauptung, nichts geschnitten und nichts geschickt zu haben."
+          "statement": "Ja, er hat mir gekündigt, und ohne einen Grund zu nennen - so sind die Herrschaften eben. Aber ich habe heute nichts geschnitten; meine Beete liegen da, wie ich sie verlassen habe. Ich bleibe in meinem Glashaus, und was die Küche in ihren Kannen ziehen lässt, geht mich nichts an.",
+          "clue": "Er ist verbittert über seine Entlassung und züchtet ausgerechnet das Gift selbst - doch ein Gärtner mit Saft an den Handschuhen beweist nichts. Zu prüfen ist seine Behauptung, nichts geschnitten und nichts geschickt zu haben."
         }
       ],
       "tasks": [
@@ -3299,7 +3299,7 @@
           "rankName": "Sherlock Holmes",
           "maxDeductions": 3,
           "description": "Eine schnelle und sichere Lösung.",
-          "winningStatement": "Meisterhaft. Sie sahen über die Schulden hinweg, über die Küche, über die Blumen selbst — bis zu dem Mann, der das Haus nie betreten musste."
+          "winningStatement": "Meisterhaft. Sie sahen über die Schulden hinweg, über die Küche, über die Blumen selbst - bis zu dem Mann, der das Haus nie betreten musste."
         },
         {
           "rankName": "Dr. Watson",
