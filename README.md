@@ -9,6 +9,7 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 [![Download](https://img.shields.io/badge/Download-v1.0-2ea44f.svg)](https://github.com/AmrGenidy/sherlocks-legacy/releases)
 [![itch.io](https://img.shields.io/badge/Play%20on-itch.io-fa5c5c.svg)](https://amr-genidy.itch.io/sherlocks-legacy)
+[![YouTube](https://img.shields.io/badge/YouTube-@AmrGenidy-FF0000.svg)](https://www.youtube.com/@AmrGenidy)
 
 </div>
 
@@ -102,5 +103,7 @@ Free and open source under the [GNU AGPL-3.0](LICENSE). Use it, change it, share
 ## Credits
 
 Made by **Amr Mohamed**. Every line of code, every case, and every lie in it.
+
+I post videos about this game and my other projects on YouTube: [**@AmrGenidy**](https://www.youtube.com/@AmrGenidy).
 
 If you contribute, add yourself to [CONTRIBUTORS.md](CONTRIBUTORS.md). I'd love the company.
